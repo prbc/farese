@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Reformed Baptist Church Directory</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.css' type='text/css' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+    <script src="data.js"></script> <!-- sets markers to be the GeoJSON data -->
+</head>
+<body>
+
+<style>
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+
+    .marker-title {
+        font-weight: 700;
+    }
+</style>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4aWRoIn0.BE_Fxskfnqumxa_5FLBWcA';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v8',
+    center: [-98.583333,39.833333],
+    zoom: 2,
+	TouchZoomRotate: false,
+	dragRotate: false,
+});
+
+map.on('style.load', function () {
+    // Add marker data as a new GeoJSON source.
+    map.addSource("markers", {
+        "type": "geojson",
+        "data": markers
+    });
+
+    // Add a layer showing the markers.
+    map.addLayer({
+        "id": "markers",
+        "interactive": true,
+        "type": "symbol",
+        "source": "markers",
+		"hash" : "true",
+        "layout": {
+            "icon-image": "circle-15",
+			"icon-allow-overlap": "true",
+			"icon-size": {
+			"base": 1,
+			"stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
+			}
+        }
+    });
+});
+
+// When a click event occurs near a marker icon, open a popup at the location of
+// the feature, with description HTML from its properties.
+map.on('click', function (e) {
+    map.featuresAt(e.point, {layer: 'markers', radius: 10, includeGeometry: true}, function (err, features) {
+        if (err || !features.length)
+            return;
+
+        var feature = features[0];
+
+        new mapboxgl.Popup()
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
+            .addTo(map);
+    });
+});
+
+// Use the same approach as above to indicate that the symbols are clickable
+// by changing the cursor style to 'pointer'.
+map.on('mousemove', function (e) {
+    map.featuresAt(e.point, {layer: 'markers', radius: 10}, function (err, features) {
+        map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+    });
+});
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+
+</script>
+
+</body>
+</html>
