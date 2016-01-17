@@ -8,11 +8,11 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.css' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
     </style>
-    <script src="data.js"></script> <!-- sets markers to be the GeoJSON data -->
 </head>
 <body>
 
@@ -38,6 +38,12 @@ var map = new mapboxgl.Map({
     zoom: 2,
 	TouchZoomRotate: false,
 	dragRotate: false,
+});
+
+// Load GeoJSON data
+var markers;
+jQuery.getJSON("data.json", function(json) {
+    markers = json;
 });
 
 map.on('style.load', function () {
