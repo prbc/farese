@@ -29,6 +29,7 @@
 </style>
 
 <div id='map'></div>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4aWRoIn0.BE_Fxskfnqumxa_5FLBWcA';
 
@@ -60,14 +61,14 @@ map.on('style.load', function () {
         "interactive": true,
         "type": "symbol",
         "source": "markers",
-		"hash" : "true",
+        "hash" : "true",
         "layout": {
             "icon-image": "circle-15",
-			"icon-allow-overlap": "true",
-			"icon-size": {
-			"base": 1,
-			"stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
-			}
+            "icon-allow-overlap": "true",
+            "icon-size": {
+                "base": 1,
+                "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
+            }
         }
     });
 });
