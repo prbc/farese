@@ -31,6 +31,11 @@
 <div id='map'></div>
 
 <script>
+
+var isDataLoaded = false;
+var isStyleLoaded = false;
+var markers;
+
 mapboxgl.accessToken = 'pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4aWRoIn0.BE_Fxskfnqumxa_5FLBWcA';
 
 var map = new mapboxgl.Map({
@@ -42,63 +47,80 @@ var map = new mapboxgl.Map({
 	dragRotate: false,
 });
 
-// Load GeoJSON data
-var markers;
-jQuery.getJSON("data.json", function(json) {
-    markers = json;
-});
+var loadMap = function () {
+   // Add marker data as a new GeoJSON source.
+   map.addSource("markers", {
+      "type": "geojson",
+      "data": markers
+   });
 
-map.on('style.load', function () {
-    // Add marker data as a new GeoJSON source.
-    map.addSource("markers", {
-        "type": "geojson",
-        "data": markers
-    });
-
-    // Add a layer showing the markers.
-    map.addLayer({
-        "id": "markers",
-        "interactive": true,
-        "type": "symbol",
-        "source": "markers",
-        "hash" : "true",
-        "layout": {
+   // Add a layer showing the markers.
+   map.addLayer({
+      "id": "markers",
+      "interactive": true,
+      "type": "symbol",
+      "source": "markers",
+      "hash" : "true",
+      "layout": {
             "icon-image": "circle-15",
             "icon-allow-overlap": "true",
             "icon-size": {
-                "base": 1,
-                "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
+               "base": 1,
+               "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
             }
-        }
-    });
+      }
+   });
+
+   // When a click event occurs near a marker icon, open a popup at the location of
+   // the feature, with description HTML from its properties.
+   map.on('click', function (e) {
+      map.featuresAt(e.point, {layer: 'markers', radius: 10, includeGeometry: true}, function (err, features) {
+         if (err || !features.length)
+               return;
+
+         var feature = features[0];
+
+         new mapboxgl.Popup()
+               .setLngLat(feature.geometry.coordinates)
+               .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
+               .addTo(map);
+      });
+   });
+
+   // Use the same approach as above to indicate that the symbols are clickable
+   // by changing the cursor style to 'pointer'.
+   map.on('mousemove', function (e) {
+      map.featuresAt(e.point, {layer: 'markers', radius: 10}, function (err, features) {
+         map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+      });
+   });
+
+   // Add zoom and rotation controls to the map.
+   map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+}
+
+
+// Load GeoJSON data
+
+var shouldLoadMap = function () {
+   return isDataLoaded && isStyleLoaded
+}
+
+
+jQuery.getJSON("data.json", function(json) {
+      markers = json;
+      isDataLoaded = true;
+      if (shouldLoadMap()) {
+         loadMap()
+      }
+})
+
+map.on('style.load', function () {
+   isStyleLoaded = true;
+   if (shouldLoadMap()) {
+      loadMap()
+   }
 });
-
-// When a click event occurs near a marker icon, open a popup at the location of
-// the feature, with description HTML from its properties.
-map.on('click', function (e) {
-    map.featuresAt(e.point, {layer: 'markers', radius: 10, includeGeometry: true}, function (err, features) {
-        if (err || !features.length)
-            return;
-
-        var feature = features[0];
-
-        new mapboxgl.Popup()
-            .setLngLat(feature.geometry.coordinates)
-            .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
-            .addTo(map);
-    });
-});
-
-// Use the same approach as above to indicate that the symbols are clickable
-// by changing the cursor style to 'pointer'.
-map.on('mousemove', function (e) {
-    map.featuresAt(e.point, {layer: 'markers', radius: 10}, function (err, features) {
-        map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
-    });
-});
-
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
 
 </script>
 
