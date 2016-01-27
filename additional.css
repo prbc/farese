@@ -5,3 +5,7 @@
 .mapboxgl-popup-content h2 {
     text-align: center;
 }
+
+.tabs-to-dropdown {
+    font-family: Roboto, Arial, sans-serif;
+}

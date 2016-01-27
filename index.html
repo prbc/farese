@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8' />
     <title>Reformed Baptist Church Directory</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
@@ -11,11 +11,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style>
         body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #map { position:absolute; top:50px; bottom:0; width:100%; }
     </style>
     <link rel="stylesheet" type="text/css" href="additional.css">
+    <link rel="stylesheet" href="tabs-to-dropdown.css">
+    <script src="tabs-to-dropdown.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+
+        <header class="tabs-to-dropdown">
+            <nav class="tab-bar">
+                <ul>
+                    <li class="active"><a href="#"><span class="fa fa-home"></span></a></li>
+                    <li><a href="index.html">Map</a></li>
+                    <li><a href="#0">Directory</a></li>
+                    <li><a href="#0">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <button class="dropdown-toggle">...<span class="fa fa-angle-down"></span></button>
+                <ul></ul>
+            </div>
+        </header>
 
 <style>
     .mapboxgl-popup {
@@ -95,10 +113,10 @@ var loadMap = function () {
       });
    });
 
-   // Add zoom and rotation controls to the map.
-   map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
 }
 
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
 
 // Load GeoJSON data
 
