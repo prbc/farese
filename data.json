@@ -6,6 +6,2121 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               152.62575,
+               -27.618062
+            ]
+         },
+         "properties":{  
+            "name":"Berean Bible Church",
+            "address":"87 Thagoona-Haigslea Road Thagoona Qld 4306 ",
+            "website":"http://www.bbcq.org"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               153.071894,
+               -27.377788
+            ]
+         },
+         "properties":{  
+            "name":"Banyo Baptist Church",
+            "address":"Musgrave Road & Hartley Street Banyo, Qld. 4014",
+            "website":"http://www.banyobaptistchurch.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               153.000042,
+               -27.461192
+            ]
+         },
+         "properties":{  
+            "name":"Rosalie Baptist Church",
+            "address":"24 Ellena Street, Rosalie, Brisbane, Queensland 4064",
+            "website":"http://www.rbcq.org.au/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               152.942586,
+               -27.386422
+            ]
+         },
+         "properties":{  
+            "name":"Samford Baptist Church",
+            "address":"8 Woodrose Court Ferny Hills Qld 4055",
+            "website":"http://www.sbfq.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               151.162491,
+               -33.890793
+            ]
+         },
+         "properties":{  
+            "name":"Stanmore Baptist Church",
+            "address":"140 Albany Rd Stanmore 2048 NSW",
+            "website":"http://www.stanmorebaptist.org.au/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -44.066932,
+               -22.537571
+            ]
+         },
+         "properties":{  
+            "name":"Igreia Batista de fe Reformada",
+            "address":"Rua \"Seis\", 102, Residencial Samoa, Jardim Belvedere CEP 27258-120, Volta Redonda, RJ, Brazil",
+            "website":"http://www.ibfereformada.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               105.025129,
+               11.239804
+            ]
+         },
+         "properties":{  
+            "name":"The Church of Mercy",
+            "address":"Street 21 Prek Talay, Prek Ambel, Saang, Kandal, Cambodia",
+            "website":"http://www.thechurchofmercy.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -71.247526,
+               46.8568
+            ]
+         },
+         "properties":{  
+            "name":"Association d'Ã‰glises Baptistes Ã‰vangÃ©liques au QuÃ©bec",
+            "address":"6225 9e Avenue Est QuÃ©bec  Qc  G1H 4A9",
+            "website":"http://aerbq.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.521163,
+               44.240664
+            ]
+         },
+         "properties":{  
+            "name":"Bath Road Baptist Church",
+            "address":"193 Bath Road Kingston, Ontario, K7M 2X6",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.403208,
+               43.715494
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Baptist Church",
+            "address":"35 Lytton Blvd. Toronto, Ontario, M4R 1L2",
+            "website":"http://www.covenantbaptistchurch.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.417477,
+               44.610891
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Reformed Baptist Church of Orillia",
+            "address":"64 Coldwater Street East Orillia, Ontario",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -82.713901,
+               42.121411
+            ]
+         },
+         "properties":{  
+            "name":"Cottam Baptist Church",
+            "address":"161 Talbot Street, Cottam, Ontario,Canada, N0R1B0",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.2112,
+               43.762519
+            ]
+         },
+         "properties":{  
+            "name":"Faith Reformed Baptist Church",
+            "address":"3837 Lawrence Avenue East Scarborough, Ontario, Canada MIG 1R2 ",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -106.647814,
+               52.107625
+            ]
+         },
+         "properties":{  
+            "name":"Fellowship Baptist Church",
+            "address":"905 Taylor St. E., Saskatoon, Saskatchewan S7H 1W3",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.44807,
+               44.571192
+            ]
+         },
+         "properties":{  
+            "name":"Grace Fellowship Orillia",
+            "address":"165 Oro Line 15 N, RR#1, Orillia, ON L3V 6H1 ",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -121.963462,
+               49.174303
+            ]
+         },
+         "properties":{  
+            "name":"Free Grace Baptist Church of Chilliwack",
+            "address":"45592 Wellington Avenue Chilliwack, B.C. V2P 2E6 ",
+            "website":"http://www.freegrace.ca/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -89.262522,
+               48.375796
+            ]
+         },
+         "properties":{  
+            "name":"Fort William Baptist Church",
+            "address":"1800 East Moodie St,Thunder Bay, ON Canada P7E 4Z2",
+            "website":"http://www.fortwilliambaptistchurch.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -67.684412,
+               46.340464
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"2202 Rt 560, Lakeville, New Brunswick E7K 1W8",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.75176,
+               45.277215
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church Ottawa",
+            "address":"68 Alberni Street, Ottawa, ON K2J 2M6",
+            "website":"http://www.gracebaptistottawa.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -82.824507,
+               42.17642
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church of Essex",
+            "address":"120 Talbot North, Essex, Ontario",
+            "website":"http://www.gbce.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -112.84184,
+               49.69349
+            ]
+         },
+         "properties":{  
+            "name":"Grace Community Church",
+            "address":"Lethbridge, AB, Canada",
+            "website":"http://www.lethbridgebaptist.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.383184,
+               43.653226
+            ]
+         },
+         "properties":{  
+            "name":"Grace Fellowship Church (Toronto)",
+            "address":"Toronto, ON",
+            "website":"http://www.gfcto.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -113.578762,
+               53.492951
+            ]
+         },
+         "properties":{  
+            "name":"Grace Reformed Baptist Church",
+            "address":"Edmonton, AB  T6H 5G9",
+            "website":"http://gracereformed.ca/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -80.201295,
+               43.500482
+            ]
+         },
+         "properties":{  
+            "name":"Grace Trinity Community Church",
+            "address":"47 Keys Crescent, Guelph, ON N1G 5J7",
+            "website":"http://www.gracetrinitycc.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.686685,
+               45.410325
+            ]
+         },
+         "properties":{  
+            "name":"Metcalfe Street Church",
+            "address":"480 Metcalfe St Ottawa, Ontario",
+            "website":"http://www.metcalfestreetchurch.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.402102,
+               44.595811
+            ]
+         },
+         "properties":{  
+            "name":"Orillia Baptist Church",
+            "address":"505 Gill St. Orillia, Ontario",
+            "website":"http://www.orilliabaptistchurch.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.752492,
+               45.392834
+            ]
+         },
+         "properties":{  
+            "name":"Parkdale Baptist Church - Westboro Campus",
+            "address":"307 Richmond Road, Ottawa, Ontario, Canada K1Z 6X3",
+            "website":"http://www.parkdalebaptistchurch.ca/Westboro%20Campus.htm"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -64.778721,
+               46.073587
+            ]
+         },
+         "properties":{  
+            "name":"Providence Christian Church",
+            "address":"105 Howard Ave. Riverview N.B Canada",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.786537,
+               53.90992
+            ]
+         },
+         "properties":{  
+            "name":"Sovereign Grace Fellowship",
+            "address":"Prince George, B.C. V2N 4T5",
+            "website":"http://www.sgfpg.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.799032,
+               43.32552
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Baptist Church",
+            "address":"Burlington, Ontario",
+            "website":"http://www.trinity-baptist-church.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.077541,
+               4.677021
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Cristiana Gracia y Amor - Norte",
+            "address":"Carrera 61 # 178-60, Bogota, Colombia",
+            "website":"http://www.iglesiacristianagraciayamor.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.049065,
+               4.682265
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Cristiana Gracia y Amor - La Alborada",
+            "address":"Calle 97 # 68F-96, BogotÃ¡, Colombia",
+            "website":"http://www.iglesiacristianagraciayamor.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.069218,
+               4.597118
+            ]
+         },
+         "properties":{  
+            "name":"La Iglesia Bautista del Norte",
+            "address":"Avenida 13 (Autopista Norte) No. 101-33 Barrio Santa Margarita,  BogotÃ¡ D.C.,  Colombia",
+            "website":"http://www.geocities.com/orozoa/rozo.htm"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -84.115805,
+               9.974414
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista Reformada Los Lagos",
+            "address":"Los Lagos de Heredia, Del Supermercado Pali, 200 metros oeste.",
+            "website":"http://fereformada.org/?page_id=70"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               9.501785,
+               56.26392
+            ]
+         },
+         "properties":{  
+            "name":"Kristuskirken Reformed Baptist Church",
+            "address":"Denmark",
+            "website":"http://www.kristuskirken.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.950262,
+               18.450811
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista del Nuevo Pacto",
+            "address":"Calle CÃ©sar Augusto Roque #133, Bella Vista, Santo Domingo,Dominican Republic",
+            "website":"http://www.ibnp.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -70.693057,
+               19.479196
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista de la Gracia",
+            "address":"Santiago, Dominican Republic",
+            "website":"http://www.ibgracia.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.866626,
+               18.510079
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia BÃ­blica de la Gracia",
+            "address":"Av. San Vicente de PaÃºl #19, Santo Domingo, Dominican Republic",
+            "website":"http://usuarios.lycos.es/todoelconsejodedios"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.931212,
+               18.486058
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Biblica del SeÃ±or Jesucristo",
+            "address":"Santo Domingo, Dominican Republic",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.82326,
+               18.504143
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Biblica De La Trinidad",
+            "address":"Calle 2 #829, Villa Carmen, Santo Domingo, R. D.",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.870164,
+               18.489251
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Fundamento Biblico",
+            "address":"Ensache Ozama, Santo Domingo, Republica Dominicana ",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               5.830354,
+               45.195463
+            ]
+         },
+         "properties":{  
+            "name":"Eglise RÃ©formÃ©e Baptiste du GrÃ©sivaudan",
+            "address":"Centre Commercial Chemin des CarriÃ¨res â€“ 38420 DomÃ¨ne, France",
+            "website":"http://www.eglise-rb-grenoble.fr/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               5.428722,
+               43.522441
+            ]
+         },
+         "properties":{  
+            "name":"Centre Biblique de Provence",
+            "address":"10 rue Edouard Herriot, 13090 Aix en Provence",
+            "website":"http://www.centrebibliquedeprovence.fr/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               8.468718,
+               50.580764
+            ]
+         },
+         "properties":{  
+            "name":"Evangelisch-Reformierte Baptistengemeinde, Wetzlar",
+            "address":"FalltorstraÃŸe 23, 35614 AÃŸlar, Germany",
+            "website":"http://www.erb-wetzlar.de/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               9.20059,
+               49.14934
+            ]
+         },
+         "properties":{  
+            "name":"Freie Baptisten - Gemeinde Heilbronn",
+            "address":"Georg-Vogel-StraÃŸe 24, 74080 Heilbronn, Germany",
+            "website":"http://www.fb-gemeinde.de/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               8.313892,
+               50.533678
+            ]
+         },
+         "properties":{  
+            "name":"Gemeinde Freier Evangelischer Christen",
+            "address":"Kirchstr. 5, 35638 Leun-Biskirchen, Germany",
+            "website":"http://www.gemeinde-biskirchen.de/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               9.761296,
+               52.374485
+            ]
+         },
+         "properties":{  
+            "name":"Hannover International Bible Church",
+            "address":"Schackstrasse 4, 30175 Hannover",
+            "website":"http://www.hannoveribc.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               10.08616,
+               52.61046
+            ]
+         },
+         "properties":{  
+            "name":"International Baptist Church Celle",
+            "address":"Wederweg 41, 29223 Celle",
+            "website":"http://www.ibc-celle.de/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               114.197504,
+               22.291948
+            ]
+         },
+         "properties":{  
+            "name":"Grace Reformed Evangelical Church",
+            "address":"41-47 Java Road, North Point, Hong Kong",
+            "website":"http://www.grec.org.hk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               75.708073,
+               13.83299
+            ]
+         },
+         "properties":{  
+            "name":"Biblical Baptist Church",
+            "address":"New Colony, Bhadravati, Karnataka, 577 301, India",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               78.550317,
+               17.483319
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Church",
+            "address":"Secunderabad - 500 003, Andhra Pradesh, India",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               88.363895,
+               22.572646
+            ]
+         },
+         "properties":{  
+            "name":"Grace Bible Fellowship",
+            "address":"Kolkata 700 001, West Bengal, India",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               78.177585,
+               11.715397
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Church",
+            "address":"295, Shanthi Nagar, Yercaud Main Road, Salem-636 008, Tamilnad, South India",
+            "website":"http://www.reformedbaptist.org.in/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               72.992439,
+               19.193665
+            ]
+         },
+         "properties":{  
+            "name":"Truth Reformed Baptist Church",
+            "address":"Satyam Chawl, Lokmany Nagar-4, Thane-400 606",
+            "website":"http://reformerkev.esmartweb.com/Truth/index.html"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -6.20725,
+               54.719534
+            ]
+         },
+         "properties":{  
+            "name":"Ballymoney Baptist Church",
+            "address":"60 Ballymena Road, Ballymoney, C.O. Antrim, Northern Ireland",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -6.260104,
+               53.283173
+            ]
+         },
+         "properties":{  
+            "name":"Ballinteer Baptist Meeting",
+            "address":"Hillview Resource Centre, Ballinteer, Dublin 16. Ireland",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -8.129115,
+               53.60051
+            ]
+         },
+         "properties":{  
+            "name":"Grace Community Church of Roscommon",
+            "address":"Ballymurray, Roscomoon, Ireland",
+            "website":"http://www.graceministry.info/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -6.371101,
+               54.855698
+            ]
+         },
+         "properties":{  
+            "name":"Magherafelt Reformed Baptist Church",
+            "address":"45 Thorncroft, Ahoghill, County Antrim, Northern Ireland, BT42 1RX",
+            "website":"http://www.magherafelt-rbc.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               35.232464,
+               31.777768
+            ]
+         },
+         "properties":{  
+            "name":"Kol Bamidbar (Voice in the wilderness)",
+            "address":"Maranite Convent Rd, Old City, Jerusalem, Israel",
+            "website":"http://www.voice-wilderness.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               34.792501,
+               31.973002
+            ]
+         },
+         "properties":{  
+            "name":"Grace & Truth Congregation",
+            "address":"Rishon LeTsion 75100, Israel",
+            "website":"http://www.gandt.org.il/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               14.060702,
+               37.494651
+            ]
+         },
+         "properties":{  
+            "name":"Evangelical Christian Church \"Sola Grazia\"",
+            "address":"Via Redentore 157, 93100 Caltanissetta, Italy",
+            "website":"http://www.solagrazia.it/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               12.56738,
+               41.87194
+            ]
+         },
+         "properties":{  
+            "name":"Chiese Evangeliche Riformate Battiste in Italia",
+            "address":"Italy",
+            "website":"http://www.cerbi.it/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.814564,
+               18.041545
+            ]
+         },
+         "properties":{  
+            "name":"Grace Reformed Baptist Church",
+            "address":"33 Red Hills Road, Kingston, 10, Jamaica W.I",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.624259,
+               3.136021
+            ]
+         },
+         "properties":{  
+            "name":"Damansara Church (Reformed Baptist)",
+            "address":"52 Jalan SS21/2 Damansara Utama, 47400 Petaling Jaya. Malaysia",
+            "website":"http://www.rbcm.net/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.154737,
+               4.626261
+            ]
+         },
+         "properties":{  
+            "name":"Ipoh East Reformed Baptist Church",
+            "address":"64A Laluan Perajurit 1, Ipoh Garden East 31400., Perak. Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               103.747194,
+               1.500942
+            ]
+         },
+         "properties":{  
+            "name":"JB First Community Church (Reformed Baptist)",
+            "address":"11-01, Susur Dewata 1, Jalan Dewata Larkin Perdana, 80350 Johor Bahru, Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               116.073457,
+               5.980408
+            ]
+         },
+         "properties":{  
+            "name":"KK Reformed Baptist Church",
+            "address":"Kota Kinabalu, Sabah",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.658546,
+               3.560932
+            ]
+         },
+         "properties":{  
+            "name":"Kuala Kubu Chapel (Reformed Baptist)",
+            "address":"44000 Kuala Kubu Baru., Selangor. Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               102.240384,
+               2.197149
+            ]
+         },
+         "properties":{  
+            "name":"Melaka Reformed Baptist Church",
+            "address":"10 Jln Kota Laksamana 2/7, Tmn Kota Laksamana, 75200 Melaka, Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.975766,
+               4.210484
+            ]
+         },
+         "properties":{  
+            "name":"Miri Reformed Baptist Church",
+            "address":"Lot 2931, 2nd Floor, Faradale Garden, Jalan Bulan Sabit, 98000 Miri, Sarawak, East Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.712724,
+               3.009341
+            ]
+         },
+         "properties":{  
+            "name":"Sri Serdang Church (Reformed Baptist)",
+            "address":"3261B Jalan 18/37 Taman Sri Serdang, 43300 Seri Kembangan, Selangor, Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               101.575692,
+               3.046184
+            ]
+         },
+         "properties":{  
+            "name":"Subang Jaya Reformed Baptist Church",
+            "address":"2A Jalan USJ 4/9G, UEP Subang Jaya, 47610 Selangor. Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               100.299279,
+               5.364249
+            ]
+         },
+         "properties":{  
+            "name":"Sungai Dua Church (1689 Baptist)",
+            "address":"4K-1 Desa University Commercial Complex, Jalan Sungai Dua, 11700 Penang Malaysia",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               14.486888,
+               35.858287
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Evangelical Church",
+            "address":"Luqa Malta",
+            "website":"http://www.tecmalta.org/index.htm"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -106.094163,
+               28.673072
+            ]
+         },
+         "properties":{  
+            "name":"Chihuahua City RB Mission",
+            "address":"Maximino Serdan 2114, Fracc Francisco I Madero, Chihuahua Chihuahua Mexico",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -106.864245,
+               28.402206
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista Betel",
+            "address":"Matamoros y 4ta, esq. Cuauhtemoc Chihuahua Mexico",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -110.953644,
+               29.083446
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Biblica Cristiana Monte Horeb",
+            "address":"Hermosillo Sonora Mexico 83000",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -99.133208,
+               19.432608
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista de la Gracia y la Verdad",
+            "address":"04831 D.F. Mexico",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -101.325273,
+               20.677617
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista de La Gracia",
+            "address":"Calle Manuel Avila Camacho #242, IIrapuato, Guanajuato, Mexico",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               18.956166,
+               42.780474
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Missionary",
+            "address":"Petra Komnenica BB, 81400 Niksic, Montenegro",
+            "website":"http://christianitymontenegro.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               96.195132,
+               16.866069
+            ]
+         },
+         "properties":{  
+            "name":"Biblical Reformed Church, Hlaing Thayar",
+            "address":"Yangon, Myanmar",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               172.649018,
+               -43.554961
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"60 Riverlaw Terrace, St Martins, Christchurch 8022, New Zealand",
+            "website":"http://www.gracebaptist.org.nz/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               174.841703,
+               -36.895999
+            ]
+         },
+         "properties":{  
+            "name":"Sovereign Grace Church (Reformed Baptist)",
+            "address":"3  Lunn Avenue, Mt. Wellington, Auckland 6 New Zealand",
+            "website":"http://sgcrb.wordpress.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               175.285486,
+               -37.810987
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Reformed Baptist Church",
+            "address":"6 Odette Street, Hamilton, New Zealand",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.0437,
+               14.676041
+            ]
+         },
+         "properties":{  
+            "name":"Cubao Reformed Baptist Church",
+            "address":"21 Harvard St, Cubao, 1102 Quezon City, Philippines",
+            "website":"http://www.cubaorbc.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               120.596257,
+               15.471034
+            ]
+         },
+         "properties":{  
+            "name":"Divine Grace Bible Church",
+            "address":"#22 Lucille St., San Sebastian Village, Tarlac, Tarlac, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church of Los BaÃ±os (Philippines)",
+            "address":"Bougainvilla St. (Purok 1), Paciano Rizal Bay, Laguna 4030, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"Grace Community Church",
+            "address":"No. 32 K-105 St., Karangalan Village Phase 2-A, Pasig City, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               124.245242,
+               8.228021
+            ]
+         },
+         "properties":{  
+            "name":"Grace Covenant Baptist Church",
+            "address":"069 LaSalle Street, Villaverde, Iligan City, Philippines 9200",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"Kalibo Reformed Baptist Church",
+            "address":"Cipriano Road, Estancia, Kalibo, Aklan, 5600 Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"Moonwalk Community Bible Church",
+            "address":"142 Armstrong Street, Moonwalk Village Phase II, Paranaque M.M. 1700 Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"New Covenant Reformed Bible Church",
+            "address":"Roa Compound, Purok 4, BaÅˆadero, Ozamiz City, Misamis Occidental, 2700, Philippines",
+            "website":"http://www.ncrbc.i.ph/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.774017,
+               12.879721
+            ]
+         },
+         "properties":{  
+            "name":"Ozamiz Reformed Baptist Church",
+            "address":"634 - A Burgos St., Tinago, Ozamiz City, Misamis Occidenta, 7200 Philippines",
+            "website":"http://orbc.yolasite.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.052803,
+               14.646198
+            ]
+         },
+         "properties":{  
+            "name":"Redeemed Community Bible Church",
+            "address":"#9, 2nd St., Area 5, Veterans' Village, Diliman, Quezon City, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.111836,
+               14.316266
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Bible Church of Santa Rosa",
+            "address":"Purificacion St. Zavalla Village 3 Brgy., Tagapo, Santa Rosa, Laguna, Philippines 4026",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               123.885437,
+               10.315699
+            ]
+         },
+         "properties":{  
+            "name":"Sovereign Grace Bible Church",
+            "address":"Ma. Paloma Village, Banawa Rd., Labangon, 6000 Cebu City, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               120.996322,
+               14.569861
+            ]
+         },
+         "properties":{  
+            "name":"Sovereign Grace Church",
+            "address":"2220-A Angel Linao, Malate, M-Manila, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               120.97126,
+               14.651374
+            ]
+         },
+         "properties":{  
+            "name":"The Neighborhood Church",
+            "address":"47 Libis Espina Street, Kalookan City, Metro Manila, 1400 Philippines",
+            "website":"http://sites.google.com/site/theneighborhoodchurch/home"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.405615,
+               14.048953
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Baptist Church",
+            "address":"4000 San Pablo City, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               120.995169,
+               14.611722
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Reformed Baptist Church",
+            "address":"1726 EspaÃ±a cor. V.G. Cruz St., Sampaloc, 1008 Manila, Philippines",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -66.076728,
+               18.373087
+            ]
+         },
+         "properties":{  
+            "name":"Berean Baptist Church",
+            "address":"1825 Calle San Alejandro, San Juan (Rio Piedras), PR 00927-6819",
+            "website":"http://www.iglesiabereana.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               103.780158,
+               1.302491
+            ]
+         },
+         "properties":{  
+            "name":"Ebenezer Church",
+            "address":"121 Dover Rd, Singapore 139650",
+            "website":"http://www.ebenezer.org.sg/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               103.885249,
+               1.341924
+            ]
+         },
+         "properties":{  
+            "name":"Shalom Reformed Baptist Church",
+            "address":"8 New Industrial Road, LHK3 Building, #03-01, Singapore 536200",
+            "website":"http://www.shalomrb.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               103.838153,
+               1.461517
+            ]
+         },
+         "properties":{  
+            "name":"Woodlands Reformed Baptist Church",
+            "address":"1200 Sembawang Road",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               18.7408,
+               49.21945
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Church",
+            "address":"Zilina, Slovakia",
+            "website":"http://www.reformacia.sk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               28.23182,
+               -26.06333
+            ]
+         },
+         "properties":{  
+            "name":"Birchleigh Baptist Church",
+            "address":"29 Moepel Street, Birchleigh, Kempton Park, Gauteng, South Africa",
+            "website":"http://www.birchleighbc.co.za/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               28.047305,
+               -26.204103
+            ]
+         },
+         "properties":{  
+            "name":"Free Grace Baptist Church",
+            "address":"Wassanaar Street, Boskburg, Johannesburg, Gauteng, South Africa",
+            "website":"http://www.freegrace.co.za/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               28.167333,
+               -26.220692
+            ]
+         },
+         "properties":{  
+            "name":"Germiston Baptist Church",
+            "address":"corner Angus/ Queen St. Germiston South",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               18.70933,
+               -33.84562
+            ]
+         },
+         "properties":{  
+            "name":"Kraaifontein Baptist Church",
+            "address":"Corner of Edward and York Street, Windsor Park, Kraaifontein, 7570 Western Cape, South Africa ",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               28.295041,
+               -25.764286
+            ]
+         },
+         "properties":{  
+            "name":"Lynnwood Baptist Church",
+            "address":"52 Jacobson Drive, Lynnwood Ridge, 0081, Pretoria, South Africa",
+            "website":"http://home.global.co.za/~12020178"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.467102,
+               36.722603
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Cristiana Bautista Reformada",
+            "address":"29010 - Malaga, Spain",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -16.31883,
+               28.437511
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia EvangÃ©lica de la Gracia",
+            "address":"Av de los Majuelos, 65, 38107 El Sobradillo, Spain",
+            "website":"http://www.iedelagracia.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.748587,
+               40.396149
+            ]
+         },
+         "properties":{  
+            "name":"IGLESIA BAUTISTA REFORMADA DEL PACTO DE GRACIA",
+            "address":"Calle Fuendetodos, n 28 bis bajo, 28047 Madrid, EspaÃ±a",
+            "website":"http://www.ibrpg.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               0.108321,
+               38.835576
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia Bautista Independiente Monte Sion",
+            "address":"Avda. Joan Fuster 34, 03700 Denia (Alicante)",
+            "website":"http://www.iglesiabautistadenia.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               2.188194,
+               41.432305
+            ]
+         },
+         "properties":{  
+            "name":"Iglesia EvangÃ©lica de la Gracia",
+            "address":"c/ L'Abat Odo 20, Barcelona 08030, EspaÃ±a",
+            "website":"http://www.porgracia.es/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               6.631439,
+               46.528068
+            ]
+         },
+         "properties":{  
+            "name":"Eglise RÃ©formÃ©e Baptiste de Lausanne",
+            "address":"6, Rue des Oliviers, CH-1018 Lausanne, Switzerland",
+            "website":"http://www.baptiste-lausanne.ch/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               6.620302,
+               46.517292
+            ]
+         },
+         "properties":{  
+            "name":"Lausanne Free Church",
+            "address":"Chemin des Fleurettes 36, 1007 Lausanne, Switzerland",
+            "website":"http://www.lausanne-english-church.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -61.393333,
+               10.652195
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Evangelical Church",
+            "address":"33 Auzonville Road, Tunapuna, Trinidad & Tobago, WI",
+            "website":"http://rec-tt.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -61.388107,
+               10.651253
+            ]
+         },
+         "properties":{  
+            "name":"The Tunapuna Missionary Baptist Church",
+            "address":"Achong Trace, Upper Balthazar St., Tunapuna, Trinidad, West Indies",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.084769,
+               52.415671
+            ]
+         },
+         "properties":{  
+            "name":"Alfred Place Baptist Church",
+            "address":"2 Alfred Place, Aberystwyth, SY23 2BS, UK",
+            "website":"http://www.alfredplacechurch.org.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.179007,
+               55.964589
+            ]
+         },
+         "properties":{  
+            "name":"The Upper Room",
+            "address":"No. 9 Pilrig Street, Edinburgh, Scotland",
+            "website":"http://www.bellevuebaptistchurch.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -2.956979,
+               53.384329
+            ]
+         },
+         "properties":{  
+            "name":"Belvidere Road Church",
+            "address":"Belvidere Road, Princes Park, Liverpool, L8 3TG",
+            "website":"http://www.belvidere.org.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -1.748264,
+               52.480253
+            ]
+         },
+         "properties":{  
+            "name":"Chelmsley Wood Reformed Baptist Church",
+            "address":"Fordbridge centre B37 5DD, Nineacres Drive, Chelmsley Wood, Birmingham, England",
+            "website":"http://www.cwrbc.org.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -1.479417,
+               53.083834
+            ]
+         },
+         "properties":{  
+            "name":"Crich Baptist Church",
+            "address":"Market Place, Crich, Derbyshire.  DE4 5DD",
+            "website":"http://www.crichbaptist.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.262362,
+               55.455121
+            ]
+         },
+         "properties":{  
+            "name":"Cumnock Baptist Church",
+            "address":"Barrhill Road, Cumnock, Ayrshire, KA18 1PG",
+            "website":"http://www.cumnockbaptist.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               0.008619,
+               51.550385
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"Gurney Road, Stratford, London E15 1SL",
+            "website":"http://www.gbcsl.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.006539,
+               53.645432
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"40 Market Street, Southport, Merseyside, PR8 1HJ",
+            "website":"http://www.gracebaptist.org.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               1.297355,
+               52.630886
+            ]
+         },
+         "properties":{  
+            "name":"Hethersett Independent Reformed Baptist Church",
+            "address":"Hethersett, Nr Norwich, Norfolk. UK.",
+            "website":"http://www.hethersettbaptistchurch.com/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -0.153193,
+               51.107353
+            ]
+         },
+         "properties":{  
+            "name":"Maidenbower Baptist Church",
+            "address":"Maidenbower Square, Maidenbower, Crawley, West Sussex  RH10 7QH",
+            "website":"http://www.mabach.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -1.5745,
+               55.009424
+            ]
+         },
+         "properties":{  
+            "name":"Newcastle Reformed Evangelical Church",
+            "address":"Hoylake Ave, Newcastle upon Tyne NE7 7UN",
+            "website":"http://www.nrechurch.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.190169,
+               56.137348
+            ]
+         },
+         "properties":{  
+            "name":"Pathhed Baptist Church",
+            "address":"114 Sir Thomas Elder Way, Kirkcaldy, Fife, Scotland  KY2 6ZS",
+            "website":"http://www.kirkcaldy-pathheadbaptist.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -2.078364,
+               51.889046
+            ]
+         },
+         "properties":{  
+            "name":"Providence Baptist Chapel",
+            "address":"Naunton Parade, Cheltenham, Gloucestershire, GL53 7NP",
+            "website":"http://www.providencebaptistchapel.org.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.32266,
+               55.889605
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Church",
+            "address":"Reformed Baptist Church 4 Herschell Street, Anniesland Glasgow G13 1HR ",
+            "website":"http://rbcweb.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.238504,
+               57.483131
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Baptist Church of Inverness, Scotland",
+            "address":"Telford Road, Inverness, Scotland, TV3 6HN",
+            "website":"http://www.wicketgate.co.uk/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.299613,
+               55.856561
+            ]
+         },
+         "properties":{  
+            "name":"South Glasgow Baptist Church",
+            "address":"425 Govan Road, Glasgow, Scotland",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.814564,
+               18.041545
+            ]
+         },
+         "properties":{  
+            "name":"Grace Reformed Baptist Church",
+            "address":"33 Red Hills Road, Kingston, 10, Jamaica W.I",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -61.393333,
+               10.652195
+            ]
+         },
+         "properties":{  
+            "name":"Reformed Evangelical Church",
+            "address":"33 Auzonville Road, Tunapuna, Trinidad & Tobago, WI",
+            "website":"http://www.rectt.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -61.623856,
+               12.124261
+            ]
+         },
+         "properties":{  
+            "name":"Grace Reformed Church",
+            "address":"Grenville, Grenada, WI",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -61.388107,
+               10.651253
+            ]
+         },
+         "properties":{  
+            "name":"The Tunapuna Missionary Baptist Church",
+            "address":"Achong Trace, Upper Balthazar St., Tunapuna, Trinidad, West Indies",
+            "website":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               28.23182,
+               -26.06333
+            ]
+         },
+         "properties":{  
+            "name":"Birchleigh Baptist Church",
+            "address":"29 Moepel Street, Birchleigh, Kempton Park, Gauteng, South Africa, 1618 ",
+            "website":"http://www.birchleighbc.co.za/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               25.859481,
+               -17.831342
+            ]
+         },
+         "properties":{  
+            "name":"Kabwat Baptist Church",
+            "address":"Lusaka 15101, Zambia",
+            "website":"http://www.kabwatabaptistchurch.org/"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -86.763302,
                33.365789
             ]
