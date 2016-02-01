@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="placeholder"></div>
+<div>Hi</div>
+
+<script>
+
+var markers;
+
+jQuery.getJSON("data.json", function(json) {
+     markers = json;
+});
+
+/* just a check for now */
+if(typeof markers === 'undefined'){
+    alert("no markers dude");
+};
+
+jQuery(markers.features).each(function() {
+    var output = "<p>" + this.properties.name + " " + this.properties.address + " " + this.properties.website+"<p>";
+    $('#placeholder').append(output);
+});
+</script>
+
+</body>
+</html>
