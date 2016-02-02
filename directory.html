@@ -10,25 +10,16 @@
 <body>
 
 <div id="placeholder"></div>
-<div>Hi</div>
 
 <script>
 
-var markers;
-
-jQuery.getJSON("data.json", function(json) {
-     markers = json;
+jQuery.getJSON("data.json", function(data) {
+    jQuery.each(data.features, function(properties) {
+        var output = "<p>" + this.properties.name + " " + this.properties.address + " " + this.properties.website+"</p>";
+        $('#placeholder').append(output);
+    });
 });
 
-/* just a check for now */
-if(typeof markers === 'undefined'){
-    alert("no markers dude");
-};
-
-jQuery(markers.features).each(function() {
-    var output = "<p>" + this.properties.name + " " + this.properties.address + " " + this.properties.website+"<p>";
-    $('#placeholder').append(output);
-});
 </script>
 
 </body>
