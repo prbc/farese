@@ -9,42 +9,26 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.css' type='text/css' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:50px; bottom:0; width:100%; }
-    </style>
-    <link rel="stylesheet" type="text/css" href="additional.css">
-    <link rel="stylesheet" href="tabs-to-dropdown.css">
+    <link rel="stylesheet" type="text/css" href="css/additional.css">
+    <link rel="stylesheet" href="css/tabs-to-dropdown.css">
     <script src="tabs-to-dropdown.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-
-        <header class="tabs-to-dropdown">
-            <nav class="tab-bar">
-                <ul>
-                    <li class="active"><a href="#"><span class="fa fa-home"></span></a></li>
-                    <li><a href="index.html">Map</a></li>
-                    <li><a href="#0">Directory</a></li>
-                    <li><a href="#0">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="dropdown">
-                <button class="dropdown-toggle">...<span class="fa fa-angle-down"></span></button>
-                <ul></ul>
-            </div>
-        </header>
-
-<style>
-    .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    }
-
-    .marker-title {
-        font-weight: 700;
-    }
-</style>
+    <header class="tabs-to-dropdown">
+        <nav class="tab-bar">
+            <ul>
+                <li class="active"><a href="#"><span class="fa fa-home"></span></a></li>
+                <li><a href="index.html">Map</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#0">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <button class="dropdown-toggle">...<span class="fa fa-angle-down"></span></button>
+            <ul></ul>
+        </div>
+    </header>
 
 <div id='map'></div>
 
