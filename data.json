@@ -116,8 +116,8 @@
             ]
          },
          "properties":{  
-            "name":"Association d'Ã‰glises Baptistes Ã‰vangÃ©liques au QuÃ©bec",
-            "address":"6225 9e Avenue Est QuÃ©bec  Qc  G1H 4A9",
+            "name":"Association d'Églises Baptistes Évangéliques au Québec",
+            "address":"6225 9e Avenue Est Québec  Qc  G1H 4A9",
             "website":"http://aerbq.com/"
          }
       },
@@ -477,7 +477,7 @@
          },
          "properties":{  
             "name":"Iglesia Cristiana Gracia y Amor - La Alborada",
-            "address":"Calle 97 # 68F-96, BogotÃ¡, Colombia",
+            "address":"Calle 97 # 68F-96, Bogotá, Colombia",
             "website":"http://www.iglesiacristianagraciayamor.org/"
          }
       },
@@ -492,7 +492,7 @@
          },
          "properties":{  
             "name":"La Iglesia Bautista del Norte",
-            "address":"Avenida 13 (Autopista Norte) No. 101-33 Barrio Santa Margarita,  BogotÃ¡ D.C.,  Colombia",
+            "address":"Avenida 13 (Autopista Norte) No. 101-33 Barrio Santa Margarita,  Bogotá D.C.,  Colombia",
             "website":"http://www.geocities.com/orozoa/rozo.htm"
          }
       },
@@ -537,7 +537,7 @@
          },
          "properties":{  
             "name":"Iglesia Bautista del Nuevo Pacto",
-            "address":"Calle CÃ©sar Augusto Roque #133, Bella Vista, Santo Domingo,Dominican Republic",
+            "address":"Calle César Augusto Roque #133, Bella Vista, Santo Domingo,Dominican Republic",
             "website":"http://www.ibnp.org/"
          }
       },
@@ -566,8 +566,8 @@
             ]
          },
          "properties":{  
-            "name":"Iglesia BÃ­blica de la Gracia",
-            "address":"Av. San Vicente de PaÃºl #19, Santo Domingo, Dominican Republic",
+            "name":"Iglesia Bíblica de la Gracia",
+            "address":"Av. San Vicente de Paúl #19, Santo Domingo, Dominican Republic",
             "website":"http://usuarios.lycos.es/todoelconsejodedios"
          }
       },
@@ -581,7 +581,7 @@
             ]
          },
          "properties":{  
-            "name":"Iglesia Biblica del SeÃ±or Jesucristo",
+            "name":"Iglesia Biblica del Señor Jesucristo",
             "address":"Santo Domingo, Dominican Republic",
             "website":""
          }
@@ -626,8 +626,8 @@
             ]
          },
          "properties":{  
-            "name":"Eglise RÃ©formÃ©e Baptiste du GrÃ©sivaudan",
-            "address":"Centre Commercial Chemin des CarriÃ¨res â€“ 38420 DomÃ¨ne, France",
+            "name":"Eglise Réformée Baptiste du Grésivaudan",
+            "address":"Centre Commercial Chemin des Carrières – 38420 Domène, France",
             "website":"http://www.eglise-rb-grenoble.fr/"
          }
       },
@@ -657,7 +657,7 @@
          },
          "properties":{  
             "name":"Evangelisch-Reformierte Baptistengemeinde, Wetzlar",
-            "address":"FalltorstraÃŸe 23, 35614 AÃŸlar, Germany",
+            "address":"Falltorstraße 23, 35614 Aßlar, Germany",
             "website":"http://www.erb-wetzlar.de/"
          }
       },
@@ -672,7 +672,7 @@
          },
          "properties":{  
             "name":"Freie Baptisten - Gemeinde Heilbronn",
-            "address":"Georg-Vogel-StraÃŸe 24, 74080 Heilbronn, Germany",
+            "address":"Georg-Vogel-Straße 24, 74080 Heilbronn, Germany",
             "website":"http://www.fb-gemeinde.de/"
          }
       },
@@ -1301,7 +1301,7 @@
             ]
          },
          "properties":{  
-            "name":"Grace Baptist Church of Los BaÃ±os (Philippines)",
+            "name":"Grace Baptist Church of Los Baños (Philippines)",
             "address":"Bougainvilla St. (Purok 1), Paciano Rizal Bay, Laguna 4030, Philippines",
             "website":""
          }
@@ -1377,7 +1377,7 @@
          },
          "properties":{  
             "name":"New Covenant Reformed Bible Church",
-            "address":"Roa Compound, Purok 4, BaÅˆadero, Ozamiz City, Misamis Occidental, 2700, Philippines",
+            "address":"Roa Compound, Purok 4, Baňadero, Ozamiz City, Misamis Occidental, 2700, Philippines",
             "website":"http://www.ncrbc.i.ph/"
          }
       },
@@ -1676,7 +1676,7 @@
             ]
          },
          "properties":{  
-            "name":"Iglesia EvangÃ©lica de la Gracia",
+            "name":"Iglesia Evangélica de la Gracia",
             "address":"Av de los Majuelos, 65, 38107 El Sobradillo, Spain",
             "website":"http://www.iedelagracia.org/"
          }
@@ -1721,7 +1721,7 @@
             ]
          },
          "properties":{  
-            "name":"Iglesia EvangÃ©lica de la Gracia",
+            "name":"Iglesia Evangélica de la Gracia",
             "address":"c/ L'Abat Odo 20, Barcelona 08030, España",
             "website":"http://www.porgracia.es/"
          }
@@ -1736,7 +1736,7 @@
             ]
          },
          "properties":{  
-            "name":"Eglise RÃ©formÃ©e Baptiste de Lausanne",
+            "name":"Eglise Réformée Baptiste de Lausanne",
             "address":"6, Rue des Oliviers, CH-1018 Lausanne, Switzerland",
             "website":"http://www.baptiste-lausanne.ch/"
          }
