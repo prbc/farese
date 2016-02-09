@@ -30,3 +30,8 @@ body {
 .tabs-to-dropdown {
     font-family: Roboto, Arial, sans-serif;
 }
+
+#pageTitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 125%;
+}
