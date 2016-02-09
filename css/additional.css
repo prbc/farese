@@ -28,10 +28,45 @@ body {
 }
 
 .tabs-to-dropdown {
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
-#pageTitle {
+#page-title {
     font-family: 'Pacifico', cursive;
     font-size: 125%;
+}
+
+#mainbox{
+    font-family: 'calibri';
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px #888;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#name {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    padding: 20px;
+}
+
+#address {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+#website {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
 }
