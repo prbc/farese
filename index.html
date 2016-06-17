@@ -4,8 +4,8 @@
     <meta charset='utf-8' />
     <title>Reformed Baptist Church Directory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.css' type='text/css' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -68,10 +68,9 @@ var loadMap = function () {
       "interactive": true,
       "type": "symbol",
       "source": "markers",
-      "hash" : "true",
       "layout": {
             "icon-image": "marker-15",
-            "icon-allow-overlap": "true",
+            "icon-allow-overlap": true,
             "icon-size": {
                "base": 1,
                "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
@@ -82,28 +81,31 @@ var loadMap = function () {
    // When a click event occurs near a marker icon, open a popup at the location of
    // the feature, with description HTML from its properties.
    map.on('click', function (e) {
-      map.featuresAt(e.point, {layer: 'markers', radius: 10, includeGeometry: true}, function (err, features) {
-         if (err || !features.length)
-               return;
+       var features = map.queryRenderedFeatures(e.point, { layers: ['markers'] });
 
-         var feature = features[0];
+       if (!features.length) {
+           return;
+       }
 
-         new mapboxgl.Popup()
-               .setLngLat(feature.geometry.coordinates)
-               .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
-               .addTo(map);
-      });
+       var feature = features[0];
+
+       // Populate the popup and set its coordinates
+       // based on the feature found.
+       var popup = new mapboxgl.Popup()
+           .setLngLat(feature.geometry.coordinates)
+           .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
+           .addTo(map);
    });
 
    // Use the same approach as above to indicate that the symbols are clickable
    // by changing the cursor style to 'pointer'.
    map.on('mousemove', function (e) {
-      map.featuresAt(e.point, {layer: 'markers', radius: 10}, function (err, features) {
-         map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
-      });
+      var features = map.queryRenderedFeatures(e.point, { layers: ['markers'] });
+      map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
    });
 
 }
+
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
