@@ -3936,13 +3936,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -87.621381,
-               37.803111
+               -87.5712423,
+               37.80312
             ]
          },
          "properties":{  
             "name":"Covenant Baptist Church",
-            "address":"2900 Hwy 41 North Henderson, KY 42420",
+            "address":"1021 Market Street, Henderson KY 42420",
             "website":"http://covenantbaptisthenderson.org/"
          }
       },
@@ -3973,7 +3973,7 @@
          "properties":{  
             "name":"Grace Reformed Baptist Church",
             "address":"1501 26th St. Owensboro, KY 42303",
-            "website":"http://www.crossroads-baptist-church.org/"
+            "website":"http://www.grbco.org/"
          }
       },
       {  
@@ -4303,7 +4303,7 @@
          "properties":{  
             "name":"Heritage Baptist Church",
             "address":"59 Blackstone River Dr. Worcester, MA 01607",
-            "website":"http://www.hbcma.org/content/"
+            "website":"http://www.hbcma.org/"
          }
       },
       {  
@@ -5068,7 +5068,7 @@
          "properties":{  
             "name":"Clifton Park Community Church",
             "address":"516 Moe Road Clifton Park, NY 12065",
-            "website":""
+            "website":"http://www.cliftonparkcommunitychurch.org/"
          }
       },
       {  
@@ -5803,7 +5803,7 @@
          "properties":{  
             "name":"Sovereign Grace Bible Church",
             "address":"Ada, OK  74820",
-            "website":"http://sovereigngracebc.wordpress.com/"
+            "website":"http://www.sgbca.org/"
          }
       },
       {  
@@ -7086,14 +7086,14 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -77.280359,
-               38.674089
+               -77.322985,
+               38.6806112 
             ]
          },
          "properties":{  
             "name":"Occoquan Bible Church",
-            "address":"12848 Harbor Drive Woodbridge, VA 22191",
-            "website":""
+            "address":"3700 Old Bridge Road, Woodbridge, VA 22192",
+            "website":"http://www.obc.org"
          }
       },
       {  
