@@ -2781,21 +2781,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -104.988538,
-               39.556875
-            ]
-         },
-         "properties":{  
-            "name":"Reformation Baptist Church",
-            "address":"8801 Broadway Highlands Ranch, CO 80126",
-            "website":"http://mylittletonchurch.com/"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -72.86643,
                41.67145
             ]
@@ -3868,7 +3853,7 @@
          "properties":{  
             "name":"Reformed Baptist Church",
             "address":"701 State Street Tama, IA 52339",
-            "website":""
+            "website":"www.sermonaudio.com/rbctama"
          }
       },
       {  
@@ -4266,14 +4251,14 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -70.952601,
-               42.029247
+               -70.754648,
+               42.0439468
             ]
          },
          "properties":{  
-            "name":"Grace Bible Church",
-            "address":"234 Central St. East Bridgewater, MA  02333",
-            "website":"http://www.gracebiblehome.org/"
+            "name":"Pilgrim Reformed Bible Church",
+            "address":"245 Summer St. Duxbury, MA 02332",
+            "website":"http://pilgrimreformed.weebly.com/"
          }
       },
       {  
@@ -4288,7 +4273,7 @@
          "properties":{  
             "name":"Grace Reformed Baptist Church",
             "address":"98 Kimball Road Amesbury, MA 01913",
-            "website":"http://www.netministries.org/see/churches/ch01846"
+            "website":"www.sermonaudio.com/grbcam"
          }
       },
       {  
