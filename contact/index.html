@@ -24,8 +24,8 @@
             <ul>
                 <li class="active"><a href=".."><div id=page-title>Reformed Baptist Directory</div></a></li>
                 <li><a href="..">Map</a></li>
-                <li><a href=".">Directory</a></li>
-                <li><a href="../contact">Contact</a></li>
+<!--            <li><a href="../directory">Directory</a></li>  -->
+                <li><a href=".">Contact</a></li>
             </ul>
         </nav>
         <div class="dropdown">
@@ -34,15 +34,19 @@
         </div>
     </header>
 
-<div id="mainbox"></div>
+<div id=contact-page-title>Contact us</div>
 
-<script>
-jQuery.getJSON("../data.json", function(data) {
-    jQuery.each(data.features, function(properties) {
-        var output = "<div class=card>" + "<div id=name>" + this.properties.name + "</div>" + "<div id=address>" + this.properties.address + "</div>" + "<div id=website>" + this.properties.website+ "</div>" + "</div>";
-        $('#mainbox').append(output);
-    });
-});
-</script>
+<div id=contact-page-body>
+This website is a continuation of Johnny Farese's hard work. If you'd like to have your church information changed, please email:
+
+<br>
+<br>
+david@reformedbaptistdirectory.com
+<br>
+<br>
+
+This website is a ministry of Providence Reformed Baptist Church in the Indianapolis area. We do the website development out in the open on our <a href=https://github.com/prbc/reformed-baptist-directory>Github page</a>. I really hope this website has been a help for you to find a church!
+</div>
+
 </body>
 </html>

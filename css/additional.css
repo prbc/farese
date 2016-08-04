@@ -36,7 +36,7 @@ body {
     font-size: 125%;
 }
 
-#mainbox{
+#mainbox {
     font-family: 'calibri';
     box-sizing: border-box;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     width: 350px;
     border: 1px solid gray;
     box-shadow: 2px 2px 5px #888;
@@ -69,4 +69,18 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 10px;
+}
+
+#contact-page-title {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 150%;
+    margin: 5% auto 5% auto;
+}
+
+#contact-page-body {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: auto;
+    margin: auto 5% 5% 5%;
 }
