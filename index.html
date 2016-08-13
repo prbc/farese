@@ -93,14 +93,17 @@ var loadMap = function () {
        // Populate the popup and set its coordinates
        // based on the feature found.
        var popup = new mapboxgl.Popup()
-           .setLngLat(feature.geometry.coordinates)
-           .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
-           .addTo(map);
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
+          .addTo(map);
 
        // Pan to clicked marker
        if (features.length) {
-           // Get coordinates from the symbol and center the map on those coordinates
-           map.flyTo({center: features[0].geometry.coordinates});
+          // Get coordinates from the symbol and center the map on those coordinates
+          map.flyTo({
+             center: features[0].geometry.coordinates,
+             speed: 0.3
+          });
        }
    });
 
