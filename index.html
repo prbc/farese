@@ -96,6 +96,12 @@ var loadMap = function () {
            .setLngLat(feature.geometry.coordinates)
            .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
            .addTo(map);
+
+       // Pan to clicked marker
+       if (features.length) {
+           // Get coordinates from the symbol and center the map on those coordinates
+           map.flyTo({center: features[0].geometry.coordinates});
+       }
    });
 
    // Use the same approach as above to indicate that the symbols are clickable
@@ -104,7 +110,6 @@ var loadMap = function () {
       var features = map.queryRenderedFeatures(e.point, { layers: ['markers'] });
       map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
    });
-
 }
 
 
