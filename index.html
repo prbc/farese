@@ -52,8 +52,6 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v8',
     center: [-98.583333,39.833333],
     zoom: 2,
-	TouchZoomRotate: false,
-	dragRotate: false,
 });
 
 var loadMap = function () {
@@ -115,6 +113,11 @@ var loadMap = function () {
    });
 }
 
+// disable map rotation using right click + drag
+map.dragRotate.disable();
+
+// disable map rotation using touch rotation gesture
+map.touchZoomRotate.disableRotation();
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.Navigation({position: 'top-left'}));

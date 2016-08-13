@@ -84,3 +84,7 @@ body {
     width: auto;
     margin: auto 5% 5% 5%;
 }
+
+.mapboxgl-ctrl-compass {
+display: none !important; 
+}
