@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.js'></script>
-    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v0.0.0/mapbox-gl-geocoder.css' type='text/css' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.0.1/mapbox-gl-geocoder.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.0.1/mapbox-gl-geocoder.css' type='text/css' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/additional.css">
     <link rel="stylesheet" href="css/tabs-to-dropdown.css">
@@ -121,6 +121,12 @@ map.touchZoomRotate.disableRotation();
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl, 'top-left');
+
+// Add geocoder
+map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    placeholder: "Search for location"    
+}));
 
 // Load GeoJSON data
 
