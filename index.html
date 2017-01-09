@@ -25,7 +25,7 @@
     <header class="tabs-to-dropdown">
         <nav class="tab-bar">
             <ul>
-                <li class="active"><a href="."><div id=page-title>Reformed Baptist Directory</div></a></li>
+                <li class="active"><a href="."><div id=page-title>Farese</div></a></li>
                 <li><a href=".">Map</a></li>
 <!--            <li><a href="../directory">Directory</a></li>  -->
                 <li><a href="contact">Contact</a></li>
@@ -49,7 +49,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4a
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v8',
+    style: 'mapbox://styles/mapbox/streets-v9',
     center: [-98.583333,39.833333],
     zoom: 2,
 });
@@ -65,16 +65,22 @@ var loadMap = function () {
    map.addLayer({
       "id": "markers",
       "interactive": true,
-      "type": "symbol",
+      "type": "circle",
       "source": "markers",
-      "layout": {
-            "icon-image": "marker-15",
-            "icon-allow-overlap": true,
-            "icon-size": {
-               "base": 1,
-               "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
-            }
+      "paint": {
+	      "circle-radius": 5,
+	      "circle-color": "#abdfge",
+	      "circle-stroke-width": 1.5,
+	      "circle-stroke-color": "#FFFFFF",
       }
+      //"layout": {
+      //      "icon-image": "circle-15",
+      //      "icon-allow-overlap": true,
+      //      "icon-size": {
+      //         "base": 1,
+      //         "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
+      //      } 
+      
    });
 
    // When a click event occurs near a marker icon, open a popup at the location of
