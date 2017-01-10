@@ -2907,8 +2907,8 @@
          },
          "properties":{  
             "name":"Faith Baptist Church",
-            "address":"500 North Bumby Avenue Orlando, FL. 32803",
-            "website":"http://www.faithbaptistorlando.org/"
+            "address":"500 North Bumby Avenue Orlando, FL 32803",
+            "website":"http://www.faithbaptistorlando.org"
          }
       },
       {  
@@ -2916,14 +2916,14 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -80.785401,
-               28.382722
+               -80.798716,
+               28.567662
             ]
          },
          "properties":{  
             "name":"Faith Reformed Baptist Church",
-            "address":"1500 Cox Road Cocoa, FL  32926",
-            "website":""
+            "address":"3910 S. Washington Ave. Suite 107, Titusville, FL 32780",
+            "website":"http://frb.church"
          }
       },
       {  
@@ -2931,14 +2931,14 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -80.835926,
-               28.602661
+               -80.836596,
+               28.600082
             ]
          },
          "properties":{  
             "name":"Forest Hills Baptist Church",
-            "address":"2625 South Street, State Route 405 Titusville, FL  32780",
-            "website":""
+            "address":"2625 South Street, Titusville, FL 32780",
+            "website":"http://foresthillsbaptist.com"
          }
       },
       {  
@@ -3036,13 +3036,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -81.690781,
-               26.265083
+               81.764221,
+               26.271632
             ]
          },
          "properties":{  
             "name":"Iglesia Bautista La Gracia",
-            "address":"14975 Collier Blvd. Naples, FL 34119",
+            "address":"10904 Winterview Drive, Naples, FL 34109",
             "website":""
          }
       },
