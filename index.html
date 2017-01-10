@@ -52,6 +52,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v9',
     center: [-98.583333,39.833333],
     zoom: 2,
+    hash: true,
 });
 
 var loadMap = function () {
@@ -69,18 +70,10 @@ var loadMap = function () {
       "source": "markers",
       "paint": {
 	      "circle-radius": 5,
-	      "circle-color": "#abdfge",
+	      "circle-color": "#007cbf",
 	      "circle-stroke-width": 1.5,
-	      "circle-stroke-color": "#FFFFFF",
+	      "circle-stroke-color": "#eeeeee",
       }
-      //"layout": {
-      //      "icon-image": "circle-15",
-      //      "icon-allow-overlap": true,
-      //      "icon-size": {
-      //         "base": 1,
-      //         "stops": [[2, .5], [4, .6],[6,.8],[8,.9],[14,1]]
-      //      } 
-      
    });
 
    // When a click event occurs near a marker icon, open a popup at the location of
@@ -131,7 +124,7 @@ map.addControl(new mapboxgl.NavigationControl, 'top-left');
 // Add geocoder
 map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
-    placeholder: "Search for location"    
+    placeholder: "Search for location",
 }));
 
 // Load GeoJSON data
