@@ -91,7 +91,7 @@ var loadMap = function () {
        // based on the feature found.
        var popup = new mapboxgl.Popup()
           .setLngLat(feature.geometry.coordinates)
-          .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>')
+          .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>' + feature.properties.note)
           .addTo(map);
 
        // Pan to clicked marker
