@@ -1,3 +1,5 @@
-## Reformed Baptist Directory
+## Farese
 
-Current stable version at [reformedbaptistdirectory.com](http://reformedbaptistdirectory.com)
+This is a directory of Reformed Baptist churches, started by Johnny Farese.
+
+Current stable version at [farese.com](http://farese.com).
