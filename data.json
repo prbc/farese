@@ -3134,15 +3134,15 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -81.999153,
-               26.64727
+               -82.000895,
+               26.6418823
             ]
          },
          "properties":{  
             "name":"Grace Baptist Church",
-            "address":"204 SW 11th Place Cape Coral, FL 33991",
-            "website":"",
-            "note":"<br><a href=\"mailto:gracebc@embarqmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>(239) 772-1400</font>\n<br>(239) 772-1140 fax&nbsp;</font>\n<p>Ascol, Tom&nbsp;</font>\n<br><a href=\"mailto:editor@founders.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a></td>" 
+            "address":"1300 Ceitus Terrace, Cape Coral, FL 33991",
+            "website":"http://truegraceofgod.org/",
+            "note":"<br><a href=\"mailto:info@truegraceofgod.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>(239) 772-1400</font>\n<br>(239) 772-1140 fax&nbsp;</font>\n<p>Ascol, Tom&nbsp;</font>\n<br><a href=\"mailto:editor@founders.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a></td>" 
          }
       },
       {  
