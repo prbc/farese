@@ -69,9 +69,9 @@ var loadMap = function () {
       "type": "circle",
       "source": "markers",
       "paint": {
-	      "circle-radius": 5,
+	      "circle-radius": 6,
 	      "circle-color": "#007cbf",
-	      "circle-stroke-width": 1.5,
+	      "circle-stroke-width": 1.7,
 	      "circle-stroke-color": "#eeeeee",
       }
    });
@@ -79,7 +79,9 @@ var loadMap = function () {
    // When a click event occurs near a marker icon, open a popup at the location of
    // the feature, with description HTML from its properties.
    map.on('click', function (e) {
-       var features = map.queryRenderedFeatures(e.point, { layers: ['markers'] });
+       var bboxSize = 25;
+       var bbox = [[e.point.x - bboxSize, e.point.y - bboxSize], [e.point.x + bboxSize, e.point.y + bboxSize]];
+       var features = map.queryRenderedFeatures(bbox, { layers: ['markers'] });
 
        if (!features.length) {
            return;
