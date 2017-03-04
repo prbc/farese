@@ -44,15 +44,15 @@ def generate_html(region_code, churches):
         <tr>
         <td><b><font face="Calibri">%s&nbsp;</font></b>
         <br><font face="Calibri">%s</font>
-        <br><font face="Calibri"><a href="%s">%s</a></font>
-        <br><font face="Calibri">%s</font></td>
+        <br><font face="Calibri">%s</font>
+        <br><font face="Calibri"><a href="%s">%s</a></font></td>
         </tr>
         """ % (
             church['properties']['name'],
             church['properties']['address'],
+            church['properties']['note'],
             church['properties']['website'],
-            church['properties']['website'],
-            church['properties']['note']
+            church['properties']['website']
         )
 
     template = template.replace('{% CHURCHES %}', churches_html)
