@@ -2,6 +2,25 @@
 import json
 from itertools import groupby
 
+def region_data():
+    # Load up our mappings from ISO country codes to display strings
+    # Can potentially replace with something like pycountry
+    with open('regions.json') as region_file:
+        region_data = json.load(region_file)
+        return region_data
+
+
+
+def region_display_name(region_code):
+    for region in region_data():
+        if region['code'] == region_code:
+            return region['display-name']
+
+def region_file_name(region_code):
+    for region in region_data():
+        if region['code'] == region_code:
+            return region['file-name']
+
 # Generates an html page for the given region based on the given church JSON.
 # If this gets complex we should think about using something like Jinja2.
 def generate_html(region_code, churches):
@@ -11,13 +30,8 @@ def generate_html(region_code, churches):
         template = template_file.read()
 
 
-    # Load up our mappings from ISO country codes to display strings
-    # Can potentially replace with something like pycountry
-    with open('regions.json') as region_file:
-        region_data = json.load(region_file)
-
     # Insert the title of the country
-    template = template.replace('{% REGION_NAME %}', region_data[region_code].upper())
+    template = template.replace('{% REGION_NAME %}', region_display_name(region_code))
 
     churches_html = ""
     for church in churches:
@@ -56,13 +70,13 @@ def main():
     # Group churches by region
     for (region, region_churches) in groupby(all_churches, lambda x: x['properties']['region']):
 
-        print('Generating html for region: %s' % region)
+        print('Generating html for region: %s' % region_display_name(region))
 
         # Generate a page for this region.
         html = generate_html(region, region_churches)
 
         # Write html to a file.
-        with open('generator_test/%s.htm' % (region.lower()), 'w') as outfile:
+        with open('rbcd/%s.htm' % (region_file_name(region)), 'w') as outfile:
             outfile.write(html)
 
 if __name__ == "__main__":
