@@ -1593,15 +1593,15 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               121.052803,
-               14.646198
+               121.0586118,
+               14.7110646
             ]
          },
          "properties":{  
             "name":"Redeemed Community Bible Church",
-            "address":"#9, 2nd St., Area 5, Veterans' Village, Diliman, Quezon City, Philippines",
+            "address":"Block 85 Lot 7&9, Riyal St., North Fairview Subd., Phase 8, North Fairview, Quezon City 1121",
             "region":"PHL",
-            "website":"",
+            "website":"https://www.facebook.com/redeemed.community/",
             "note":"<br>Orpilla, Balford</font>\n<p>(02) 929-5843</font>"
          }
       },
