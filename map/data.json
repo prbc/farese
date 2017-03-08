@@ -1440,6 +1440,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -86.241254,
+               11.858631
+            ]
+         },
+         "properties":{  
+            "name":"Carazo Bible Fellowship",
+            "address":"Diriamba, Carazo, Nicaragua",
+            "region":"NIC",
+            "website":"http://www.gassfamilymission.com",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                121.0437,
                14.676041
             ]

@@ -80,6 +80,11 @@
    "file-name": "nz"
 },
 {
+   "code": "NIC",
+   "display-name": "NICARAGUA",
+   "file-name": "nic"
+},
+{
    "code": "PHL",
    "display-name": "PHILIPPINES",
    "file-name": "phi"
