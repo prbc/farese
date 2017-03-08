@@ -5083,16 +5083,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -89.101042,
-               30.443482
+               -71.170716,
+               42.710189
             ]
          },
          "properties":{  
-            "name":"Grace Reformed Baptist Church",
-            "address":"Gulfport, MS 39505",
+            "name":"Iglesia Bautista Biblica",
+            "address":"3 Green St Lawrence, MS 01841",
             "region":"MS",
-            "website":"http://www.grbchurch.com/",
-            "note":"<p>(228) 868-1060</font>\n<br>Chapuis, Lynn</font>\n<p><a href=\"mailto:lynnandbrenda@msn.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"",
+            "note":"<p>978-686-4832 Home</font>\n<br>978-397-1584 Mobile</font>\n<br>Pastor Jose Alberto Garcia</font>\n<br><a href=\"mailto:jagar828@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -5110,23 +5110,6 @@
             "region":"MO",
             "website":"",
             "note":"<p><b><i>Currently meeting in\nthe&nbsp;</font></font></i></b>\n<br><b><i>Christian County Library\nmeeting room.</font></font></i></b>\n<p><b>Mailing Address:&nbsp;</font></font></b>\n<br>PO Box 501</font>\n<br>Ozark Mo 65721</font>\n<p>Sunday School - 9:30 a.m.</font>\n<br>Worship Service - 10:30 a.m.</font>\n<p>417-369-1092</font>\n<br>Pastor Steve Long</font>\n<br><a href=\"mailto:sovereigngrace@juno.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               -71.170716,
-               42.710189
-            ]
-         },
-         "properties":{  
-            "name":"Iglesia Bautista Biblica",
-            "address":"3 Green St Lawrence, MS 01841",
-            "region":"MS",
-            "website":"",
-            "note":"<p>978-686-4832 Home</font>\n<br>978-397-1584 Mobile</font>\n<br>Pastor Jose Alberto Garcia</font>\n<br><a href=\"mailto:jagar828@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
