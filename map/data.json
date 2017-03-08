@@ -4253,10 +4253,10 @@
             ]
          },
          "properties":{  
-            "name":"Hancock Baptist Church",
+            "name":"Hancock Reformed Baptist Church",
             "address":"944 E. Davis Rd. Greenfield, IN 46140",
             "region":"IN",
-            "website":"http://www.hancockbaptist.org/",
+            "website":"http://www.hrbchurch.org/",
             "note":"<p>(317) 462-6722</font>\n<br>Pastor Mark Judy, D.Min.&nbsp;</font>\n<p><a href=\"mailto:pastor-hbc@sbcglobal.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
          }
       },
@@ -7507,16 +7507,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -95.532059,
-               30.048728
+               -95.434451,
+               30.018042
             ]
          },
          "properties":{  
-            "name":"Grace Family Baptist Church",
-            "address":"7126 Spring Cypress RD Spring TX 77379",
+            "name":"Grace Family Baptist of North Houston",
+            "address":"106 Bammel Westfield Rd, Houston TX 77090",
             "region":"TX",
             "website":"http://www.gracefamilybaptist.net/",
-            "note":"<br>Pastors: Voddie Baucham, Stephen Bratton, Dale\nAshworth</font>\n<p>[Mailing address]</font>\n<br>8765 Spring Cypress Road</font>\n<br>Suite L.&nbsp; Box 175</font>\n<br>Spring, TX&nbsp; 77379</font>\n<p>Voice / Fax&nbsp; 832-476-3184</font>\n<br>Toll - Free&nbsp;&nbsp; 877-651-8814</font>\n<p><a href=\"mailto:info@gracefamilybaptist.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<br>Elders: Stephen Bratton, Aaron Wright"
          }
       },
       {  
@@ -7755,23 +7755,6 @@
             "region":"TX",
             "website":"http://www.redeemerfortworth.org/",
             "note":"<p>(817) 292-4722</font>\n<br>Presson, Tim</font>\n<p><a href=\"mailto:office@redeemerfortworth.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               -106.649583,
-               31.867698
-            ]
-         },
-         "properties":{  
-            "name":"Santa Teresa Baptist Church",
-            "address":"PO Box 1524 5750 McNutt Road Santa Teresa, NM 88008",
-            "region":"NM",
-            "website":"http://www.stbcweb.org/",
-            "note":"<p>(505) 589-1269 (Church)</font>\n<br>(915) 581-8651 (Home)</font>\n<br>(915) 217-8187 (Cell)</font>\n<br>David S. Hendrickx, Pastor</font>\n<p><a href=\"mailto:davidhendrickx@STBCweb.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
