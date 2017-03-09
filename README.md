@@ -15,10 +15,10 @@ Once you have Docker installed, run:
 `docker pull prbc/farese` to download the image, then
 
 `docker run -d --name=farese-container --restart=always -p 80:80 prbc/farese` to run the container. 
-`-d` is to detach after running
-`--name` is the container's name
-`--restart` is to start it again in case of a crash
-`-p` is to forward port 80 on the host to port 80 on the docker container
+ - `-d` is to detach after running
+ - `--name` is the container's name
+ - `--restart` is to start it again in case of a crash
+ - `-p` is to forward port 80 on the host to port 80 on the docker container
 
 You can now view your local copy of Farese.com by going to http://localhost in your browser.
 
