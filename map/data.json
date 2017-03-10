@@ -3516,23 +3516,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -81.682559,
-               28.855515
-            ]
-         },
-         "properties":{  
-            "name":"Reformation Baptist Church",
-            "address":"Eustis, FL 32727",
-            "region":"FL",
-            "website":"http://www.rbcgrace.org/",
-            "note":"<p>(352) 217-0954</font>\n<br>Bailey, David&nbsp;</font>\n<p><a href=\"mailto:pastor@rbcgrace.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -81.134983,
                29.2499
             ]
