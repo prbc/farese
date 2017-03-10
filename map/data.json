@@ -6535,6 +6535,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -98.427459,
+               34.605900 
+            ]
+         },
+         "properties":{  
+            "name":"Lawton Indian Baptist Church",
+            "address":"2502 SW B Ave., Lawton, OK 73505",
+            "region":"OK",
+            "website":"http://lawtonindian.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -123.112165,
                45.245845
             ]
