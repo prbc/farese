@@ -4,7 +4,7 @@ FROM debian:stable
 RUN apt-get update -y
 RUN apt-get install -y git nginx
 
-# 
+# Import the nginx configuration file 
 ADD config/nginx.conf /etc/nginx/
 
 # Copy the site from git to the webserver root
@@ -15,5 +15,5 @@ RUN cp -r /root/dev/farese/*  /usr/share/nginx/html/.
 # For the webserver, expose port 80
 EXPOSE 80
 
-# Run nginx in the foreground
-CMD ["nginx", "-g", "daemon off;"]
+# Run nginx when running the container
+CMD nginx
