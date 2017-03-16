@@ -8103,6 +8103,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -78.870680,
+               37.760462 
+            ]
+         },
+         "properties":{  
+            "name":"Faith Reformed Baptist Church",
+            "address":"605 Front St. Lovingston, VA 22949",
+            "region":"VA",
+            "website":"https://www.faithreformedbaptistchurch.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -122.284734,
                47.440358
             ]
