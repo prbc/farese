@@ -123,7 +123,8 @@ map.addControl(new mapboxgl.NavigationControl, 'top-left');
 // Add geocoder
 map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
-    placeholder: "Search for location",
+    placeholder: "Search by location",
+    limit: 3,
 }));
 
 // Load GeoJSON data
