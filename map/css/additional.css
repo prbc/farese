@@ -28,6 +28,10 @@ body {
     text-align: center;
 }
 
+.mapboxgl-ctrl-compass {
+    display: none !important;
+}
+
 .tabs-to-dropdown {
     font-family: 'Montserrat', Arial, sans-serif;
 }
