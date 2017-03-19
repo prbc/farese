@@ -4554,16 +4554,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -91.015659,
-               30.865736
+               -91.015625,
+               30.864749
             ]
          },
          "properties":{  
             "name":"First Baptist Church",
-            "address":"Clinton, LA 70722",
+            "address":"12329 Jackson Street, Clinton, LA 70722",
             "region":"LA",
-            "website":"",
-            "note":"<p>(225) 683-5153</font>\n<br>(225) 683-4768 (fax)</font>\n<br>Malone: Fred</font>\n<br><a href=\"mailto:70420,1113@compuserve.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "website":"http://www.fbcclintonla.com/",
+            "note":"<p>(225) 683-5153\n<br>Tom Hicks\n<br><a href=\"mailto:contactus@fbcclintonla.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
          }
       },
       {  
