@@ -2494,6 +2494,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -86.564157,
+               33.802113
+            ]
+         },
+         "properties":{  
+            "name":"Providence Reformed Baptist Church",
+            "address":"250 Pine Mountain Circle, Remlap, AL 35133",
+            "region":"AL",
+            "website":"http://www.prbc1689.org",
+            "note":"<br>Pastor Kurt M. Smith" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -111.739517,
                33.408626
             ]
