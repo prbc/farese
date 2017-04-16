@@ -843,6 +843,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               114.1749148,
+               22.2999936
+            ]
+         },
+         "properties":{  
+            "name":"Trinity Baptist Church of Hong Kong<br>香港改革宗三一浸信教會",
+            "address":"3/F Grand Building, 20 Granville Circuit, Tsim Sha Tsui, Kowloon, Hong Kong",
+            "region":"HKG",
+            "website":"http://rbhk.org/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                75.708073,
                13.83299
             ]
