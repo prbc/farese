@@ -570,6 +570,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -75.563050,
+               6.242777
+            ]
+         },
+         "properties":{  
+            "name":"La Gracia de Dios Iglesia Bautista Reformada",
+            "address":"Carrera 41 #46-28, Medellín",
+            "region":"COL",
+            "website":"http://www.caractercristiano.org",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -84.115805,
                9.974414
             ]
