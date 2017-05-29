@@ -6688,23 +6688,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -122.810823,
-               44.475537
-            ]
-         },
-         "properties":{  
-            "name":"Sovereign Grace Bible Church",
-            "address":"30375 Fairview Road  Lebanon, Oregon, 97355",
-            "region":"OR",
-            "website":"http://www.sovereigngracebible.com/",
-            "note":"<p>(541) 367-3406&nbsp;</font>\n<br>Doner, Max&nbsp;</font>\n<br><a href=\"mailto:mdoner@proaxis.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<br><a href=\"http://www.sovereigngracebible.com\">www.sovereigngracebible.com</a></font>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -75.308151,
                41.321742
             ]
