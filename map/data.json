@@ -8018,16 +8018,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -76.17,
-               36.8
+               -76.119304,
+               36.764062
             ]
          },
          "properties":{  
             "name":"Grace Covenant Church",
-            "address":"PO Box 64443 Virginia Beach, VA 23467",
+            "address":"2236 Salem Rd, Virginia Beach, VA 23456",
             "region":"VA",
-            "website":"http://www.reformedbaptistchurch.org/",
-            "note":"<p>(757) 424-7305&nbsp;</font>\n<br>Joe Gilliam&nbsp;</font>\n<p><a href=\"mailto:gilliamjs@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "website":"http://gracecovenantvb.org",
+            "note":"<p>(757) 430-4032&nbsp;" 
          }
       },
       {  
