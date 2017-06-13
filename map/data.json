@@ -7252,6 +7252,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -81.134333,
+               33.971364
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Baptist Church",
+            "address":"3535 Delree Street, West Columbia, SC 29170",
+            "region":"SC",
+            "website":"http://covenantbaptistsc.org/",
+            "note":"<p>Pastor Charles Swann<a href=\"mailto:cswann1@sc.rr.com\"><br><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a><br>Elder Alton Crapps"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -102.980198,
                43.994657
             ]
