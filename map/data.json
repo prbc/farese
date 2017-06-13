@@ -6791,15 +6791,15 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -76.797171,
-               40.889382
+               -76.79762,
+               40.889321
             ]
          },
          "properties":{  
             "name":"First Regular Baptist Church",
-            "address":"Second st and Queen Street Northumberland, PA  17857",
+            "address":"205 Queen Street Northumberland, PA 17857",
             "region":"PA",
-            "website":"",
+            "website":"http://www.norrybaptist.org/",
             "note":"<p>(570) 473-9786</font>\n<p>Rees, John</font>\n<br><a href=\"mailto:jrees@norrychristian.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Cantine, Michael</font>\n<br><a href=\"mailto:mcantine@norrychristian.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
        }
       },
