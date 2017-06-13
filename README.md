@@ -6,7 +6,11 @@ You'll find the site live at [farese.com](http://farese.com).
 
 ## Running locally
 
-You can run the website on your local machine by running the prbc/farese Docker container. If you're wanting to modify the source to contribute changes, running the Docker container won't be of much help. You'll want to run the normal `git clone` in that case. 
+### Local webserver
+
+If you'd like to make changes and test them out on your local machine, `git clone` this repository onto your computer, and point your webserver to the repository folder. You'll find you have to have a webserver hosting the files instead of just browsing to them if you want the map to display markers.
+
+### Docker
 
 Once you have Docker installed, run:
 
@@ -21,6 +25,7 @@ Once you have Docker installed, run:
 You can now view your local copy of Farese.com by going to http://localhost in your browser.
 
 ## Contributing
+
 Contributions are very much welcome. Feel free to fork the repository, and once your changes are made, you can submit a pull request. 
 
 If you're thinking about adding a new feature, please first create a new issue so we can discuss it, just to make sure that's the direction we want to go.
