@@ -7133,6 +7133,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -76.430001,
+               41.064728
+            ]
+         },
+         "properties":{  
+            "name":"Sovereign Grace Fellowship",
+            "address":"1810B State Route 487, Orangeville, PA 17859",
+            "region":"PA",
+            "website":"http://sgfellowship.com/",
+            "note":"<p>(570) 316-2799<br>Arnold Hinojosa, Pastor<br><a href=\"mailto:pastor@sgfellowship.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a><br>Alan Posey, Elder<br><a href=\"mailto:info@sgfellowship.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -71.482134,
                41.85543
             ]
