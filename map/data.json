@@ -7898,6 +7898,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -97.205521,
+               31.517961
+            ]
+         },
+         "properties":{  
+            "name":"Waco Family Baptist Church",
+            "address":"800 West Highway 6, Waco, TX 76712",
+            "region":"TX",
+            "website":"http://www.wacofamily.com/",
+            "note":"<p>254-263-1689<br>Pastors Todd Gill and Brent Freeman"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
