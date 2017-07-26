@@ -4725,13 +4725,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -91.111666,
-               30.465158
+               -91.1155728,
+               30.4424674
             ]
          },
          "properties":{  
             "name":"Trinity Baptist Church",
-            "address":"1785 Wooddale Court Baton Rouge, Louisiana 70806",
+            "address":"7125 Goodwood Ave. Baton Rouge, Louisiana 70806",
             "region":"LA",
             "website":"http://www.trinitybaptistreformed.org/",
             "note":"<p>(225) 928-3165</font>\n<p><a href=\"mailto:trinmail@trinitybaptistreformed.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
