@@ -6076,16 +6076,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -82.505967,
-               35.440222
+               -82.574385,
+               35.4638149
             ]
          },
          "properties":{  
-            "name":"Crosspoint Church",
-            "address":"235 St Johns Road Fletcher, NC 28732",
+            "name":"Redeemer Community Church",
+            "address":"899 Glenn Bridge Road SE, Arden, NC 28704",
             "region":"NC",
-            "website":"http://crosspointasheville.org/",
-            "note":"<br>Pastor: Don Donell</font>\n<p><a href=\"mailto:don.donell@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://redeemerasheville.org/",
+            "note":""
          }
       },
       {  
