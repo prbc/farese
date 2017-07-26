@@ -5939,16 +5939,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -76.5194,
-               42.725242
+               -76.522509,
+               42.7359451
             ]
          },
          "properties":{  
             "name":"Venice Baptist Church",
-            "address":"2465 Stewarts Corners Road Venice Center, NY 13147",
+            "address":"2465 Stewarts Corners Road, Scipio Center, NY 13147",
             "region":"NY",
-            "website":"",
-            "note":"<br>(315) 497-1028</font>\n<br>Johnson, Manley</font>\n<br><a href=\"mailto:manleyjohnson@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Johnson, Tim</font>\n<br>4977 Kingston Road</font>\n<br>Elbridge, NY 13060</font>\n<br>(315) 689-5085</font>\n<br><a href=\"mailto:johnsons@twcny.rr.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://sermonaudio.com/vbcny",
+            "note":"<p>Johnson, Tim</font>\n<br>4977 Kingston Road</font>\n<br>Elbridge, NY 13060</font>\n<br>(315) 689-5085</font>\n<br><a href=\"mailto:tim.johnson.vbc@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
