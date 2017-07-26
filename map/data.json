@@ -2683,6 +2683,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -111.7617052,
+               32.8893729
+            ]
+         },
+         "properties":{  
+            "name":"Providence Reformed Baptist Church",
+            "address":"1487 N Crane St, Casa Grande, AZ 85122",
+            "region":"AZ",
+            "website":"http://providencecasagrande.com/",
+            "note":""
+ 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -92.442101,
                35.088696
             ]
