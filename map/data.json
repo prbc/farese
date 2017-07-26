@@ -7966,6 +7966,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -96.903345,
+               32.4883773
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Church",
+            "address":"6881 FM 1387, Midlothian, Texas 76065",
+            "region":"TX",
+            "website":"http://www.instituteforbiblicalchristianity.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
