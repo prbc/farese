@@ -4180,6 +4180,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -88.389452,
+               42.393095
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Reformed Baptist Church",
+            "address":"4609 Greenwood Rd, Woodstock, IL 60098",
+            "region":"IL",
+            "website":"http://crbcwoodstock.org/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -85.802145,
                41.215747
             ]
