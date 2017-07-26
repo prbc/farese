@@ -6008,6 +6008,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -74.6859126,
+               41.3763111
+            ]
+         },
+         "properties":{  
+            "name":"First Baptist Church of Port Jervis",
+            "address":"34 E Main St, Port Jervis, NY 12771, USA",
+            "region":"NY",
+            "website":"http://www.firstbaptistpj.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -77.559851,
                34.818762
             ]
