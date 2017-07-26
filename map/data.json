@@ -2545,6 +2545,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -86.586103,
+               34.7303688
+            ]
+         },
+         "properties":{  
+            "name":"Discipleship Baptist Church",
+            "address":"Huntsville, Alabama",
+            "region":"AL",
+            "website":"http://www.discipleshipbaptist.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -111.739517,
                33.408626
             ]
