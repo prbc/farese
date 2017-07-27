@@ -1,0 +1,66 @@
+/*!
+ * Gaia theme v4.0.0-alpha.6
+ * Homepage: https://pingendo.com
+ * Copyright 2014-2017 Pingendo
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             #0067B2;
+
+$brand-success:             #5cb85c;
+$brand-info:                #333;
+$brand-warning:             #f0ad4e;
+$brand-danger:              #d9534f;
+$brand-inverse:             #292b2c;
+ 
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+ 
+$enable-rounded:            true !default;
+$enable-shadows:            false;
+$enable-gradients:          false;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+// Variables
+//
+// Theme settings.
+
+
+$body-color: #454545;
+$body-color-inverse: invert($body-color) !default;
+$link-color: #00b0eb;
+
+$font-family-base: Lato;
+$headings-font-family: Lato;
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-h1: 2.5 * $font-size-base;
+$font-size-h2: 2 * $font-size-base;
+$font-size-h3: 1.75 * $font-size-base;
+$font-size-h4: 1.5 * $font-size-base;
+$font-size-h5: 1.25 * $font-size-base;
+$font-size-h6: $font-size-base;
+
+$display1-size: 6 * $font-size-base;
+$display2-size: 5.5 * $font-size-base;
+$display3-size: 4.5 * $font-size-base;
+$display4-size: 3.5 * $font-size-base;
+
+$border-radius: 0px;
+$border-radius-lg: $border-radius * 1.2;
+$border-radius-sm: $border-radius * .8;
+
+html,body {
+  scroll-behavior: smooth;
+
+}$body-bg: white;
+@import 'bootstrap-4.0.0-alpha.6';
