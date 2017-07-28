@@ -9,6 +9,14 @@ body {
     min-height:calc(100% - 56px);
 }
 
+.navbar-toggler {
+    border-width: 0 !important; 
+}
+
+.bg-faded {
+    background-color: #0083e0 !important;
+} 
+
 .mapboxgl-popup {
     max-width: 400px;
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;

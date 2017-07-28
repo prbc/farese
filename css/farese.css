@@ -6,9 +6,6 @@
  * Based on Bootstrap
 */
 @import url("https://fonts.googleapis.com/css?family=Lato");
-.navbar-toggler {
-  border-width: 0 !important; }
-
 html, body {
   scroll-behavior: smooth; }
 
