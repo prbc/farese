@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="../css/farese.css">
   <link rel="stylesheet" href="css/additional.css">
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js"></script>
   <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.0/mapbox-gl-geocoder.min.js"></script>
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.0/mapbox-gl-geocoder.css" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</head>
+  <link rel="stylesheet" href="farese.css">
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href="farese.css">
+  <link rel="stylesheet" href="../farese.css"> </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-inverse bg-primary">
+  <nav class="navbar navbar-expand-md navbar-inverse bg-primary navbar-fixed-top">
     <div class="container">
       <a class="navbar-brand" href="..">Farese.com</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon style"></span> </button>
@@ -33,7 +35,7 @@
       </div>
     </div>
   </nav>
-  <div id="map" class=""></div>
+  <div class="h-100" id="map"></div>
   <script>
     var isDataLoaded = false;
     var isStyleLoaded = false;

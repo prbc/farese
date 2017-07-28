@@ -4,10 +4,9 @@ body {
 }
 
 #map { 
-    position:absolute; 
-    top:56px; 
-    bottom:0; 
+    position:absolute;
     width:100%; 
+    min-height:calc(100% - 56px);
 }
 
 .mapboxgl-popup {
