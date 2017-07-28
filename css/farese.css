@@ -551,7 +551,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #00b0eb;
+  color: #0083e0;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
     background-color: transparent; }
@@ -560,7 +560,7 @@ fieldset[disabled] a.btn {
   .btn-link:hover {
     border-color: transparent; }
   .btn-link:focus, .btn-link:hover {
-    color: #00779f;
+    color: #005694;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link:disabled {
@@ -3056,11 +3056,11 @@ button.list-group-item-danger {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #00b0eb;
+  color: #0083e0;
   background-color: #fff;
   border: 1px solid #ddd; }
   .page-link:focus, .page-link:hover {
-    color: #00779f;
+    color: #005694;
     text-decoration: none;
     background-color: #eceeef;
     border-color: #ddd; }
@@ -3391,12 +3391,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #00b0eb;
+  color: #0083e0;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #00779f;
+    color: #005694;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
