@@ -4,6 +4,8 @@ This is a directory of Reformed Baptist churches, started by Johnny Farese.
 
 You'll find the site live at [farese.com](http://farese.com).
 
+There is a [redesign](https://github.com/prbc/farese/tree/redesign) currently in progress. It's currently hosted at [beta.farese.com](http://beta.farese.com).
+
 ## Running locally
 
 ### Local webserver
