@@ -1,0 +1,412 @@
+[
+{
+   "code": "BRA",
+   "display-name": "BRAZIL",
+   "file-name": "brazil"
+},
+{
+   "code": "KHM",
+   "display-name": "CAMBODIA",
+   "file-name": "cambodia"
+},
+{
+   "code": "COL",
+   "display-name": "COLOMBIA",
+   "file-name": "colombia"
+},
+{
+   "code": "CRI",
+   "display-name": "COSTA RICA",
+   "file-name": "cr"
+},
+{
+   "code": "DNK",
+   "display-name": "DENMARK",
+   "file-name": "denmark"
+},
+{
+   "code": "DOM",
+   "display-name": "DOMINICAN REPUBLIC",
+   "file-name": "dr"
+},
+{
+   "code": "DEU",
+   "display-name": "GERMANY",
+   "file-name": "germ"
+},
+{
+   "code": "HKG",
+   "display-name": "HONG KONG",
+   "file-name": "hk"
+},
+{
+   "code": "IND",
+   "display-name": "INDIA",
+   "file-name": "india"
+},
+{
+   "code": "IRL",
+   "display-name": "IRELAND",
+   "file-name": "ireland"
+},
+{
+   "code": "JAM",
+   "display-name": "JAMAICA",
+   "file-name": "jamaica"
+},
+{
+   "code": "MYS",
+   "display-name": "MALAYSIA",
+   "file-name": "may"
+},
+{
+   "code": "MLT",
+   "display-name": "MALTA",
+   "file-name": "malta"
+},
+{
+   "code": "MNE",
+   "display-name": "MONTENEGRO",
+   "file-name": "mont"
+},
+{
+   "code": "MMR",
+   "display-name": "MYANMAR",
+   "file-name": "mymar"
+},
+{
+   "code": "NZL",
+   "display-name": "NEW ZEALAND",
+   "file-name": "nz"
+},
+{
+   "code": "NIC",
+   "display-name": "NICARAGUA",
+   "file-name": "nic"
+},
+{
+   "code": "PHL",
+   "display-name": "PHILIPPINES",
+   "file-name": "phi"
+},
+{
+   "code": "PRI",
+   "display-name": "PUERTO RICO",
+   "file-name": "pr"
+},
+{
+   "code": "SGP",
+   "display-name": "SINGAPORE",
+   "file-name": "sin"
+},
+{
+   "code": "SVK",
+   "display-name": "SLOVAKIA",
+   "file-name": "slov"
+},
+{
+   "code": "ZAF",
+   "display-name": "SOUTH AFRICA",
+   "file-name": "sou"
+},
+{
+   "code": "ESP",
+   "display-name": "SPAIN",
+   "file-name": "spain"
+},
+{
+   "code": "CHE",
+   "display-name": "SWITZERLAND",
+   "file-name": "switz"
+},
+{
+   "code": "TTO",
+   "display-name": "TRINIDAD AND TOBAGO",
+   "file-name": "trinidad"
+},
+{
+   "code": "GBR",
+   "display-name": "UNITED KINGDOM",
+   "file-name": "uk"
+},
+{
+   "code": "GRD",
+   "display-name": "GRENADA",
+   "file-name": "grenada"
+},
+{
+   "code": "ZMB",
+   "display-name": "ZAMBIA",
+   "file-name": "zam"
+},
+{
+   "code": "WA",
+   "display-name": "WASHINGTON",
+   "file-name": "wa"
+},
+{
+   "code": "ISR",
+   "display-name": "ISRAEL",
+   "file-name": "isr"
+},
+{
+   "code": "WI",
+   "display-name": "WISCONSIN",
+   "file-name": "wi"
+},
+{
+   "code": "WV",
+   "display-name": "WEST VIRGINIA",
+   "file-name": "wv"
+},
+{
+   "code": "HI",
+   "display-name": "HAWAII",
+   "file-name": "hi"
+},
+{
+   "code": "CAN",
+   "display-name": "CANADA",
+   "file-name": "can"
+},
+{
+   "code": "FL",
+   "display-name": "FLORIDA",
+   "file-name": "fl"
+},
+{
+   "code": "WY",
+   "display-name": "WYOMING",
+   "file-name": "wy"
+},
+{
+   "code": "NH",
+   "display-name": "NEW HAMPSHIRE",
+   "file-name": "nh"
+},
+{
+   "code": "NJ",
+   "display-name": "NEW JERSEY",
+   "file-name": "nj"
+},
+{
+   "code": "NM",
+   "display-name": "NEW MEXICO",
+   "file-name": "nm"
+},
+{
+   "code": "TX",
+   "display-name": "TEXAS",
+   "file-name": "tx"
+},
+{
+   "code": "LA",
+   "display-name": "LOUISIANA",
+   "file-name": "la"
+},
+{
+   "code": "NC",
+   "display-name": "NORTH CAROLINA",
+   "file-name": "nc"
+},
+{
+   "code": "ND",
+   "display-name": "NORTH DAKOTA",
+   "file-name": "nd"
+},
+{
+   "code": "NE",
+   "display-name": "NEBRASKA",
+   "file-name": "ne"
+},
+{
+   "code": "TN",
+   "display-name": "TENNESSEE",
+   "file-name": "tn"
+},
+{
+   "code": "NY",
+   "display-name": "NEW YORK",
+   "file-name": "ny"
+},
+{
+   "code": "PA",
+   "display-name": "PENNSYLVANIA",
+   "file-name": "pa"
+},
+{
+   "code": "RI",
+   "display-name": "RHODE ISLAND",
+   "file-name": "ri"
+},
+{
+   "code": "NV",
+   "display-name": "NEVADA",
+   "file-name": "nv"
+},
+{
+   "code": "VA",
+   "display-name": "VIRGINIA",
+   "file-name": "va"
+},
+{
+   "code": "FRA",
+   "display-name": "FRANCE",
+   "file-name": "fra"
+},
+{
+   "code": "CO",
+   "display-name": "COLORADO",
+   "file-name": "co"
+},
+{
+   "code": "CA",
+   "display-name": "CALIFORNIA",
+   "file-name": "ca"
+},
+{
+   "code": "AL",
+   "display-name": "ALABAMA",
+   "file-name": "al"
+},
+{
+   "code": "AUS",
+   "display-name": "AUSTRALIA",
+   "file-name": "aus"
+},
+{
+   "code": "AR",
+   "display-name": "ARKANSAS",
+   "file-name": "ar"
+},
+{
+   "code": "VT",
+   "display-name": "VERMONT",
+   "file-name": "vt"
+},
+{
+   "code": "IL",
+   "display-name": "ILLINOIS",
+   "file-name": "il"
+},
+{
+   "code": "GA",
+   "display-name": "GEORGIA",
+   "file-name": "ga"
+},
+{
+   "code": "IN",
+   "display-name": "INDIANA",
+   "file-name": "in"
+},
+{
+   "code": "IA",
+   "display-name": "IOWA",
+   "file-name": "ia"
+},
+{
+   "code": "OK",
+   "display-name": "OKLAHOMA",
+   "file-name": "ok"
+},
+{
+   "code": "AZ",
+   "display-name": "ARIZONA",
+   "file-name": "az"
+},
+{
+   "code": "ID",
+   "display-name": "IDAHO",
+   "file-name": "id"
+},
+{
+   "code": "CT",
+   "display-name": "CONNECTICUT",
+   "file-name": "ct"
+},
+{
+   "code": "ME",
+   "display-name": "MAINE",
+   "file-name": "me"
+},
+{
+   "code": "MD",
+   "display-name": "MARYLAND",
+   "file-name": "md"
+},
+{
+   "code": "MA",
+   "display-name": "MASSACHUSETTS",
+   "file-name": "ma"
+},
+{
+   "code": "OH",
+   "display-name": "OHIO",
+   "file-name": "oh"
+},
+{
+   "code": "UT",
+   "display-name": "UTAH",
+   "file-name": "ut"
+},
+{
+   "code": "MO",
+   "display-name": "MISSOURI",
+   "file-name": "mo"
+},
+{
+   "code": "MN",
+   "display-name": "MINNESOTA",
+   "file-name": "mn"
+},
+{
+   "code": "MI",
+   "display-name": "MICHIGAN",
+   "file-name": "mi"
+},
+{
+   "code": "OR",
+   "display-name": "OREGON",
+   "file-name": "or"
+},
+{
+   "code": "ITA",
+   "display-name": "ITALY",
+   "file-name": "ita"
+},
+{
+   "code": "KS",
+   "display-name": "KANSAS",
+   "file-name": "ks"
+},
+{
+   "code": "MT",
+   "display-name": "MONTANA",
+   "file-name": "mt"
+},
+{
+   "code": "MS",
+   "display-name": "MISSISSIPPI",
+   "file-name": "ms"
+},
+{
+   "code": "SC",
+   "display-name": "SOUTH CAROLINA",
+   "file-name": "sc"
+},
+{
+   "code": "KY",
+   "display-name": "KENTUCKY",
+   "file-name": "ky"
+},
+{
+   "code": "MEX",
+   "display-name": "MEXICO",
+   "file-name": "mex"
+},
+{
+   "code": "SD",
+   "display-name": "SOUTH DAKOTA",
+   "file-name": "sd"
+   }
+]

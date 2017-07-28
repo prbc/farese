@@ -1,0 +1,91 @@
+body { 
+    margin:0; 
+    padding:0; 
+    overflow-y: hidden;
+}
+
+#map { 
+    position:absolute; 
+    top:50px; 
+    bottom:0; 
+    width:100%; 
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}   
+
+.marker-title {
+    font-weight: 700;
+}
+
+.mapboxgl-popup-content {
+    border-radius: 10px;
+}
+
+.mapboxgl-popup-content h2 {
+    text-align: center;
+}
+
+.mapboxgl-ctrl-compass {
+    display: none !important;
+}
+
+.tabs-to-dropdown {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#page-title {
+    font-family: 'Calibri';
+    font-size: 125%;
+}
+
+#mainbox {
+    font-family: 'calibri';
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px #888;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#name {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    padding: 20px;
+}
+
+#address {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+#website {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#contact-page-title {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 150%;
+    margin: 5% auto 5% auto;
+}
+
+#contact-page-body {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: auto;
+    margin: auto 5% 5% 5%;
+}

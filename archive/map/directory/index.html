@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Reformed Baptist Church Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/additional.css">
+    <link rel="stylesheet" href="../css/tabs-to-dropdown.css">
+    <script src="../tabs-to-dropdown.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Header bar theme -->
+    <meta name="theme-color" content="#4A6B9D"> <!-- Android Chrome header color -->
+    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Fullscreen mode for iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4A6B9D"> <!-- iOS Safari header color -->
+    <meta name="msapplication-navbutton-color" content="#4A6B9D"> <!-- Windows phone header color -->
+</head>
+
+<body>
+    <header class="tabs-to-dropdown">
+        <nav class="tab-bar">
+            <ul>
+                <li class="active"><a href=".."><div id=page-title>FARESE.COM</div></a></li>
+                <li><a href="..">Map</a></li>
+                <li><a href=".">Directory</a></li>
+                <li><a href="../contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <button class="dropdown-toggle">...<span class="fa fa-angle-down"></span></button>
+            <ul></ul>
+        </div>
+    </header>
+
+<div id="mainbox"></div>
+
+<script>
+jQuery.getJSON("../data.json", function(data) {
+    jQuery.each(data.features, function(properties) {
+        var output = "<div class=card>" + "<div id=name>" + this.properties.name + "</div>" + "<div id=address>" + this.properties.address + "</div>" + "<div id=website>" + this.properties.website+ "</div>" + "</div>";
+        $('#mainbox').append(output);
+    });
+});
+</script>
+</body>
+</html>
