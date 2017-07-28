@@ -6,6 +6,9 @@
  * Based on Bootstrap
 */
 @import url("https://fonts.googleapis.com/css?family=Lato");
+.navbar-toggler {
+  border-width: 0 !important; }
+
 html, body {
   scroll-behavior: smooth; }
 
@@ -3945,7 +3948,7 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #0083e0; }
+  background-color: #f7f7f7; }
 
 .bg-primary {
   background-color: #0067B2 !important; }
