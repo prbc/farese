@@ -113,9 +113,9 @@ a.badge:focus, a.badge:hover {
     background-color: #449d44; }
 
 .badge-info {
-  background-color: #333; }
+  background-color: #003052; }
   .badge-info[href]:focus, .badge-info[href]:hover {
-    background-color: #1a1a1a; }
+    background-color: #00121f; }
 
 .badge-warning {
   background-color: #f0ad4e; }
@@ -351,23 +351,23 @@ fieldset[disabled] a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #333;
-  border-color: #333; }
+  background-color: #003052;
+  border-color: #003052; }
   .btn-info:hover {
     color: #fff;
-    background-color: #1a1a1a;
-    border-color: #141414; }
+    background-color: #00121f;
+    border-color: #000c15; }
   .btn-info:focus, .btn-info.focus {
-    box-shadow: 0 0 0 2px rgba(51, 51, 51, 0.5); }
+    box-shadow: 0 0 0 2px rgba(0, 48, 82, 0.5); }
   .btn-info.disabled, .btn-info:disabled {
-    background-color: #333;
-    border-color: #333; }
+    background-color: #003052;
+    border-color: #003052; }
   .btn-info:active, .btn-info.active,
   .show > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #1a1a1a;
+    background-color: #00121f;
     background-image: none;
-    border-color: #141414; }
+    border-color: #000c15; }
 
 .btn-success {
   color: #fff;
@@ -470,24 +470,24 @@ fieldset[disabled] a.btn {
     border-color: #ccc; }
 
 .btn-outline-info {
-  color: #333;
+  color: #003052;
   background-color: transparent;
   background-image: none;
-  border-color: #333; }
+  border-color: #003052; }
   .btn-outline-info:hover {
     color: #fff;
-    background-color: #333;
-    border-color: #333; }
+    background-color: #003052;
+    border-color: #003052; }
   .btn-outline-info:focus, .btn-outline-info.focus {
-    box-shadow: 0 0 0 2px rgba(51, 51, 51, 0.5); }
+    box-shadow: 0 0 0 2px rgba(0, 48, 82, 0.5); }
   .btn-outline-info.disabled, .btn-outline-info:disabled {
-    color: #333;
+    color: #003052;
     background-color: transparent; }
   .btn-outline-info:active, .btn-outline-info.active,
   .show > .btn-outline-info.dropdown-toggle {
     color: #fff;
-    background-color: #333;
-    border-color: #333; }
+    background-color: #003052;
+    border-color: #003052; }
 
 .btn-outline-success {
   color: #5cb85c;
@@ -668,8 +668,8 @@ input[type="button"].btn-block {
     background-color: transparent; }
 
 .card-info {
-  background-color: #333;
-  border-color: #333; }
+  background-color: #003052;
+  border-color: #003052; }
   .card-info .card-header,
   .card-info .card-footer {
     background-color: transparent; }
@@ -698,7 +698,7 @@ input[type="button"].btn-block {
 
 .card-outline-info {
   background-color: transparent;
-  border-color: #333; }
+  border-color: #003052; }
 
 .card-outline-success {
   background-color: transparent;
@@ -3960,10 +3960,10 @@ a.bg-success:focus, a.bg-success:hover {
   background-color: #449d44 !important; }
 
 .bg-info {
-  background-color: #333 !important; }
+  background-color: #003052 !important; }
 
 a.bg-info:focus, a.bg-info:hover {
-  background-color: #1a1a1a !important; }
+  background-color: #00121f !important; }
 
 .bg-warning {
   background-color: #f0ad4e !important; }
@@ -5847,10 +5847,10 @@ a.text-success:focus, a.text-success:hover {
   color: #449d44 !important; }
 
 .text-info {
-  color: #333 !important; }
+  color: #003052 !important; }
 
 a.text-info:focus, a.text-info:hover {
-  color: #1a1a1a !important; }
+  color: #00121f !important; }
 
 .text-warning {
   color: #f0ad4e !important; }
@@ -5935,7 +5935,7 @@ body > * {
   background: rgba(41, 43, 44, 0.8); }
 
 .opaque.bg-info > *:first-child:before {
-  background: rgba(51, 51, 51, 0.8); }
+  background: rgba(0, 48, 82, 0.8); }
 
 .opaque-fade-out > *:first-child:before {
   background: inherit;
@@ -5954,7 +5954,7 @@ body > * {
 
 .opaque-fade-out.bg-info > *:first-child:before {
   background: inherit;
-  background-image: linear-gradient(to bottom, transparent 0%, #333 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #003052 100%);
   background-repeat: repeat-x; }
 
 .opaque-fade-in > *:first-child:before {
@@ -5974,7 +5974,7 @@ body > * {
 
 .opaque-fade-in.bg-info > *:first-child:before {
   background: inherit;
-  background-image: linear-gradient(to bottom, #333 0%, transparent 100%);
+  background-image: linear-gradient(to bottom, #003052 0%, transparent 100%);
   background-repeat: repeat-x; }
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
