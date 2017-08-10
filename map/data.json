@@ -92,6 +92,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -59.589500,
+               13.1046208
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Reformed Baptist Church",
+            "address":"Howells Rd, Bridgetown",
+            "region":"BB",
+            "website":"http://www.crbcbarbados.com/",
+            "note":"Contact number: 246-261-9220"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -44.066932,
                -22.537571
             ]
@@ -3168,7 +3185,7 @@
             "name":"Christ Church",
             "address":"Denver, CO 80236",
             "region":"CO",
-            "website":"http://christchurchdenver.com/",
+            "website":"",
             "note":"<br>Tracy Smith, Pastor</font>\n<br>(303) 934-3032</font>" 
          }
       },
@@ -3743,11 +3760,11 @@
             ]
          },
          "properties":{  
-            "name":"Ephesus Church",
-            "address":"226 Goshen Rd Rincon, GA 31326",
+            "name":"Redeemer Baptist Church",
+            "address":"226 Goshen Rd. Rincon, GA 31326",
             "region":"GA",
-            "website":"",
-            "note":"<br>Nick Kennicott, Pastor</font>\n<br>PO Box 436</font>\n<br>226 Goshen Rd</font>\n<br>Rincon, GA 31326</font>\n<p>Cell: 912.655.0421</font>\n<br>Office: 912.826.4598</font>\n<br>Fax: 912.826.6555</font>" 
+            "website":"visitrbc.org",
+            "note":"Nick Kennicott, Pastor <br><a href=\"mailto:contact@redeemerbaptistchurch.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
          }
       },
       {  
@@ -6297,6 +6314,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -80.3164156,
+               36.1285633
+            ]
+         },
+         "properties":{  
+            "name":"Emmanuel Church of Winston-Salem",
+            "address":"407 Petree Road, Winston-Salem, NC 27106",
+            "region":"NC",
+            "website":"http://emmanuelws.com/",
+            "note":"Pastor Alex DiPrima<br><a href=\"mailto:alexdiprima@emmanuelws.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.820844,
                46.826179
             ]
@@ -6937,7 +6971,7 @@
             "address":"777 West North Street Carlisle, PA 17013",
             "region":"PA",
             "website":"http://www.gracebaptistcarlisle.org/",
-            "note":"<p>(717) 249-4912</font>\n<br>(717) 249-0486 (Fax)</font>\n<br>David Campbell, Senior Pastor</font>\n<p><a href=\"mailto:gbc@gracebaptistcarlisle.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<p>(717) 249-4912</font>\n<br>(717) 249-0486 (Fax)</font>\n<br>David Campbell, Pastor</font>\n<p><a href=\"mailto:gbc@gracebaptistcarlisle.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -7296,7 +7330,7 @@
             "address":"5020 Old Spartanburg Rd. Taylors, SC  29687",
             "region":"SC",
             "website":"http://www.gbctaylors.org/",
-            "note":"<br>Self, Bob (Senior Pastor)</font>\n<br>Clint, Chad (Associate Pastor)</font>\n<p>(864) 322-7717&nbsp;</font>\n<p><a href=\"mailto:gbcinfo.grace@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"Jamie Howell\nNicolas Alford</font>\n<p>(864) 322-7717&nbsp;</font>\n<p><a href=\"mailto:gbcinfo.grace@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
