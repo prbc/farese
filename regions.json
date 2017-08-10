@@ -1,5 +1,10 @@
 [
 {
+   "code": "BB",
+   "display-name": "BARBADOS",
+   "file-name": "barbados"
+},
+{
    "code": "BRA",
    "display-name": "BRAZIL",
    "file-name": "brazil"
