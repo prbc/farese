@@ -6314,6 +6314,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -80.3164156,
+               36.1285633
+            ]
+         },
+         "properties":{  
+            "name":"Emmanuel Church of Winston-Salem",
+            "address":"407 Petree Road, Winston-Salem, NC 27106",
+            "region":"NC",
+            "website":"http://emmanuelws.com/",
+            "note":"Pastor Alex DiPrima<br><a href=\"mailto:alexdiprima@emmanuelws.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.820844,
                46.826179
             ]
