@@ -6,6 +6,22 @@ You'll find the site live at [farese.com](http://farese.com).
 
 There is a [redesign](https://github.com/prbc/farese/tree/redesign) currently in progress. It's currently hosted at [beta.farese.com](http://beta.farese.com).
 
+## Contributing
+
+Contributions are very much welcome. Feel free to fork the repository, and once your changes are made, you can submit a pull request. If you have any problems with the process, feel free to open an issue on Github or email us.
+
+### Updating a church
+
+Both the map and the text directory pull the church data from the GeoJSON file `map/data.json`. 
+
+Once you've made your changes to that file, run the Python 2 script `generate-text-directory.py` to make the necessary changes to the text directory.
+
+### New features
+
+If you're considering adding a new feature, please first create a new issue so we can discuss it, just to make sure that's the direction we want to go.
+
+If it's something that already has an issue though, go right ahead! And thank you!
+
 ## Running locally
 
 ### Local webserver
@@ -25,11 +41,3 @@ Once you have Docker installed, run:
  - `-p` is to forward port 80 on the host to port 80 on the docker container
 
 You can now view your local copy of Farese.com by going to http://localhost in your browser.
-
-## Contributing
-
-Contributions are very much welcome. Feel free to fork the repository, and once your changes are made, you can submit a pull request. 
-
-If you're thinking about adding a new feature, please first create a new issue so we can discuss it, just to make sure that's the direction we want to go.
-
-If it's something that already has an issue though, go right ahead!
