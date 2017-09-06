@@ -7389,6 +7389,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -79.01812039,
+               34.2244678
+            ]
+         },
+         "properties":{  
+            "name":"Oak Grove Baptist Church",
+            "address":"820 Oak Grove Church Rd, Nichols, SC 29581",
+            "region":"SC",
+            "website":"https://www.facebook.com/mychurchpeeps",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -102.980198,
                43.994657
             ]
