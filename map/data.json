@@ -5065,6 +5065,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -84.3588543,
+               46.4827361
+            ]
+         },
+         "properties":{  
+            "name":"Cornerstone Bible Church",
+            "address":"2000 Ryan Ave, Sault Ste. Marie, MI 49783",
+            "region":"MI",
+            "website":"http://soocornerstonebiblechurch.com/",
+            "note":"<p>Phone: 906-440-6406 and 906-322-0355<br>Elders: Gordy Lane and James Evans<br><p><a href=\"mailto:rbcssm@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -93.259926,
                44.898095
             ]
