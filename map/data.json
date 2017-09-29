@@ -2579,6 +2579,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -86.509337,
+               33.719026
+            ]
+         },
+         "properties":{  
+            "name":"Grace Chapel Reformed Baptist Church",
+            "address":"500 Commerce St, Odenville, AL 35120",
+            "region":"AL",
+            "website":"https://www.gracechapelrbc.com",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -111.739517,
                33.408626
             ]
