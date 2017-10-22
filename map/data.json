@@ -7304,6 +7304,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -73.989308,
+               40.741895
+            ]
+         },
+         "properties":{  
+            "name":"Gospel of Grace Community Church",
+            "address":"45 North Kinzer Rd. Kinzers, PA 17535",
+            "region":"PA",
+            "website":"http://www.gospelofgracecommunitychurch.com",
+            "note":"Pastor Chuck Vuolo<br>(484) 459-3692"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -71.482134,
                41.85543
             ]
