@@ -12,14 +12,13 @@ $theme-colors: (
   primary: #0067B2,
   secondary: #0083e0,
   success: #5cb85c,
-  info: #003052,
+  info: #ADDDFF,
   warning: #f0ad4e,
   danger: #d9534f,
   light: #80B3D9,
   dark: #003052
 );
 
-// $bg-faded:                  #0083e0;
 $bg-light:                  #0083e0;
 
 // Options
@@ -69,7 +68,3 @@ html,body {
 
 }$body-bg: white;
 @import 'bootstrap-4.0.0-beta.1'
-
-//.style {
-//
-//}
