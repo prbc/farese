@@ -2579,6 +2579,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -86.509337,
+               33.719026
+            ]
+         },
+         "properties":{  
+            "name":"Grace Chapel Reformed Baptist Church",
+            "address":"500 Commerce St, Odenville, AL 35120",
+            "region":"AL",
+            "website":"https://www.gracechapelrbc.com",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -111.739517,
                33.408626
             ]
@@ -2621,8 +2638,8 @@
             "name":"Miller Valley Baptist Church",
             "address":"815 Whipple St Prescott, AZ 86301",
             "region":"AZ",
-            "website":"",
-            "note":"<br>Prescott, AZ 86301</font>\n<p>(520) 520-778-0507 (Office)</font>\n<br>(520) 778-0507 (Fax)</font>" 
+            "website":"http://millervalleybaptist.org/",
+            "note":"<br>Senior Pastor: Chris J. Marley<br>Associate Pastor: Chris L. Marley<br>(520) 778-0507 (Office)<br>(520) 778-0507 (Fax)"
          }
       },
       {  
@@ -2982,7 +2999,7 @@
             "address":"655 West 11th Avenue Escondido, CA 92025",
             "region":"CA",
             "website":"http://www.grcbible.org/",
-            "note":"<br>Jim Newheiser</font>\n<p>Phone: (760) 747-9252</font>\n<br>Fax: (760) 747-9347</font>\n<p><a href=\"mailto:jnewheiser@grcbible.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "note":"" 
          }
       },
       {  
@@ -3670,6 +3687,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -82.3801844,
+               29.8174346
+            ]
+         },
+         "properties":{  
+            "name":"Antioch Baptist Church",
+            "address":"3612 NW 177th Ave, Gainesville, FL 32609",
+            "region":"FL",
+            "website":"https://www.churchatantioch.com/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -84.736956,
                33.710486
             ]
@@ -4130,16 +4164,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -87.82165,
-               41.578507
+               -87.7660643,
+               41.5285314
             ]
          },
          "properties":{  
-            "name":"Hope Reformed Baptist Fellowship",
-            "address":"17171 S. 84th Ave. Tinley Park, IL 60477",
+            "name":"Hope Reformed Baptist Church",
+            "address":"6200 Vollmer Road, Matteson, IL 60443",
             "region":"IL",
             "website":"http://www.hopereformedbaptistchurch.com",
-            "note":"<br>Meeting at Southwest Chicago Christian School</font>\n<p>(815) 708-2901</font>\n<br>John Yoder, Pastor</font>" 
+            "note":"<br>Meeting at Old St. Paul’s Church</font>\n<p>(815) 534-1805</font>\n<br>John Yoder, Pastor</font>" 
          }
       },
       {  
@@ -5065,6 +5099,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -84.3588543,
+               46.4827361
+            ]
+         },
+         "properties":{  
+            "name":"Cornerstone Bible Church",
+            "address":"2000 Ryan Ave, Sault Ste. Marie, MI 49783",
+            "region":"MI",
+            "website":"http://soocornerstonebiblechurch.com/",
+            "note":"<p>Phone: 906-440-6406 and 906-322-0355<br>Elders: Gordy Lane and James Evans<br><p><a href=\"mailto:rbcssm@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -93.259926,
                44.898095
             ]
@@ -5619,11 +5670,10 @@
          },
          "properties":{  
             "name":"Reformed Baptist Church of Lafayette",
-            "address":"28 Meadows Road  Lafayette, NJ 07848",
+            "address":"28 Meadows Road, Lafayette Township, NJ 07848",
             "region":"NJ",
-            "website":"http://www.rbclafayette.org/",
-            "note":"<p>(973) 579-3067&nbsp;</font>\n<br>(973) 579-6095 (FAX)&nbsp;</font>\n<br>Patrick Harrison - elder / teacher&nbsp;</font>\n<br>Phil Horjus - elder&nbsp;</font>\n<br>Colledge Campbell&nbsp;</font>\n<p><a href=\"mailto:rbclnj@earthlink.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-
+            "website":"http://rbcl.church",
+            "note":"<br>(973) 579-3067<br>(973) 579-6095 (FAX)<br>Pastors: Patrick Harrison, Phil Horjus"
          }
       },
       {  
@@ -6971,7 +7021,7 @@
             "address":"777 West North Street Carlisle, PA 17013",
             "region":"PA",
             "website":"http://www.gracebaptistcarlisle.org/",
-            "note":"<p>(717) 249-4912</font>\n<br>(717) 249-0486 (Fax)</font>\n<br>David Campbell, Pastor</font>\n<p><a href=\"mailto:gbc@gracebaptistcarlisle.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<p>(717) 249-4912</font>\n<br>(717) 249-0486 (Fax)</font>\n<br>John Miller, Pastor</font>\n<p><a href=\"mailto:gbc@gracebaptistcarlisle.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -7253,6 +7303,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -76.0649462,
+               40.0004245
+            ]
+         },
+         "properties":{  
+            "name":"Gospel of Grace Community Church",
+            "address":"45 North Kinzer Rd. Kinzers, PA 17535",
+            "region":"PA",
+            "website":"http://www.gospelofgracecommunitychurch.com",
+            "note":"<br>Pastor Chuck Vuolo<br>(484) 459-3692"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -71.482134,
                41.85543
             ]
@@ -7389,6 +7456,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -79.01812039,
+               34.2244678
+            ]
+         },
+         "properties":{  
+            "name":"Oak Grove Baptist Church",
+            "address":"820 Oak Grove Church Rd, Nichols, SC 29581",
+            "region":"SC",
+            "website":"https://www.facebook.com/mychurchpeeps",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -102.980198,
                43.994657
             ]
@@ -7448,8 +7532,8 @@
             "name":"Covenant Baptist Church of Blount County",
             "address":"2525 Morganton Rd. Maryville, TN 37801",
             "region":"TN",
-            "website":"http://www.covenantbaptistbc.org/",
-            "note":"<p><a href=\"mailto:bonham92@bellsouth.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"https://www.covenantbaptistchurchbc.org/",
+            "note":"<p><a href=\"mailto:info@covenantbaptistchurchbc.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
