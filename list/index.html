@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/farese.css">
+  <link rel="stylesheet" href="../css/additional.css">
+  <!-- Header bar theme -->
+  <meta name="theme-color" content="#00538f">
+  <!-- Android Chrome header color -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Fullscreen mode for iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00538f">
+  <!-- iOS Safari header color -->
+  <meta name="msapplication-navbutton-color" content="#00538f">
+  <!-- Windows phone header color -->
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-primary navbar-dark border border-primary">
+    <div class="container">
+      <a class="navbar-brand" href=".">Farese.com</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-center">
+            <a class="nav-link text-light" href="..">Home</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link text-light" href=".">About</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link text-light" href="../map">Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">List</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link text-light" href="../legacy">Legacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul></ul>
+
+  <tr></tr>
+
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped table-responsive" id="church-list">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Church name</th>
+                <th>Address</th>
+                <th>Website</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Providence Reformed Baptist Church</td>
+                <td class="">12550 Promise Creek Ln, Suite 112, Fishers, IN</td>
+                <td class="">http://www.prbcindy.com/</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>Cell</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>Cell</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section text-white bg-secondary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-4">
+          <h2 class="text-sm-center text-white text-center m-3">About the directory</h2>
+          <p class="text-info text-justify m-3">Since Johnny first put the directory online in 1996, he has kept it up-to-date and has also redesigned it several times. Providence Reformed Baptist Church in Indianapolis is continuing what he started and maintained for so many years.</p>
+        </div>
+        <div class="col-md-4 p-4">
+          <h2 class="text-sm-center text-white text-center m-3">How to add your church</h2>
+          <p class="text-justify text-info m-3">We love to have up-to-date information. If you would like add or make a change to a church's details, please email us at
+            <a href="mailto:admin@farese.com" class="text-white">admin@farese.com</a>.</p>
+        </div>
+        <div class="col-md-4 p-4">
+          <h2 class="text-sm-center text-white text-center m-3">Legacy</h2>
+          <p class="text-justify text-info m-3">Visit the Legacy site, which includes links to videos and written testimony of what God has done in Johnny's life. The text directory on the legacy site will also remain up-to-date with additions and updates to the churches.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-2 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center">
+          <a href="https://github.com/prbc/farese" target="blank"><i class="fa fa-github fa-3x pull-right fa-fw text-right text-muted"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $.getJSON('http://localhost:80/map/data.json',function(churches){
+            console.log('loaded json');
+            $.each(churches,function(i,church){
+                $('td').append('<td>' + name[0] +'</td><td>'+  '</td>');
+                console.log('loaded church' + i);
+
+
+            });
+        })
+    });
+
+
+
+</script>
+</body>
+
+</html>
