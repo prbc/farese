@@ -16,10 +16,9 @@
   <!-- iOS Safari header color -->
   <meta name="msapplication-navbutton-color" content="#00538f">
   <!-- Windows phone header color -->
-
 </head>
 
-<body>
+<body class="">
   <nav class="navbar navbar-expand-md bg-primary navbar-dark border border-primary">
     <div class="container">
       <a class="navbar-brand" href=".">Farese.com</a>
@@ -35,8 +34,8 @@
           <li class="nav-item text-center">
             <a class="nav-link text-light" href="../map">Map</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">List</a>
+          <li class="nav-item text-center">
+            <a class="nav-link text-light" href=".">List</a>
           </li>
           <li class="nav-item text-center">
             <a class="nav-link text-light" href="../legacy">Legacy</a>
@@ -45,12 +44,17 @@
       </div>
     </div>
   </nav>
-
-  <ul></ul>
-
-  <tr></tr>
-
-  <div class="py-5">
+  <div class="section text-white bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="p-4 col-lg-7 align-self-center mx-auto">
+          <h2 class="text-sm-center text-white text-center m-3">List of churches</h2>
+          <p class="text-justify text-info m-3">Here you will find a basic listing of churches, hopefully to make it easier to search through them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-4">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -63,46 +67,8 @@
                 <th>Website</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Providence Reformed Baptist Church</td>
-                <td class="">12550 Promise Creek Ln, Suite 112, Fishers, IN</td>
-                <td class="">http://www.prbcindy.com/</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Cell</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>Cell</td>
-              </tr>
-            </tbody>
+            <tbody> </tbody>
           </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section text-white bg-secondary py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 p-4">
-          <h2 class="text-sm-center text-white text-center m-3">About the directory</h2>
-          <p class="text-info text-justify m-3">Since Johnny first put the directory online in 1996, he has kept it up-to-date and has also redesigned it several times. Providence Reformed Baptist Church in Indianapolis is continuing what he started and maintained for so many years.</p>
-        </div>
-        <div class="col-md-4 p-4">
-          <h2 class="text-sm-center text-white text-center m-3">How to add your church</h2>
-          <p class="text-justify text-info m-3">We love to have up-to-date information. If you would like add or make a change to a church's details, please email us at
-            <a href="mailto:admin@farese.com" class="text-white">admin@farese.com</a>.</p>
-        </div>
-        <div class="col-md-4 p-4">
-          <h2 class="text-sm-center text-white text-center m-3">Legacy</h2>
-          <p class="text-justify text-info m-3">Visit the Legacy site, which includes links to videos and written testimony of what God has done in Johnny's life. The text directory on the legacy site will also remain up-to-date with additions and updates to the churches.</p>
         </div>
       </div>
     </div>
@@ -119,22 +85,16 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
     $(function(){
-        $.getJSON('http://localhost:80/map/data.json',function(churches){
-            console.log('loaded json');
-            $.each(churches,function(i,church){
-                $('td').append('<td>' + name[0] +'</td><td>'+  '</td>');
-                console.log('loaded church' + i);
-
-
-            });
-        })
+      $.getJSON('../map/data.json',function(data){
+        console.log('loaded json');
+        for (i = 0; i < data.features.length; i++){
+        $('#church-list tbody:last').append('<tr><td>' + data.features[i].properties.region + '</td><td>' + data.features[i].properties.name +'</td><td>'+ data.features[i].properties.address + '</td><td><a href="' + data.features[i].properties.website + '">' + data.features[i].properties.website + '</a></td></tr>');
+        };
+      });
     });
-
-
-
-</script>
+  </script>
 </body>
 
 </html>
