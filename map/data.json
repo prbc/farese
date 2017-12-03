@@ -6858,6 +6858,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -123.174577,
+               45.295426
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"North 2nd & East Monroe Street, Carlton, Oregon 97111",
+            "region":"OR",
+            "website":"http://gbccarlton.org/",
+            "note":"(971) 241-5021\n<br>Pastor Alan Hurty"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -75.308151,
                41.321742
             ]
