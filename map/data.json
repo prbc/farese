@@ -6858,23 +6858,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -122.974981,
-               45.324848
-            ]
-         },
-         "properties":{  
-            "name":"Sovereign Grace Bible Church",
-            "address":"501 Foothills Drive Newberg, OR 97132",
-            "region":"OR",
-            "website":"",
-            "note":"<p>(503) 537-1057</font>\n<br>Shawn Magoon</font>\n<br><a href=\"mailto:shawnmagoon1@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -75.308151,
                41.321742
             ]
