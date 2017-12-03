@@ -1780,6 +1780,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               121.83493,
+               17.026757
+            ]
+         },
+         "properties":{  
+            "name":"Naguilian Reformed Baptist Church",
+            "address":"Barangay Roxas Centro, Naguilian, Isabela 3302, Philippines",
+            "region":"PHL",
+            "website":"https://www.facebook.com/naguilianreformedbaptistchurch/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -66.076728,
                18.373087
             ]
