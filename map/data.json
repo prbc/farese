@@ -8681,6 +8681,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -88.0682603,
+               42.9334245
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Baptist Church",
+            "address":"12219 W. Janesville Road, Hales Corners, WI 53130",
+            "region":"WI",
+            "website":"http://crbc.us/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -106.331429,
                42.839371
             ]
