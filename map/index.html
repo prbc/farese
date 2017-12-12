@@ -140,6 +140,14 @@
         limit: 3,
     }));
 
+    // Add geolocate control to the map.
+    map.addControl(new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true
+    }), 'top-left');
+
     // Load GeoJSON data
 
     var shouldLoadMap = function () {
