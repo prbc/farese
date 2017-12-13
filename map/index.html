@@ -140,10 +140,13 @@
         limit: 3,
     }));
 
-    // Add geolocate control to the map.
+    // Add geolocate control 
     map.addControl(new mapboxgl.GeolocateControl({
         positionOptions: {
             enableHighAccuracy: true
+        },
+        fitBoundsOptions: {
+            maxZoom:8
         },
         trackUserLocation: true
     }), 'top-left');
