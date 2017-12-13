@@ -103,7 +103,12 @@
            // based on the feature found.
            var popup = new mapboxgl.Popup()
               .setLngLat(feature.geometry.coordinates)
-              .setHTML('<h2>'+feature.properties.name+'</h2>'  + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>' + feature.properties.note)
+              // Should look like:
+              // <h2>Church Name</h2>
+              // Address (links to a corresponding http://maps.apple.com/?q=51.507269,-0.127695 to open maps externally)
+              // Website (links to the appropriate url)
+              // Note 
+              .setHTML('<h2>'+feature.properties.name+'</h2>'  + '<a href="http://maps.apple.com/?q=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.address + '<br>' + '<a href="'+feature.properties.website+'">'+feature.properties.website+'</a>' + feature.properties.note)
               .addTo(map);
 
            // Pan to clicked marker
