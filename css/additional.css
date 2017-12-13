@@ -27,11 +27,13 @@ body {
 }
 
 .mapboxgl-popup-content {
+    text-align: center;
     border-radius: 10px;
 }
 
-.mapboxgl-popup-content h2 {
-    text-align: center;
+.mapboxgl-popup-content p {
+    text-align: left;
+    margin-bottom: 0;
 }
 
 .mapboxgl-ctrl-compass {
