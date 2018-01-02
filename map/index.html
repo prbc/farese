@@ -72,19 +72,23 @@
           "data": markers
        });
 
-       // Add a layer showing the markers.
-       map.addLayer({
-          "id": "markers",
-          "interactive": true,
-          "type": "circle",
-          "source": "markers",
-          "paint": {
-                  "circle-radius": 6,
-                  "circle-color": "#007cbf",
-                  "circle-stroke-width": 1.7,
-                  "circle-stroke-color": "#eeeeee",
-          }
-       });
+        // Load image for pin
+        map.loadImage('../img/marker.png', function(error, image) {
+            if (error) throw error;
+            map.addImage('pin', image);
+            // Add a layer showing the markers.
+            map.addLayer({
+                "id": "markers",
+                "interactive": true,
+                "type": "symbol",
+                "source": "markers",
+                "layout": {
+                    "icon-image": "pin",
+                    "icon-size": .6,
+                    "icon-allow-overlap": true,
+                }
+            });
+        });
 
        // When a click event occurs near a marker icon, open a popup at the location of
        // the feature, with description HTML from its properties.
