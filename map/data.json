@@ -4011,6 +4011,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -81.904923,
+               32.1607057
+            ]
+         },
+         "properties":{  
+            "name":"Grace Truth Church",
+            "address":"1 East Railroad Street, Claxton, GA 30417",
+            "region":"GA",
+            "website":"http://gracetruth.org",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -157.836711,
                21.308751
             ]
