@@ -8358,23 +8358,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -79.061042,
-               38.189064
-            ]
-         },
-         "properties":{  
-            "name":"Reformed Baptist Church of Staunton",
-            "address":"1976 Springhill Road Staunton, Va.  24401",
-            "region":"VA",
-            "website":"http://www.caymandesigns.com/rbcos.htm",
-            "note":"<p>(540) 885-8934 (Church and Home)</font>\n<br>Schullery, Thomas</font>\n<p><a href=\"mailto:rbcos@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -77.366615,
                38.634449
             ]
