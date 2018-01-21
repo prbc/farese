@@ -3840,23 +3840,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -83.879107,
-               34.27831
-            ]
-         },
-         "properties":{  
-            "name":"Grace Covenant Baptist Church of Gainesville, GA",
-            "address":"Gainesville, GA. 30504",
-            "region":"GA",
-            "website":"http://www.gracecovenantbaptist.com/",
-            "note":"<p>706-778-9374</font>\n<br>Pastor Steve Loeffler</font>\n<br><a href=\"mailto:saloeffler34@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -84.036868,
                34.359027
             ]
