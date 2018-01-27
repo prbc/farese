@@ -7609,16 +7609,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -86.714352,
-               36.2562
+               -86.737182,
+               36.252447
             ]
          },
          "properties":{  
             "name":"Reformed Baptist Church of Nashville",
-            "address":"P.O. Box 824 Madison, TN  37115",
+            "address":"1022 S Graycroft Ave., Madison, TN 37115",
             "region":"TN",
             "website":"http://www.rbcnashville.org/",
-            "note":"<p>(615) 424-3861</font>\n<br>Gambill, Stephen</font>"
+            "note":"<p>(615) 424-3861<br>Gambill, Stephen<br><b>[Mailing Address]</b><br>P.O. Box 824 Madison, TN  37115</p>"
          }
       },
       {  
