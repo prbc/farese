@@ -19,7 +19,11 @@ $theme-colors: (
   dark: #003052
 );
 
+$text-muted: #00243D;
+
 $bg-light:                  #0083e0;
+
+$bg-white: #FFFFFF;
 
 // Options
 //
@@ -67,4 +71,4 @@ html,body {
   scroll-behavior: smooth;
 
 }$body-bg: white;
-@import 'bootstrap-4.0.0-beta.1'
+@import 'bootstrap-4.0.0'
