@@ -12,10 +12,10 @@
          },
          "properties":{  
             "name":"Berean Bible Church",
-            "address":"87 Thagoona-Haigslea Road Thagoona Qld 4306 ",
+            "address":"87 Thagoona Haigslea Road, Thagoona QLD 4306",
             "region":"AUS",
             "website":"http://www.bbcq.org",
-            "note":"<br>Telephone: 61-7-54642778</font>\n<br>Cane, Troy</font>\n<br>Turnbull, Doug</font>\n<br><a href=\"mailto:troy@bbcq.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<br>Telephone: 61-7-54642778</font>\n<br>Troy Cane</font>\n<br>Paul Caswell</font>\n<br><a href=\"mailto:troy@bbcq.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
 
          }
       },
@@ -92,13 +92,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -59.589500,
-               13.1046208
+               -59.574759,
+               13.106736
             ]
          },
          "properties":{  
             "name":"Covenant Reformed Baptist Church",
-            "address":"Howells Rd, Bridgetown",
+            "address":"Pasture Road, Haggatt Hall, St. Michael, Barbados",
             "region":"BB",
             "website":"http://www.crbcbarbados.com/",
             "note":"<br>Contact number: 246-261-9220"
@@ -330,16 +330,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -75.75176,
-               45.277215
+               -75.8896045,
+               45.2198204 
             ]
          },
          "properties":{  
-            "name":"Grace Baptist Church Ottawa",
-            "address":"68 Alberni Street, Ottawa, ON K2J 2M6",
+            "name":"Grace Baptist Church of Ottawa",
+            "address":"2470 Huntley Rd, Stittsville, ON K2S 1B8",
             "region":"CAN",
             "website":"http://www.gracebaptistottawa.com/",
-            "note":"<p>(613) 843-1593</font>\n<br>Lennox: Rory</font>\n<p><a href=\"mailto:info@gracebaptistottawa.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<p>(613)-838-5247</p>"
          }
       },
       {  
@@ -826,13 +826,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               9.761296,
-               52.374485
+               9.74855300,
+               52.3649814
             ]
          },
          "properties":{  
             "name":"Hannover International Bible Church",
-            "address":"Schackstrasse 4, 30175 Hannover",
+            "address":"Schlägerstraße 5, 30171 Hannover",
             "region":"DEU",
             "website":"http://www.hannoveribc.com/",
             "note":"<p>Phone: 05141 93 17 13</font>\n<br>Pastor Bob Hnat</font>\n<br><i>(English Speaking)</font></i>\n<p><a href=\"mailto:the_hnats@t-online.de\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
@@ -1644,13 +1644,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               121.774017,
-               12.879721
+               123.841462,
+               8.144373
             ]
          },
          "properties":{  
             "name":"Ozamiz Reformed Baptist Church",
-            "address":"634 - A Burgos St., Tinago, Ozamiz City, Misamis Occidenta, 7200 Philippines",
+            "address":"634 - A Burgos Street, Tinago, Ozamiz City, Misamis Occidental, Philippines",
             "region":"PHL",
             "website":"http://orbc.yolasite.com/",
             "note":"<p>Pastor Van Dominic Cagulada&nbsp;</font>\n<br>Tel. (0917) 442-7300</font>\n<br><a href=\"mailto:vandominic@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Pastor Cristy Docdoc</font>\n<br>Bliss Project, Libertad, Kolambugan,</font>\n<br>Lanao del Norte,&nbsp;</font>\n<br>9207 Philippines&nbsp;</font>\n<br>Tel. (0927) 874 49776</font>"
@@ -1773,6 +1773,23 @@
             "region":"PHL",
             "website":"",
             "note":"<br>Joey Sarmiento</font>\n<br><a href=\"mailto:jsms@edsamail.com.ph\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               121.83493,
+               17.026757
+            ]
+         },
+         "properties":{  
+            "name":"Naguilian Reformed Baptist Church",
+            "address":"Barangay Roxas Centro, Naguilian, Isabela 3302, Philippines",
+            "region":"PHL",
+            "website":"https://www.facebook.com/naguilianreformedbaptistchurch/",
+            "note":"<br>Pastor Nestor Aboy\n<br>+1.858.336.8808<br><a href=\"mailto:thefoundationfellowship@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a><br><br>Pastor Ronaldo Bato\n<br>+63.910.696.1963<br><a href=\"mailto:batoronaldo@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -2735,6 +2752,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -112.4087505,
+               33.4561517
+            ]
+         },
+         "properties":{  
+            "name":"Heritage Baptist Church",
+            "address":"925 N Sarival Ave, Goodyear, AZ 85338",
+            "region":"AZ",
+            "website":"http://heritagebaptistaz.org/",
+            "note":""
+ 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -92.442101,
                35.088696
             ]
@@ -3186,7 +3221,7 @@
             "address":"14407 E. Rosecrans Ave. La Mirada, CA  90638",
             "region":"CA",
             "website":"http://www.reformedbaptist.net/",
-            "note":"<br>(562) 944-3366 (Church)</font>\n<br><a href=\"mailto:coleajg@earthlink.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<br><a href=\"http://www.reformedbaptist.net\">http://www.reformedbaptist.net</a></font>\n<p>Hodgins, Arden</font>\n<br>(562) 215-4882</font>\n<br><a href=\"mailto:PastorArden@ca.rr.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Thomason, George</font>\n<br><a href=\"mailto:thomason20@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "note":"<br>(562) 944-3366 (Church)</font>\n<br><a href=\"mailto:coleajg@earthlink.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<br><p>Renihan, Samuel</font>\n<br><a href=\"mailto:sam.renihan@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Thomason, George</font>\n<br><a href=\"mailto:thomason20@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
          }
       },
       {  
@@ -3823,23 +3858,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -83.879107,
-               34.27831
-            ]
-         },
-         "properties":{  
-            "name":"Grace Covenant Baptist Church of Gainesville, GA",
-            "address":"Gainesville, GA. 30504",
-            "region":"GA",
-            "website":"http://www.gracecovenantbaptist.com/",
-            "note":"<p>706-778-9374</font>\n<br>Pastor Steve Loeffler</font>\n<br><a href=\"mailto:saloeffler34@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -84.036868,
                34.359027
             ]
@@ -4011,6 +4029,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -81.904923,
+               32.1607057
+            ]
+         },
+         "properties":{  
+            "name":"Grace Truth Church",
+            "address":"1 East Railroad Street, Claxton, GA 30417",
+            "region":"GA",
+            "website":"http://gracetruth.org",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -157.836711,
                21.308751
             ]
@@ -4038,6 +4073,23 @@
             "region":"HI",
             "website":"",
             "note":"<p>(808) 737-0204</font>\n<br>Mather, Dan</font>\n<br><a href=\"mailto:dmather@hawaii.rr.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -159.3689775,
+               22.054844
+            ]
+         },
+         "properties":{  
+            "name":"Logos Christian Fellowship",
+            "address":"5864 Ohe Street, Kapa'a, HI 96746",
+            "region":"HI",
+            "website":"https://www.logoskauai.com",
+            "note":""
          }
       },
       {  
@@ -4442,10 +4494,27 @@
          },
          "properties":{  
             "name":"Heritage Bible Fellowship",
-            "address":"1720 W. 38th St. Marion, IN.  46953",
+            "address":"1720 W. 38th St. Marion, IN 46953",
             "region":"IN",
             "website":"http://www.heritagebiblefellowship.com/",
             "note":"<br>Rankin, Jeff</font>\n<p><a href=\"mailto:jkrankinclan@earthlink.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -85.9634980,
+               40.4820809
+            ]
+         },
+         "properties":{  
+            "name":"First Baptist Church",
+            "address":"325 E. Payton St. Greentown, IN 46936",
+            "region":"IN",
+            "website":"http://www.fbcgreentown.org/",
+            "note":"" 
          }
       },
       {  
@@ -4786,6 +4855,23 @@
             "region":"LA",
             "website":"http://www.trinitybaptistreformed.org/",
             "note":"<p>(225) 928-3165</font>\n<p><a href=\"mailto:trinmail@trinitybaptistreformed.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -93.7414857,
+               32.4842082
+            ]
+         },
+         "properties":{  
+            "name":"Heritage Baptist Church",
+            "address":"2801 Creswell Ave, Shreveport, LA 71104",
+            "region":"LA",
+            "website":"http://hbcshreveport.com/",
+            "note":""
          }
       },
       {  
@@ -5143,6 +5229,23 @@
             "region":"MN",
             "website":"http://www.renewinggrace.org/",
             "note":"<p>(507) 459-8240&nbsp;</font></font>\n<br>Jeff Touchinski, Pastor</font>\n<p><a href=\"mailto:jeff@renewinggrace.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -93.271097,
+               45.1380551
+            ]
+         },
+         "properties":{  
+            "name":"Resurrection Reformed Baptist Church",
+            "address":"155 Coon Rapids Blvd NW, Coon Rapids, MN 55433",
+            "region":"MN",
+            "website":"https://resurrectionrbc.org/",
+            "note":"" 
          }
       },
       {  
@@ -6233,11 +6336,11 @@
             ]
          },
          "properties":{  
-            "name":"Grace Reformed Baptist Church of Rocky Mount",
-            "address":"5645 Hunter Hill Road Rocky Mount, North Carolina",
+            "name":"Grace Reformed Baptist Church",
+            "address":"5645 Hunter Hill Road, Rocky Mount, NC 27804",
             "region":"NC",
-            "website":"http://gracereformedbaptist.org/home",
-            "note":""
+            "website":"https://www.grbcrm.org/",
+            "note":"<br>Phone: (252) 382-4331<br>P.O. Box 8906"
          }
       },
       {  
@@ -6381,6 +6484,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -81.11502860,
+               35.9056632
+            ]
+         },
+         "properties":{  
+            "name":"Covenant Bible Church",
+            "address":"3750 NC-90, Hiddenite, NC 28636",
+            "region":"NC",
+            "website":"http://www.cbctaylorsville.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.820844,
                46.826179
             ]
@@ -6517,15 +6637,15 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -84.043422,
-               39.753584
+               -73.989308,
+               39.7602099
             ]
          },
          "properties":{  
-            "name":"Kemp Road Baptist Church",
-            "address":"2991 Kemp Road  Dayton, OH 45431",
+            "name":"Arbor Church",
+            "address":"720 Burkhardt Avenue, Dayton, OH 45403",
             "region":"OH",
-            "website":"http://www.kemproadbaptist.com/",
+            "website":"http://arbor-church.com/",
             "note":"<p>(937) 426-1999&nbsp;</font>\n<br>Woodman, Steve</font>\n<br>Danube, Tom</font>\n<br>Raquet, John</font>\n<p><a href=\"mailto:kerobach@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
@@ -6560,7 +6680,41 @@
             "address":"5926 Meteor Avenue Toledo, Ohio 43623",
             "region":"OH",
             "website":"http://www.prbctoledo.org/",
-            "note":"<p>(419) 472-1993</font>\n<br>Charles, David&nbsp;</font>\n<br>Gokey, Bernie</font>\n<p><a href=\"mailto:david-charles@msn.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"<p>(419) 472-1993</font>\n<br>David Charles&nbsp;</font>\n<br>Tom Wesenberg</font>\n<p><a href=\"mailto:david-charles@msn.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -83.8242369,
+               39.86960500
+            ]
+         },
+         "properties":{  
+            "name":"Springfield Bible Baptist Church",
+            "address":"3791 Petre Road, Springfield, OH 45502",
+            "region":"OH",
+            "website":"https://sbbcgracegospel.blogspot.com",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -84.3972304,
+               39.3492291
+            ]
+         },
+         "properties":{  
+            "name":"The King’s Chapel",
+            "address":"6840 Fountains Blvd, West Chester, OH 45069",
+            "region":"OH",
+            "website":"https://kingschapelbaptist.org/",
+            "note":""
          }
       },
       {  
@@ -6756,16 +6910,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -123.112165,
-               45.245845
+               -123.193868,
+               45.212502
             ]
          },
          "properties":{  
-            "name":"Bible Baptist Church of Lafayette",
-            "address":"514 Market Streets Lafayette, OR. 97127",
+            "name":"Bible Baptist Church",
+            "address":"600 NE Evans Street, McMinnville, Oregon",
             "region":"OR",
-            "website":"http://www.sites.onlinemac.com/alanr",
-            "note":"<p>(503) 864-2183</font></font>\n<br>Ross, Alan&nbsp;</font>\n<p><a href=\"mailto:alanr@onlinemac.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"https://www.facebook.com/bbclafayette/",
+            "note":"<p>(503) 864-2183</font></font>\n<br>Pastor Shawn Magoon&nbsp;</font>\n<p><a href=\"mailto:shawnmagoon1@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -6858,16 +7012,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -122.974981,
-               45.324848
+               -123.174577,
+               45.295426
             ]
          },
          "properties":{  
-            "name":"Sovereign Grace Bible Church",
-            "address":"501 Foothills Drive Newberg, OR 97132",
+            "name":"Grace Baptist Church",
+            "address":"North 2nd & East Monroe Street, Carlton, Oregon 97111",
             "region":"OR",
-            "website":"",
-            "note":"<p>(503) 537-1057</font>\n<br>Shawn Magoon</font>\n<br><a href=\"mailto:shawnmagoon1@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://gbccarlton.org/",
+            "note":"(971) 241-5021\n<br>Pastor Alan Hurty"
          }
       },
       {  
@@ -7592,16 +7746,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -86.714352,
-               36.2562
+               -86.7738830,
+               36.296088
             ]
          },
          "properties":{  
             "name":"Reformed Baptist Church of Nashville",
-            "address":"P.O. Box 824 Madison, TN  37115",
+            "address":"4479 Jackson Road, Whites Creek, TN 37189",
             "region":"TN",
             "website":"http://www.rbcnashville.org/",
-            "note":"<p>(615) 424-3861</font>\n<br>Gambill, Stephen</font>"
+            "note":"<p>(615) 424-3861"
          }
       },
       {  
@@ -7983,13 +8137,13 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -95.176075,
-               29.657401
+               -95.1711791,
+               29.6539079
             ]
          },
          "properties":{  
             "name":"Providence Baptist Church",
-            "address":"4400 Vista Rd Pasadena, TX 77504",
+            "address":"3801 Preston Road, Pasadena, TX 77505",
             "region":"TX",
             "website":"http://www.providence-bc.com/",
             "note":"<p>713-910-7887</font>\n<br>Dahn, Tommy</font>\n<br><a href=\"mailto:rtdahn@providence-bc.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
@@ -8153,6 +8307,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -97.7190332,
+               30.3198032
+            ]
+         },
+         "properties":{  
+            "name":"Dayspring Fellowship",
+            "address":"5500 Avenue G, Austin, TX 78751",
+            "region":"TX",
+            "website":"dsf.org",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
@@ -8180,23 +8351,6 @@
             "region":"VT",
             "website":"http://allbygrace.org/",
             "note":"<p>(802) 483-6975&nbsp;</font>\n<br>Hugh Diggins, Ted Freeman &amp; John Beaulieu&nbsp;</font>\n<p><a href=\"mailto:ALLBYGRACE@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
-               -80.3986,
-               37.233
-            ]
-         },
-         "properties":{  
-            "name":"Alleghany Baptist Church",
-            "address":"416 Alleghany St. Blacksburg, VA  24060",
-            "region":"VA",
-            "website":"http://www.alleghanybaptistchurch.org/",
-            "note":"<br>Pastor Alpheus Atkins</font>\n<p><a href=\"mailto:alleghanybc@verizon.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
@@ -8341,23 +8495,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -79.061042,
-               38.189064
-            ]
-         },
-         "properties":{  
-            "name":"Reformed Baptist Church of Staunton",
-            "address":"1976 Springhill Road Staunton, Va.  24401",
-            "region":"VA",
-            "website":"http://www.caymandesigns.com/rbcos.htm",
-            "note":"<p>(540) 885-8934 (Church and Home)</font>\n<br>Schullery, Thomas</font>\n<p><a href=\"mailto:rbcos@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -77.366615,
                38.634449
             ]
@@ -8418,6 +8555,23 @@
             "address":"605 Front St. Lovingston, VA 22949",
             "region":"VA",
             "website":"https://www.faithreformedbaptistchurch.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.9136446,
+               38.4378189
+            ]
+         },
+         "properties":{  
+            "name":"Providence Baptist Church",
+            "address":"1441 Erickson Avenue, Harrisonburg, VA 22801",
+            "region":"VA",
+            "website":"https://www.providencebaptistchurchhburgva.com/",
             "note":""
          }
       },
@@ -8657,6 +8811,23 @@
             "region":"WI",
             "website":"http://www.ricelakebaptist.org/",
             "note":"<p>715.234.1966</font>\n<br>Svendsen, Steven</font>\n<p><a href=\"mailto:pastor@ricelakebaptist.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -88.0682603,
+               42.9334245
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Baptist Church",
+            "address":"12219 W. Janesville Road, Hales Corners, WI 53130",
+            "region":"WI",
+            "website":"http://crbc.us/",
+            "note":""
          }
       },
       {  
