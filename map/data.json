@@ -536,6 +536,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -122.792665,
+               49.067178
+            ]
+         },
+         "properties":{  
+            "name":"Surrey Reformed Baptist Church",
+            "address":"15516 36 Ave, Surrey, BC V3S 0J5",
+            "region":"CAN",
+            "website":"http://surreyreformedbaptist.ca/",
+            "note":""
+
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -74.077541,
                4.677021
             ]
