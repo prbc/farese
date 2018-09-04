@@ -4710,16 +4710,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -85.864941,
-               37.703065
+               -85.860008,
+               37.698801
             ]
          },
          "properties":{  
-            "name":"Heritage Baptist Church",
-            "address":"Elizabethtown, KY",
+            "name":"Reformed Baptist Church of Elizabethtown",
+            "address":"229 N Miles Street Elizabethtown, KY 42701",
             "region":"KY",
-            "website":"",
-            "note":"<br>Russ Brown</font>\n<p>(270) 766-2699 /home</font>\n<p><a href=\"mailto:brownrussbrown@luckymail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "website":"https://www.rbc-etown.com",
+            "note":"" 
          }
       },
       {  
