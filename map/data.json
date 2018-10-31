@@ -3298,6 +3298,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -105.1044261,
+               40.5677501
+            ]
+         },
+         "properties":{  
+            "name":"Providence Bible Church",
+            "address":"1516 W Prospect Rd, Fort Collins, CO 80526",
+            "region":"CO",
+            "website":"https://www.providence-bible.org/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -72.86643,
                41.67145
             ]
