@@ -5511,6 +5511,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -112.1236304,
+               45.8760328
+            ]
+         },
+         "properties":{  
+            "name":"Jefferson Valley Baptist Church",
+            "address":"West 8 MT Hwy 2, Whitehall, MT 59759",
+            "region":"MT",
+            "website":"http://www.jeffersonvalleybaptistchurch.org/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.041144,
                41.150411
             ]
