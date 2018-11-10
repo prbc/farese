@@ -8915,6 +8915,23 @@
             "website":"http://www.tbcwyoming.com/",
             "note":"<br><b>[We are located 75 miles\neast of Yellowstone Park]</font></font></b>\n<p>(307) 754-2660</font>\n<br>Thomas, Don</font>\n<p><a href=\"mailto:reformedtbc@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -105.59127,
+               41.312124
+            ]
+         },
+         "properties":{  
+            "name":"Laramie Faith Community Church",
+            "address":"417 E Ivinson Ave, Laramie, WY 82070",
+            "region":"WY",
+            "website":"https://www.laramiefaithcommunitychurch.org/",
+            "note":""
+         }
       }
    ]
 }
