@@ -759,6 +759,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               23.787023,
+               61.491695
+            ]
+         },
+         "properties":{  
+            "name":"Grace Baptist Church",
+            "address":"Järvensivuntie 9, 33100 Tampere",
+            "region":"FI",
+            "website":"http://www.gracebaptist.fi/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                5.830354,
                45.195463
             ]
