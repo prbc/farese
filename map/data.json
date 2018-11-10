@@ -4982,16 +4982,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -76.719142,
-               39.060823
+               -76.672155,
+               39.067077
             ]
          },
          "properties":{  
             "name":"Grace Baptist Church of Odenton",
-            "address":"2641 Strawberry Lake Way Odenton, MD  21113",
+            "address":"100 Dairy Lane, Gambrills, MD 21054",
             "region":"MD",
             "website":"http://www.gracebaptistonline.com/",
-            "note":"<br>Meeting at</font>\n<br>Piney Orchard Elementary School</font>\n<p>410-674-6679</font>\n<p><a href=\"mailto:bbrown@gracebaptistonline.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "note":"" 
          }
       },
       {  
