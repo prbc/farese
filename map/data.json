@@ -6570,6 +6570,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -80.309483,
+               36.233184
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Baptist Fellowship",
+            "address":"7911 Ketner Farm Rd, Rural Hall, NC 27045",
+            "region":"NC",
+            "website":"",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.820844,
                46.826179
             ]
