@@ -5322,16 +5322,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -89.14069,
-               31.694456
+               -89.135356,
+               31.722461
             ]
          },
          "properties":{  
             "name":"Audubon Drive Bible Church",
-            "address":"Laurel, MS 39441",
+            "address":"2601 Audubon Dr, Laurel, MS 39440",
             "region":"MS",
             "website":"http://www.audubonchurch.org/",
-            "note":"<p>601-649-8570</font>\n<br>Marcellino: Jerry</font>\n<p><a href=\"mailto:audubon@c-gate.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":""
  
          }
       },
