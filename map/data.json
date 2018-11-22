@@ -1065,16 +1065,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -6.260104,
-               53.283173
+               -6.263215,
+               53.274914
             ]
          },
          "properties":{  
-            "name":"Ballinteer Baptist Meeting",
-            "address":"Hillview Resource Centre, Ballinteer, Dublin 16. Ireland",
+            "name":"Arann Reformed Baptist Church",
+            "address":"St John’s G.A.A Club, Grange Rd, Ballinteer, Rathfarnham, Co. Dublin, Ireland",
             "region":"IRL",
-            "website":"",
-            "note":"<br>Fitzpatrick,&nbsp; Mark</font>\n<p><a href=\"mailto:balbap@eircom.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "website":"http://arann-reformed.com/",
+            "note":"" 
          }
       },
       {  
