@@ -1031,6 +1031,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               80.24793,
+               13.085567
+            ]
+         },
+         "properties":{  
+            "name":"Cornerstone Baptist Church",
+            "address":"94, Purasawalkam High Rd, Purasaiwakkam, Chennai, Tamil Nadu 600010",
+            "region":"IND",
+            "website":"http://www.cornerstonebaptist.in/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -6.20725,
                54.719534
             ]
