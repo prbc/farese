@@ -810,6 +810,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               2.352451,
+               48.863365
+            ]
+         },
+         "properties":{  
+            "name":"Église Connexion",
+            "address":"199bis Rue Saint-Martin, 75003 Paris, France",
+            "region":"FRA",
+            "website":"https://eglise-connexion.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                8.468718,
                50.580764
             ]
