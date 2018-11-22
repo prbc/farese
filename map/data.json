@@ -8444,6 +8444,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -97.406925,
+               32.543834
+            ]
+         },
+         "properties":{  
+            "name":"Rock Creek Baptist Church",
+            "address":"2009 Rock Creek Road, Crowley TX 76036",
+            "region":"TX",
+            "website":"https://www.rockcreekbc.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
