@@ -5408,16 +5408,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -90.268079,
-               32.331502
+               -90.141067,
+               32.378147
             ]
          },
          "properties":{  
             "name":"Grace Baptist Church",
-            "address":"5422 Clinton Blvd. Jackson, MS  39209",
+            "address":"5536 Ridgewood Rd, Jackson, MS 39211",
             "region":"MS",
-            "website":"http://www.gracejackson.net/",
-            "note":"<p>(601) 922-4322</font>\n<br>(601) 573-1072 - cell</font>\n<br>5422 Clinton Blvd.</font>\n<p><a href=\"mailto:thomaswinn@gracejackson.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://www.gbcjackson.org/",
+            "note":""
 
          }
       },
