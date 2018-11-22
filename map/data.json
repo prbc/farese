@@ -2839,6 +2839,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -112.258181,
+               33.606388
+            ]
+         },
+         "properties":{  
+            "name":"King's Church",
+            "address":"13450 N. Plaza Del Rio Blvd, Peoria, AZ 85381",
+            "region":"AZ",
+            "website":"http://kingschurchaz.com/",
+            "note":""
+ 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -92.442101,
                35.088696
             ]
