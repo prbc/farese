@@ -126,6 +126,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -38.21992,
+               -8.974872
+            ]
+         },
+         "properties":{  
+            "name":"Igreja Batista Emanuel Reformada",
+            "address":"Avenida Auspício Valgueiro Barros, 450, Quadra 09, Petrolândia, PE, Brazil, CEP 56460-000",
+            "region":"BRA",
+            "website":"http://igbatistareformada.blogspot.com/",
+            "note":"<p>Telephone: (005582) 99985-4116<br>Rogério Brilhante, Pastor</p>"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                105.025129,
                11.239804
             ]
