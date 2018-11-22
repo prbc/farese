@@ -5460,6 +5460,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -88.493314,
+               33.346142
+            ]
+         },
+         "properties":{  
+            "name":"Grace Covenant Baptist Church",
+            "address":"2594 Carson Rd, Crawford, MS 39743",
+            "region":"MS",
+            "website":"http://www.gcbcms.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -93.202333,
                37.029107
             ]
