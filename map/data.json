@@ -398,16 +398,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -113.578762,
-               53.492951
+               -113.737266,
+               53.452742
             ]
          },
          "properties":{  
-            "name":"Grace Reformed Baptist Church",
-            "address":"Edmonton, AB  T6H 5G9",
+            "name":"GraceLife Church",
+            "address":"51529A Range Rd 262, Spruce Grove, Alberta T7Y 1C1",
             "region":"CAN",
-            "website":"http://gracereformed.ca/",
-            "note":"<p><b>Currently Meeting in Delta\nEdmonton South Hotel &amp; Conference Centre 2nd Flr.</font></font></b>\n<br><b>(Just North of Whitemud\nDrive Between Calgary Trail &amp; Gateway Blvd.)</font></font></b>\n<br>Richards, Lyle</font>\n<br>[Mailing Address]</font></font>\n<br>5520 Riverbend Rd</font>\n<br>Apt. #115</font>\n<br>Edmonton, AB&nbsp; T6H 5G9</font>\n<p>780-433-0060</font>\n<br><a href=\"mailto:grbc@telus.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://www.gracelife.ca/",
+            "note":""
          }
       },
       {  
