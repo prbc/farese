@@ -2291,16 +2291,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -4.262362,
-               55.455121
+               -4.26159,
+               55.45522
             ]
          },
          "properties":{  
             "name":"Cumnock Baptist Church",
-            "address":"Barrhill Road, Cumnock, Ayrshire, KA18 1PG",
+            "address":"18A Barrhill Road, Cumnock, Ayrshire, KA18 1PG",
             "region":"GBR",
-            "website":"http://www.cumnockbaptist.co.uk/",
-            "note":"<br>Tel: 0044 1290 422 860</font>\n<br>Pastor Ali McLachlan</font>\n<p><a href=\"mailto:pastor@cumnockbaptist.co.uk\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"https://www.cumnockbaptistchurch.co.uk/",
+            "note":""
          }
       },
       {  
