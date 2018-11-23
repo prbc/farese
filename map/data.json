@@ -571,6 +571,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -110.676426,
+               50.040549
+            ]
+         },
+         "properties":{  
+            "name":"Grace Family Reformed Baptist Church",
+            "address":"Medicine Hat, Alberta",
+            "region":"CAN",
+            "website":"https://www.gracefamily.ca/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -74.077541,
                4.677021
             ]
