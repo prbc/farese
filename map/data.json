@@ -8530,6 +8530,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -96.383553,
+               30.628219
+            ]
+         },
+         "properties":{  
+            "name":"West Oaks Baptist Church",
+            "address":"1901 W Villa Maria Rd, Bryan, TX 77807",
+            "region":"TX",
+            "website":"https://www.westoaksbaptist.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
