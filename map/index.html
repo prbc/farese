@@ -151,21 +151,21 @@
     // Add zoom and rotation controls to the map.
     map.addControl(new mapboxgl.NavigationControl, 'top-left');
 
-  function forwardGeocoder(query) {
-      var matchingFeatures = [];
-      for (var i = 0; i < markers.features.length; i++) {
-          var feature = markers.features[i];
-          // handle queries with different capitalization than the source data by calling toLowerCase()
-          if (feature.properties.name.toLowerCase().search(query.toLowerCase()) !== -1) {
-              // add a church emoji as a prefix for custom data results
-              feature['place_name'] = '⛪ ' + feature.properties.name;
-              feature['center'] = feature.geometry.coordinates;
-              //feature['place_type'] = ['park'];
-              matchingFeatures.push(feature);
-          }
-      }
-      return matchingFeatures;
-  }
+    function forwardGeocoder(query) {
+        var matchingFeatures = [];
+        for (var i = 0; i < markers.features.length; i++) {
+            var feature = markers.features[i];
+            // handle queries with different capitalization than the source data by calling toLowerCase()
+            if (feature.properties.name.toLowerCase().search(query.toLowerCase()) !== -1) {
+                // add a church emoji as a prefix for custom data results
+                feature['place_name'] = '⛪ ' + feature.properties.name;
+                feature['center'] = feature.geometry.coordinates;
+                //feature['place_type'] = ['park'];
+                matchingFeatures.push(feature);
+            }
+        }
+        return matchingFeatures;
+    }
 
     // Add geocoder
     map.addControl(new MapboxGeocoder({
