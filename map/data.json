@@ -3333,6 +3333,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -117.431112,
+               34.424907
+            ]
+         },
+         "properties":{  
+            "name":"On the Way Reformed Baptist Church",
+            "address":"9621 Macron Street, Oak Hills, CA 92344",
+            "region":"CA",
+            "website":"https://onthewayreformedbaptisthaven.com/",
+            "note":"" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -105.04113,
                39.647845
             ]
