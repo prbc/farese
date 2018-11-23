@@ -2874,6 +2874,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -111.979065,
+               33.650784
+            ]
+         },
+         "properties":{  
+            "name":"Redeemer Reformed Baptist Church",
+            "address":"4707 E. Robert E. Lee Street, Phoenix AZ, 85032",
+            "region":"AZ",
+            "website":"https://redeemerrbc.com/",
+            "note":""
+ 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -92.442101,
                35.088696
             ]
