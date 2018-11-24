@@ -5683,6 +5683,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -90.521167,
+               37.850704
+            ]
+         },
+         "properties":{  
+            "name":"First Baptist Church of Park Hills, MO",
+            "address":"12 North Coffman Street, Park Hills, MO 63601",
+            "region":"MO",
+            "website":"http://www.fbcparkhills.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.123114,
                47.107472
             ]
