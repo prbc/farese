@@ -7185,6 +7185,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -95.918762,
+               36.017015 
+            ]
+         },
+         "properties":{  
+            "name":"Christ Reformed Church",
+            "address":"5150 E 101 St, Tulsa, OK 74137",
+            "region":"OK",
+            "website":"https://www.christreformedchurchtulsa.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -123.193868,
                45.212502
             ]
