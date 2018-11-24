@@ -8531,16 +8531,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -97.462251,
-               31.055796
+               -97.460253,
+               31.052364
             ]
          },
          "properties":{  
             "name":"Tapestry Community Church",
-            "address":"219 E Central Avenue Belton, Texas 76513",
+            "address":"505 E Avenue C, Belton, TX 76513",
             "region":"TX",
             "website":"http://tapestrycommunitychurch.org/",
-            "note":"<p>Mailing Address:&nbsp;</font>\n<br>Tapestry Community Church</font>\n<br>P.O. Box 826</font>\n<br>Belton, TX 76513</font>\n<p>Phone: (254) 433-8780</font>\n<p><a href=\"mailto:Info@TapestryCommunityChurch.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":""
          }
       },
       {  
