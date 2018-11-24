@@ -8327,16 +8327,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -98.473653,
-               29.423109
+               -98.458398,
+               29.417324
             ]
          },
          "properties":{  
             "name":"Grace Community Church",
-            "address":"315 North Hackberry San Antonio, TX  78202",
+            "address":"311 Hedges St, San Antonio, TX 78203",
             "region":"TX",
             "website":"http://www.gccsatx.com/",
-            "note":"<p>[210] 222-2030</font>\n<p>Timothy Conway, Pastor</font>\n<br>210-224-2121</font>\n<br><a href=\"mailto:timothymconway@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "note":""
          }
       },
       {  
