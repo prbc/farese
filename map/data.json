@@ -2909,16 +2909,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -92.442101,
-               35.088696
+               -92.434885,
+               35.093375
             ]
          },
          "properties":{  
-            "name":"Grace Bible Church",
-            "address":"Conway, Arkansas",
+            "name":"Grace Bible Church of Conway",
+            "address":"701 Garland St., Conway, AR 72034",
             "region":"AR",
-            "website":"",
-            "note":"<p><font face=\"Calibri\">501-505-8263</font>\n<p><a href=\"mailto:gracealone76@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://www.gbcconway.com/",
+            "note":""
          }
       },
       {  
