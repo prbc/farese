@@ -1,5 +1,10 @@
 [
 {
+   "code": "BB",
+   "display-name": "BARBADOS",
+   "file-name": "barbados"
+},
+{
    "code": "BRA",
    "display-name": "BRAZIL",
    "file-name": "brazil"
@@ -28,6 +33,11 @@
    "code": "DOM",
    "display-name": "DOMINICAN REPUBLIC",
    "file-name": "dr"
+},
+{
+   "code": "FI",
+   "display-name": "FINLAND",
+   "file-name": "finland"
 },
 {
    "code": "DEU",

@@ -9,8 +9,6 @@ def region_data():
         region_data = json.load(region_file)
         return region_data
 
-
-
 def region_display_name(region_code):
     for region in region_data():
         if region['code'] == region_code:
@@ -62,7 +60,7 @@ def generate_html(region_code, churches):
 def main():
 
     # Load up the church data
-    with open('map/data.json') as json_string:
+    with open('../map/data.json') as json_string:
         data = json.load(json_string)
 
     all_churches = data['features']
