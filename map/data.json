@@ -2461,15 +2461,15 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -4.238504,
-               57.483131
+               -4.239386,
+               57.482372
             ]
          },
          "properties":{  
-            "name":"Reformed Baptist Church of Inverness, Scotland",
-            "address":"Telford Road, Inverness, Scotland, TV3 6HN",
+            "name":"Inverness Reformed Baptist Church",
+            "address":"70-70a Telford Road, Inverness IV3 8HN, Scotland",
             "region":"GBR",
-            "website":"http://www.wicketgate.co.uk/",
+            "website":"http://inverness-rbc.org/",
             "note":"<br>Nick Needham</font>"
          }
       },
