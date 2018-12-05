@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
   <link rel="stylesheet" href="css/additional.css">
   <link rel="stylesheet" href="css/farese.css">
+  <!-- Web app manifest -->
+  <link rel="manifest" href="/manifest.webmanifest">
   <!-- Header bar theme -->
   <meta name="theme-color" content="#00538f">
   <!-- Android Chrome header color -->
@@ -118,6 +120,15 @@
       markers = json;
       document.getElementById("church_number").innerHTML = markers.features.length;
     })
+  </script>
+  <script>
+  // Check that service workers are registered
+  if ('serviceWorker' in navigator) {
+    // Use the window load event to keep the page load performant
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
   </script>
 </body>
 
