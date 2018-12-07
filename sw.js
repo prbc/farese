@@ -1594,3 +1594,24 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerRoute(
+  /.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/,
+  workbox.strategies.cacheFirst(),
+);
+
+workbox.routing.registerRoute(
+  'https://cdn.google.com/example-script.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js',
+  'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+  workbox.strategies.staleWhileRevalidate(),
+);
+
+workbox.routing.registerRoute(
+  /^https:\/\/fonts\.googleapis\.com/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'google-fonts-stylesheets',
+  })
+);
+
