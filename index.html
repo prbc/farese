@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
-  <link rel="stylesheet" href="css/additional.css">
-  <link rel="stylesheet" href="css/farese.css">
+  <link rel="stylesheet" href="/css/additional.css">
+  <link rel="stylesheet" href="/css/farese.css">
   <!-- Web app manifest -->
   <link rel="manifest" href="/manifest.webmanifest">
   <!-- Header bar theme -->
@@ -18,10 +18,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#00538f">
   <!-- iOS Safari header color -->
   <meta name="msapplication-navbutton-color" content="#00538f">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0067b2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#0067b2">
   <meta name="msapplication-TileColor" content="#2b5797">
   <!-- <meta name="theme-color" content="#0067b2"> -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,24 +38,24 @@
 <body class="bg-dark">
   <nav class="navbar navbar-expand-md bg-primary border border-primary navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href=".">Farese.com</a>
+      <a class="navbar-brand" href="/">Farese.com</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
         <ul class="navbar-nav ml-auto text-light">
           <li class="nav-item text-center">
-            <a class="nav-link" href=".">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link" href="about">About</a>
+            <a class="nav-link" href="/about/">About</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link" href="map">Map</a>
+            <a class="nav-link" href="/map/">Map</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link" href="list">List</a>
+            <a class="nav-link" href="/list/">List</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link" href="legacy">Legacy</a>
+            <a class="nav-link" href="/legacy/">Legacy</a>
           </li>
         </ul>
       </div>
@@ -95,13 +95,13 @@
             <div class="col-md-11 my-auto mx-auto">
               <h2 class="text-sm-center text-center text-primary my-auto">Find a church</h2>
               <p class="text-dark my-2 mx-auto w-100 lead">Visit the
-                <a href="map" class="text-secondary">map</a> to search by location to find a church nearby, whether at home or traveling.&nbsp;</p>
+                <a href="/map/" class="text-secondary">map</a> to search by location to find a church nearby, whether at home or traveling.&nbsp;</p>
             </div>
           </div>
         </div>
         <div class="mx-auto my-auto col-md-5">
-          <a href="map">
-            <img src="img/map-preview.png" class="img-fluid rounded my-auto"> </a>
+          <a href="/map/">
+            <img src="/img/map-preview.png" class="img-fluid rounded my-auto"> </a>
         </div>
       </div>
     </div>
@@ -121,7 +121,7 @@
   <script> 
     // Print number of churches
     var markers;
-    jQuery.getJSON("map/data.json", function(json) {
+    jQuery.getJSON("/map/data.json", function(json) {
       markers = json;
       document.getElementById("church_number").innerHTML = markers.features.length;
     })

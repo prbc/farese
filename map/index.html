@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="../css/additional.css">
-  <link rel="stylesheet" href="../css/farese.css">
+  <link rel="stylesheet" href="/css/additional.css">
+  <link rel="stylesheet" href="/css/farese.css">
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js"></script>
   <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js"></script>
@@ -35,24 +35,24 @@
 <body>
   <nav class="navbar navbar-expand-md bg-primary navbar-dark border border-primary position-static">
     <div class="container">
-      <a class="navbar-brand" href="..">Farese.com</a>
+      <a class="navbar-brand" href="/">Farese.com</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto text-light">
           <li class="nav-item text-center">
-            <a class="nav-link text-light" href="..">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link text-light" href="../about">About</a>
+            <a class="nav-link" href="/about/">About</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link text-light" href=".">Map</a>
+            <a class="nav-link" href="/map/">Map</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link text-light" href="../list">List</a>
+            <a class="nav-link" href="/list/">List</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link text-light" href="../legacy">Legacy</a>
+            <a class="nav-link" href="/legacy/">Legacy</a>
           </li>
         </ul>
       </div>
@@ -82,7 +82,7 @@
        });
 
         // Load image for pin
-        map.loadImage('../img/marker.png', function(error, image) {
+        map.loadImage('/img/marker.png', function(error, image) {
             if (error) throw error;
             map.addImage('pin', image);
             // Add a layer showing the markers.
