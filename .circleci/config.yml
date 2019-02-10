@@ -13,7 +13,7 @@ jobs:
           command: pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync . s3://farese.com/ --delete --cache-control max-age=3600 --exclude ".git/*" --exclude ".circleci/*" --exclude "README.md"
+          command: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".circleci/*" --exclude "README.md"
       - run:
           name: Invalidate Cloudfront cache
           command: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
