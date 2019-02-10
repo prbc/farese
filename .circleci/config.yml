@@ -1,8 +1,5 @@
 version: 2
 jobs:
-  build:
-    steps:
-      - checkout
   deploy:
     docker:
       - image: python:alpine
