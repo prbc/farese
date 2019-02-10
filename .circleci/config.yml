@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    steps:
+      - checkout
+  deploy:
+    docker:
+      - image: python:alpine
+        environment:
+          AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+          AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+    steps:
+      - checkout
+      - run:
+          name: Install awscli
+          command: pip install awscli
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync site/ s3://farese.com/ --delete
