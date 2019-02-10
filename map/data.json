@@ -7321,6 +7321,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -123.109735,
+               44.385622
+            ]
+         },
+         "properties":{  
+            "name":"Grace in Halsey",
+            "address":"411 W. 2nd Street, Halsey, OR, 97348",
+            "region":"OR",
+            "website":"https://graceinhalsey.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -75.308151,
                41.321742
             ]
