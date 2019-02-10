@@ -13,7 +13,7 @@ jobs:
           command: pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync site/ s3://farese.com/ --delete
+          command: aws s3 sync . s3://farese.com/ --delete
 
 workflows:
   version: 2
