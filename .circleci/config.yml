@@ -14,6 +14,7 @@ jobs:
       - run:
           name: Deploy to S3
           command: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".circleci/*" --exclude "README.md"
+          command: aws s3 cp s3://farese.com/sw.js s3://farese.com/sw.js --metadata-directive REPLACE --cache-control no-cache
       - run:
           name: Invalidate Cloudfront cache
           command: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
