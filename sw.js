@@ -28,7 +28,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/additional.css",
-    "revision": "1064fe66d2cafea80480420151a830ef"
+    "revision": "4658fc6b4e690f3077318a241240858c"
   },
   {
     "url": "css/farese.css",
@@ -96,11 +96,11 @@ self.__precacheManifest = [
   },
   {
     "url": "map/index.html",
-    "revision": "f8ff484e02924f34aaf35f519f67afa2"
+    "revision": "e0cc0e03947818d6aee3e2feb0d92c01"
   },
   {
     "url": "workbox-config.js",
-    "revision": "5068c48e0e55e86fcbdc5d6eec0dc518"
+    "revision": "07ecb312712b84e84ac56bdfe754fd2c"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
