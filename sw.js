@@ -100,10 +100,12 @@ self.__precacheManifest = [
   },
   {
     "url": "workbox-config.js",
-    "revision": "07ecb312712b84e84ac56bdfe754fd2c"
+    "revision": "fb3adfaba5e712953f2d28d8c2a9f5a5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.precaching.cleanupOutdatedCaches();
 
 workbox.routing.registerRoute(/.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", new workbox.strategies.StaleWhileRevalidate(), 'GET');

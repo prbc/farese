@@ -1,6 +1,7 @@
 module.exports = {
   skipWaiting: true,
   clientsClaim: true,
+  cleanupOutdatedCaches: true,
   globDirectory: ".",
   globPatterns: [
     "**/*.{html,css,png,htm,gif,jpg,json,js,webmanifest}"
