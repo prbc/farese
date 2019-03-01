@@ -20,12 +20,12 @@ jobs:
       - run:
           name: Invalidate Cloudfront cache
           command: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
+    branches:
+      only:
+        - master
 
 workflows:
   version: 2
   deploy:
     jobs:
       - deploy
-    branches:
-      only:
-        - master
