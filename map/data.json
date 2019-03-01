@@ -8667,6 +8667,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -95.557296,
+               29.967072
+            ]
+         },
+         "properties":{  
+            "name":"North Houston Baptist Church",
+            "address":"10420 Grant Rd, Houston, TX 77070",
+            "region":"TX",
+            "website":"https://www.northhoustonbaptist.org/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -112.055685,
                41.15892
             ]
