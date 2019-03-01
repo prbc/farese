@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.0.0/workbox-sw.js");
 
-workbox.skipWaiting();
-workbox.clientsClaim();
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -103,8 +103,7 @@ self.__precacheManifest = [
     "revision": "07ecb312712b84e84ac56bdfe754fd2c"
   }
 ].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/, workbox.strategies.cacheFirst(), 'GET');
-workbox.routing.registerRoute("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/, new workbox.strategies.CacheFirst(), 'GET');
+workbox.routing.registerRoute("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", new workbox.strategies.StaleWhileRevalidate(), 'GET');
