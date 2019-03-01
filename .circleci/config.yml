@@ -1,9 +1,6 @@
 version: 2
 jobs:
   deploy:
-    branches:
-      only:
-        - master
     docker:
       - image: python:alpine
         environment:
@@ -29,3 +26,6 @@ workflows:
   deploy:
     jobs:
       - deploy
+    branches:
+      only:
+        - master
