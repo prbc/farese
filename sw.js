@@ -100,12 +100,18 @@ self.__precacheManifest = [
   },
   {
     "url": "workbox-config.js",
-    "revision": "2a5c057b9dee0109589327e831776602"
+    "revision": "586a03306a94ec46f5307127aa7aa1f9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.precaching.cleanupOutdatedCaches();
 
+workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|svg)$/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/.*farese\.com\/legacy/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https:\/\/fonts\.googleapis\.com/, new workbox.strategies.CacheFirst(), 'GET');
+workbox.routing.registerRoute("https://cdn.google.com/example-script.min.js", new workbox.strategies.CacheFirst(), 'GET');
+workbox.routing.registerRoute("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js", new workbox.strategies.CacheFirst(), 'GET');
+workbox.routing.registerRoute("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js", new workbox.strategies.CacheFirst(), 'GET');
+workbox.routing.registerRoute("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", new workbox.strategies.CacheFirst(), 'GET');
