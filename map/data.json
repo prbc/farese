@@ -5512,23 +5512,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -89.829532,
-               34.96176
-            ]
-         },
-         "properties":{  
-            "name":"Christ Covenant Church",
-            "address":"Olive Branch, MS 38654",
-            "region":"MS",
-            "website":"http://www.christcovenantob.org/",
-            "note":"<p>(901) 494-3125</font></font>\n<br>David McCrory - Pastor</font>\n<p><a href=\"mailto:christcovenant@ymail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -89.130139,
                30.968814
             ]
