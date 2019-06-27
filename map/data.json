@@ -4253,6 +4253,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -84.9732546,
+               34.7845319
+            ]
+         },
+         "properties":{  
+            "name":"Reformation Baptist Church of Dalton",
+            "address":"825 Chattanooga Ave, Dalton, GA, 30720",
+            "region":"GA",
+            "website":"http://reformationdalton.com/",
+            "note":"Meeting each Lord's Day at The Native Kitchen"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -157.836711,
                21.308751
             ]
