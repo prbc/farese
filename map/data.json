@@ -3402,6 +3402,24 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -121.233796,
+               37.933539
+            ]
+         },
+         "properties":{  
+            "name":"Bethany Baptist Church",
+            "address":"3372 S. Highway 99, Stockton, CA 95215",
+            "region":"CA",
+            "website":"https://www.bbcstockton.church",
+            "note":"Pastor: <br>209-425-3570",
+            "note":"Kyle Fitzgerald<br>209-425-3570<br><a href=\"mailto:bbcstockton@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -105.04113,
                39.647845
             ]
