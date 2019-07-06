@@ -2977,23 +2977,6 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -120.947392,
-               37.590418
-            ]
-         },
-         "properties":{  
-            "name":"Berean Baptist Church",
-            "address":"2609 Lawrence St Ceres, CA 95307",
-            "region":"CA",
-            "website":"http://www.bereanbaptist.info/",
-            "note":"<br>Robert Cole</font>\n<p>[Mailing Address]</font>\n<br>PO Box 576505</font>\n<br>Modesto, CA 95357</font>\n<p>Phone: (209) 622-3762</font>\n<p><a href=\"mailto:pastor.rcole@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
-         }
-      },
-      {  
-         "type":"Feature",
-         "geometry":{  
-            "type":"Point",
-            "coordinates":[  
                -117.890178,
                33.915148
             ]
