@@ -1543,16 +1543,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               172.649018,
-               -43.554961
+               172.616124,
+               -43.5097637
             ]
          },
          "properties":{  
             "name":"Grace Baptist Church",
-            "address":"60 Riverlaw Terrace, St Martins, Christchurch 8022, New Zealand",
+            "address":"125 Heaton Street, Christchurch, New Zealand",
             "region":"NZL",
             "website":"http://www.gracebaptist.org.nz/",
-            "note":"<p>+64 (03) 337 4067</font>\n<br>Rob Harrod</font>\n<p><a href=\"mailto:robharrod@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "note":"+64 3 3390214<br>Rob Harrod<br><a href=\"mailto:robharrod@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
          }
       },
       {  
