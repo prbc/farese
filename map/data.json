@@ -3947,6 +3947,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -82.0622358,
+               28.8016845
+            ]
+         },
+         "properties":{  
+            "name":"First Baptist Church",
+            "address":"2112 Central Ave, Coleman, FL 33521",
+            "region":"FL",
+            "website":"",
+            "note":"Pastor Stephen King<br>352-748-4114<br>The First Baptist Church of Coleman affirms the five Solas of the Protestant Reformation." 
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -84.736956,
                33.710486
             ]
