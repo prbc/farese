@@ -6828,6 +6828,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -98.0049651,
+               46.9279409
+            ]
+         },
+         "properties":{  
+            "name":"Pilgrims Reformed Baptist Church",
+            "address":"204 5th St NW, Valley City, ND 58072",
+            "region":"ND",
+            "website":"https://pilgrimsrbc.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -82.718799,
                40.053483
             ]
