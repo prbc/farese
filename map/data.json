@@ -9128,6 +9128,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -123.4404291,
+               48.1122343
+            ]
+         },
+         "properties":{  
+            "name":"Peninsula Bible Church",
+            "address":"124 W 9th St, Port Angeles, WA 98362",
+            "region":"WA",
+            "website":"https://www.peninsulabiblechurch.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -81.22232,
                37.26984
             ]
