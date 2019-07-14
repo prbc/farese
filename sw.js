@@ -89,7 +89,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/data.json",
-    "revision": "4caf8a75a2df7a05abb57f9602dabff8"
+    "revision": "9ce9274b84b3b81e83ae1d8263618355"
   },
   {
     "url": "map/email.gif",

@@ -6794,6 +6794,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -78.447589,
+               35.983117
+            ]
+         },
+         "properties":{  
+            "name":"Reformation Baptist Church",
+            "address":"8229 Zebulon Rd, Youngsville, NC 27596",
+            "region":"NC",
+            "website":"http://reformationbaptistchurch.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -96.820844,
                46.826179
             ]
