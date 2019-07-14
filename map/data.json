@@ -8107,6 +8107,23 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
+               -82.504574,
+               36.48567
+            ]
+         },
+         "properties":{  
+            "name":"Christ Bible Church",
+            "address":"4020 Fort Henry Dr Kingsport, TN 37663",
+            "region":"TN",
+            "website":"http://www.christbiblechurchkingsport.com/",
+            "note":""
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
                -98.89706,
                29.152825
             ]
