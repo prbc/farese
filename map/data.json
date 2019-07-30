@@ -8226,16 +8226,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -97.677984,
-               30.633262
+               -97.617472,
+               30.64387
             ]
          },
          "properties":{  
             "name":"Emmanuel Reformed Baptist Church",
-            "address":"Georgetown, Texas",
+            "address":"5030 East State Highway 29, Georgetown, TX 78626",
             "region":"TX",
-            "website":"http://emmanuelrbc.com/",
-            "note":"<br>Pastor Bob Curley</font>\n<p>We are a new church plant and will begin services\non July 8, 2012 in the Georgetown Public Library at 10:00 a.m.&nbsp;</font>\n<p><a href=\"mailto:emmanuelrbc@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"https://emmanuelreformedbaptistchurch.com/",
+            "note":"Pastor Bob Curley<br>Pastor Steve Garrick<br>Pastor Matt Vincent"
          }
       },
       {  
