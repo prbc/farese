@@ -109,10 +109,10 @@
               .setLngLat(feature.geometry.coordinates)
               // Should look like:
               // <h4>Church Name</h4>
-              // Address (links to a corresponding http://maps.apple.com/?q=51.507269,-0.127695 to open maps externally)
+              // Address (links to Google Maps to open maps externally)
               // Website (links to the appropriate url)
-              // Note 
-		       .setHTML('<h4>'+feature.properties.name+'</h4>'  + '<div id="address"><a href="http://maps.apple.com/?q=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.address + '</a></div>' + '<div id="website"><a href="'+feature.properties.website+'">'+feature.properties.website+'</a></div>' + '<p>' + feature.properties.note + '</p>')
+              // Note
+              .setHTML('<h4>'+feature.properties.name+'</h4>'  + '<div id="address"><a href="https://www.google.com/maps/search/?api=1&query=' + feature.properties.address + '">' + feature.properties.address + '</a></div>' + '<div id="website"><a href="'+feature.properties.website+'">'+feature.properties.website+'</a></div>' + '<p>' + feature.properties.note + '</p>')
               .addTo(map);
 
            // Pan to clicked marker
