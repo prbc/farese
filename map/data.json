@@ -2019,16 +2019,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               28.167333,
-               -26.220692
+               28.175030,
+               -26.235659
             ]
          },
          "properties":{  
             "name":"Germiston Baptist Church",
-            "address":"corner Angus/ Queen St. Germiston South",
+            "address":"80 Webber Rd, Klippoortjie AH, Germiston, 1401, South Africa",
             "region":"ZAF",
-            "website":"",
-            "note":"<br>Eskinazi: Roland</font>\n<br>Herd: Bruce</font>\n<br><a href=\"mailto:eskinazi@mweb.co.za\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"www.germistonbaptist.co.za",
+            "note":""
          }
       },
       {  
