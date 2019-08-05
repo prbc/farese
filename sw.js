@@ -25,7 +25,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "510b813ad011c3c002d27668f555e9f5"
+    "revision": "67522db4c3fe60ae7e87986ba99874d4"
   },
   {
     "url": "css/additional.css",
@@ -77,11 +77,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "449420b80ad8c329f48a09a4afd54a7b"
+    "revision": "ae2a085690192d219ee64a793b8fcff6"
   },
   {
     "url": "list/index.html",
-    "revision": "e91b448dd6d7dd965b3800b2e5db53bb"
+    "revision": "949548f94df057bb895913f6f56552fe"
   },
   {
     "url": "manifest.webmanifest",
@@ -97,7 +97,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/index.html",
-    "revision": "c217b38495540a50f5b3ccf60a4afbf2"
+    "revision": "794879bb45a71a27f5e1c5368c5842db"
   },
   {
     "url": "workbox-config.js",
