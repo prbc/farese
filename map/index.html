@@ -161,9 +161,10 @@
     // Add geocoder
     map.addControl(new MapboxGeocoder({
         accessToken: mapboxgl.accessToken,
-	localGeocoder: forwardGeocoder,
+        localGeocoder: forwardGeocoder,
         placeholder: "Search by location or church",
         limit: 5,
+        collapsed: true
     }));
 
     // Add geolocate control 
