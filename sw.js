@@ -33,7 +33,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/farese.css",
-    "revision": "24a1f4f309b2dc96cd6781b81f6edb50"
+    "revision": "deb500a1530b0a681b3feceacb4cf3b7"
   },
   {
     "url": "img/icons/192.png",
