@@ -3981,16 +3981,16 @@
          "geometry":{  
             "type":"Point",
             "coordinates":[  
-               -84.197169,
-               33.880585
+               -84.2109548,
+               33.8496111
             ]
          },
          "properties":{  
             "name":"Atlanta Reformation Fellowship",
-            "address":"4651 Britt Road Norcross, GA 30093",
+            "address":"4320 Cowan Rd, Tucker, GA 30084",
             "region":"GA",
             "website":"http://www.atlantareformationfellowship.com/",
-            "note":"<br><font face=\"Arial,Helvetica\">Lucky Shoals Community Center ~&nbsp;\nBall Room</font>\n<p><font face=\"Arial,Helvetica\">770-493-3623</font><font face=\"Arial,Helvetica\"></font>\n<p><a href=\"mailto:admin@arborheightsbc.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>" 
+            "note":"" 
          }
       },
       {  
