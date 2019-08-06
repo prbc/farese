@@ -6811,6 +6811,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -79.382363,
+               36.514535
+            ]
+         },
+         "properties":{
+            "name":"Covenant Reformed Baptist Church",
+            "address":"6611 Old North Carolina Hwy 86, Providence, NC 27315",
+            "region":"NC",
+            "website":"https://covenantcaswell.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.820844,
                46.826179
             ]
