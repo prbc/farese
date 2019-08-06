@@ -59,7 +59,7 @@
 
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v9',
+        style: 'mapbox://styles/mapbox/streets-v11',
         center: [0,0],
         zoom: .7,
         hash: true,
@@ -165,6 +165,7 @@
         placeholder: "Search by location or church",
         limit: 5,
         collapsed: true,
+        marker: false,
         render: function(item) {
             return '<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">' + item.text + '</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">' + item.place_name + '</div></div>';
         },
