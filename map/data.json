@@ -5121,16 +5121,16 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -69.96387,
-               43.93172
+               -69.968553,
+               43.914775
             ]
          },
          "properties":{
-            "name":"Grace Community Church",
-            "address":"47 Pleasant St, Topsham, ME 04086",
+            "name":"Grace Reformed Baptist Church",
+            "address":"35 Union St, Brunswick, ME 04011",
             "region":"ME",
-            "website":"",
-            "note":"<br><font face=\"Calibri\">Ronald Baines</font>\n               <br><font face=\"Calibri\"><font color=\"#CC0000\">(meeting at the Topsham\n                     Grange Hall)</font></font>\n               <p><font face=\"Calibri\">(207) 725-4240</font>\n               <br><a href=\"mailto:ronald.baines@verizon.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n               <p><b><font face=\"Calibri\"><font color=\"#000099\">Sunday Worship at 11:00\n               a.m.</font></font></b>\n               <p><font face=\"Calibri\"><font color=\"#CC0000\">Directions:</font>&nbsp;\n            From route 295 take exit 31 (from the south) or 31A (from the north) and\n               head south on Route 196 for approximately 1 mile. Turn right onto route\n               201 (Lee\u2019s Toyota Dealership is on the corner) and travel approximately\n               0.2 miles turning left onto Pleasant St.&nbsp; The Grange Hall is the large\n               yellow build on your left.</font></td>"
+            "website":"http://www.grbcme.org/",
+            "note":"760-443-5148<br>Pastor Micah Renihan"
          }
       },
       {
