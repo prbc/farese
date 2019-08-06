@@ -6828,6 +6828,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -78.442991,
+               36.016363
+            ]
+         },
+         "properties":{
+            "name":"Sovereign Redeemer Community Church",
+            "address":"703 Tarboro Road, Youngsville, NC 27596",
+            "region":"NC",
+            "website":"http://sovereignredeemerchurch.com/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.820844,
                46.826179
             ]
