@@ -4764,6 +4764,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -85.352665,
+               39.9355189
+            ]
+         },
+         "properties":{
+            "name":"Christ Reformed Baptist Church",
+            "address":"2630 Woodward Ave, New Castle, IN 47362",
+            "region":"IN",
+            "website":"http://www.crbc.faith/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -92.5768,
                41.965646
             ]
