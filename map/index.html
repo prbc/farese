@@ -148,9 +148,9 @@
             // handle queries with different capitalization than the source data by calling toLowerCase()
             if (feature.properties.name.toLowerCase().search(query.toLowerCase()) !== -1) {
                 // add a church emoji as a prefix for custom data results
-                feature['place_name'] = '⛪ ' + feature.properties.name;
+                feature['text'] = '⛪ ' + feature.properties.name;
                 feature['center'] = feature.geometry.coordinates;
-                feature['address'] = feature.properties.address;
+                feature['place_name'] = feature.properties.address;
                 //feature['place_type'] = feature.properties.region;
                 matchingFeatures.push(feature);
             }
@@ -166,7 +166,7 @@
         limit: 5,
         collapsed: true,
         render: function(item) {
-            return '<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">' + item.place_name + '</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">' + item.address + '</div></div>';
+            return '<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">' + item.text + '</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">' + item.place_name + '</div></div>';
         },
         //mapboxgl: mapboxgl
     }));
