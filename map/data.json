@@ -4271,6 +4271,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -84.5676395,
+               33.8247678
+            ]
+         },
+         "properties":{
+            "name":"Westside Baptist Church",
+            "address":"225 Fontaine Rd SW, Mableton, GA 30126",
+            "region":"GA",
+            "website":"https://wbcfamily.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -157.836711,
                21.308751
             ]
