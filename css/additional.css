@@ -28,6 +28,7 @@ body {
 }
 
 .mapboxgl-popup-content {
+    font-family: Cantarell;
     text-align: center;
     border-radius: 10px !important;
     padding: 0 !important;

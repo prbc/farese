@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/additional.css",
-    "revision": "4658fc6b4e690f3077318a241240858c"
+    "revision": "22d43ea7855189afc82777950a877fe8"
   },
   {
     "url": "css/farese.css",
