@@ -2977,23 +2977,6 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -117.890178,
-               33.915148
-            ]
-         },
-         "properties":{
-            "name":"Brea Center Baptist Church",
-            "address":"251 S. Randolph Ave., Suite B Brea, CA 92821",
-            "region":"CA",
-            "website":"http://www.breacenterchurch.org/",
-            "note":"<br>Pastor Glenn</font>\n<p>714-529-4109</font>\n<br>714-529-4150 (Fax)</font>\n<p><a href=\"mailto:office@breacenterchurch.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
                -118.360527,
                33.893478
             ]
