@@ -62,3 +62,7 @@ body {
 .mapboxgl-popup-close-button {
     display: none;
 }
+
+.mapboxgl-ctrl-geocoder--input {
+    font-family: Cantarell !important;
+}
