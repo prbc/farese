@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/additional.css",
-    "revision": "22d43ea7855189afc82777950a877fe8"
+    "revision": "06315b6538a5d45fff98cbb31a0bb5e5"
   },
   {
     "url": "css/farese.css",
@@ -97,7 +97,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/index.html",
-    "revision": "9cbd2df02f69eb110599d93c41b33e71"
+    "revision": "56ecd00bb925fd048b46b88b16a942d5"
   },
   {
     "url": "workbox-config.js",
