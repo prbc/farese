@@ -3947,6 +3947,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -83.3709005,
+               29.6769839
+            ]
+         },
+         "properties":{
+            "name":"Fellowship Baptist Church",
+            "address":"13 15th St East, Steinhatchee, FL 32359 ",
+            "region":"FL",
+            "website":"https://steinhatcheefellowship.com/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -84.736956,
                33.710486
             ]
