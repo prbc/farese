@@ -5922,23 +5922,6 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -119.907667,
-               39.633278
-            ]
-         },
-         "properties":{
-            "name":"City On A Hill Church",
-            "address":"7808 Anchor Point Dr. Reno, NV 89506",
-            "region":"NV",
-            "website":"http://www.cityonahillreno.org/",
-            "note":"<p>(775) 742-9478</font>\n<p>Ken Gerlits - pastor</font>\n<br><a href=\"mailto:pastorken@cityonahillreno.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<a href=\"https://www.facebook.com/cityonahillreno\">https://www.facebook.com/cityonahillreno</a>"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
                -119.801229,
                39.491523
             ]
