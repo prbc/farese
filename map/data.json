@@ -3913,6 +3913,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -82.546988,
+               30.004103
+            ]
+         },
+         "properties":{
+            "name":"Providence Village Baptist Church",
+            "address":"4504 W State Rd 238, Lake Butler, FL 32054",
+            "region":"FL",
+            "website":"http://www.providencevillage.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -84.736956,
                33.710486
             ]
