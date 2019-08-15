@@ -3862,23 +3862,6 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -80.298663,
-               26.135566
-            ]
-         },
-         "properties":{
-            "name":"Westgate Baptist Church",
-            "address":"901 N.W. 112th Avenue Plantation, FL  33325",
-            "region":"FL",
-            "website":"http://www.westgatebaptist.org/",
-            "note":"<p>(954) 472-6852</font>\n<p>Bernat, John</font>\n<br><a href=\"mailto:BernatJohn@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p>Evans, Darin</font>\n<br><a href=\"mailto:darin@westgatebaptist.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
                -82.3801844,
                29.8174346
             ]
