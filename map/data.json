@@ -3981,6 +3981,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -84.2768508,
+               30.4444747
+            ]
+         },
+         "properties":{
+            "name":"Providence Reformed Baptist Church",
+            "address":"501 East Tennessee St, Tallahassee, Florida, 32308",
+            "region":"FL",
+            "website":"http://providencetallahassee.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -84.736956,
                33.710486
             ]
