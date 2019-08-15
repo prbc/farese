@@ -3879,23 +3879,6 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -82.4,
-               29.71
-            ]
-         },
-         "properties":{
-            "name":"West Pointe Baptist Ministries",
-            "address":"Gainesville, Florida 32635",
-            "region":"FL",
-            "website":"",
-            "note":"<p>(352) 472-8585</font>\n<br>Steven H. Woodbury</font>\n<p><a href=\"mailto:S.H.Woodbury@juno.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<p><b>Information</font></b>:\nPastor is organizing a core group for the purpose of planting a historic\nBaptist church in west Gainesville. The targeted community is along C.R.\n241 near the end of 39th Avenue just west of I-75. Please contact the pastor\nfor further information.</font>"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
                -82.3801844,
                29.8174346
             ]
