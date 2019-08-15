@@ -5820,6 +5820,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -111.854391,
+               48.517812
+            ]
+         },
+         "properties":{
+            "name":"Living Faith Baptist Church",
+            "address":"1075 Sanders Ave, Shelby, Montana 59474",
+            "region":"MT",
+            "website":"https://www.livingfaithbaptistchurch.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.041144,
                41.150411
             ]
