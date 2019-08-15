@@ -5854,6 +5854,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -104.1781361,
+               47.71802
+            ]
+         },
+         "properties":{
+            "name":"Fellowship Baptist Church",
+            "address":"2181 W Holly St, Sidney, MT 59270",
+            "region":"MT",
+            "website":"http://fbcsidney.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.041144,
                41.150411
             ]
