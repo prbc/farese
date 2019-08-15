@@ -3964,6 +3964,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -82.1362315,
+               29.1244956
+            ]
+         },
+         "properties":{
+            "name":"Olivet Baptist Church",
+            "address":"8495 South Magnolia Avenue, Ocala, FL 34476",
+            "region":"FL",
+            "website":"http://www.olivetocala.com/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -84.736956,
                33.710486
             ]
