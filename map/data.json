@@ -3930,6 +3930,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -80.9064467,
+               28.9920556
+            ]
+         },
+         "properties":{
+            "name":"First Baptist Church of Edgewater",
+            "address":"130 East Park Ave, Edgewater, FL 32132",
+            "region":"FL",
+            "website":"https://www.sermonaudio.com/fbcew",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -84.736956,
                33.710486
             ]
