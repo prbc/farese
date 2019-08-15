@@ -3834,10 +3834,10 @@
          },
          "properties":{
             "name":"Providence Baptist Church",
-            "address":"4471 W. Sanction Rd.  Lecanto, FL",
+            "address":"4471 W Sanction Rd, Lecanto, FL 34461",
             "region":"FL",
-            "website":"",
-            "note":"<p><b>[Mailing Address]&nbsp;</font></font></b>\n<br>PO Box 327&nbsp;</font>\n<br>Lecanto, FL&nbsp; 34460&nbsp;</font>\n<p>(352) 746-4595&nbsp;</font>\n<br>(352) 465-7846 (Fax)&nbsp;</font>\n<br>Hoffman, M. K.</font>\n<p><a href=\"mailto:m-hoffman@juno.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"http://www.pbcfl.org/",
+            "note":"Pastor Martin Hoffman<br>Pastor Steve Watson"
          }
       },
       {
