@@ -1475,16 +1475,16 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -99.133208,
-               19.432608
+               -99.130590,
+               19.319054
             ]
          },
          "properties":{
             "name":"Iglesia Bautista de la Gracia y la Verdad",
-            "address":"04831 D.F. Mexico",
+            "address":"Av. Canal de Miramontes No 2640 - Local D, Col. Avante, Delegación Coyoacán, C.P. 04460, México",
             "region":"MEX",
-            "website":"",
-            "note":"<br>Andersen, R. Wayne&nbsp;</font>\n<p>11-52-55-5656-6355 (Home)</font>\n<br>011-52-55-5594-1861 (Office)&nbsp;</font>\n<br><a href=\"mailto:director@farodegracia.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+            "website":"https://lagraciaylaverdad.org/",
+            "note":""
          }
       },
       {
