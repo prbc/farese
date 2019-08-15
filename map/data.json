@@ -8294,6 +8294,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -85.344217,
+               34.9936005
+            ]
+         },
+         "properties":{
+            "name":"Christ Reformed Baptist Church",
+            "address":"901 Scenic Hwy, Lookout Mountain, TN 37350",
+            "region":"TN",
+            "website":"https://www.crbchattanooga.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -98.89706,
                29.152825
             ]
