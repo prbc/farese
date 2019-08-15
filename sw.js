@@ -97,7 +97,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/index.html",
-    "revision": "56ecd00bb925fd048b46b88b16a942d5"
+    "revision": "762773712cac1b1b60a86406199832ee"
   },
   {
     "url": "workbox-config.js",
