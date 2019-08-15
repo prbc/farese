@@ -5905,6 +5905,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -95.945452,
+               41.214571
+            ]
+         },
+         "properties":{
+            "name":"Emmaus Bible Church",
+            "address":"4501 South 23rd Street, Omaha, NE 68107",
+            "region":"NE",
+            "website":"https://emmausbiblechurch.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -119.907667,
                39.633278
             ]
