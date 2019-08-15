@@ -5871,6 +5871,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -114.1576893,
+               46.2416577
+            ]
+         },
+         "properties":{
+            "name":"Grace Gospel Fellowship",
+            "address":"205 Desmet St, Hamilton, MT 59840",
+            "region":"MT",
+            "website":"http://www.gracegospelmontana.com/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.041144,
                41.150411
             ]
