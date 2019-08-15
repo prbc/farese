@@ -5837,6 +5837,23 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -112.0500846,
+               46.6172054
+            ]
+         },
+         "properties":{
+            "name":"Reformed Baptist Church of Helena",
+            "address":"75 Dunbar Avenue Helena, MT 59602",
+            "region":"MT",
+            "website":"https://reformedbaptistchurchofhelena.org/",
+            "note":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                -96.041144,
                41.150411
             ]
