@@ -481,6 +481,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-97.145936, 49.816671]
+      },
+      "properties": {
+        "name": "Grace Reformed Church",
+        "address": "26 Agassiz Dr, Winnipeg, MB R3T 2K7, Canada",
+        "region": "CAN",
+        "website": "rbcwinnipeg.ca",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-74.077541, 4.677021]
       },
       "properties": {
