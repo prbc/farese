@@ -82,7 +82,7 @@ var loadMap = function() {
 
     // Populate the popup and set its coordinates
     // based on the feature found.
-    var popup = new mapboxgl.Popup()
+    var popup = new mapboxgl.Popup({closeButton: false})
       .setLngLat(feature.geometry.coordinates)
       // Should look like:
       // <h4>Church Name</h4>
@@ -90,7 +90,7 @@ var loadMap = function() {
       // Website (links to the appropriate url)
       // Note
       .setHTML(
-        "<h4>" +
+        '<div id="popup"><h4>' +
           feature.properties.name +
           "</h4>" +
           '<div id="address"><a href="https://www.google.com/maps/search/?api=1&query=' +
@@ -105,16 +105,24 @@ var loadMap = function() {
           "</a></div>" +
           "<p>" +
           feature.properties.note +
-          "</p>"
+          "</p></div>"
       )
       .addTo(map);
 
+    // Get height of popup
+    var popupHeight = document.getElementById('popup').offsetHeight
+    var tipHeight = 10
+    var bottomPaddingHeight = 10
+    console.log(popupHeight);
+    console.log(popupHeight/2);
+
     // Pan to clicked marker
     if (features.length) {
-      // Get coordinates from the symbol and center the map on those coordinates
-      map.flyTo({
+      // Get coordinates from the symbol and center the map on the popup
+      map.easeTo({
         center: features[0].geometry.coordinates,
-        speed: 0.3
+        speed: 0.3,
+        offset: [0, ((popupHeight + tipHeight + bottomPaddingHeight) / 2)]
       });
     }
   });
