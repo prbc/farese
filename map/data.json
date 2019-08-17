@@ -215,20 +215,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.647814, 52.107625]
-      },
-      "properties": {
-        "name": "Fellowship Baptist Church",
-        "address": "905 Taylor St. E., Saskatoon, Saskatchewan S7H 1W3",
-        "region": "CAN",
-        "website": "",
-        "note": "<br>(306) 242-4044 Phone</font>\n<br>(306) 651-6992 Fax</font>\n<br>Pastor: Marvin Mountney</font>\n<br><a href=\"mailto:saskfbc@sasktel.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-79.44807, 44.571192]
       },
       "properties": {

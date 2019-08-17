@@ -89,7 +89,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/data.json",
-    "revision": "1b2de7a4f8fb3e2678b4ec454c8f7fde"
+    "revision": "2c636aa5b8ec272983f45ddcc62e3123"
   },
   {
     "url": "map/email.gif",
@@ -101,7 +101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "map/map.js",
-    "revision": "89e191540b9f4ffd0bd25507396925c9"
+    "revision": "afed8b479d5ef24b9fe0174a6d0b100e"
   },
   {
     "url": "workbox-config.js",
