@@ -551,14 +551,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.501785, 56.26392]
+        "coordinates": [9.408289, 56.452544]
       },
       "properties": {
         "name": "Kristuskirken Reformed Baptist Church",
-        "address": "Denmark",
+        "address": "Borgerhuset Stationen, Ll. Sct. Hans Gade 7, 8800 Viborg",
         "region": "DNK",
         "website": "www.kristuskirken.com",
-        "note": "<p><a href=\"mailto:talkingdonkeys@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\n<br>Cameron Buettel</font>\n<br><a href=\"http://onceuponacross.blogspot.com/2010/12/kristuskirken-reformed-baptist-church.html\">http://onceuponacross.blogspot.com/2010/12/kristuskirken-reformed-baptist-church.html&nbsp;</a></font>"
+        "note": ""
       }
     },
     {
