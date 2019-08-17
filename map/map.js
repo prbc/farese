@@ -33,7 +33,7 @@ var loadMap = function() {
       layout: {
         "icon-image": "pin",
         "icon-size": 0.6,
-        "icon-allow-overlap": true,
+        "icon-allow-overlap": true
       }
     });
     // Add a layer showing the labels
@@ -46,20 +46,16 @@ var loadMap = function() {
       layout: {
         "text-field": ["get", "name"],
         "text-anchor": "top",
-        "text-offset": [0,1],
-        "text-font": ['literal', [ 'Open Sans Semibold' ]],
+        "text-offset": [0, 1],
+        "text-font": ["literal", ["Open Sans Semibold"]],
         "text-size": {
-          "stops": [
-            [0,0],
-            [5,8],
-            [10,16],
-          ]
+          stops: [[0, 0], [5, 8], [10, 16]]
         }
       },
       paint: {
         "text-halo-color": "#FFFFFF",
         "text-halo-width": 1.2,
-        "text-halo-blur": .8,
+        "text-halo-blur": 0.8
       }
     });
   });
@@ -82,7 +78,7 @@ var loadMap = function() {
 
     // Populate the popup and set its coordinates
     // based on the feature found.
-    var popup = new mapboxgl.Popup({closeButton: false})
+    var popup = new mapboxgl.Popup({ closeButton: false })
       .setLngLat(feature.geometry.coordinates)
       // Should look like:
       // <h4>Church Name</h4>
@@ -110,11 +106,11 @@ var loadMap = function() {
       .addTo(map);
 
     // Get height of popup
-    var popupHeight = document.getElementById('popup').offsetHeight
-    var tipHeight = 10
-    var bottomPaddingHeight = 10
+    var popupHeight = document.getElementById("popup").offsetHeight;
+    var tipHeight = 10;
+    var bottomPaddingHeight = 10;
     console.log(popupHeight);
-    console.log(popupHeight/2);
+    console.log(popupHeight / 2);
 
     // Pan to clicked marker
     if (features.length) {
@@ -122,7 +118,7 @@ var loadMap = function() {
       map.easeTo({
         center: features[0].geometry.coordinates,
         speed: 0.3,
-        offset: [0, ((popupHeight + tipHeight + bottomPaddingHeight) / 2)]
+        offset: [0, (popupHeight + tipHeight + bottomPaddingHeight) / 2]
       });
     }
   });
