@@ -109,8 +109,6 @@ var loadMap = function() {
     var popupHeight = document.getElementById("popup").offsetHeight;
     var tipHeight = 10;
     var bottomPaddingHeight = 10;
-    console.log(popupHeight);
-    console.log(popupHeight / 2);
 
     // Pan to clicked marker
     if (features.length) {
