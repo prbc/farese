@@ -24,7 +24,7 @@ var loadMap = function() {
   map.loadImage("/img/marker.png", function(error, image) {
     if (error) throw error;
     map.addImage("pin", image);
-    // Add a layer showing the markers.
+    // Add a layer showing the markers
     map.addLayer({
       id: "markers",
       interactive: true,
@@ -33,7 +33,33 @@ var loadMap = function() {
       layout: {
         "icon-image": "pin",
         "icon-size": 0.6,
-        "icon-allow-overlap": true
+        "icon-allow-overlap": true,
+      }
+    });
+    // Add a layer showing the labels
+    map.addLayer({
+      id: "labels",
+      interactive: true,
+      type: "symbol",
+      source: "markers",
+      minzoom: 5,
+      layout: {
+        "text-field": ["get", "name"],
+        "text-anchor": "top",
+        "text-offset": [0,1],
+        "text-font": ['literal', [ 'Open Sans Semibold' ]],
+        "text-size": {
+          "stops": [
+            [0,0],
+            [5,8],
+            [10,16],
+          ]
+        }
+      },
+      paint: {
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 1.2,
+        "text-halo-blur": .8,
       }
     });
   });
