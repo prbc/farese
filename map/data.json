@@ -5844,20 +5844,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.981887, 39.332334]
-      },
-      "properties": {
-        "name": "Grace Reformed Fellowship",
-        "address": "43 South Paint Street  Chillicothe, Ohio 45601",
-        "region": "OH",
-        "website": "",
-        "note": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-81.365127, 40.864458]
       },
       "properties": {
