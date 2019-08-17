@@ -98,7 +98,7 @@ var loadMap = function() {
           '">' +
           feature.properties.address +
           "</a></div>" +
-          '<div id="website"><a href="' +
+          '<div id="website"><a href="http://' +
           feature.properties.website +
           '">' +
           feature.properties.website +
