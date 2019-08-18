@@ -5354,14 +5354,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.844911, 42.936345]
+        "coordinates": [-78.806267, 42.915121]
       },
       "properties": {
         "name": "Refreshing Springs Church",
-        "address": "34 Elam Place Buffalo, N.Y. 14214",
+        "address": "2057 Genesee St, Buffalo, NY 14211",
         "region": "NY",
-        "website": "",
-        "note": "<br>(716) 834-8209</font>\n<br>Brown, Emory</font>\n<br><a href=\"mailto:rw131@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "www.refreshingspringsministries.com",
+        "note": "(716) 834-8209</font>\n<br>Brown, Emory</font>\n<br><a href=\"mailto:rw131@aol.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
       }
     },
     {
