@@ -3492,20 +3492,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.176518, 31.666612]
-      },
-      "properties": {
-        "name": "Sovereign Grace Baptist Church",
-        "address": "121 Creekside Drive  Leesburg, Georgia 31763",
-        "region": "GA",
-        "website": "www.sgbcleesburg.com",
-        "note": "<p>(229) 894-2203&nbsp;</font>\n<br>Youngblood, Steven&nbsp;</font>\n<p><a href=\"mailto:stonewallj1863@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-84.06824, 33.237887]
       },
       "properties": {
