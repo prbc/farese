@@ -1,7 +1,5 @@
 # Farese
 
-[![CircleCI](https://circleci.com/gh/prbc/farese/tree/master.svg?style=svg)](https://circleci.com/gh/prbc/farese/tree/master)
-
 ### Contributing
 
 Hey, if you want to contribute updates, I'd appreciate it! 
