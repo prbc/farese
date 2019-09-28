@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install awscli
-      run: apt install -y awscli
+      run: sudo apt install -y awscli
     - name: Upload to S3
       run: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
     - name: Set no-cache on the service worker
