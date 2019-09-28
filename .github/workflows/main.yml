@@ -9,7 +9,17 @@ jobs:
       run: sudo apt install -y awscli
     - name: Upload to S3
       run: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: Set no-cache on the service worker
       run: aws s3 cp s3://farese.com/sw.js s3://farese.com/sw.js --metadata-directive REPLACE --cache-control no-cache
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: Invalidate Cloudfront cache
       run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        CLOUDFRONT_DISTRO_ID: ${{ secrets.CLOUDFRONT_DISTRO_ID }}
