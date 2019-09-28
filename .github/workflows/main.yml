@@ -1,0 +1,15 @@
+name: Deploy to S3
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install awscli
+      run: apt install -y awscli
+    - name: Upload to S3
+      run: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
+    - name: Set no-cache on the service worker
+      run: aws s3 cp s3://farese.com/sw.js s3://farese.com/sw.js --metadata-directive REPLACE --cache-control no-cache
+    - name: Invalidate Cloudfront cache
+      run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
