@@ -2834,6 +2834,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-106.92952, 38.544468]
+      },
+      "properties": {
+        "name": "Sojourn Church",
+        "address": "302 West Tomichi Suite B Gunnison Colorado 81230",
+        "region": "CO",
+        "website": "www.sojourngunnison.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-72.86643, 41.67145]
       },
       "properties": {
