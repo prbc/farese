@@ -5,8 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Install awscli
-      run: sudo apt install -y awscli
+    - name: Install prereqs
+      run: sudo apt install -y awscli npm
+    - name: Generate service worker
+      run: npx workbox-cli generateSW workbox-config.js
     - name: Upload to S3
       run: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
       env:
