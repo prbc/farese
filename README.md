@@ -2,13 +2,12 @@
 
 ### Contributing
 
-Hey, if you want to contribute updates, I'd appreciate it! 
+Hey, if you want to contribute updates to churches, I'd appreciate it!
 
 Using git is a whole world of its own, so send me an email or open a Github issue with any questions you have.
 
 Some prerequisites to have installed:
  - python2
- - workbox
 
 Basic instructions are:
  - Update the church listing in the `map/data.json` file
