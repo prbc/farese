@@ -551,6 +551,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-84.719712, 9.983229]
+      },
+      "properties": {
+        "name": "Iglesia de la Gracia del Señor Jesucristo",
+        "address": "Riojalandia, Provincia de Puntarenas, Barranca",
+        "region": "CRI",
+        "website": "igsj.org",
+        "note": "Frente a Zona Franca, contiguo tienda Rompe Precios."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [9.408289, 56.452544]
       },
       "properties": {
