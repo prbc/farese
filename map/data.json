@@ -1643,6 +1643,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [17.168427, 48.145873]
+      },
+      "properties": {
+        "name": "NKZ Bratislava",
+        "address": "Spoločenský dom Prievoz, Kaštieľska 30, Bratislava",
+        "region": "SVK",
+        "website": "www.nkzba.sk",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [28.23182, -26.06333]
       },
       "properties": {
