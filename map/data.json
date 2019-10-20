@@ -7342,6 +7342,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-95.641464, 32.523906]
+      },
+      "properties": {
+        "name": "Grace Baptist Church",
+        "address": "375 W Main St, Van, TX 75790",
+        "region": "TX",
+        "website": "www.facebook.com/gracebaptistvan",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-112.055685, 41.15892]
       },
       "properties": {
