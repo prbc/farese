@@ -4318,20 +4318,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.350802, 39.485981]
-      },
-      "properties": {
-        "name": "Faith Reformed Baptist Church",
-        "address": "40 Main St. Walkersville, MD",
-        "region": "MD",
-        "website": "www.faithrbc.com",
-        "note": "<p>mailing address</font>\n<br>P.O. Box 609</font>\n<br>Walkersville, MD 21793</font>\n<p>(301) 845-8600</font>\n<br>Anderson, Jason&nbsp;</font>\n<p><a href=\"mailto:jason@faithrbc.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-76.672155, 39.067077]
       },
       "properties": {
