@@ -1629,14 +1629,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.7408, 49.21945]
+        "coordinates": [18.747721, 49.222873]
       },
       "properties": {
-        "name": "Reformed Baptist Church",
-        "address": "Zilina, Slovakia",
+        "name": "Reformovaný baptistický cirkevný zbor Soli Deo Gloria Žilina",
+        "address": "Námestie M. R. Štefánika 12, 010 01 Žilina, Slovakia",
         "region": "SVK",
-        "website": "www.reformacia.sk",
-        "note": "<br>Pastor Brano Micieta</font>\n<br>+421-949-144194</font>\n<p>1689 Baptist Confession of Faith.</font>\n<br>Visit our church web site to get services info and sermons, documents and hymns in slovak language.</font>\n<p><a href=\"mailto:evanjelium@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "www.sdgzilina.sk",
+        "note": ""
       }
     },
     {
