@@ -453,11 +453,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-110.676426, 50.040549]
+        "coordinates": [-110.700519, 50.053184]
       },
       "properties": {
         "name": "Grace Family Reformed Baptist Church",
-        "address": "Medicine Hat, Alberta",
+        "address": "599 12 St NW, Medicine Hat, AB T1A 6R3, Canada",
         "region": "CAN",
         "website": "www.gracefamily.ca",
         "note": ""
