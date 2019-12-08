@@ -5634,14 +5634,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.947927, 35.05805]
+        "coordinates": [-78.955752, 35.095283]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
-        "address": "430 S. McPherson Church Road Fayetteville, NC  28303",
+        "address": "5200 Bragg Blvd, Fayetteville, NC 28303",
         "region": "NC",
-        "website": "",
-        "note": "<br>Pastor James F. Merkel</font>\n<br><b>(Currently meeting at\nCross Creek Presbyterian Church)</font></font></b>\n<p>(910) 843-2890</font>\n<br><a href=\"mailto:jfmerkel@juno.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "www.facebook.com/SovereignGraceFellowshipFayNC",
+        "note": "Currently meeting at\nChrist Covenant Baptist Church<br>Pastor James F. Merkel<br>919-229-6045<br><a href=\"mailto:jfmerkel@juno.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
       }
     },
     {
