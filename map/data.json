@@ -789,6 +789,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-90.500933, 14.606052]
+      },
+      "properties": {
+        "name": "Iglesia Bautista Reformada Antorcha",
+        "address": "14 Avenida 2-45, Zona 15 Local #8, 2do Nivel Colonia Tecun Uman, Guatemala, Guatemala",
+        "region": "GTM",
+        "website": "www.iglesiaantorcha.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [114.197504, 22.291948]
       },
       "properties": {

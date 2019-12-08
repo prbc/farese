@@ -45,6 +45,11 @@
    "file-name": "germ"
 },
 {
+   "code": "GTM",
+   "display-name": "GUATEMALA",
+   "file-name": "guatemala"
+},
+{
    "code": "HKG",
    "display-name": "HONG KONG",
    "file-name": "hk"
