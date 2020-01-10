@@ -41,10 +41,6 @@ resource "aws_cloudfront_distribution" "farese" {
     }
   }
 
-  tags = {
-    Environment = var.env
-  }
-
   viewer_certificate {
     acm_certificate_arn      = aws_acm_certificate.farese.arn
     ssl_support_method       = "sni-only"
@@ -95,10 +91,6 @@ resource "aws_cloudfront_distribution" "dev-farese" {
     }
   }
 
-  tags = {
-    Environment = var.env
-  }
-
   viewer_certificate {
     acm_certificate_arn      = aws_acm_certificate.star-farese.arn
     ssl_support_method       = "sni-only"
@@ -147,10 +139,6 @@ resource "aws_cloudfront_distribution" "future-farese" {
     geo_restriction {
       restriction_type = "none"
     }
-  }
-
-  tags = {
-    Environment = var.env
   }
 
   viewer_certificate {
