@@ -30,13 +30,18 @@ resource "aws_s3_bucket_policy" "farese" {
     "Id": "PolicyForCloudFrontPrivateContent",
     "Statement": [
         {
-            "Sid": "1",
+            "Sid": "IPAllow",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "${aws_cloudfront_origin_access_identity.farese.iam_arn}"
+                "AWS": "*"
             },
-            "Action": "s3:GetObject",
-            "Resource": "${aws_s3_bucket.farese.arn}/*"
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::farese.com/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "0.0.0.0/0"
+                }
+            }
         }
     ]
 }
