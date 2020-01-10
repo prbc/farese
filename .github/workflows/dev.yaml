@@ -1,5 +1,8 @@
-name: Deploy to S3
-on: [push]
+name: Dev
+on:
+  push:
+    branches:
+      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +13,20 @@ jobs:
     - name: Generate service worker
       run: npx workbox-cli generateSW workbox-config.js
     - name: Upload to S3
-      run: aws s3 sync . s3://farese.com/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
+      run: aws s3 sync . s3://$URL/ --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
       env:
+        URL: ${{ secrets.URL_DEV }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: Set no-cache on the service worker
-      run: aws s3 cp s3://farese.com/sw.js s3://farese.com/sw.js --metadata-directive REPLACE --cache-control no-cache
+      run: aws s3 cp s3://$URL/sw.js s3://$URL/sw.js --metadata-directive REPLACE --cache-control no-cache
       env:
+        URL: ${{ secrets.URL_DEV }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - name: Invalidate Cloudfront cache
-      run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRO_ID --paths "/*"
+      run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        CLOUDFRONT_DISTRO_ID: ${{ secrets.CLOUDFRONT_DISTRO_ID }}
+        CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID_DEV }}
