@@ -2,7 +2,7 @@
 
 resource "aws_s3_bucket" "farese" {
   bucket = "farese.com"
-  acl    = "public"
+  acl    = "public-read"
 
   versioning {
     enabled = false
@@ -41,15 +41,6 @@ resource "aws_s3_bucket_policy" "farese" {
     ]
 }
 POLICY
-}
-
-resource "aws_s3_bucket_public_access_block" "farese" {
-  bucket = aws_s3_bucket.farese.id
-
-  block_public_acls       = false
-  block_public_policy     = false
-  ignore_public_acls      = false
-  restrict_public_buckets = false
 }
 
 # dev.farese.com
