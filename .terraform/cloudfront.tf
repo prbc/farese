@@ -30,7 +30,7 @@ resource "aws_cloudfront_distribution" "farese" {
       query_string = false
 
       cookies {
-        forward = "none"
+        forward = "all"
       }
     }
   }
@@ -76,13 +76,13 @@ resource "aws_cloudfront_distribution" "dev-farese" {
     target_origin_id       = "S3-dev.farese.com"
     viewer_protocol_policy = "redirect-to-https"
 
-#    forwarded_values {
-#      query_string = false
-#
-#      cookies {
-#        forward = "none"
-#      }
-#    }
+    forwarded_values {
+      query_string = false
+
+      cookies {
+        forward = "all"
+      }
+    }
   }
 
   restrictions {
@@ -130,7 +130,7 @@ resource "aws_cloudfront_distribution" "future-farese" {
       query_string = false
 
       cookies {
-        forward = "none"
+        forward = "all"
       }
     }
   }
