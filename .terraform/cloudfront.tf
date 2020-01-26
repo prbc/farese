@@ -4,11 +4,20 @@ resource "aws_cloudfront_origin_access_identity" "farese" {}
 
 resource "aws_cloudfront_distribution" "farese" {
   origin {
-    domain_name = aws_s3_bucket.farese.bucket_domain_name
+    domain_name = aws_s3_bucket.farese.website_endpoint
     origin_id   = "S3-farese.com"
 
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.farese.cloudfront_access_identity_path
+    custom_origin_config {
+      http_port                = 80
+      https_port               = 443
+      origin_keepalive_timeout = 5
+      origin_protocol_policy   = "http-only"
+      origin_read_timeout      = 30
+      origin_ssl_protocols     = [
+        "TLSv1",
+        "TLSv1.1",
+        "TLSv1.2"
+      ]
     }
   }
 
@@ -54,11 +63,20 @@ resource "aws_cloudfront_origin_access_identity" "dev-farese" {}
 
 resource "aws_cloudfront_distribution" "dev-farese" {
   origin {
-    domain_name = aws_s3_bucket.dev-farese.bucket_domain_name
+    domain_name = aws_s3_bucket.dev-farese.website_endpoint
     origin_id   = "S3-dev.farese.com"
 
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.dev-farese.cloudfront_access_identity_path
+    custom_origin_config {
+      http_port                = 80
+      https_port               = 443
+      origin_keepalive_timeout = 5
+      origin_protocol_policy   = "http-only"
+      origin_read_timeout      = 30
+      origin_ssl_protocols     = [
+        "TLSv1",
+        "TLSv1.1",
+        "TLSv1.2"
+      ]
     }
   }
 
@@ -104,11 +122,20 @@ resource "aws_cloudfront_origin_access_identity" "future-farese" {}
 
 resource "aws_cloudfront_distribution" "future-farese" {
   origin {
-    domain_name = aws_s3_bucket.future-farese.bucket_domain_name
+    domain_name = aws_s3_bucket.future-farese.website_endpoint
     origin_id   = "S3-future.farese.com"
 
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.future-farese.cloudfront_access_identity_path
+    custom_origin_config {
+      http_port                = 80
+      https_port               = 443
+      origin_keepalive_timeout = 5
+      origin_protocol_policy   = "http-only"
+      origin_read_timeout      = 30
+      origin_ssl_protocols     = [
+        "TLSv1",
+        "TLSv1.1",
+        "TLSv1.2"
+      ]
     }
   }
 
