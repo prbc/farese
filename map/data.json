@@ -6138,14 +6138,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.726477, 45.483789]
+        "coordinates": [-122.701378, 45.467405]
       },
       "properties": {
         "name": "Glencullen Baptist Church",
-        "address": "4747 SW Cameron Rd.  Portland, Oregon 97221",
+        "address": "7945 SW Capitol Hill Road, Portland, Oregon 97219",
         "region": "OR",
-        "website": "www.sermonaudio.com/glencullen",
-        "note": "<br>Cavin, Phillip (pastor)&nbsp;</font>\n<p>(503) 244-3655&nbsp;</font></font>\n<p>Sunday Worship:&nbsp;</font></font>\n<br>Sunday School 9:45 a.m.</font></font>\n<br>Worship 11:00 a.m. &amp;\n1:30 p.m.</font></font>\n<br>Mid-week prayer Meeting\n7:00 p.m</font></font></font>\n<p><a href=\"mailto:glencullenbc@comcast.net\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "glencullenbaptist.org",
+        "note": ""
       }
     },
     {
