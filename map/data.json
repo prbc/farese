@@ -2696,11 +2696,11 @@
         "coordinates": [-122.005506, 37.395223]
       },
       "properties": {
-        "name": "Providence Bible Church",
+        "name": "Silicon Valley Reformed Baptist Church",
         "address": "709 Lakewood Drive Sunnyvale, CA  94088",
         "region": "CA",
-        "website": "",
-        "note": "<p>(408) 734-2297</font>"
+        "website": "https://svrbc.org/",
+        "note": "<p>(408) 734-2297</p><p><a href="mailto:info@svrbc.org">info@svrbc.org</a></p>"
       }
     },
     {
