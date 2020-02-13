@@ -4053,6 +4053,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -80.319346,
+          25.761439
+        ]
+      },
+      "properties": {
+        "name": "Tamiami Baptist Church",
+        "address": "860 SW 76th Ct, Miami, FL 33144",
+        "region": "FL",
+        "website": "tamiamibc.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -84.736956,
           33.710486
         ]
