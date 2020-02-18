@@ -8167,6 +8167,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.054004,
+          34.784103
+        ]
+      },
+      "properties": {
+        "name": "Old Baptist Church of Jesus Christ",
+        "address": "415 Edwin Lanford Rd, Woodruff, SC 29388",
+        "region": "SC",
+        "website": "oldbaptistchurch.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -102.980198,
           43.994657
         ]
