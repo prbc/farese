@@ -8982,6 +8982,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -98.243012,
+          29.584404
+        ]
+      },
+      "properties": {
+        "name": "Providence Reformed Baptist Church",
+        "address": "214 Long Cove Dr, Cibolo, TX 78108",
+        "region": "TX",
+        "website": "prbctx.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -112.055685,
           41.15892
         ]
