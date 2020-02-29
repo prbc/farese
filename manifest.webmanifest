@@ -1,12 +1,12 @@
 {
-  "name": "Farese's Reformed Baptist Directory",
-  "short_name": "Farese",
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#0067b2",
-  "background_color": "#0067b2",
-  "description": "A directory of Reformed Baptist churches",
-  "icons": [
+    "name": "Farese's Reformed Baptist Directory",
+    "short_name": "Farese",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0067b2",
+    "background_color": "#0067b2",
+    "description": "A directory of Reformed Baptist churches",
+    "icons": [
         {
             "src": "img/icons/192.png",
             "sizes": "192x192",

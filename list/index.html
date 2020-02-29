@@ -22,7 +22,9 @@
   <nav class="navbar navbar-expand-md bg-primary navbar-dark border border-primary">
     <div class="container">
       <a class="navbar-brand" href="/">Farese.com</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
         <ul class="navbar-nav ml-auto text-light">
           <li class="nav-item text-center">
@@ -49,7 +51,8 @@
       <div class="row">
         <div class="p-4 col-lg-7 align-self-center mx-auto">
           <h2 class="text-sm-center text-white text-center m-3">List of churches</h2>
-          <p class="text-justify text-info m-3">Here you will find a basic listing of churches, hopefully to make it easier to search through them.</p>
+          <p class="text-justify text-info m-3">Here you will find a basic listing of churches, hopefully to make it
+            easier to search through them.</p>
         </div>
       </div>
     </div>
@@ -77,21 +80,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 align-self-center">
-          <a href="https://github.com/prbc/farese" target="blank"><i class="fab fa-git-alt pull-right fa-fw text-right fa-3x text-muted"></i></a>
+          <a href="https://github.com/prbc/farese" target="blank"><i
+              class="fab fa-git-alt pull-right fa-fw text-right fa-3x text-muted"></i></a>
         </div>
       </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
-    $(function(){
-      $.getJSON('../map/data.json',function(data){
+    $(function () {
+      $.getJSON('../map/data.json', function (data) {
         console.log('loaded json');
-        for (i = 0; i < data.features.length; i++){
-        $('#church-list tbody:last').append('<tr><td>' + data.features[i].properties.region + '</td><td>' + data.features[i].properties.name +'</td><td>'+ data.features[i].properties.address + '</td><td><a href="' + data.features[i].properties.website + '">' + data.features[i].properties.website + '</a></td></tr>');
+        for (i = 0; i < data.features.length; i++) {
+          $('#church-list tbody:last').append('<tr><td>' + data.features[i].properties.region + '</td><td>' + data.features[i].properties.name + '</td><td>' + data.features[i].properties.address + '</td><td><a href="' + data.features[i].properties.website + '">' + data.features[i].properties.website + '</a></td></tr>');
         };
       });
     });

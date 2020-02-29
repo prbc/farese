@@ -13,7 +13,7 @@ var map = new mapboxgl.Map({
   hash: true
 });
 
-var loadMap = function() {
+var loadMap = function () {
   // Add marker data as a new GeoJSON source.
   map.addSource("markers", {
     type: "geojson",
@@ -21,7 +21,7 @@ var loadMap = function() {
   });
 
   // Load image for pin
-  map.loadImage("/img/marker.png", function(error, image) {
+  map.loadImage("/img/marker.png", function (error, image) {
     if (error) throw error;
     map.addImage("pin", image);
     // Add a layer showing the markers
@@ -62,7 +62,7 @@ var loadMap = function() {
 
   // When a click event occurs near a marker icon, open a popup at the location of
   // the feature, with description HTML from its properties.
-  map.on("click", function(e) {
+  map.on("click", function (e) {
     var bboxSize = 25;
     var bbox = [
       [e.point.x - bboxSize, e.point.y - bboxSize],
@@ -87,21 +87,21 @@ var loadMap = function() {
       // Note
       .setHTML(
         '<div id="popup"><h4>' +
-          feature.properties.name +
-          "</h4>" +
-          '<div id="address"><a href="https://www.google.com/maps/search/?api=1&query=' +
-          feature.properties.address +
-          '">' +
-          feature.properties.address +
-          "</a></div>" +
-          '<div id="website"><a href="http://' +
-          feature.properties.website +
-          '">' +
-          feature.properties.website +
-          "</a></div>" +
-          "<p>" +
-          feature.properties.note +
-          "</p></div>"
+        feature.properties.name +
+        "</h4>" +
+        '<div id="address"><a href="https://www.google.com/maps/search/?api=1&query=' +
+        feature.properties.address +
+        '">' +
+        feature.properties.address +
+        "</a></div>" +
+        '<div id="website"><a href="http://' +
+        feature.properties.website +
+        '">' +
+        feature.properties.website +
+        "</a></div>" +
+        "<p>" +
+        feature.properties.note +
+        "</p></div>"
       )
       .addTo(map);
 
@@ -123,7 +123,7 @@ var loadMap = function() {
 
   // Use the same approach as above to indicate that the symbols are clickable
   // by changing the cursor style to 'pointer'.
-  map.on("mousemove", function(e) {
+  map.on("mousemove", function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ["markers"] });
     map.getCanvas().style.cursor = features.length ? "pointer" : "";
   });
@@ -165,7 +165,7 @@ var loadMap = function() {
       limit: 5,
       collapsed: true,
       marker: false,
-      render: function(item) {
+      render: function (item) {
         return (
           '<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">' +
           item.text +
@@ -195,11 +195,11 @@ var loadMap = function() {
 
 // Load GeoJSON data
 
-var shouldLoadMap = function() {
+var shouldLoadMap = function () {
   return isDataLoaded && isStyleLoaded;
 };
 
-jQuery.getJSON("data.json", function(json) {
+jQuery.getJSON("data.json", function (json) {
   markers = json;
   isDataLoaded = true;
   if (shouldLoadMap()) {
@@ -207,7 +207,7 @@ jQuery.getJSON("data.json", function(json) {
   }
 });
 
-map.on("style.load", function() {
+map.on("style.load", function () {
   isStyleLoaded = true;
   if (shouldLoadMap()) {
     loadMap();
