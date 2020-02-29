@@ -26,19 +26,15 @@ module.exports = {
       handler: 'CacheFirst'
     },
     {
-      urlPattern: 'https://cdn.google.com/example-script.min.js',
+      urlPattern: /^https:\/\/code\.jquery\.com/,
       handler: 'CacheFirst'
     },
     {
-      urlPattern: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+      urlPattern: /^https:\/\/cdn\.jsdelivr\.net/,
       handler: 'CacheFirst'
     },
     {
-      urlPattern: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js',
-      handler: 'CacheFirst'
-    },
-    {
-      urlPattern: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+      urlPattern: /^https:\/\/stackpath\.bootstrapcdn\.com/,
       handler: 'CacheFirst'
     }
   ]
