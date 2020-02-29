@@ -7,26 +7,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Install prereqs
-      run: sudo apt install -y awscli npm
-    - name: Generate service worker
-      run: npx workbox-cli generateSW workbox-config.js
-    - name: Upload to S3
-      run: aws s3 sync . s3://$URL/ --delete --exclude ".*" --exclude "README.md"
-      env:
-        URL: ${{ secrets.URL_FUTURE }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    - name: Set no-cache on the service worker
-      run: aws s3 cp s3://$URL/sw.js s3://$URL/sw.js --metadata-directive REPLACE --cache-control no-cache
-      env:
-        URL: ${{ secrets.URL_FUTURE }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    - name: Invalidate Cloudfront cache
-      run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID_FUTURE }}
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+      - name: Install prereqs
+        run: sudo apt install -y awscli
+      - name: Generate service worker
+        run: npx workbox-cli generateSW workbox-config.js
+      - name: Upload to S3
+        run: aws s3 sync . s3://$URL/ --delete --exclude ".*" --exclude "README.md"
+        env:
+          URL: ${{ secrets.URL_FUTURE }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - name: Set no-cache on the service worker
+        run: aws s3 cp s3://$URL/sw.js s3://$URL/sw.js --metadata-directive REPLACE --cache-control no-cache
+        env:
+          URL: ${{ secrets.URL_FUTURE }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - name: Invalidate Cloudfront cache
+        run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID_FUTURE }}
