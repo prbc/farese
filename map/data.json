@@ -2539,6 +2539,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -5.087558,
+          50.413890
+        ]
+      },
+      "properties": {
+        "name": "Newquay Reformed Baptist Church",
+        "address": "Chapel Hill, Newquay TR7 1ND, UK",
+        "region": "GBR",
+        "website": "newquaybaptist.org.uk",
+        "note": "Pastor: Josh Williamson<br>Service Times:<br>11am & 6pm Sunday<br>7:30pm Tuesday"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -76.814564,
           18.041545
         ]
