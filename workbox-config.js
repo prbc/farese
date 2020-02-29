@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       urlPattern: /.*(?:api\.tiles|api|a\.tiles)\.mapbox\.com/,
-      handler: 'CacheFirst'
+      handler: 'StaleWhileRevalidate'
     },
     {
       urlPattern: /.*farese\.com\/legacy/,
