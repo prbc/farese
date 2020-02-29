@@ -2607,6 +2607,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.460556,
+          -11.836618
+        ]
+      },
+      "properties": {
+        "name": "Emmanuel Baptist Church",
+        "address": "3714 Kasama Road, Mpika, Zambia, 10101",
+        "region": "ZMB",
+        "website": "ebc-mpika.wixsite.com/ebcmpika",
+        "note": "Pastor: Sydney Bwalya Kombe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -86.763302,
           33.365789
         ]
