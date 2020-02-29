@@ -97,7 +97,7 @@
     crossorigin="anonymous"></script>
   <script type="text/javascript">
     $(function () {
-      $.getJSON('../map/data.json', function (data) {
+      jQuery.getJSON('../map/data.json', function (data) {
         console.log('loaded json');
         for (i = 0; i < data.features.length; i++) {
           $('#church-list tbody:last').append('<tr><td>' + data.features[i].properties.region + '</td><td>' + data.features[i].properties.name + '</td><td>' + data.features[i].properties.address + '</td><td><a href="' + data.features[i].properties.website + '">' + data.features[i].properties.website + '</a></td></tr>');
