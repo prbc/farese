@@ -5140,6 +5140,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -87.434025,
+          36.665518
+        ]
+      },
+      "properties": {
+        "name": "Covenant Baptist Church",
+        "address": "480 Thompsonville Ln, Oak Grove, KY 42262",
+        "region": "KY",
+        "website": "covenantbaptistclarksville.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -91.834256,
           31.628563
         ]
