@@ -3746,16 +3746,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.269453,
-          28.802861
+          -81.311330,
+          28.809815
         ]
       },
       "properties": {
         "name": "Grace Chapel",
-        "address": "Holy Cross Lutheran Academy S.R. 46, 1 mile West of I-4, Sanford, Florida",
+        "address": "Holy Cross Lutheran Academy 100 Aero Ln. Sanford, FL 32771",
         "region": "FL",
-        "website": "www.gracereformedchapel.org",
-        "note": "<p>( (386) 868-9296</font>\n<p><b>[Mailing Address]</font></font></b>\n<br>P.O. Box 530977,&nbsp;</font>\n<br>DeBary, FL&nbsp; 32753</font>\n<p><a href=\"email.gif\">mailto:faith92@juno.com</a>"
+        "website": "gracechapelonline.com",
+        "note": "Phone: 407-314-3931<br>Email: info@gracechapelonline.com<br>Mailing Address: PO Box 470969, Lake Monroe, FL 32747"
       }
     },
     {
