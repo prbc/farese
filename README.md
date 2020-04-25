@@ -1,5 +1,9 @@
 # Farese
 
+![Prod](https://github.com/prbc/farese/workflows/Prod/badge.svg?branch=prod)
+![Dev](https://github.com/prbc/farese/workflows/Dev/badge.svg?branch=dev)
+![Future](https://github.com/prbc/farese/workflows/Future/badge.svg?branch=future)
+
 ### Contributing
 
 Hey, if you want to contribute updates to churches, I'd appreciate it!
