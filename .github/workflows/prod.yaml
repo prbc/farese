@@ -11,10 +11,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "13.x"
-      - name: Install prereqs
+      - name: Install aws-cli
         run: sudo apt install -y awscli
+      - name: Install workbox-cli
+        run: sudo npm install -g workbox-cli
       - name: Generate service worker
-        run: npx workbox-cli generateSW workbox-config.js
+        run: workbox generateSW workbox-config.js
       - name: Upload to S3
         run: aws s3 sync . s3://$URL/ --delete --exclude ".*" --exclude "README.md"
         env:
