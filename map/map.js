@@ -5,6 +5,12 @@ var markers;
 mapboxgl.accessToken =
   "pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4aWRoIn0.BE_Fxskfnqumxa_5FLBWcA";
 
+mapboxgl.setRTLTextPlugin(
+  'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
+  null,
+  true // Lazy load the plugin
+);
+
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/streets-v11",
@@ -192,6 +198,9 @@ var loadMap = function () {
     "top-left"
   );
 };
+
+var language = new MapboxLanguage();
+map.addControl(language);
 
 // Load GeoJSON data
 
