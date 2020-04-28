@@ -70,6 +70,11 @@
    "file-name": "jamaica"
 },
 {
+   "code": "LKA",
+   "display-name": "SRI LANKA",
+   "file-name": "srilanka"
+},
+{
    "code": "MYS",
    "display-name": "MALAYSIA",
    "file-name": "may"

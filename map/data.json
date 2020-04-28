@@ -1264,6 +1264,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          81.694959,
+          7.742148
+        ]
+      },
+      "properties": {
+        "name": "Grace Redemption Fellowship",
+        "address": "350/6 Bar Road, Batticaloa, Sri Lanka",
+        "region": "LKA",
+        "website": "www.graceredemption.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           101.624259,
           3.136021
         ]
