@@ -5021,6 +5021,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.316520,
+          39.755150
+        ]
+      },
+      "properties": {
+        "name": "Calvary Baptist Church",
+        "address": "637 Ninth St, Phillipsburg, KS 67661",
+        "region": "KS",
+        "website": "https://calvaryphillipsburg.com/",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -87.5712423,
           37.80312
         ]
