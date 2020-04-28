@@ -1111,23 +1111,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.20725,
-          54.719534
-        ]
-      },
-      "properties": {
-        "name": "Ballymoney Baptist Church",
-        "address": "60 Ballymena Road, Ballymoney, C.O. Antrim, Northern Ireland",
-        "region": "IRL",
-        "website": "",
-        "note": "<p>028 2766 5369 (Home)</font>\n<br>028 2766 6452 (Office)</font></font>\n<br>Curry: Steven</font>\n<p><a href=\"mailto:bmoneybaptist@AOL.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -6.263215,
           53.274914
         ]
@@ -1155,23 +1138,6 @@
         "region": "IRL",
         "website": "www.graceministry.info",
         "note": "<p>353 87 911 8385</font></font>\n<p><a href=\"mailto:graceroscommon@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.371101,
-          54.855698
-        ]
-      },
-      "properties": {
-        "name": "Magherafelt Reformed Baptist Church",
-        "address": "45 Thorncroft, Ahoghill, County Antrim, Northern Ireland, BT42 1RX",
-        "region": "IRL",
-        "website": "magherafeltrbc.org",
-        "note": "<p>Tel: 028 2587 8937</font></font>\n<br>Wallace, Paul</font>\n<p><a href=\"mailto:jpwallace@btconnect.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
       }
     },
     {
@@ -2566,6 +2532,40 @@
         "region": "GBR",
         "website": "newquaybaptist.org.uk",
         "note": "Pastor: Josh Williamson<br>Service Times:<br>11am & 6pm Sunday<br>7:30pm Tuesday"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.20725,
+          54.719534
+        ]
+      },
+      "properties": {
+        "name": "Ballymoney Baptist Church",
+        "address": "60 Ballymena Road, Ballymoney, C.O. Antrim, Northern Ireland",
+        "region": "GBR",
+        "website": "",
+        "note": "<p>028 2766 5369 (Home)</font>\n<br>028 2766 6452 (Office)</font></font>\n<br>Curry: Steven</font>\n<p><a href=\"mailto:bmoneybaptist@AOL.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.371101,
+          54.855698
+        ]
+      },
+      "properties": {
+        "name": "Magherafelt Reformed Baptist Church",
+        "address": "45 Thorncroft, Ahoghill, County Antrim, Northern Ireland, BT42 1RX",
+        "region": "GBR",
+        "website": "magherafeltrbc.org",
+        "note": "<p>Tel: 028 2587 8937</font></font>\n<br>Wallace, Paul</font>\n<p><a href=\"mailto:jpwallace@btconnect.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
       }
     },
     {
