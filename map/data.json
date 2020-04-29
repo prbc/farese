@@ -2573,6 +2573,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -6.418564,
+          54.424015
+        ]
+      },
+      "properties": {
+        "name": "Killicomaine Evangelical Church",
+        "address": "Princess Way, Portadown, Craigavon BT63 5EJ, Northern Ireland",
+        "region": "GBR",
+        "website": "www.killicomaine.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -76.814564,
           18.041545
         ]
