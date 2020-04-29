@@ -2828,6 +2828,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -86.185269,
+          32.547251
+        ]
+      },
+      "properties": {
+        "name": "Reformation Baptist Church",
+        "address": "500 Alabama 170, Wetumpka, AL 36092",
+        "region": "AL",
+        "website": "www.rbcwetumpka.com",
+        "note": "Dr. Brandon Scroggins<br>334-799-9942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -111.739517,
           33.408626
         ]
