@@ -92,22 +92,7 @@ var loadMap = function () {
       // Website (links to the appropriate url)
       // Note
       .setHTML(
-        '<div id="popup"><h4>' +
-        feature.properties.name +
-        "</h4>" +
-        '<div id="address"><a href="https://www.google.com/maps/search/?api=1&query=' +
-        feature.properties.address +
-        '">' +
-        feature.properties.address +
-        "</a></div>" +
-        '<div id="website"><a href="http://' +
-        feature.properties.website +
-        '">' +
-        feature.properties.website +
-        "</a></div>" +
-        "<p>" +
-        feature.properties.note +
-        "</p></div>"
+        `<div id="popup"><h4>${feature.properties.name}</h4><div id="address"><a href="https://www.google.com/maps/search/?api=1&query=${feature.properties.address}">${feature.properties.address}</a></div><div id="website"><a href="http://${feature.properties.website}">${feature.properties.website}</a></div><p>${feature.properties.note}</p></div>`
       )
       .addTo(map);
 
@@ -173,11 +158,7 @@ var loadMap = function () {
       marker: false,
       render: function (item) {
         return (
-          '<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">' +
-          item.text +
-          '</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">' +
-          item.place_name +
-          "</div></div>"
+          `<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">${item.text}</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">${item.place_name}</div></div>`
         );
       }
       //mapboxgl: mapboxgl
