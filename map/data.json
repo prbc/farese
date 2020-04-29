@@ -8132,6 +8132,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -76.944704,
+          40.214976
+        ]
+      },
+      "properties": {
+        "name": "Grace Reformed Baptist Church",
+        "address": "50 Utley Dr, Camp Hill, PA 17011",
+        "region": "PA",
+        "website": "grbcwestshore.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -71.482134,
           41.85543
         ]
