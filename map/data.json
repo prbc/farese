@@ -9135,6 +9135,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -95.209749,
+          30.935417
+        ]
+      },
+      "properties": {
+        "name": "Chita Baptist Church",
+        "address": "11059 FM 355, Trinity, TX 75862",
+        "region": "TX",
+        "website": "www.sermonaudio.com/solo/chitabaptist",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -112.055685,
           41.15892
         ]
