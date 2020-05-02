@@ -2250,16 +2250,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.084769,
-          52.415671
+          -4.084951,
+          52.415721
         ]
       },
       "properties": {
         "name": "Alfred Place Baptist Church",
-        "address": "2 Alfred Place, Aberystwyth, SY23 2BS, UK",
+        "address": "Alfred Pl, Aberystwyth SY23 2BS, United Kingdom",
         "region": "GBR",
-        "website": "www.alfredplacechurch.org.uk",
-        "note": "<p>Telephone: 01970 625005</font>\n<br>Geoff Thomas</font>\n<p><a href=\"mailto:Geoff@gthomas.me.uk\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "alfredplacechurch.org.uk",
+        "note": "<b>Elders</b><br>Rhodri Brady<br>Ian Jones<br>Eric Taylor"
       }
     },
     {
