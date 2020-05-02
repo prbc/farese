@@ -8948,16 +8948,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.440751,
-          31.477637
+          -100.440589,
+          31.477857
         ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
-        "address": "1502 N. Magdalen San Angelo, TX 76934",
+        "address": "1502 N Magdalen St, San Angelo, TX 76903",
         "region": "TX",
-        "website": "www.particularbaptist.org",
-        "note": "<p>325-659-5461</font>\n<br>Guawain, Randy</font>\n<p><a href=\"mailto:pgauwain@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>\nPastor's Email</font>\n<br><a href=\"mailto:pgauwain@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "sovereigngracebaptistchurchsa.com",
+        "note": ""
       }
     },
     {
