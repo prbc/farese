@@ -7554,6 +7554,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.417958,
+          34.546396
+        ]
+      },
+      "properties": {
+        "name": "One Way Christian Center",
+        "address": "605 E 6th St, Olustee, OK 73560",
+        "region": "OK",
+        "website": "onewaychristiancenter.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.193868,
           45.212502
         ]
