@@ -9169,6 +9169,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -101.915264,
+          35.147258
+        ]
+      },
+      "properties": {
+        "name": "Westview Christian Church",
+        "address": "6810 Hillside Rd, Amarillo, TX 79109",
+        "region": "TX",
+        "website": "westviewcc.net",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -112.055685,
           41.15892
         ]
