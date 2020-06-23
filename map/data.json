@@ -5225,6 +5225,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -83.761058,
+          37.155882
+        ]
+      },
+      "properties": {
+        "name": "Manchester Baptist Church",
+        "address": "310 Main St, Manchester, KY 40962",
+        "region": "KY",
+        "website": "manchesterbaptist.church",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -91.834256,
           31.628563
         ]
