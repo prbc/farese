@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script
+      defer=""
+      src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="/css/additional.css" />
+    <link rel="stylesheet" href="/css/farese.css" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css"
+      type="text/css"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v0.10.1/mapbox-gl-language.js"></script>
+    <!-- Header bar theme -->
+    <meta name="theme-color" content="#00538f" />
+    <!-- Android Chrome header color -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Fullscreen mode for iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#00538f" />
+    <!-- iOS Safari header color -->
+    <meta name="msapplication-navbutton-color" content="#00538f" />
+    <!-- Windows phone header color -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <script defer="" src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
-  <link rel="stylesheet" href="/css/additional.css">
-  <link rel="stylesheet" href="/css/farese.css">
-  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
-  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet">
-  <script
-    src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
-  <link rel="stylesheet"
-    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css">
-  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v0.10.1/mapbox-gl-language.js'></script>
-  <!-- Header bar theme -->
-  <meta name="theme-color" content="#00538f">
-  <!-- Android Chrome header color -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <!-- Fullscreen mode for iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#00538f">
-  <!-- iOS Safari header color -->
-  <meta name="msapplication-navbutton-color" content="#00538f">
-  <!-- Windows phone header color -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-md bg-primary navbar-dark border border-primary position-static">
-    <div class="container">
-      <a class="navbar-brand" href="/">Farese.com</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-        <ul class="navbar-nav ml-auto text-light">
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/about/">About</a>
-          </li>
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/map/">Map</a>
-          </li>
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/list/">List</a>
-          </li>
-          <li class="nav-item text-center">
-            <a class="nav-link" href="/legacy/">Legacy</a>
-          </li>
-        </ul>
+  <body>
+    <nav
+      class="navbar navbar-expand-md bg-primary navbar-dark border border-primary position-static"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">Farese.com</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar2SupportedContent"
+          aria-controls="navbar2SupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center justify-content-end"
+          id="navbar2SupportedContent"
+        >
+          <ul class="navbar-nav ml-auto text-light">
+            <li class="nav-item text-center">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="/map/">Map</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="/list/">List</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="/legacy/">Legacy</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="position-fixed" id="map"></div>
-  <script type="text/javascript" src="/map/map.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-</body>
-
+    </nav>
+    <div class="position-fixed" id="map"></div>
+    <script type="text/javascript" src="/map/map.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
