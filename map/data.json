@@ -7187,14 +7187,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.77594, 32.803598]
+        "coordinates": [-96.699286, 32.803685]
       },
       "properties": {
-        "name": "Good Shepherd Community Church",
-        "address": "4701 Virginia Ave  Dallas, TX 75204",
+        "name": "Good Shepherd Church",
+        "address": "8441 Hunnicut Rd, Dallas, TX 75228",
         "region": "TX",
         "website": "www.gsccdallas.org",
-        "note": "<br>Pastor Jeff Gregory</font>\n<br>Associate Pastor Mark Bahr</font>\n<p><a href=\"mailto:gsccdallas@gmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "note": "A Baptist Reformed Fellowship<br>Jeff Gregory, Pastor<br>Phone 214 730-0114"
       }
     },
     {
