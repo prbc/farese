@@ -4695,6 +4695,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-83.51801, 43.566532]
+      },
+      "properties": {
+        "name": "Savior's Grace Church",
+        "address": "4342 Beach St, Akron, MI 48701",
+        "region": "MI",
+        "website": "saviorgracechurch.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-93.259926, 44.898095]
       },
       "properties": {
