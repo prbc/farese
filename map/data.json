@@ -5213,20 +5213,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.923952, 39.855436]
-      },
-      "properties": {
-        "name": "Grace Reformed Fellowship Church",
-        "address": "329 Kresson Gibbsboro Rd Voorhees, NJ  08043",
-        "region": "NJ",
-        "website": "www.gracereformedfellowshipchurch.org",
-        "note": "<br>Pastor Terry D. Moore</font>\n<br><b>[Meeting at Kresson Bible\nChurch]</font></font></b>\n<p><b>[Mailing Address]</font></font></b>\n<br>176 Wabasso Trail</font>\n<br>Medford Lakes, NJ&nbsp; 08055</font>\n<p>Phone: 609-714-1262&nbsp;</font>\n<p>Sunday Service 9:00 am&nbsp;</font>\n<br>Bible study Wednesday evenings at 7:00 pm.</font>\n<p><a href=\"mailto:info@gracereformedfellowshipchurch.org\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-74.862116, 40.511081]
       },
       "properties": {
