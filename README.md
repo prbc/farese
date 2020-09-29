@@ -1,24 +1,30 @@
-# Farese
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![Prod](https://github.com/prbc/farese/workflows/Prod/badge.svg?branch=prod)
-![Dev](https://github.com/prbc/farese/workflows/Dev/badge.svg?branch=dev)
-![Future](https://github.com/prbc/farese/workflows/Future/badge.svg?branch=future)
+## Getting Started
 
-### Contributing
+First, run the development server:
 
-Hey, if you want to contribute updates to churches, I'd appreciate it!
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Using git is a whole world of its own, so send me an email or open a Github issue with any questions you have.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Some prerequisites to have installed:
- - python2
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-Basic instructions are:
- - Update the church listing in the `map/data.json` file
- - Run `build/prepare.sh`
+## Learn More
 
-Then open a pull request!
+To learn more about Next.js, take a look at the following resources:
 
-### Licenses
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Map marker used under Creative Commons Attribution-NoDerivs 3.0 Unported license from [Icons8](https://icons8.com).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
