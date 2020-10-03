@@ -6081,6 +6081,20 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-82.757981, 39.879692]
+      },
+      "properties": {
+        "name": "Covenant Bible Church",
+        "address": "200 Hill Rd S, Pickerington, OH 43147",
+        "region": "OH",
+        "website": "covenantbibleohio.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-95.851463, 36.278535]
       },
       "properties": {
