@@ -5,7 +5,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [152.62575, -27.618062]
+        "coordinates": [
+          152.62575,
+          -27.618062
+        ]
       },
       "properties": {
         "name": "Berean Bible Church",
@@ -19,7 +22,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.071894, -27.377788]
+        "coordinates": [
+          153.071894,
+          -27.377788
+        ]
       },
       "properties": {
         "name": "Banyo Baptist Church",
@@ -33,7 +39,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [153.000042, -27.461192]
+        "coordinates": [
+          153.000042,
+          -27.461192
+        ]
       },
       "properties": {
         "name": "Rosalie Baptist Church",
@@ -47,7 +56,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [152.942586, -27.386422]
+        "coordinates": [
+          152.942586,
+          -27.386422
+        ]
       },
       "properties": {
         "name": "Samford Baptist Church",
@@ -61,7 +73,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.162491, -33.890793]
+        "coordinates": [
+          151.162491,
+          -33.890793
+        ]
       },
       "properties": {
         "name": "Stanmore Baptist Church",
@@ -75,7 +90,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-59.574759, 13.106736]
+        "coordinates": [
+          -59.574759,
+          13.106736
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -89,7 +107,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-44.066932, -22.537571]
+        "coordinates": [
+          -44.066932,
+          -22.537571
+        ]
       },
       "properties": {
         "name": "Igreia Batista de fe Reformada",
@@ -103,7 +124,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-38.21992, -8.974872]
+        "coordinates": [
+          -38.21992,
+          -8.974872
+        ]
       },
       "properties": {
         "name": "Igreja Batista Emanuel Reformada",
@@ -117,7 +141,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [105.025129, 11.239804]
+        "coordinates": [
+          105.025129,
+          11.239804
+        ]
       },
       "properties": {
         "name": "The Church of Mercy",
@@ -131,7 +158,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.247526, 46.8568]
+        "coordinates": [
+          -71.247526,
+          46.8568
+        ]
       },
       "properties": {
         "name": "Association d'Églises Baptistes Évangéliques au Québec",
@@ -145,7 +175,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.521163, 44.240664]
+        "coordinates": [
+          -76.521163,
+          44.240664
+        ]
       },
       "properties": {
         "name": "Bath Road Baptist Church",
@@ -159,7 +192,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.403208, 43.715494]
+        "coordinates": [
+          -79.403208,
+          43.715494
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -173,7 +209,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.417477, 44.610891]
+        "coordinates": [
+          -79.417477,
+          44.610891
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church of Orillia",
@@ -187,7 +226,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.713901, 42.121411]
+        "coordinates": [
+          -82.713901,
+          42.121411
+        ]
       },
       "properties": {
         "name": "Cottam Baptist Church",
@@ -201,7 +243,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.2112, 43.762519]
+        "coordinates": [
+          -79.2112,
+          43.762519
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church",
@@ -215,7 +260,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.44807, 44.571192]
+        "coordinates": [
+          -79.44807,
+          44.571192
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Orillia",
@@ -229,7 +277,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.963462, 49.174303]
+        "coordinates": [
+          -121.963462,
+          49.174303
+        ]
       },
       "properties": {
         "name": "Free Grace Baptist Church of Chilliwack",
@@ -243,7 +294,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.262522, 48.375796]
+        "coordinates": [
+          -89.262522,
+          48.375796
+        ]
       },
       "properties": {
         "name": "Fort William Baptist Church",
@@ -257,7 +311,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-67.684412, 46.340464]
+        "coordinates": [
+          -67.684412,
+          46.340464
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -271,7 +328,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.8896045, 45.2198204]
+        "coordinates": [
+          -75.8896045,
+          45.2198204
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Ottawa",
@@ -285,7 +345,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.824507, 42.17642]
+        "coordinates": [
+          -82.824507,
+          42.17642
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Essex",
@@ -299,7 +362,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.84184, 49.69349]
+        "coordinates": [
+          -112.84184,
+          49.69349
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -313,7 +379,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.383184, 43.653226]
+        "coordinates": [
+          -79.383184,
+          43.653226
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Church (Toronto)",
@@ -327,7 +396,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-113.737266, 53.452742]
+        "coordinates": [
+          -113.737266,
+          53.452742
+        ]
       },
       "properties": {
         "name": "GraceLife Church",
@@ -341,7 +413,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.201295, 43.500482]
+        "coordinates": [
+          -80.201295,
+          43.500482
+        ]
       },
       "properties": {
         "name": "Grace Trinity Community Church",
@@ -355,7 +430,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.686685, 45.410325]
+        "coordinates": [
+          -75.686685,
+          45.410325
+        ]
       },
       "properties": {
         "name": "Metcalfe Street Church",
@@ -369,7 +447,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.402102, 44.595811]
+        "coordinates": [
+          -79.402102,
+          44.595811
+        ]
       },
       "properties": {
         "name": "Orillia Baptist Church",
@@ -383,7 +464,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.752492, 45.392834]
+        "coordinates": [
+          -75.752492,
+          45.392834
+        ]
       },
       "properties": {
         "name": "Parkdale Baptist Church - Westboro Campus",
@@ -397,7 +481,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-64.778721, 46.073587]
+        "coordinates": [
+          -64.778721,
+          46.073587
+        ]
       },
       "properties": {
         "name": "Providence Christian Church",
@@ -411,7 +498,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.786537, 53.90992]
+        "coordinates": [
+          -122.786537,
+          53.90992
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -425,7 +515,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.799032, 43.32552]
+        "coordinates": [
+          -79.799032,
+          43.32552
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church",
@@ -439,7 +532,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.792665, 49.067178]
+        "coordinates": [
+          -122.792665,
+          49.067178
+        ]
       },
       "properties": {
         "name": "Surrey Reformed Baptist Church",
@@ -453,7 +549,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-110.700519, 50.053184]
+        "coordinates": [
+          -110.700519,
+          50.053184
+        ]
       },
       "properties": {
         "name": "Grace Family Reformed Baptist Church",
@@ -467,7 +566,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.145936, 49.816671]
+        "coordinates": [
+          -97.145936,
+          49.816671
+        ]
       },
       "properties": {
         "name": "Grace Reformed Church",
@@ -481,7 +583,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.077541, 4.677021]
+        "coordinates": [
+          -74.077541,
+          4.677021
+        ]
       },
       "properties": {
         "name": "Iglesia Cristiana Gracia y Amor - Norte",
@@ -495,7 +600,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.049065, 4.682265]
+        "coordinates": [
+          -74.049065,
+          4.682265
+        ]
       },
       "properties": {
         "name": "Iglesia Cristiana Gracia y Amor - La Alborada",
@@ -509,7 +617,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.069218, 4.597118]
+        "coordinates": [
+          -74.069218,
+          4.597118
+        ]
       },
       "properties": {
         "name": "La Iglesia Bautista del Norte",
@@ -523,7 +634,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.56305, 6.242777]
+        "coordinates": [
+          -75.56305,
+          6.242777
+        ]
       },
       "properties": {
         "name": "La Gracia de Dios Iglesia Bautista Reformada",
@@ -537,7 +651,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.115805, 9.974414]
+        "coordinates": [
+          -84.115805,
+          9.974414
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Reformada Los Lagos",
@@ -551,7 +668,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.719712, 9.983229]
+        "coordinates": [
+          -84.719712,
+          9.983229
+        ]
       },
       "properties": {
         "name": "Iglesia de la Gracia del Señor Jesucristo",
@@ -565,7 +685,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.408289, 56.452544]
+        "coordinates": [
+          9.408289,
+          56.452544
+        ]
       },
       "properties": {
         "name": "Kristuskirken Reformed Baptist Church",
@@ -579,7 +702,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.950262, 18.450811]
+        "coordinates": [
+          -69.950262,
+          18.450811
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista del Nuevo Pacto",
@@ -593,7 +719,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.693057, 19.479196]
+        "coordinates": [
+          -70.693057,
+          19.479196
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista de la Gracia",
@@ -607,7 +736,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.866626, 18.510079]
+        "coordinates": [
+          -69.866626,
+          18.510079
+        ]
       },
       "properties": {
         "name": "Iglesia Bíblica de la Gracia",
@@ -621,7 +753,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.931212, 18.486058]
+        "coordinates": [
+          -69.931212,
+          18.486058
+        ]
       },
       "properties": {
         "name": "Iglesia Biblica del Señor Jesucristo",
@@ -635,7 +770,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.82326, 18.504143]
+        "coordinates": [
+          -69.82326,
+          18.504143
+        ]
       },
       "properties": {
         "name": "Iglesia Biblica De La Trinidad",
@@ -649,7 +787,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.870164, 18.489251]
+        "coordinates": [
+          -69.870164,
+          18.489251
+        ]
       },
       "properties": {
         "name": "Iglesia Fundamento Biblico",
@@ -663,7 +804,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.787023, 61.491695]
+        "coordinates": [
+          23.787023,
+          61.491695
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -677,7 +821,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.830354, 45.195463]
+        "coordinates": [
+          5.830354,
+          45.195463
+        ]
       },
       "properties": {
         "name": "Eglise Réformée Baptiste du Grésivaudan",
@@ -691,7 +838,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.428722, 43.522441]
+        "coordinates": [
+          5.428722,
+          43.522441
+        ]
       },
       "properties": {
         "name": "Centre Biblique de Provence",
@@ -705,7 +855,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.352451, 48.863365]
+        "coordinates": [
+          2.352451,
+          48.863365
+        ]
       },
       "properties": {
         "name": "Église Connexion",
@@ -719,7 +872,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.468718, 50.580764]
+        "coordinates": [
+          8.468718,
+          50.580764
+        ]
       },
       "properties": {
         "name": "Evangelisch-Reformierte Baptistengemeinde, Wetzlar",
@@ -733,7 +889,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.20059, 49.14934]
+        "coordinates": [
+          9.20059,
+          49.14934
+        ]
       },
       "properties": {
         "name": "Freie Baptisten - Gemeinde Heilbronn",
@@ -747,7 +906,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.313892, 50.533678]
+        "coordinates": [
+          8.313892,
+          50.533678
+        ]
       },
       "properties": {
         "name": "Gemeinde Freier Evangelischer Christen",
@@ -761,7 +923,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.748553, 52.3649814]
+        "coordinates": [
+          9.748553,
+          52.3649814
+        ]
       },
       "properties": {
         "name": "Hannover International Bible Church",
@@ -775,7 +940,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.08616, 52.61046]
+        "coordinates": [
+          10.08616,
+          52.61046
+        ]
       },
       "properties": {
         "name": "International Baptist Church Celle",
@@ -789,7 +957,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.500933, 14.606052]
+        "coordinates": [
+          -90.500933,
+          14.606052
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Reformada Antorcha",
@@ -803,7 +974,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.197504, 22.291948]
+        "coordinates": [
+          114.197504,
+          22.291948
+        ]
       },
       "properties": {
         "name": "Grace Reformed Evangelical Church",
@@ -817,7 +991,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.1749148, 22.2999936]
+        "coordinates": [
+          114.1749148,
+          22.2999936
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church of Hong Kong<br>香港改革宗三一浸信教會",
@@ -831,7 +1008,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.708073, 13.83299]
+        "coordinates": [
+          75.708073,
+          13.83299
+        ]
       },
       "properties": {
         "name": "Biblical Baptist Church",
@@ -845,7 +1025,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.550317, 17.483319]
+        "coordinates": [
+          78.550317,
+          17.483319
+        ]
       },
       "properties": {
         "name": "Christ Reformed Church",
@@ -859,7 +1042,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.363895, 22.572646]
+        "coordinates": [
+          88.363895,
+          22.572646
+        ]
       },
       "properties": {
         "name": "Grace Bible Fellowship",
@@ -873,7 +1059,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.177585, 11.715397]
+        "coordinates": [
+          78.177585,
+          11.715397
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church",
@@ -887,7 +1076,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.992439, 19.193665]
+        "coordinates": [
+          72.992439,
+          19.193665
+        ]
       },
       "properties": {
         "name": "Truth Reformed Baptist Church",
@@ -901,7 +1093,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.24793, 13.085567]
+        "coordinates": [
+          80.24793,
+          13.085567
+        ]
       },
       "properties": {
         "name": "Cornerstone Baptist Church",
@@ -915,7 +1110,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-6.263215, 53.274914]
+        "coordinates": [
+          -6.263215,
+          53.274914
+        ]
       },
       "properties": {
         "name": "Arann Reformed Baptist Church",
@@ -929,7 +1127,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-8.129115, 53.60051]
+        "coordinates": [
+          -8.129115,
+          53.60051
+        ]
       },
       "properties": {
         "name": "Grace Community Church of Roscommon",
@@ -943,7 +1144,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.232464, 31.777768]
+        "coordinates": [
+          35.232464,
+          31.777768
+        ]
       },
       "properties": {
         "name": "Kol Bamidbar (Voice in the wilderness)",
@@ -957,7 +1161,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [34.792501, 31.973002]
+        "coordinates": [
+          34.792501,
+          31.973002
+        ]
       },
       "properties": {
         "name": "Grace & Truth Congregation",
@@ -971,7 +1178,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.060702, 37.494651]
+        "coordinates": [
+          14.060702,
+          37.494651
+        ]
       },
       "properties": {
         "name": "Evangelical Christian Church \"Sola Grazia\"",
@@ -985,7 +1195,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.56738, 41.87194]
+        "coordinates": [
+          12.56738,
+          41.87194
+        ]
       },
       "properties": {
         "name": "Chiese Evangeliche Riformate Battiste in Italia",
@@ -999,7 +1212,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.814564, 18.041545]
+        "coordinates": [
+          -76.814564,
+          18.041545
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -1013,7 +1229,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.694959, 7.742148]
+        "coordinates": [
+          81.694959,
+          7.742148
+        ]
       },
       "properties": {
         "name": "Grace Redemption Fellowship",
@@ -1027,7 +1246,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.624259, 3.136021]
+        "coordinates": [
+          101.624259,
+          3.136021
+        ]
       },
       "properties": {
         "name": "Damansara Church (Reformed Baptist)",
@@ -1041,7 +1263,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.154737, 4.626261]
+        "coordinates": [
+          101.154737,
+          4.626261
+        ]
       },
       "properties": {
         "name": "Ipoh East Reformed Baptist Church",
@@ -1055,7 +1280,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.747194, 1.500942]
+        "coordinates": [
+          103.747194,
+          1.500942
+        ]
       },
       "properties": {
         "name": "JB First Community Church (Reformed Baptist)",
@@ -1069,7 +1297,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.073457, 5.980408]
+        "coordinates": [
+          116.073457,
+          5.980408
+        ]
       },
       "properties": {
         "name": "KK Reformed Baptist Church",
@@ -1083,7 +1314,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.658546, 3.560932]
+        "coordinates": [
+          101.658546,
+          3.560932
+        ]
       },
       "properties": {
         "name": "Kuala Kubu Chapel (Reformed Baptist)",
@@ -1097,7 +1331,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.240384, 2.197149]
+        "coordinates": [
+          102.240384,
+          2.197149
+        ]
       },
       "properties": {
         "name": "Melaka Reformed Baptist Church",
@@ -1111,7 +1348,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.975766, 4.210484]
+        "coordinates": [
+          101.975766,
+          4.210484
+        ]
       },
       "properties": {
         "name": "Miri Reformed Baptist Church",
@@ -1125,7 +1365,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.712724, 3.009341]
+        "coordinates": [
+          101.712724,
+          3.009341
+        ]
       },
       "properties": {
         "name": "Sri Serdang Church (Reformed Baptist)",
@@ -1139,7 +1382,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [101.575692, 3.046184]
+        "coordinates": [
+          101.575692,
+          3.046184
+        ]
       },
       "properties": {
         "name": "Subang Jaya Reformed Baptist Church",
@@ -1153,7 +1399,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.299279, 5.364249]
+        "coordinates": [
+          100.299279,
+          5.364249
+        ]
       },
       "properties": {
         "name": "Sungai Dua Church (1689 Baptist)",
@@ -1167,7 +1416,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.486888, 35.858287]
+        "coordinates": [
+          14.486888,
+          35.858287
+        ]
       },
       "properties": {
         "name": "Trinity Evangelical Church",
@@ -1181,7 +1433,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.094163, 28.673072]
+        "coordinates": [
+          -106.094163,
+          28.673072
+        ]
       },
       "properties": {
         "name": "Chihuahua City RB Mission",
@@ -1195,7 +1450,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.864245, 28.402206]
+        "coordinates": [
+          -106.864245,
+          28.402206
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Betel",
@@ -1209,7 +1467,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-110.953644, 29.083446]
+        "coordinates": [
+          -110.953644,
+          29.083446
+        ]
       },
       "properties": {
         "name": "Iglesia Biblica Cristiana Monte Horeb",
@@ -1223,7 +1484,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-99.13059, 19.319054]
+        "coordinates": [
+          -99.13059,
+          19.319054
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista de la Gracia y la Verdad",
@@ -1237,7 +1501,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-101.325273, 20.677617]
+        "coordinates": [
+          -101.325273,
+          20.677617
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista de La Gracia",
@@ -1251,7 +1518,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.956166, 42.780474]
+        "coordinates": [
+          18.956166,
+          42.780474
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Missionary",
@@ -1265,7 +1535,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [96.195132, 16.866069]
+        "coordinates": [
+          96.195132,
+          16.866069
+        ]
       },
       "properties": {
         "name": "Biblical Reformed Church, Hlaing Thayar",
@@ -1279,7 +1552,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [172.616124, -43.5097637]
+        "coordinates": [
+          172.616124,
+          -43.5097637
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -1293,7 +1569,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.841703, -36.895999]
+        "coordinates": [
+          174.841703,
+          -36.895999
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Church (Reformed Baptist)",
@@ -1307,7 +1586,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [175.285486, -37.810987]
+        "coordinates": [
+          175.285486,
+          -37.810987
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -1321,7 +1603,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.241254, 11.858631]
+        "coordinates": [
+          -86.241254,
+          11.858631
+        ]
       },
       "properties": {
         "name": "Carazo Bible Fellowship",
@@ -1335,7 +1620,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.0437, 14.676041]
+        "coordinates": [
+          121.0437,
+          14.676041
+        ]
       },
       "properties": {
         "name": "Cubao Reformed Baptist Church",
@@ -1349,7 +1637,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.596257, 15.471034]
+        "coordinates": [
+          120.596257,
+          15.471034
+        ]
       },
       "properties": {
         "name": "Divine Grace Bible Church",
@@ -1363,7 +1654,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.774017, 12.879721]
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Los Baños (Philippines)",
@@ -1377,7 +1671,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.774017, 12.879721]
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -1391,7 +1688,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [124.245242, 8.228021]
+        "coordinates": [
+          124.245242,
+          8.228021
+        ]
       },
       "properties": {
         "name": "Grace Covenant Baptist Church",
@@ -1405,7 +1705,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.774017, 12.879721]
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
       },
       "properties": {
         "name": "Kalibo Reformed Baptist Church",
@@ -1419,7 +1722,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.774017, 12.879721]
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
       },
       "properties": {
         "name": "Moonwalk Community Bible Church",
@@ -1433,7 +1739,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.774017, 12.879721]
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
       },
       "properties": {
         "name": "New Covenant Reformed Bible Church",
@@ -1447,7 +1756,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [123.841462, 8.144373]
+        "coordinates": [
+          123.841462,
+          8.144373
+        ]
       },
       "properties": {
         "name": "Ozamiz Reformed Baptist Church",
@@ -1461,7 +1773,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.0586118, 14.7110646]
+        "coordinates": [
+          121.0586118,
+          14.7110646
+        ]
       },
       "properties": {
         "name": "Redeemed Community Bible Church",
@@ -1475,7 +1790,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.111836, 14.316266]
+        "coordinates": [
+          121.111836,
+          14.316266
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Bible Church of Santa Rosa",
@@ -1489,7 +1807,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [123.885437, 10.315699]
+        "coordinates": [
+          123.885437,
+          10.315699
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Bible Church",
@@ -1503,7 +1824,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.996322, 14.569861]
+        "coordinates": [
+          120.996322,
+          14.569861
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Church",
@@ -1517,7 +1841,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.97126, 14.651374]
+        "coordinates": [
+          120.97126,
+          14.651374
+        ]
       },
       "properties": {
         "name": "The Neighborhood Church",
@@ -1531,7 +1858,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.405615, 14.048953]
+        "coordinates": [
+          121.405615,
+          14.048953
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church",
@@ -1545,7 +1875,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.995169, 14.611722]
+        "coordinates": [
+          120.995169,
+          14.611722
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -1559,7 +1892,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.83493, 17.026757]
+        "coordinates": [
+          121.83493,
+          17.026757
+        ]
       },
       "properties": {
         "name": "Naguilian Reformed Baptist Church",
@@ -1573,7 +1909,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-66.076728, 18.373087]
+        "coordinates": [
+          -66.076728,
+          18.373087
+        ]
       },
       "properties": {
         "name": "Berean Baptist Church",
@@ -1587,7 +1926,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.780158, 1.302491]
+        "coordinates": [
+          103.780158,
+          1.302491
+        ]
       },
       "properties": {
         "name": "Ebenezer Church",
@@ -1601,7 +1943,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.885249, 1.341924]
+        "coordinates": [
+          103.885249,
+          1.341924
+        ]
       },
       "properties": {
         "name": "Shalom Reformed Baptist Church",
@@ -1615,7 +1960,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.838153, 1.461517]
+        "coordinates": [
+          103.838153,
+          1.461517
+        ]
       },
       "properties": {
         "name": "Woodlands Reformed Baptist Church",
@@ -1629,7 +1977,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.747721, 49.222873]
+        "coordinates": [
+          18.747721,
+          49.222873
+        ]
       },
       "properties": {
         "name": "Reformovaný baptistický cirkevný zbor Soli Deo Gloria Žilina",
@@ -1643,7 +1994,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.168427, 48.145873]
+        "coordinates": [
+          17.168427,
+          48.145873
+        ]
       },
       "properties": {
         "name": "NKZ Bratislava",
@@ -1657,7 +2011,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.23182, -26.06333]
+        "coordinates": [
+          28.23182,
+          -26.06333
+        ]
       },
       "properties": {
         "name": "Birchleigh Baptist Church",
@@ -1671,7 +2028,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.047305, -26.204103]
+        "coordinates": [
+          28.047305,
+          -26.204103
+        ]
       },
       "properties": {
         "name": "Free Grace Baptist Church",
@@ -1685,7 +2045,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.17503, -26.235659]
+        "coordinates": [
+          28.17503,
+          -26.235659
+        ]
       },
       "properties": {
         "name": "Germiston Baptist Church",
@@ -1699,7 +2062,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.70933, -33.84562]
+        "coordinates": [
+          18.70933,
+          -33.84562
+        ]
       },
       "properties": {
         "name": "Kraaifontein Baptist Church",
@@ -1713,7 +2079,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.295041, -25.764286]
+        "coordinates": [
+          28.295041,
+          -25.764286
+        ]
       },
       "properties": {
         "name": "Lynnwood Baptist Church",
@@ -1727,7 +2096,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.467102, 36.722603]
+        "coordinates": [
+          -4.467102,
+          36.722603
+        ]
       },
       "properties": {
         "name": "Iglesia Cristiana Bautista Reformada",
@@ -1741,7 +2113,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-16.31883, 28.437511]
+        "coordinates": [
+          -16.31883,
+          28.437511
+        ]
       },
       "properties": {
         "name": "Iglesia Evangélica de la Gracia",
@@ -1755,7 +2130,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.748587, 40.396149]
+        "coordinates": [
+          -3.748587,
+          40.396149
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Reformada del Pacto de Gracia",
@@ -1769,7 +2147,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.108321, 38.835576]
+        "coordinates": [
+          0.108321,
+          38.835576
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Independiente Monte Sion",
@@ -1783,7 +2164,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.188194, 41.432305]
+        "coordinates": [
+          2.188194,
+          41.432305
+        ]
       },
       "properties": {
         "name": "Iglesia Evangélica de la Gracia",
@@ -1797,7 +2181,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.631439, 46.528068]
+        "coordinates": [
+          6.631439,
+          46.528068
+        ]
       },
       "properties": {
         "name": "Eglise Réformée Baptiste de Lausanne",
@@ -1811,7 +2198,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.620302, 46.517292]
+        "coordinates": [
+          6.620302,
+          46.517292
+        ]
       },
       "properties": {
         "name": "Lausanne Free Church",
@@ -1825,7 +2215,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-61.393333, 10.652195]
+        "coordinates": [
+          -61.393333,
+          10.652195
+        ]
       },
       "properties": {
         "name": "Reformed Evangelical Church",
@@ -1839,7 +2232,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-61.388107, 10.651253]
+        "coordinates": [
+          -61.388107,
+          10.651253
+        ]
       },
       "properties": {
         "name": "The Tunapuna Missionary Baptist Church",
@@ -1853,7 +2249,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.084951, 52.415721]
+        "coordinates": [
+          -4.084951,
+          52.415721
+        ]
       },
       "properties": {
         "name": "Alfred Place Baptist Church",
@@ -1867,7 +2266,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.179007, 55.964589]
+        "coordinates": [
+          -3.179007,
+          55.964589
+        ]
       },
       "properties": {
         "name": "The Upper Room",
@@ -1881,7 +2283,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.956979, 53.384329]
+        "coordinates": [
+          -2.956979,
+          53.384329
+        ]
       },
       "properties": {
         "name": "Belvidere Road Church",
@@ -1895,7 +2300,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.748264, 52.480253]
+        "coordinates": [
+          -1.748264,
+          52.480253
+        ]
       },
       "properties": {
         "name": "Chelmsley Wood Reformed Baptist Church",
@@ -1909,7 +2317,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.479417, 53.083834]
+        "coordinates": [
+          -1.479417,
+          53.083834
+        ]
       },
       "properties": {
         "name": "Crich Baptist Church",
@@ -1923,7 +2334,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.26159, 55.45522]
+        "coordinates": [
+          -4.26159,
+          55.45522
+        ]
       },
       "properties": {
         "name": "Cumnock Baptist Church",
@@ -1937,7 +2351,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.008619, 51.550385]
+        "coordinates": [
+          0.008619,
+          51.550385
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -1951,7 +2368,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.006539, 53.645432]
+        "coordinates": [
+          -3.006539,
+          53.645432
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -1965,7 +2385,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.297355, 52.630886]
+        "coordinates": [
+          1.297355,
+          52.630886
+        ]
       },
       "properties": {
         "name": "Hethersett Independent Reformed Baptist Church",
@@ -1979,7 +2402,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.153193, 51.107353]
+        "coordinates": [
+          -0.153193,
+          51.107353
+        ]
       },
       "properties": {
         "name": "Maidenbower Baptist Church",
@@ -1993,7 +2419,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.5745, 55.009424]
+        "coordinates": [
+          -1.5745,
+          55.009424
+        ]
       },
       "properties": {
         "name": "Newcastle Reformed Evangelical Church",
@@ -2007,7 +2436,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.190169, 56.137348]
+        "coordinates": [
+          -3.190169,
+          56.137348
+        ]
       },
       "properties": {
         "name": "Pathhed Baptist Church",
@@ -2021,7 +2453,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.078364, 51.889046]
+        "coordinates": [
+          -2.078364,
+          51.889046
+        ]
       },
       "properties": {
         "name": "Providence Baptist Chapel",
@@ -2035,7 +2470,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.32266, 55.889605]
+        "coordinates": [
+          -4.32266,
+          55.889605
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church",
@@ -2049,7 +2487,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.239386, 57.482372]
+        "coordinates": [
+          -4.239386,
+          57.482372
+        ]
       },
       "properties": {
         "name": "Inverness Reformed Baptist Church",
@@ -2063,7 +2504,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.299613, 55.856561]
+        "coordinates": [
+          -4.299613,
+          55.856561
+        ]
       },
       "properties": {
         "name": "South Glasgow Baptist Church",
@@ -2077,7 +2521,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-5.087558, 50.41389]
+        "coordinates": [
+          -5.087558,
+          50.41389
+        ]
       },
       "properties": {
         "name": "Newquay Reformed Baptist Church",
@@ -2091,7 +2538,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-6.20725, 54.719534]
+        "coordinates": [
+          -6.20725,
+          54.719534
+        ]
       },
       "properties": {
         "name": "Ballymoney Baptist Church",
@@ -2105,7 +2555,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-6.371101, 54.855698]
+        "coordinates": [
+          -6.371101,
+          54.855698
+        ]
       },
       "properties": {
         "name": "Magherafelt Reformed Baptist Church",
@@ -2119,7 +2572,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-6.418564, 54.424015]
+        "coordinates": [
+          -6.418564,
+          54.424015
+        ]
       },
       "properties": {
         "name": "Killicomaine Evangelical Church",
@@ -2133,7 +2589,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.814564, 18.041545]
+        "coordinates": [
+          -76.814564,
+          18.041545
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -2147,7 +2606,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-61.623856, 12.124261]
+        "coordinates": [
+          -61.623856,
+          12.124261
+        ]
       },
       "properties": {
         "name": "Grace Reformed Church",
@@ -2161,7 +2623,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.3137292, -15.4413661]
+        "coordinates": [
+          28.3137292,
+          -15.4413661
+        ]
       },
       "properties": {
         "name": "Kabwata Baptist Church",
@@ -2175,7 +2640,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.460556, -11.836618]
+        "coordinates": [
+          31.460556,
+          -11.836618
+        ]
       },
       "properties": {
         "name": "Emmanuel Baptist Church",
@@ -2189,7 +2657,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.763302, 33.365789]
+        "coordinates": [
+          -86.763302,
+          33.365789
+        ]
       },
       "properties": {
         "name": "Dominion Baptist Church",
@@ -2203,7 +2674,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.673642, 34.875284]
+        "coordinates": [
+          -87.673642,
+          34.875284
+        ]
       },
       "properties": {
         "name": "Emmanuel Baptist Church",
@@ -2217,7 +2691,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.746636, 34.751784]
+        "coordinates": [
+          -86.746636,
+          34.751784
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -2231,7 +2708,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.453393, 32.615095]
+        "coordinates": [
+          -85.453393,
+          32.615095
+        ]
       },
       "properties": {
         "name": "Grace Heritage Church",
@@ -2245,7 +2725,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.982237, 34.003207]
+        "coordinates": [
+          -85.982237,
+          34.003207
+        ]
       },
       "properties": {
         "name": "Harvest Fellowship Community Church",
@@ -2259,7 +2742,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.74947, 34.809227]
+        "coordinates": [
+          -86.74947,
+          34.809227
+        ]
       },
       "properties": {
         "name": "New Life Baptist",
@@ -2273,7 +2759,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.435772, 31.22844]
+        "coordinates": [
+          -85.435772,
+          31.22844
+        ]
       },
       "properties": {
         "name": "Trinity Church",
@@ -2287,7 +2776,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.564157, 33.802113]
+        "coordinates": [
+          -86.564157,
+          33.802113
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -2301,7 +2793,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.586103, 34.7303688]
+        "coordinates": [
+          -86.586103,
+          34.7303688
+        ]
       },
       "properties": {
         "name": "Discipleship Baptist Church",
@@ -2315,7 +2810,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.509337, 33.719026]
+        "coordinates": [
+          -86.509337,
+          33.719026
+        ]
       },
       "properties": {
         "name": "Grace Chapel Reformed Baptist Church",
@@ -2329,7 +2827,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.185269, 32.547251]
+        "coordinates": [
+          -86.185269,
+          32.547251
+        ]
       },
       "properties": {
         "name": "Reformation Baptist Church",
@@ -2343,7 +2844,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.739517, 33.408626]
+        "coordinates": [
+          -111.739517,
+          33.408626
+        ]
       },
       "properties": {
         "name": "Cornerstone Church",
@@ -2357,7 +2861,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.738483, 33.373444]
+        "coordinates": [
+          -111.738483,
+          33.373444
+        ]
       },
       "properties": {
         "name": "Grace Covenant Church",
@@ -2371,7 +2878,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.480945, 34.556524]
+        "coordinates": [
+          -112.480945,
+          34.556524
+        ]
       },
       "properties": {
         "name": "Miller Valley Baptist Church",
@@ -2385,7 +2895,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.150719, 33.535062]
+        "coordinates": [
+          -112.150719,
+          33.535062
+        ]
       },
       "properties": {
         "name": "Northwest Baptist Church",
@@ -2399,7 +2912,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.056103, 33.491665]
+        "coordinates": [
+          -112.056103,
+          33.491665
+        ]
       },
       "properties": {
         "name": "Phoenix Reformed Baptist Church",
@@ -2413,7 +2929,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.122976, 33.524323]
+        "coordinates": [
+          -112.122976,
+          33.524323
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Bible Church",
@@ -2427,7 +2946,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-110.925856, 32.237548]
+        "coordinates": [
+          -110.925856,
+          32.237548
+        ]
       },
       "properties": {
         "name": "Tucson Reformed Baptist Church",
@@ -2441,7 +2963,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.7617052, 32.8893729]
+        "coordinates": [
+          -111.7617052,
+          32.8893729
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -2455,7 +2980,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.4087505, 33.4561517]
+        "coordinates": [
+          -112.4087505,
+          33.4561517
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -2469,7 +2997,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.258181, 33.606388]
+        "coordinates": [
+          -112.258181,
+          33.606388
+        ]
       },
       "properties": {
         "name": "King's Church",
@@ -2483,7 +3014,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.979065, 33.650784]
+        "coordinates": [
+          -111.979065,
+          33.650784
+        ]
       },
       "properties": {
         "name": "Redeemer Reformed Baptist Church",
@@ -2497,7 +3031,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.434885, 35.093375]
+        "coordinates": [
+          -92.434885,
+          35.093375
+        ]
       },
       "properties": {
         "name": "Grace Bible Church of Conway",
@@ -2511,7 +3048,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.208817, 36.372854]
+        "coordinates": [
+          -94.208817,
+          36.372854
+        ]
       },
       "properties": {
         "name": "Legacy Baptist Church",
@@ -2525,7 +3065,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.043094, 33.404032]
+        "coordinates": [
+          -94.043094,
+          33.404032
+        ]
       },
       "properties": {
         "name": "Texarkana Reformed Baptist Church",
@@ -2539,7 +3082,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.008579, 34.950232]
+        "coordinates": [
+          -92.008579,
+          34.950232
+        ]
       },
       "properties": {
         "name": "The Bible Church of Cabot",
@@ -2553,7 +3099,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.360527, 33.893478]
+        "coordinates": [
+          -118.360527,
+          33.893478
+        ]
       },
       "properties": {
         "name": "Centinela Baptist Church",
@@ -2567,7 +3116,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.667739, 35.622385]
+        "coordinates": [
+          -117.667739,
+          35.622385
+        ]
       },
       "properties": {
         "name": "Cornerstone Bible Church",
@@ -2581,7 +3133,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.226671, 33.233937]
+        "coordinates": [
+          -117.226671,
+          33.233937
+        ]
       },
       "properties": {
         "name": "Christ Reformed Baptist Church",
@@ -2595,7 +3150,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.183099, 34.194362]
+        "coordinates": [
+          -119.183099,
+          34.194362
+        ]
       },
       "properties": {
         "name": "Faith Community Church",
@@ -2609,7 +3167,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-120.445547, 34.650739]
+        "coordinates": [
+          -120.445547,
+          34.650739
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church ",
@@ -2623,7 +3184,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.902519, 36.613524]
+        "coordinates": [
+          -121.902519,
+          36.613524
+        ]
       },
       "properties": {
         "name": "First Baptist Church of Monterey",
@@ -2637,7 +3201,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.710553, 36.80871]
+        "coordinates": [
+          -119.710553,
+          36.80871
+        ]
       },
       "properties": {
         "name": "Free Grace Church",
@@ -2651,7 +3218,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.183009, 34.678967]
+        "coordinates": [
+          -118.183009,
+          34.678967
+        ]
       },
       "properties": {
         "name": "Free Grace Church",
@@ -2665,7 +3235,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.784866, 37.683564]
+        "coordinates": [
+          -121.784866,
+          37.683564
+        ]
       },
       "properties": {
         "name": "Gateway Church",
@@ -2679,7 +3252,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.082629, 33.108422]
+        "coordinates": [
+          -117.082629,
+          33.108422
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -2693,7 +3269,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.16449, 32.820591]
+        "coordinates": [
+          -117.16449,
+          32.820591
+        ]
       },
       "properties": {
         "name": "Grace Bible Church - San Diego",
@@ -2707,7 +3286,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.117012, 33.881682]
+        "coordinates": [
+          -118.117012,
+          33.881682
+        ]
       },
       "properties": {
         "name": "Grace Providence Church",
@@ -2721,7 +3303,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-120.78297, 38.73527]
+        "coordinates": [
+          -120.78297,
+          38.73527
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -2735,7 +3320,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.116461, 34.579434]
+        "coordinates": [
+          -118.116461,
+          34.579434
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -2749,7 +3337,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.477098, 38.570114]
+        "coordinates": [
+          -121.477098,
+          38.570114
+        ]
       },
       "properties": {
         "name": "Immanuel Baptist Church",
@@ -2763,7 +3354,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.005506, 37.395223]
+        "coordinates": [
+          -122.005506,
+          37.395223
+        ]
       },
       "properties": {
         "name": "Silicon Valley Reformed Baptist Church",
@@ -2777,7 +3371,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.301851, 34.246948]
+        "coordinates": [
+          -117.301851,
+          34.246948
+        ]
       },
       "properties": {
         "name": "Mountain Reformed Church",
@@ -2791,7 +3388,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.441761, 34.011579]
+        "coordinates": [
+          -117.441761,
+          34.011579
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Riverside",
@@ -2805,7 +3405,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.629506, 34.070132]
+        "coordinates": [
+          -117.629506,
+          34.070132
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -2819,7 +3422,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.648299, 37.112253]
+        "coordinates": [
+          -121.648299,
+          37.112253
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -2833,7 +3439,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.024395, 33.903006]
+        "coordinates": [
+          -118.024395,
+          33.903006
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -2847,7 +3456,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.431112, 34.424907]
+        "coordinates": [
+          -117.431112,
+          34.424907
+        ]
       },
       "properties": {
         "name": "On the Way Reformed Baptist Church",
@@ -2861,7 +3473,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.293609, 34.065293]
+        "coordinates": [
+          -117.293609,
+          34.065293
+        ]
       },
       "properties": {
         "name": "Redeemer Reformed Baptist Church",
@@ -2875,7 +3490,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.233796, 37.933539]
+        "coordinates": [
+          -121.233796,
+          37.933539
+        ]
       },
       "properties": {
         "name": "Bethany Baptist Church",
@@ -2889,7 +3507,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.04113, 39.647845]
+        "coordinates": [
+          -105.04113,
+          39.647845
+        ]
       },
       "properties": {
         "name": "Christ Church",
@@ -2903,7 +3524,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.060643, 39.725043]
+        "coordinates": [
+          -105.060643,
+          39.725043
+        ]
       },
       "properties": {
         "name": "Denver Sound Church",
@@ -2917,7 +3541,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.17914, 40.057207]
+        "coordinates": [
+          -105.17914,
+          40.057207
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Northern Colorado",
@@ -2931,7 +3558,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.1044261, 40.5677501]
+        "coordinates": [
+          -105.1044261,
+          40.5677501
+        ]
       },
       "properties": {
         "name": "Providence Bible Church",
@@ -2945,7 +3575,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.92952, 38.544468]
+        "coordinates": [
+          -106.92952,
+          38.544468
+        ]
       },
       "properties": {
         "name": "Sojourn Church",
@@ -2959,7 +3592,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.86643, 41.67145]
+        "coordinates": [
+          -72.86643,
+          41.67145
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -2973,7 +3609,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.846616, 41.320379]
+        "coordinates": [
+          -72.846616,
+          41.320379
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church ",
@@ -2987,7 +3626,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.171537, 27.941761]
+        "coordinates": [
+          -82.171537,
+          27.941761
+        ]
       },
       "properties": {
         "name": "Ahava Baptist Church",
@@ -3001,7 +3643,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.530653, 27.336435]
+        "coordinates": [
+          -82.530653,
+          27.336435
+        ]
       },
       "properties": {
         "name": "Bethel Community Church",
@@ -3015,7 +3660,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.443296, 28.656005]
+        "coordinates": [
+          -81.443296,
+          28.656005
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -3029,7 +3677,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.134752, 28.649476]
+        "coordinates": [
+          -81.134752,
+          28.649476
+        ]
       },
       "properties": {
         "name": "Cornerstone Baptist Church",
@@ -3043,7 +3694,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.396963, 25.648972]
+        "coordinates": [
+          -80.396963,
+          25.648972
+        ]
       },
       "properties": {
         "name": "Cornerstone Bible Church",
@@ -3057,7 +3711,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.197219, 26.313005]
+        "coordinates": [
+          -80.197219,
+          26.313005
+        ]
       },
       "properties": {
         "name": "Emmanuel Baptist Church",
@@ -3071,7 +3728,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.352587, 28.549977]
+        "coordinates": [
+          -81.352587,
+          28.549977
+        ]
       },
       "properties": {
         "name": "Faith Baptist Church",
@@ -3085,7 +3745,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.798716, 28.567662]
+        "coordinates": [
+          -80.798716,
+          28.567662
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church",
@@ -3099,7 +3762,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.836596, 28.600082]
+        "coordinates": [
+          -80.836596,
+          28.600082
+        ]
       },
       "properties": {
         "name": "Forest Hills Baptist Church",
@@ -3113,7 +3779,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.430335, 28.154104]
+        "coordinates": [
+          -82.430335,
+          28.154104
+        ]
       },
       "properties": {
         "name": "Free Grace Church of Tampa Bay",
@@ -3127,7 +3796,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.31133, 28.809815]
+        "coordinates": [
+          -81.31133,
+          28.809815
+        ]
       },
       "properties": {
         "name": "Grace Chapel",
@@ -3141,7 +3813,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.000895, 26.6418823]
+        "coordinates": [
+          -82.000895,
+          26.6418823
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -3155,7 +3830,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.645935, 28.331444]
+        "coordinates": [
+          -82.645935,
+          28.331444
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of North Tampa Bay ",
@@ -3169,7 +3847,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.441895, 27.498344]
+        "coordinates": [
+          -81.441895,
+          27.498344
+        ]
       },
       "properties": {
         "name": "Highlands Grace Reformed Church",
@@ -3183,7 +3864,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.305523, 25.759167]
+        "coordinates": [
+          -80.305523,
+          25.759167
+        ]
       },
       "properties": {
         "name": "Iglesia Cristiana Camino Nuevo",
@@ -3197,7 +3881,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.764221, 26.271632]
+        "coordinates": [
+          -81.764221,
+          26.271632
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista La Gracia",
@@ -3211,7 +3898,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.43844, 25.713639]
+        "coordinates": [
+          -80.43844,
+          25.713639
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Independiente",
@@ -3225,7 +3915,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.277065, 29.740877]
+        "coordinates": [
+          -82.277065,
+          29.740877
+        ]
       },
       "properties": {
         "name": "Monteocha Baptist Church",
@@ -3239,7 +3932,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.247947, 30.415664]
+        "coordinates": [
+          -87.247947,
+          30.415664
+        ]
       },
       "properties": {
         "name": "Mount Zion Bible Church",
@@ -3253,7 +3949,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.365326, 28.654834]
+        "coordinates": [
+          -81.365326,
+          28.654834
+        ]
       },
       "properties": {
         "name": "Orlando Grace Church",
@@ -3267,7 +3966,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.508302, 28.877885]
+        "coordinates": [
+          -82.508302,
+          28.877885
+        ]
       },
       "properties": {
         "name": "Providence Baptist Church",
@@ -3281,7 +3983,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.134983, 29.2499]
+        "coordinates": [
+          -81.134983,
+          29.2499
+        ]
       },
       "properties": {
         "name": "Riverbend Community Church",
@@ -3295,7 +4000,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.3801844, 29.8174346]
+        "coordinates": [
+          -82.3801844,
+          29.8174346
+        ]
       },
       "properties": {
         "name": "Antioch Baptist Church",
@@ -3309,7 +4017,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.260565, 30.784933]
+        "coordinates": [
+          -85.260565,
+          30.784933
+        ]
       },
       "properties": {
         "name": "New Hope Baptist Church",
@@ -3323,7 +4034,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.0622358, 28.8016845]
+        "coordinates": [
+          -82.0622358,
+          28.8016845
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -3337,7 +4051,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.546988, 30.004103]
+        "coordinates": [
+          -82.546988,
+          30.004103
+        ]
       },
       "properties": {
         "name": "Providence Village Baptist Church",
@@ -3351,7 +4068,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.9064467, 28.9920556]
+        "coordinates": [
+          -80.9064467,
+          28.9920556
+        ]
       },
       "properties": {
         "name": "First Baptist Church of Edgewater",
@@ -3365,7 +4085,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.3709005, 29.6769839]
+        "coordinates": [
+          -83.3709005,
+          29.6769839
+        ]
       },
       "properties": {
         "name": "Fellowship Baptist Church",
@@ -3379,7 +4102,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.1362315, 29.1244956]
+        "coordinates": [
+          -82.1362315,
+          29.1244956
+        ]
       },
       "properties": {
         "name": "Olivet Baptist Church",
@@ -3393,7 +4119,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.2768508, 30.4444747]
+        "coordinates": [
+          -84.2768508,
+          30.4444747
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -3407,7 +4136,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.319346, 25.761439]
+        "coordinates": [
+          -80.319346,
+          25.761439
+        ]
       },
       "properties": {
         "name": "Tamiami Baptist Church",
@@ -3421,7 +4153,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.736956, 33.710486]
+        "coordinates": [
+          -84.736956,
+          33.710486
+        ]
       },
       "properties": {
         "name": "Arbor Heights Baptist Church",
@@ -3435,7 +4170,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.2109548, 33.8496111]
+        "coordinates": [
+          -84.2109548,
+          33.8496111
+        ]
       },
       "properties": {
         "name": "Atlanta Reformation Fellowship",
@@ -3449,7 +4187,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.623075, 33.833783]
+        "coordinates": [
+          -84.623075,
+          33.833783
+        ]
       },
       "properties": {
         "name": "Berean Baptist Church",
@@ -3463,7 +4204,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.956771, 34.044507]
+        "coordinates": [
+          -83.956771,
+          34.044507
+        ]
       },
       "properties": {
         "name": "Christ Reformed Church",
@@ -3477,7 +4221,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.920429, 31.604639]
+        "coordinates": [
+          -81.920429,
+          31.604639
+        ]
       },
       "properties": {
         "name": "Emmanuel Baptist Church",
@@ -3491,7 +4238,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.215274, 32.249998]
+        "coordinates": [
+          -81.215274,
+          32.249998
+        ]
       },
       "properties": {
         "name": "Redeemer Baptist Church",
@@ -3505,7 +4255,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.628174, 33.400196]
+        "coordinates": [
+          -84.628174,
+          33.400196
+        ]
       },
       "properties": {
         "name": "Faith Bible Church",
@@ -3519,7 +4272,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.036868, 34.359027]
+        "coordinates": [
+          -84.036868,
+          34.359027
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -3533,7 +4289,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.306864, 34.071654]
+        "coordinates": [
+          -84.306864,
+          34.071654
+        ]
       },
       "properties": {
         "name": "Grace Church",
@@ -3547,7 +4306,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.457106, 34.203997]
+        "coordinates": [
+          -83.457106,
+          34.203997
+        ]
       },
       "properties": {
         "name": "Grace Baptist Mission",
@@ -3561,7 +4323,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.248906, 33.987722]
+        "coordinates": [
+          -84.248906,
+          33.987722
+        ]
       },
       "properties": {
         "name": "Grace Church of North Atlanta",
@@ -3575,7 +4340,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.523592, 33.53571]
+        "coordinates": [
+          -84.523592,
+          33.53571
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -3589,7 +4357,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.577099, 30.765892]
+        "coordinates": [
+          -81.577099,
+          30.765892
+        ]
       },
       "properties": {
         "name": "New Hope Baptist Church",
@@ -3603,7 +4374,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.770736, 32.750058]
+        "coordinates": [
+          -83.770736,
+          32.750058
+        ]
       },
       "properties": {
         "name": "Redeemer Baptist Church",
@@ -3617,7 +4391,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.41549, 31.116224]
+        "coordinates": [
+          -83.41549,
+          31.116224
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -3631,7 +4408,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.06824, 33.237887]
+        "coordinates": [
+          -84.06824,
+          33.237887
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -3645,7 +4425,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.904923, 32.1607057]
+        "coordinates": [
+          -81.904923,
+          32.1607057
+        ]
       },
       "properties": {
         "name": "Grace Truth Church",
@@ -3659,7 +4442,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.9732546, 34.7845319]
+        "coordinates": [
+          -84.9732546,
+          34.7845319
+        ]
       },
       "properties": {
         "name": "Reformation Baptist Church of Dalton",
@@ -3673,7 +4459,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.5676395, 33.8247678]
+        "coordinates": [
+          -84.5676395,
+          33.8247678
+        ]
       },
       "properties": {
         "name": "Westside Baptist Church",
@@ -3687,7 +4476,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-157.836711, 21.308751]
+        "coordinates": [
+          -157.836711,
+          21.308751
+        ]
       },
       "properties": {
         "name": "Central Baptist Church",
@@ -3701,7 +4493,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-157.798713, 21.296597]
+        "coordinates": [
+          -157.798713,
+          21.296597
+        ]
       },
       "properties": {
         "name": "Honolulu Bible Church",
@@ -3715,7 +4510,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-159.3689775, 22.054844]
+        "coordinates": [
+          -159.3689775,
+          22.054844
+        ]
       },
       "properties": {
         "name": "Logos Christian Fellowship",
@@ -3729,7 +4527,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.001189, 46.400409]
+        "coordinates": [
+          -117.001189,
+          46.400409
+        ]
       },
       "properties": {
         "name": "Port Cities Reformed Baptist Church",
@@ -3743,7 +4544,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-116.563572, 43.573897]
+        "coordinates": [
+          -116.563572,
+          43.573897
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -3757,7 +4561,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.959686, 42.062493]
+        "coordinates": [
+          -87.959686,
+          42.062493
+        ]
       },
       "properties": {
         "name": "Bible Baptist Church",
@@ -3771,7 +4578,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.475317, 40.766036]
+        "coordinates": [
+          -89.475317,
+          40.766036
+        ]
       },
       "properties": {
         "name": "Christ Bible Church",
@@ -3785,7 +4595,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.277529, 42.036695]
+        "coordinates": [
+          -88.277529,
+          42.036695
+        ]
       },
       "properties": {
         "name": "Grace Covenant Church",
@@ -3799,7 +4612,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.027526, 42.336772]
+        "coordinates": [
+          -89.027526,
+          42.336772
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -3813,7 +4629,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.443686, 41.761418]
+        "coordinates": [
+          -88.443686,
+          41.761418
+        ]
       },
       "properties": {
         "name": "Heritage of Faith Church",
@@ -3827,7 +4646,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.7660643, 41.5285314]
+        "coordinates": [
+          -87.7660643,
+          41.5285314
+        ]
       },
       "properties": {
         "name": "Hope Reformed Baptist Church",
@@ -3841,7 +4663,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.967625, 40.470204]
+        "coordinates": [
+          -88.967625,
+          40.470204
+        ]
       },
       "properties": {
         "name": "Immanuel Baptist Church",
@@ -3855,7 +4680,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.119915, 41.963837]
+        "coordinates": [
+          -88.119915,
+          41.963837
+        ]
       },
       "properties": {
         "name": "Living Hope Bible Church ",
@@ -3869,7 +4697,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.145283, 41.998443]
+        "coordinates": [
+          -88.145283,
+          41.998443
+        ]
       },
       "properties": {
         "name": "Iglesia Esperanza",
@@ -3883,7 +4714,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.972034, 42.22215]
+        "coordinates": [
+          -87.972034,
+          42.22215
+        ]
       },
       "properties": {
         "name": "New Life Fellowship Church",
@@ -3897,7 +4731,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.368218, 41.572728]
+        "coordinates": [
+          -90.368218,
+          41.572728
+        ]
       },
       "properties": {
         "name": "Sycamore Baptist Church",
@@ -3911,7 +4748,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.389452, 42.393095]
+        "coordinates": [
+          -88.389452,
+          42.393095
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -3925,7 +4765,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.802145, 41.215747]
+        "coordinates": [
+          -85.802145,
+          41.215747
+        ]
       },
       "properties": {
         "name": "Christ's Covenant Church",
@@ -3939,7 +4782,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.404807, 37.980656]
+        "coordinates": [
+          -87.404807,
+          37.980656
+        ]
       },
       "properties": {
         "name": "Cornerstone Fellowship",
@@ -3953,7 +4799,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.738361, 40.100852]
+        "coordinates": [
+          -85.738361,
+          40.100852
+        ]
       },
       "properties": {
         "name": "Edgewood Baptist Church",
@@ -3967,7 +4816,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.811952, 39.761157]
+        "coordinates": [
+          -86.811952,
+          39.761157
+        ]
       },
       "properties": {
         "name": "Eternal Grace Baptist Church of New Maysville",
@@ -3981,7 +4833,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.11148, 39.971875]
+        "coordinates": [
+          -86.11148,
+          39.971875
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -3995,7 +4850,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.851032, 41.263851]
+        "coordinates": [
+          -85.851032,
+          41.263851
+        ]
       },
       "properties": {
         "name": "Grace Baptist Fellowship",
@@ -4009,7 +4867,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.165973, 41.441968]
+        "coordinates": [
+          -86.165973,
+          41.441968
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Church",
@@ -4023,7 +4884,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.754043, 39.772746]
+        "coordinates": [
+          -85.754043,
+          39.772746
+        ]
       },
       "properties": {
         "name": "Hancock Reformed Baptist Church",
@@ -4037,7 +4901,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.054986, 39.480606]
+        "coordinates": [
+          -86.054986,
+          39.480606
+        ]
       },
       "properties": {
         "name": "Heritage Reformed Baptist Church",
@@ -4051,7 +4918,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.681971, 40.524072]
+        "coordinates": [
+          -85.681971,
+          40.524072
+        ]
       },
       "properties": {
         "name": "Heritage Bible Fellowship",
@@ -4065,7 +4935,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.963498, 40.4820809]
+        "coordinates": [
+          -85.963498,
+          40.4820809
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -4079,7 +4952,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.973183, 39.971056]
+        "coordinates": [
+          -85.973183,
+          39.971056
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -4093,7 +4969,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.352665, 39.9355189]
+        "coordinates": [
+          -85.352665,
+          39.9355189
+        ]
       },
       "properties": {
         "name": "Christ Reformed Baptist Church",
@@ -4107,7 +4986,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.989308, 40.741895]
+        "coordinates": [
+          -73.989308,
+          40.741895
+        ]
       },
       "properties": {
         "name": "Bethel Reformed Baptist Church",
@@ -4121,7 +5003,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.5768, 41.965646]
+        "coordinates": [
+          -92.5768,
+          41.965646
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church",
@@ -4135,7 +5020,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.581523, 39.048942]
+        "coordinates": [
+          -95.581523,
+          39.048942
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Topeka, KS",
@@ -4149,7 +5037,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.067543, 39.841259]
+        "coordinates": [
+          -96.067543,
+          39.841259
+        ]
       },
       "properties": {
         "name": "New Hope Baptist Church",
@@ -4163,7 +5054,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.871, 38.978972]
+        "coordinates": [
+          -94.871,
+          38.978972
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Kansas City",
@@ -4177,7 +5071,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.85121, 39.013101]
+        "coordinates": [
+          -95.85121,
+          39.013101
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -4191,7 +5088,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-99.31652, 39.75515]
+        "coordinates": [
+          -99.31652,
+          39.75515
+        ]
       },
       "properties": {
         "name": "Calvary Baptist Church",
@@ -4205,7 +5105,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.5712423, 37.80312]
+        "coordinates": [
+          -87.5712423,
+          37.80312
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -4219,7 +5122,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.258332, 37.538935]
+        "coordinates": [
+          -87.258332,
+          37.538935
+        ]
       },
       "properties": {
         "name": "Crossroads Baptist Church",
@@ -4233,7 +5139,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.091346, 37.752293]
+        "coordinates": [
+          -87.091346,
+          37.752293
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -4247,7 +5156,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.053283, 37.751801]
+        "coordinates": [
+          -87.053283,
+          37.751801
+        ]
       },
       "properties": {
         "name": "Green River Area Deaf Fellowship",
@@ -4261,7 +5173,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.860008, 37.698801]
+        "coordinates": [
+          -85.860008,
+          37.698801
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Elizabethtown",
@@ -4275,7 +5190,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.039935, 37.751335]
+        "coordinates": [
+          -87.039935,
+          37.751335
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -4289,7 +5207,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.491414, 38.189552]
+        "coordinates": [
+          -85.491414,
+          38.189552
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Louisville",
@@ -4303,7 +5224,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.434025, 36.665518]
+        "coordinates": [
+          -87.434025,
+          36.665518
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -4317,7 +5241,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.761058, 37.155882]
+        "coordinates": [
+          -83.761058,
+          37.155882
+        ]
       },
       "properties": {
         "name": "Manchester Baptist Church",
@@ -4331,7 +5258,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.834256, 31.628563]
+        "coordinates": [
+          -91.834256,
+          31.628563
+        ]
       },
       "properties": {
         "name": "Berean Bible Church",
@@ -4345,7 +5275,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.987761, 30.243354]
+        "coordinates": [
+          -91.987761,
+          30.243354
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -4359,7 +5292,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.015625, 30.864749]
+        "coordinates": [
+          -91.015625,
+          30.864749
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -4373,7 +5309,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.559807, 30.43674]
+        "coordinates": [
+          -90.559807,
+          30.43674
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Baptist Church",
@@ -4387,7 +5326,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.411804, 31.415457]
+        "coordinates": [
+          -92.411804,
+          31.415457
+        ]
       },
       "properties": {
         "name": "Providence Baptist Church",
@@ -4401,7 +5343,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.739611, 30.28523]
+        "coordinates": [
+          -89.739611,
+          30.28523
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -4415,7 +5360,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.1155728, 30.4424674]
+        "coordinates": [
+          -91.1155728,
+          30.4424674
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church",
@@ -4429,7 +5377,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.7414857, 32.4842082]
+        "coordinates": [
+          -93.7414857,
+          32.4842082
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -4443,7 +5394,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.812086, 43.711115]
+        "coordinates": [
+          -70.812086,
+          43.711115
+        ]
       },
       "properties": {
         "name": "Free Baptist Church of Limerick",
@@ -4457,7 +5411,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-69.968553, 43.914775]
+        "coordinates": [
+          -69.968553,
+          43.914775
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -4471,7 +5428,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.672155, 39.067077]
+        "coordinates": [
+          -76.672155,
+          39.067077
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Odenton",
@@ -4485,7 +5445,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.451261, 39.454299]
+        "coordinates": [
+          -76.451261,
+          39.454299
+        ]
       },
       "properties": {
         "name": "New Life Community Church",
@@ -4499,7 +5462,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.980669, 42.462818]
+        "coordinates": [
+          -70.980669,
+          42.462818
+        ]
       },
       "properties": {
         "name": "Austin Square Baptist Church",
@@ -4513,7 +5479,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.761179, 42.526705]
+        "coordinates": [
+          -71.761179,
+          42.526705
+        ]
       },
       "properties": {
         "name": "First Baptist Church",
@@ -4527,7 +5496,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.031387, 41.682315]
+        "coordinates": [
+          -71.031387,
+          41.682315
+        ]
       },
       "properties": {
         "name": "First Church of Hixville",
@@ -4541,7 +5513,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.754648, 42.0439468]
+        "coordinates": [
+          -70.754648,
+          42.0439468
+        ]
       },
       "properties": {
         "name": "Pilgrim Reformed Bible Church",
@@ -4555,7 +5530,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.976802, 42.855568]
+        "coordinates": [
+          -70.976802,
+          42.855568
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -4569,7 +5547,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.793751, 42.232119]
+        "coordinates": [
+          -71.793751,
+          42.232119
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -4583,7 +5564,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.321254, 42.125544]
+        "coordinates": [
+          -71.321254,
+          42.125544
+        ]
       },
       "properties": {
         "name": "Providence Baptist Church",
@@ -4597,7 +5581,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.23752, 41.827429]
+        "coordinates": [
+          -71.23752,
+          41.827429
+        ]
       },
       "properties": {
         "name": "Rehoboth Baptist Church",
@@ -4611,7 +5598,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.02827, 42.566551]
+        "coordinates": [
+          -73.02827,
+          42.566551
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -4625,7 +5615,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.474815, 42.276089]
+        "coordinates": [
+          -83.474815,
+          42.276089
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -4639,7 +5632,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.607146, 42.977995]
+        "coordinates": [
+          -85.607146,
+          42.977995
+        ]
       },
       "properties": {
         "name": "Grace Immanuel Reformed Baptist Church",
@@ -4653,7 +5649,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.119963, 42.799853]
+        "coordinates": [
+          -86.119963,
+          42.799853
+        ]
       },
       "properties": {
         "name": "Harbor Reformed Baptist Church",
@@ -4667,7 +5666,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.03095, 41.896812]
+        "coordinates": [
+          -84.03095,
+          41.896812
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Lenawee",
@@ -4681,7 +5683,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.3588543, 46.4827361]
+        "coordinates": [
+          -84.3588543,
+          46.4827361
+        ]
       },
       "properties": {
         "name": "Cornerstone Bible Church",
@@ -4695,7 +5700,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.51801, 43.566532]
+        "coordinates": [
+          -83.51801,
+          43.566532
+        ]
       },
       "properties": {
         "name": "Savior's Grace Church",
@@ -4709,7 +5717,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.259926, 44.898095]
+        "coordinates": [
+          -93.259926,
+          44.898095
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -4723,7 +5734,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.651577, 44.05436]
+        "coordinates": [
+          -91.651577,
+          44.05436
+        ]
       },
       "properties": {
         "name": "Renewing Grace Fellowship",
@@ -4737,7 +5751,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.271097, 45.1380551]
+        "coordinates": [
+          -93.271097,
+          45.1380551
+        ]
       },
       "properties": {
         "name": "Resurrection Reformed Baptist Church",
@@ -4751,7 +5768,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.135356, 31.722461]
+        "coordinates": [
+          -89.135356,
+          31.722461
+        ]
       },
       "properties": {
         "name": "Audubon Drive Bible Church",
@@ -4765,7 +5785,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.919921, 34.900725]
+        "coordinates": [
+          -89.919921,
+          34.900725
+        ]
       },
       "properties": {
         "name": "Bridgetown Baptist Church",
@@ -4779,7 +5802,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.380537, 33.493732]
+        "coordinates": [
+          -88.380537,
+          33.493732
+        ]
       },
       "properties": {
         "name": "Christ Community Reformed Baptist Church",
@@ -4793,7 +5819,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.130139, 30.968814]
+        "coordinates": [
+          -89.130139,
+          30.968814
+        ]
       },
       "properties": {
         "name": "Cross Roads Baptist Church",
@@ -4807,7 +5836,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.141067, 32.378147]
+        "coordinates": [
+          -90.141067,
+          32.378147
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -4821,7 +5853,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.170716, 42.710189]
+        "coordinates": [
+          -71.170716,
+          42.710189
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Biblica",
@@ -4835,7 +5870,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.2903392, 31.3271189]
+        "coordinates": [
+          -89.2903392,
+          31.3271189
+        ]
       },
       "properties": {
         "name": "A Reformed Baptist Church plant",
@@ -4849,7 +5887,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.493314, 33.346142]
+        "coordinates": [
+          -88.493314,
+          33.346142
+        ]
       },
       "properties": {
         "name": "Grace Covenant Baptist Church",
@@ -4863,7 +5904,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.202333, 37.029107]
+        "coordinates": [
+          -93.202333,
+          37.029107
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -4877,7 +5921,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.375762, 38.406717]
+        "coordinates": [
+          -90.375762,
+          38.406717
+        ]
       },
       "properties": {
         "name": "Rockport Baptist Church",
@@ -4891,7 +5938,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.342844, 37.138805]
+        "coordinates": [
+          -93.342844,
+          37.138805
+        ]
       },
       "properties": {
         "name": "South Creek Church",
@@ -4905,7 +5955,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.493047, 37.110008]
+        "coordinates": [
+          -94.493047,
+          37.110008
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -4919,7 +5972,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.521167, 37.850704]
+        "coordinates": [
+          -90.521167,
+          37.850704
+        ]
       },
       "properties": {
         "name": "First Baptist Church of Park Hills, MO",
@@ -4933,7 +5989,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.123114, 47.107472]
+        "coordinates": [
+          -112.123114,
+          47.107472
+        ]
       },
       "properties": {
         "name": "Wolf Creek Baptist Church",
@@ -4947,7 +6006,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.1236304, 45.8760328]
+        "coordinates": [
+          -112.1236304,
+          45.8760328
+        ]
       },
       "properties": {
         "name": "Jefferson Valley Baptist Church",
@@ -4961,7 +6023,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.854391, 48.517812]
+        "coordinates": [
+          -111.854391,
+          48.517812
+        ]
       },
       "properties": {
         "name": "Living Faith Baptist Church",
@@ -4975,7 +6040,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.0500846, 46.6172054]
+        "coordinates": [
+          -112.0500846,
+          46.6172054
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Helena",
@@ -4989,7 +6057,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-104.1781361, 47.71802]
+        "coordinates": [
+          -104.1781361,
+          47.71802
+        ]
       },
       "properties": {
         "name": "Fellowship Baptist Church",
@@ -5003,7 +6074,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-114.1576893, 46.2416577]
+        "coordinates": [
+          -114.1576893,
+          46.2416577
+        ]
       },
       "properties": {
         "name": "Grace Gospel Fellowship",
@@ -5017,7 +6091,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.041144, 41.150411]
+        "coordinates": [
+          -96.041144,
+          41.150411
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -5031,7 +6108,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.945452, 41.214571]
+        "coordinates": [
+          -95.945452,
+          41.214571
+        ]
       },
       "properties": {
         "name": "Emmaus Bible Church",
@@ -5045,7 +6125,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.801229, 39.491523]
+        "coordinates": [
+          -119.801229,
+          39.491523
+        ]
       },
       "properties": {
         "name": "Community Bible Church",
@@ -5059,7 +6142,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.761126, 39.006051]
+        "coordinates": [
+          -119.761126,
+          39.006051
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -5073,7 +6159,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.969384, 42.984789]
+        "coordinates": [
+          -70.969384,
+          42.984789
+        ]
       },
       "properties": {
         "name": "Calvary Baptist Church (Reformed) ",
@@ -5087,7 +6176,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.142917, 43.726034]
+        "coordinates": [
+          -72.142917,
+          43.726034
+        ]
       },
       "properties": {
         "name": "Christ Redeemer Church",
@@ -5101,7 +6193,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.533531, 43.170315]
+        "coordinates": [
+          -71.533531,
+          43.170315
+        ]
       },
       "properties": {
         "name": "Faith Bible Church",
@@ -5115,7 +6210,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.653398, 43.332907]
+        "coordinates": [
+          -71.653398,
+          43.332907
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -5129,7 +6227,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.415156, 42.991798]
+        "coordinates": [
+          -72.415156,
+          42.991798
+        ]
       },
       "properties": {
         "name": "Westmoreland Reformed Bible Church",
@@ -5143,7 +6244,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.257273, 40.96613]
+        "coordinates": [
+          -74.257273,
+          40.96613
+        ]
       },
       "properties": {
         "name": "Bread of Life Fellowship",
@@ -5157,7 +6261,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.47567, 40.464606]
+        "coordinates": [
+          -74.47567,
+          40.464606
+        ]
       },
       "properties": {
         "name": "Christian Fellowship Church",
@@ -5171,7 +6278,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.8067, 39.9605]
+        "coordinates": [
+          -74.8067,
+          39.9605
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church ",
@@ -5185,7 +6295,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.974338, 40.906872]
+        "coordinates": [
+          -73.974338,
+          40.906872
+        ]
       },
       "properties": {
         "name": "Englewood Baptist Church",
@@ -5199,7 +6312,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.234761, 40.739928]
+        "coordinates": [
+          -74.234761,
+          40.739928
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -5213,7 +6329,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.862116, 40.511081]
+        "coordinates": [
+          -74.862116,
+          40.511081
+        ]
       },
       "properties": {
         "name": "Grace Covenant Baptist Church",
@@ -5227,7 +6346,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.028175, 40.790781]
+        "coordinates": [
+          -74.028175,
+          40.790781
+        ]
       },
       "properties": {
         "name": "Iglesia Bautista Reformada",
@@ -5241,7 +6363,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.686814, 41.099523]
+        "coordinates": [
+          -74.686814,
+          41.099523
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Lafayette",
@@ -5255,7 +6380,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.365156, 40.891468]
+        "coordinates": [
+          -74.365156,
+          40.891468
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church of Montville",
@@ -5269,7 +6397,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.678313, 35.038436]
+        "coordinates": [
+          -106.678313,
+          35.038436
+        ]
       },
       "properties": {
         "name": "Albuquerque Sovereign Grace Baptist Church",
@@ -5283,7 +6414,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.740128, 34.788568]
+        "coordinates": [
+          -106.740128,
+          34.788568
+        ]
       },
       "properties": {
         "name": "Church of the Redeemer",
@@ -5297,7 +6431,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.649583, 31.867698]
+        "coordinates": [
+          -106.649583,
+          31.867698
+        ]
       },
       "properties": {
         "name": "Santa Teresa Baptist Church",
@@ -5311,7 +6448,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.842678, 42.663255]
+        "coordinates": [
+          -73.842678,
+          42.663255
+        ]
       },
       "properties": {
         "name": "Albany Baptist Church",
@@ -5325,7 +6465,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.989182, 42.219212]
+        "coordinates": [
+          -73.989182,
+          42.219212
+        ]
       },
       "properties": {
         "name": "Amazing Grace Church",
@@ -5339,7 +6482,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.877722, 42.912996]
+        "coordinates": [
+          -73.877722,
+          42.912996
+        ]
       },
       "properties": {
         "name": "Ballston Lake Baptist Church",
@@ -5353,7 +6499,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.028705, 43.019077]
+        "coordinates": [
+          -74.028705,
+          43.019077
+        ]
       },
       "properties": {
         "name": "Bible Baptist Church of Galway",
@@ -5367,7 +6516,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.679271, 42.365949]
+        "coordinates": [
+          -75.679271,
+          42.365949
+        ]
       },
       "properties": {
         "name": "Brisben Baptist Church ",
@@ -5381,7 +6533,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.926119, 43.232168]
+        "coordinates": [
+          -77.926119,
+          43.232168
+        ]
       },
       "properties": {
         "name": "Clarkson Community Church",
@@ -5395,7 +6550,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.795134, 42.864063]
+        "coordinates": [
+          -73.795134,
+          42.864063
+        ]
       },
       "properties": {
         "name": "Clifton Park Community Church",
@@ -5409,7 +6567,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.533408, 40.991301]
+        "coordinates": [
+          -72.533408,
+          40.991301
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church",
@@ -5423,7 +6584,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.770646, 43.100431]
+        "coordinates": [
+          -74.770646,
+          43.100431
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Dolgeville",
@@ -5437,7 +6601,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.710714, 42.574547]
+        "coordinates": [
+          -77.710714,
+          42.574547
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -5451,7 +6618,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.542687, 43.204279]
+        "coordinates": [
+          -77.542687,
+          43.204279
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -5465,7 +6635,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.29904, 41.608149]
+        "coordinates": [
+          -74.29904,
+          41.608149
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -5479,7 +6652,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.554912, 40.666595]
+        "coordinates": [
+          -73.554912,
+          40.666595
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church of Long Island",
@@ -5493,7 +6669,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-72.99241, 40.843183]
+        "coordinates": [
+          -72.99241,
+          40.843183
+        ]
       },
       "properties": {
         "name": "Hope Reformed Baptist Church",
@@ -5507,7 +6686,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.765686, 41.372912]
+        "coordinates": [
+          -73.765686,
+          41.372912
+        ]
       },
       "properties": {
         "name": "Red Mills Baptist Church",
@@ -5521,7 +6703,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.806267, 42.915121]
+        "coordinates": [
+          -78.806267,
+          42.915121
+        ]
       },
       "properties": {
         "name": "Refreshing Springs Church",
@@ -5535,7 +6720,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.522434, 43.222955]
+        "coordinates": [
+          -76.522434,
+          43.222955
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church of Baldwinsville",
@@ -5549,7 +6737,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.522509, 42.7359451]
+        "coordinates": [
+          -76.522509,
+          42.7359451
+        ]
       },
       "properties": {
         "name": "Venice Baptist Church",
@@ -5563,7 +6754,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.480426, 44.330002]
+        "coordinates": [
+          -75.480426,
+          44.330002
+        ]
       },
       "properties": {
         "name": "West Side Baptist Church",
@@ -5577,7 +6771,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.6859126, 41.3763111]
+        "coordinates": [
+          -74.6859126,
+          41.3763111
+        ]
       },
       "properties": {
         "name": "First Baptist Church of Port Jervis",
@@ -5591,7 +6788,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.559851, 34.818762]
+        "coordinates": [
+          -77.559851,
+          34.818762
+        ]
       },
       "properties": {
         "name": "Catherine Lake Baptist Church",
@@ -5605,7 +6805,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.459097, 35.33864]
+        "coordinates": [
+          -82.459097,
+          35.33864
+        ]
       },
       "properties": {
         "name": "Christ Covenant Community Church",
@@ -5619,7 +6822,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.818867, 35.124957]
+        "coordinates": [
+          -80.818867,
+          35.124957
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -5633,7 +6839,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.574385, 35.4638149]
+        "coordinates": [
+          -82.574385,
+          35.4638149
+        ]
       },
       "properties": {
         "name": "Redeemer Community Church",
@@ -5647,7 +6856,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.432995, 35.301846]
+        "coordinates": [
+          -82.432995,
+          35.301846
+        ]
       },
       "properties": {
         "name": "East Hendersonville Baptist Church",
@@ -5661,7 +6873,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.970402, 35.51734]
+        "coordinates": [
+          -82.970402,
+          35.51734
+        ]
       },
       "properties": {
         "name": "First Reformed Baptist Church",
@@ -5675,7 +6890,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.939499, 35.051371]
+        "coordinates": [
+          -78.939499,
+          35.051371
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Church",
@@ -5689,7 +6907,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.277487, 36.084021]
+        "coordinates": [
+          -79.277487,
+          36.084021
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -5703,7 +6924,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.874244, 35.994608]
+        "coordinates": [
+          -77.874244,
+          35.994608
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -5717,7 +6941,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.751334, 35.228769]
+        "coordinates": [
+          -82.751334,
+          35.228769
+        ]
       },
       "properties": {
         "name": "Grace Tabernacle Reformed Baptist Church",
@@ -5731,7 +6958,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.1873, 35.262082]
+        "coordinates": [
+          -81.1873,
+          35.262082
+        ]
       },
       "properties": {
         "name": "Heritage Community Church",
@@ -5745,7 +6975,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.407479, 36.078188]
+        "coordinates": [
+          -79.407479,
+          36.078188
+        ]
       },
       "properties": {
         "name": "North Garham Baptist Church ",
@@ -5759,7 +6992,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.796461, 36.532477]
+        "coordinates": [
+          -79.796461,
+          36.532477
+        ]
       },
       "properties": {
         "name": "Reformed Community Church of Eden",
@@ -5773,7 +7009,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.243663, 36.124034]
+        "coordinates": [
+          -80.243663,
+          36.124034
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Chapel",
@@ -5787,7 +7026,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.955752, 35.095283]
+        "coordinates": [
+          -78.955752,
+          35.095283
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -5801,7 +7043,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.162554, 36.155758]
+        "coordinates": [
+          -81.162554,
+          36.155758
+        ]
       },
       "properties": {
         "name": "Word of Grace Baptist Church",
@@ -5815,7 +7060,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.3164156, 36.1285633]
+        "coordinates": [
+          -80.3164156,
+          36.1285633
+        ]
       },
       "properties": {
         "name": "Emmanuel Church of Winston-Salem",
@@ -5829,7 +7077,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.1150286, 35.9056632]
+        "coordinates": [
+          -81.1150286,
+          35.9056632
+        ]
       },
       "properties": {
         "name": "Covenant Bible Church",
@@ -5843,7 +7094,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.309483, 36.233184]
+        "coordinates": [
+          -80.309483,
+          36.233184
+        ]
       },
       "properties": {
         "name": "Christ Reformed Baptist Fellowship",
@@ -5857,7 +7111,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.447589, 35.983117]
+        "coordinates": [
+          -78.447589,
+          35.983117
+        ]
       },
       "properties": {
         "name": "Reformation Baptist Church",
@@ -5871,7 +7128,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.382363, 36.514535]
+        "coordinates": [
+          -79.382363,
+          36.514535
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -5885,7 +7145,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.442991, 36.016363]
+        "coordinates": [
+          -78.442991,
+          36.016363
+        ]
       },
       "properties": {
         "name": "Sovereign Redeemer Community Church",
@@ -5899,7 +7162,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.820844, 46.826179]
+        "coordinates": [
+          -96.820844,
+          46.826179
+        ]
       },
       "properties": {
         "name": "Community Baptist Church",
@@ -5913,7 +7179,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.0049651, 46.9279409]
+        "coordinates": [
+          -98.0049651,
+          46.9279409
+        ]
       },
       "properties": {
         "name": "Pilgrims Reformed Baptist Church",
@@ -5927,7 +7196,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.718799, 40.053483]
+        "coordinates": [
+          -82.718799,
+          40.053483
+        ]
       },
       "properties": {
         "name": "Faith Bible Church ",
@@ -5941,7 +7213,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.981328, 39.12866]
+        "coordinates": [
+          -82.981328,
+          39.12866
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -5955,7 +7230,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.661781, 40.888604]
+        "coordinates": [
+          -83.661781,
+          40.888604
+        ]
       },
       "properties": {
         "name": "Redeemer Covenant Church",
@@ -5969,7 +7247,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.574737, 40.37859]
+        "coordinates": [
+          -82.574737,
+          40.37859
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -5983,7 +7264,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.878323, 41.384271]
+        "coordinates": [
+          -81.878323,
+          41.384271
+        ]
       },
       "properties": {
         "name": "Grace Covenant Church",
@@ -5997,7 +7281,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.365127, 40.864458]
+        "coordinates": [
+          -81.365127,
+          40.864458
+        ]
       },
       "properties": {
         "name": "Heritage Reformed Baptist Church",
@@ -6011,7 +7298,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.989308, 39.7602099]
+        "coordinates": [
+          -73.989308,
+          39.7602099
+        ]
       },
       "properties": {
         "name": "Arbor Church",
@@ -6025,7 +7315,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.432676, 41.516483]
+        "coordinates": [
+          -83.432676,
+          41.516483
+        ]
       },
       "properties": {
         "name": "Lemoyne Baptist Church",
@@ -6039,7 +7332,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.635827, 41.723256]
+        "coordinates": [
+          -83.635827,
+          41.723256
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -6053,7 +7349,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.8242369, 39.869605]
+        "coordinates": [
+          -83.8242369,
+          39.869605
+        ]
       },
       "properties": {
         "name": "Springfield Bible Baptist Church",
@@ -6067,7 +7366,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.3972304, 39.3492291]
+        "coordinates": [
+          -84.3972304,
+          39.3492291
+        ]
       },
       "properties": {
         "name": "The King’s Chapel",
@@ -6081,7 +7383,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.757981, 39.879692]
+        "coordinates": [
+          -82.757981,
+          39.879692
+        ]
       },
       "properties": {
         "name": "Covenant Bible Church",
@@ -6095,7 +7400,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.851463, 36.278535]
+        "coordinates": [
+          -95.851463,
+          36.278535
+        ]
       },
       "properties": {
         "name": "Bethel Baptist Church",
@@ -6109,7 +7417,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.202954, 36.148799]
+        "coordinates": [
+          -96.202954,
+          36.148799
+        ]
       },
       "properties": {
         "name": "Calvary Baptist Church",
@@ -6123,7 +7434,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.863545, 34.57978]
+        "coordinates": [
+          -97.863545,
+          34.57978
+        ]
       },
       "properties": {
         "name": "Gatlin Baptist Church",
@@ -6137,7 +7451,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.894178, 36.141674]
+        "coordinates": [
+          -95.894178,
+          36.141674
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -6151,7 +7468,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.518068, 35.551435]
+        "coordinates": [
+          -97.518068,
+          35.551435
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -6165,7 +7485,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.939202, 36.799855]
+        "coordinates": [
+          -95.939202,
+          36.799855
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Bartlesville-Dewey",
@@ -6179,7 +7502,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.854712, 36.269539]
+        "coordinates": [
+          -95.854712,
+          36.269539
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Owasso",
@@ -6193,7 +7519,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.962324, 34.795569]
+        "coordinates": [
+          -96.962324,
+          34.795569
+        ]
       },
       "properties": {
         "name": "Messiah Fellowship Bible Church",
@@ -6207,7 +7536,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.597282, 35.50808]
+        "coordinates": [
+          -97.597282,
+          35.50808
+        ]
       },
       "properties": {
         "name": "Northwest Bible Church",
@@ -6221,7 +7553,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.678345, 34.774531]
+        "coordinates": [
+          -96.678345,
+          34.774531
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Bible Church",
@@ -6235,7 +7570,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.427459, 34.6059]
+        "coordinates": [
+          -98.427459,
+          34.6059
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -6249,7 +7587,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.918762, 36.017015]
+        "coordinates": [
+          -95.918762,
+          36.017015
+        ]
       },
       "properties": {
         "name": "Christ Reformed Church",
@@ -6263,7 +7604,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-99.417958, 34.546396]
+        "coordinates": [
+          -99.417958,
+          34.546396
+        ]
       },
       "properties": {
         "name": "One Way Christian Center",
@@ -6277,7 +7621,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.193868, 45.212502]
+        "coordinates": [
+          -123.193868,
+          45.212502
+        ]
       },
       "properties": {
         "name": "Bible Baptist Church",
@@ -6291,7 +7638,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.729866, 44.392169]
+        "coordinates": [
+          -122.729866,
+          44.392169
+        ]
       },
       "properties": {
         "name": "Elm Street Baptist Church",
@@ -6305,7 +7655,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.701378, 45.467405]
+        "coordinates": [
+          -122.701378,
+          45.467405
+        ]
       },
       "properties": {
         "name": "Glencullen Baptist Church",
@@ -6319,7 +7672,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.093457, 45.33585]
+        "coordinates": [
+          -118.093457,
+          45.33585
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -6333,7 +7689,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.864415, 45.50976]
+        "coordinates": [
+          -123.864415,
+          45.50976
+        ]
       },
       "properties": {
         "name": "Christ Reformation Church",
@@ -6347,7 +7706,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-124.21789, 43.366501]
+        "coordinates": [
+          -124.21789,
+          43.366501
+        ]
       },
       "properties": {
         "name": "Mariners Reformed Baptist Church",
@@ -6361,7 +7723,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.174577, 45.295426]
+        "coordinates": [
+          -123.174577,
+          45.295426
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -6375,7 +7740,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.109735, 44.385622]
+        "coordinates": [
+          -123.109735,
+          44.385622
+        ]
       },
       "properties": {
         "name": "Grace Bible Church",
@@ -6389,7 +7757,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.308151, 41.321742]
+        "coordinates": [
+          -75.308151,
+          41.321742
+        ]
       },
       "properties": {
         "name": "Bible Fellowship Church of Greentown",
@@ -6403,7 +7774,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.730334, 39.894833]
+        "coordinates": [
+          -79.730334,
+          39.894833
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -6417,7 +7791,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.797114, 39.873702]
+        "coordinates": [
+          -75.797114,
+          39.873702
+        ]
       },
       "properties": {
         "name": "Emmanuel Reformed Baptist Church ",
@@ -6431,7 +7808,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.382579, 39.929482]
+        "coordinates": [
+          -75.382579,
+          39.929482
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church",
@@ -6445,7 +7825,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.79762, 40.889321]
+        "coordinates": [
+          -76.79762,
+          40.889321
+        ]
       },
       "properties": {
         "name": "First Regular Baptist Church",
@@ -6459,7 +7842,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.632623, 39.970189]
+        "coordinates": [
+          -77.632623,
+          39.970189
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -6473,7 +7859,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.724346, 40.001873]
+        "coordinates": [
+          -75.724346,
+          40.001873
+        ]
       },
       "properties": {
         "name": "Grace Church",
@@ -6487,7 +7876,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.184581, 41.023241]
+        "coordinates": [
+          -75.184581,
+          41.023241
+        ]
       },
       "properties": {
         "name": "Grace Covenant Church",
@@ -6501,7 +7893,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.207278, 40.206401]
+        "coordinates": [
+          -77.207278,
+          40.206401
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church of Carlisle",
@@ -6515,7 +7910,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.790281, 40.774852]
+        "coordinates": [
+          -77.790281,
+          40.774852
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Church",
@@ -6529,7 +7927,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.008144, 40.979959]
+        "coordinates": [
+          -76.008144,
+          40.979959
+        ]
       },
       "properties": {
         "name": "Grace Fellowship Church",
@@ -6543,7 +7944,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.178839, 40.179817]
+        "coordinates": [
+          -76.178839,
+          40.179817
+        ]
       },
       "properties": {
         "name": "Immanuel Free Reformed Church",
@@ -6557,7 +7961,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.108633, 40.684012]
+        "coordinates": [
+          -80.108633,
+          40.684012
+        ]
       },
       "properties": {
         "name": "Liberty Baptist Church",
@@ -6571,7 +7978,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.126764, 40.037801]
+        "coordinates": [
+          -75.126764,
+          40.037801
+        ]
       },
       "properties": {
         "name": "Olney Baptist Church",
@@ -6585,7 +7995,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.18922, 42.015653]
+        "coordinates": [
+          -80.18922,
+          42.015653
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -6599,7 +8012,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.102851, 40.212876]
+        "coordinates": [
+          -75.102851,
+          40.212876
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -6613,7 +8029,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.36698, 40.311307]
+        "coordinates": [
+          -75.36698,
+          40.311307
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Franconia",
@@ -6627,7 +8046,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.2291, 40.312614]
+        "coordinates": [
+          -77.2291,
+          40.312614
+        ]
       },
       "properties": {
         "name": "Reibers Reformed Baptist Church",
@@ -6641,7 +8063,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.619701, 41.418708]
+        "coordinates": [
+          -75.619701,
+          41.418708
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Scranton",
@@ -6655,7 +8080,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.564462, 40.583445]
+        "coordinates": [
+          -79.564462,
+          40.583445
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -6669,7 +8097,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.533584, 40.572363]
+        "coordinates": [
+          -75.533584,
+          40.572363
+        ]
       },
       "properties": {
         "name": "Trinity Baptist Church",
@@ -6683,7 +8114,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.641347, 40.10665]
+        "coordinates": [
+          -75.641347,
+          40.10665
+        ]
       },
       "properties": {
         "name": "Vincent Baptist Church",
@@ -6697,7 +8131,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.841204, 39.928233]
+        "coordinates": [
+          -76.841204,
+          39.928233
+        ]
       },
       "properties": {
         "name": "West Side Baptist Church",
@@ -6711,7 +8148,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.196597, 40.687149]
+        "coordinates": [
+          -76.196597,
+          40.687149
+        ]
       },
       "properties": {
         "name": "Word of Life Baptist Church",
@@ -6725,7 +8165,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.430001, 41.064728]
+        "coordinates": [
+          -76.430001,
+          41.064728
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Fellowship",
@@ -6739,7 +8182,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.0649462, 40.0004245]
+        "coordinates": [
+          -76.0649462,
+          40.0004245
+        ]
       },
       "properties": {
         "name": "Gospel of Grace Community Church",
@@ -6753,7 +8199,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.944704, 40.214976]
+        "coordinates": [
+          -76.944704,
+          40.214976
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -6767,7 +8216,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.482134, 41.85543]
+        "coordinates": [
+          -71.482134,
+          41.85543
+        ]
       },
       "properties": {
         "name": "Grace Community Baptist Church",
@@ -6781,7 +8233,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.883977, 34.450525]
+        "coordinates": [
+          -81.883977,
+          34.450525
+        ]
       },
       "properties": {
         "name": "Cornerstone Baptist Church",
@@ -6795,7 +8250,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.545071, 34.742083]
+        "coordinates": [
+          -82.545071,
+          34.742083
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -6809,7 +8267,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.396849, 34.867986]
+        "coordinates": [
+          -82.396849,
+          34.867986
+        ]
       },
       "properties": {
         "name": "Fellowship Bible Church",
@@ -6823,7 +8284,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.294105, 34.89221]
+        "coordinates": [
+          -82.294105,
+          34.89221
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -6837,7 +8301,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.040367, 33.148386]
+        "coordinates": [
+          -80.040367,
+          33.148386
+        ]
       },
       "properties": {
         "name": "Grace Community Baptist Church",
@@ -6851,7 +8318,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.055983, 33.856086]
+        "coordinates": [
+          -79.055983,
+          33.856086
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -6865,7 +8335,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.134333, 33.971364]
+        "coordinates": [
+          -81.134333,
+          33.971364
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church",
@@ -6879,7 +8352,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.01812039, 34.2244678]
+        "coordinates": [
+          -79.01812039,
+          34.2244678
+        ]
       },
       "properties": {
         "name": "Oak Grove Baptist Church",
@@ -6893,7 +8369,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.054004, 34.784103]
+        "coordinates": [
+          -82.054004,
+          34.784103
+        ]
       },
       "properties": {
         "name": "Old Baptist Church of Jesus Christ",
@@ -6907,7 +8386,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-102.980198, 43.994657]
+        "coordinates": [
+          -102.980198,
+          43.994657
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -6921,7 +8403,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.196186, 35.065975]
+        "coordinates": [
+          -85.196186,
+          35.065975
+        ]
       },
       "properties": {
         "name": "Christ's Church of Chattanooga",
@@ -6935,7 +8420,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.145135, 36.585233]
+        "coordinates": [
+          -82.145135,
+          36.585233
+        ]
       },
       "properties": {
         "name": "Cornerstone Chapel",
@@ -6949,7 +8437,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.024217, 35.735499]
+        "coordinates": [
+          -84.024217,
+          35.735499
+        ]
       },
       "properties": {
         "name": "Covenant Baptist Church of Blount County",
@@ -6963,7 +8454,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.151143, 36.392574]
+        "coordinates": [
+          -86.151143,
+          36.392574
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -6977,7 +8471,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.971599, 35.756582]
+        "coordinates": [
+          -83.971599,
+          35.756582
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -6991,7 +8488,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.301182, 35.100726]
+        "coordinates": [
+          -85.301182,
+          35.100726
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -7005,7 +8505,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-86.773883, 36.296088]
+        "coordinates": [
+          -86.773883,
+          36.296088
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Nashville",
@@ -7019,7 +8522,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.837756, 35.204684]
+        "coordinates": [
+          -89.837756,
+          35.204684
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -7033,7 +8539,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.504574, 36.48567]
+        "coordinates": [
+          -82.504574,
+          36.48567
+        ]
       },
       "properties": {
         "name": "Christ Bible Church",
@@ -7047,7 +8556,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.344217, 34.9936005]
+        "coordinates": [
+          -85.344217,
+          34.9936005
+        ]
       },
       "properties": {
         "name": "Christ Reformed Baptist Church",
@@ -7061,7 +8573,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.89706, 29.152825]
+        "coordinates": [
+          -98.89706,
+          29.152825
+        ]
       },
       "properties": {
         "name": "Calvary Grace Baptist Church",
@@ -7075,7 +8590,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.20961, 32.812374]
+        "coordinates": [
+          -97.20961,
+          32.812374
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -7089,7 +8607,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.378715, 29.223541]
+        "coordinates": [
+          -98.378715,
+          29.223541
+        ]
       },
       "properties": {
         "name": "Community Baptist Church",
@@ -7103,7 +8624,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.708215, 32.8057909]
+        "coordinates": [
+          -96.708215,
+          32.8057909
+        ]
       },
       "properties": {
         "name": "Dallas Reformed Baptist Church",
@@ -7117,7 +8641,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.617472, 30.64387]
+        "coordinates": [
+          -97.617472,
+          30.64387
+        ]
       },
       "properties": {
         "name": "Emmanuel Reformed Baptist Church",
@@ -7131,7 +8658,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.669937, 32.482008]
+        "coordinates": [
+          -94.669937,
+          32.482008
+        ]
       },
       "properties": {
         "name": "Faith Baptist Church",
@@ -7145,7 +8675,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.629561, 33.054719]
+        "coordinates": [
+          -96.629561,
+          33.054719
+        ]
       },
       "properties": {
         "name": "First Baptist Church of Parker Texas",
@@ -7159,7 +8692,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.4431, 29.454254]
+        "coordinates": [
+          -98.4431,
+          29.454254
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church of San Antonio",
@@ -7173,7 +8709,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.4713383, 29.4199727]
+        "coordinates": [
+          -98.4713383,
+          29.4199727
+        ]
       },
       "properties": {
         "name": "Free Grace Baptist Church",
@@ -7187,7 +8726,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.434451, 30.018042]
+        "coordinates": [
+          -95.434451,
+          30.018042
+        ]
       },
       "properties": {
         "name": "Grace Family Baptist of North Houston",
@@ -7201,7 +8743,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.699286, 32.803685]
+        "coordinates": [
+          -96.699286,
+          32.803685
+        ]
       },
       "properties": {
         "name": "Good Shepherd Church",
@@ -7215,7 +8760,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-99.422655, 31.812276]
+        "coordinates": [
+          -99.422655,
+          31.812276
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -7229,7 +8777,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.602247, 32.695964]
+        "coordinates": [
+          -97.602247,
+          32.695964
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church ",
@@ -7243,7 +8794,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.184777, 33.570733]
+        "coordinates": [
+          -96.184777,
+          33.570733
+        ]
       },
       "properties": {
         "name": "Grace Community Bible Church",
@@ -7257,7 +8811,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-94.969531, 33.155818]
+        "coordinates": [
+          -94.969531,
+          33.155818
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -7271,7 +8828,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.458398, 29.417324]
+        "coordinates": [
+          -98.458398,
+          29.417324
+        ]
       },
       "properties": {
         "name": "Grace Community Church",
@@ -7285,7 +8845,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.274133, 30.098075]
+        "coordinates": [
+          -95.274133,
+          30.098075
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -7299,7 +8862,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.330874, 30.320975]
+        "coordinates": [
+          -97.330874,
+          30.320975
+        ]
       },
       "properties": {
         "name": "Grace Reformed Baptist Church",
@@ -7313,7 +8879,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.140156, 32.563893]
+        "coordinates": [
+          -97.140156,
+          32.563893
+        ]
       },
       "properties": {
         "name": "Heritage Baptist Church",
@@ -7327,7 +8896,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.604414, 29.352153]
+        "coordinates": [
+          -98.604414,
+          29.352153
+        ]
       },
       "properties": {
         "name": "Hillburn Drive Grace Baptist Church",
@@ -7341,7 +8913,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.279528, 29.599549]
+        "coordinates": [
+          -98.279528,
+          29.599549
+        ]
       },
       "properties": {
         "name": "Providence Community Church",
@@ -7355,7 +8930,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.1711791, 29.6539079]
+        "coordinates": [
+          -95.1711791,
+          29.6539079
+        ]
       },
       "properties": {
         "name": "Providence Baptist Church",
@@ -7369,7 +8947,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.2728, 30.578245]
+        "coordinates": [
+          -98.2728,
+          30.578245
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -7383,7 +8964,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.470722, 32.7612]
+        "coordinates": [
+          -97.470722,
+          32.7612
+        ]
       },
       "properties": {
         "name": "Redeemer Church",
@@ -7397,7 +8981,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.89167, 31.089143]
+        "coordinates": [
+          -97.89167,
+          31.089143
+        ]
       },
       "properties": {
         "name": "Southern Hills Baptist Church",
@@ -7411,7 +8998,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.396381, 27.800583]
+        "coordinates": [
+          -97.396381,
+          27.800583
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Community Church",
@@ -7425,7 +9015,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-100.440589, 31.477857]
+        "coordinates": [
+          -100.440589,
+          31.477857
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -7439,7 +9032,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.460253, 31.052364]
+        "coordinates": [
+          -97.460253,
+          31.052364
+        ]
       },
       "properties": {
         "name": "Tapestry Community Church",
@@ -7453,7 +9049,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.215303, 32.823407]
+        "coordinates": [
+          -97.215303,
+          32.823407
+        ]
       },
       "properties": {
         "name": "The First Baptist Church of Richland Hills",
@@ -7467,7 +9066,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.205521, 31.517961]
+        "coordinates": [
+          -97.205521,
+          31.517961
+        ]
       },
       "properties": {
         "name": "Waco Family Baptist Church",
@@ -7481,7 +9083,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.903345, 32.4883773]
+        "coordinates": [
+          -96.903345,
+          32.4883773
+        ]
       },
       "properties": {
         "name": "Christ Reformed Church",
@@ -7495,7 +9100,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.7190332, 30.3198032]
+        "coordinates": [
+          -97.7190332,
+          30.3198032
+        ]
       },
       "properties": {
         "name": "Dayspring Fellowship",
@@ -7509,7 +9117,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.406925, 32.543834]
+        "coordinates": [
+          -97.406925,
+          32.543834
+        ]
       },
       "properties": {
         "name": "Rock Creek Baptist Church",
@@ -7523,7 +9134,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.383553, 30.628219]
+        "coordinates": [
+          -96.383553,
+          30.628219
+        ]
       },
       "properties": {
         "name": "West Oaks Baptist Church",
@@ -7537,7 +9151,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.557296, 29.967072]
+        "coordinates": [
+          -95.557296,
+          29.967072
+        ]
       },
       "properties": {
         "name": "North Houston Baptist Church",
@@ -7551,7 +9168,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.641464, 32.523906]
+        "coordinates": [
+          -95.641464,
+          32.523906
+        ]
       },
       "properties": {
         "name": "Grace Baptist Church",
@@ -7565,7 +9185,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-98.243012, 29.584404]
+        "coordinates": [
+          -98.243012,
+          29.584404
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -7579,7 +9202,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-95.209749, 30.935417]
+        "coordinates": [
+          -95.209749,
+          30.935417
+        ]
       },
       "properties": {
         "name": "Chita Baptist Church",
@@ -7593,7 +9219,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-101.915264, 35.147258]
+        "coordinates": [
+          -101.915264,
+          35.147258
+        ]
       },
       "properties": {
         "name": "Westview Christian Church",
@@ -7607,7 +9236,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.055685, 41.15892]
+        "coordinates": [
+          -112.055685,
+          41.15892
+        ]
       },
       "properties": {
         "name": "Roy Bible Church",
@@ -7621,7 +9253,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.015334, 43.710161]
+        "coordinates": [
+          -73.015334,
+          43.710161
+        ]
       },
       "properties": {
         "name": "Reformed Bible Church",
@@ -7635,7 +9270,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.5, 38.05]
+        "coordinates": [
+          -78.5,
+          38.05
+        ]
       },
       "properties": {
         "name": "Christ Reformed Baptist Church",
@@ -7649,7 +9287,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.716523, 38.734029]
+        "coordinates": [
+          -77.716523,
+          38.734029
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -7663,7 +9304,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.014882, 38.198783]
+        "coordinates": [
+          -79.014882,
+          38.198783
+        ]
       },
       "properties": {
         "name": "Emmanuel Baptist Church",
@@ -7677,7 +9321,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.443626, 37.044126]
+        "coordinates": [
+          -76.443626,
+          37.044126
+        ]
       },
       "properties": {
         "name": "Grace Baptist Chapel",
@@ -7691,7 +9338,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.322985, 38.6806112]
+        "coordinates": [
+          -77.322985,
+          38.6806112
+        ]
       },
       "properties": {
         "name": "Occoquan Bible Church",
@@ -7705,7 +9355,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.320662, 37.437006]
+        "coordinates": [
+          -76.320662,
+          37.437006
+        ]
       },
       "properties": {
         "name": "Redeeming Grace Baptist Church",
@@ -7719,7 +9372,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.119304, 36.764062]
+        "coordinates": [
+          -76.119304,
+          36.764062
+        ]
       },
       "properties": {
         "name": "Grace Covenant Church",
@@ -7733,7 +9389,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.68005, 37.361019]
+        "coordinates": [
+          -77.68005,
+          37.361019
+        ]
       },
       "properties": {
         "name": "Reformed Baptist Church of Richmond, VA. ",
@@ -7747,7 +9406,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.366615, 38.634449]
+        "coordinates": [
+          -77.366615,
+          38.634449
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -7761,7 +9423,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.969647, 37.142742]
+        "coordinates": [
+          -79.969647,
+          37.142742
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -7775,7 +9440,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.681157, 37.109723]
+        "coordinates": [
+          -80.681157,
+          37.109723
+        ]
       },
       "properties": {
         "name": "Wilderness Road Baptist Assembly",
@@ -7789,7 +9457,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.87068, 37.760462]
+        "coordinates": [
+          -78.87068,
+          37.760462
+        ]
       },
       "properties": {
         "name": "Faith Reformed Baptist Church",
@@ -7803,7 +9474,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-78.9136446, 38.4378189]
+        "coordinates": [
+          -78.9136446,
+          38.4378189
+        ]
       },
       "properties": {
         "name": "Providence Baptist Church",
@@ -7817,7 +9491,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.284734, 47.440358]
+        "coordinates": [
+          -122.284734,
+          47.440358
+        ]
       },
       "properties": {
         "name": "Emmanuel Reformed Baptist Church",
@@ -7831,7 +9508,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.621324, 47.654218]
+        "coordinates": [
+          -122.621324,
+          47.654218
+        ]
       },
       "properties": {
         "name": "Free Grace Baptist Church",
@@ -7845,7 +9525,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-117.052359, 46.411643]
+        "coordinates": [
+          -117.052359,
+          46.411643
+        ]
       },
       "properties": {
         "name": "Grace Reformed Church of Clarkston, Washington",
@@ -7859,7 +9542,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.643224, 48.293156]
+        "coordinates": [
+          -122.643224,
+          48.293156
+        ]
       },
       "properties": {
         "name": "Grace Evangelical Church",
@@ -7873,7 +9559,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.206923, 47.718057]
+        "coordinates": [
+          -122.206923,
+          47.718057
+        ]
       },
       "properties": {
         "name": "Juanita Community Church",
@@ -7887,7 +9576,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.592231, 47.170457]
+        "coordinates": [
+          -122.592231,
+          47.170457
+        ]
       },
       "properties": {
         "name": "Pilgrim Bible Church",
@@ -7901,7 +9593,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.268784, 47.811454]
+        "coordinates": [
+          -122.268784,
+          47.811454
+        ]
       },
       "properties": {
         "name": "Providence Family Baptist Church",
@@ -7915,7 +9610,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.530497, 47.220376]
+        "coordinates": [
+          -122.530497,
+          47.220376
+        ]
       },
       "properties": {
         "name": "Providence Reformed Baptist Church",
@@ -7929,7 +9627,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.989065, 47.205513]
+        "coordinates": [
+          -121.989065,
+          47.205513
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Baptist Church",
@@ -7943,7 +9644,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.201647, 47.673129]
+        "coordinates": [
+          -122.201647,
+          47.673129
+        ]
       },
       "properties": {
         "name": "Trinity Reformed Baptist Church",
@@ -7957,7 +9661,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.4404291, 48.1122343]
+        "coordinates": [
+          -123.4404291,
+          48.1122343
+        ]
       },
       "properties": {
         "name": "Peninsula Bible Church",
@@ -7971,7 +9678,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-81.22232, 37.26984]
+        "coordinates": [
+          -81.22232,
+          37.26984
+        ]
       },
       "properties": {
         "name": "Covenant Reformed Baptist Church",
@@ -7985,7 +9695,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.445154, 38.41925]
+        "coordinates": [
+          -82.445154,
+          38.41925
+        ]
       },
       "properties": {
         "name": "Citadel Reformed Baptist Church",
@@ -7999,7 +9712,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-89.417129, 45.637826]
+        "coordinates": [
+          -89.417129,
+          45.637826
+        ]
       },
       "properties": {
         "name": "Northwoods Baptist Church",
@@ -8013,7 +9729,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.731293, 45.489787]
+        "coordinates": [
+          -91.731293,
+          45.489787
+        ]
       },
       "properties": {
         "name": "Rice Lake Baptist Church",
@@ -8027,7 +9746,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.331429, 42.839371]
+        "coordinates": [
+          -106.331429,
+          42.839371
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Church",
@@ -8041,7 +9763,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-107.953515, 44.013094]
+        "coordinates": [
+          -107.953515,
+          44.013094
+        ]
       },
       "properties": {
         "name": "Sovereign Grace Bible Church",
@@ -8055,7 +9780,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-108.756099, 44.758254]
+        "coordinates": [
+          -108.756099,
+          44.758254
+        ]
       },
       "properties": {
         "name": "Trinity Bible Church ",
@@ -8069,7 +9797,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.59127, 41.312124]
+        "coordinates": [
+          -105.59127,
+          41.312124
+        ]
       },
       "properties": {
         "name": "Laramie Faith Community Church",
