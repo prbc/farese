@@ -8387,6 +8387,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -81.052579,
+          34.965654
+        ]
+      },
+      "properties": {
+        "name": "Grace Covenant Church Rock Hill",
+        "address": "2115 Ebenezer Road, Rock Hill, SC 29732",
+        "region": "SC",
+        "website": "gracecovenantrh.org",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -102.980198,
           43.994657
         ]
