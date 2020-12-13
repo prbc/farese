@@ -1009,6 +1009,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -86.224778,
+          14.665146
+        ]
+      },
+      "properties": {
+        "name": "Iglesia Bíblica Pacto De Gracia",
+        "address": "7ma Calle, Juticalpa, Honduras",
+        "region": "HND",
+        "website": "www.facebook.com/Iglesia-Biblica-Pacto-De-Gracia-HN-110596727463907",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           75.708073,
           13.83299
         ]

@@ -55,6 +55,11 @@
    "file-name": "hk"
 },
 {
+   "code": "HND",
+   "display-name": "HONDURAS",
+   "file-name": "honduras"
+},
+{
    "code": "IND",
    "display-name": "INDIA",
    "file-name": "india"
