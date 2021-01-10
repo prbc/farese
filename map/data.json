@@ -5038,6 +5038,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -95.144285,
+          43.150672
+        ]
+      },
+      "properties": {
+        "name": "Little Sioux Baptist Church",
+        "address": "1221 1st Ave E, Spencer, IA 51301",
+        "region": "IA",
+        "website": "facebook.com/sixteen89baptist",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -95.581523,
           39.048942
         ]
