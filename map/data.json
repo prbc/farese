@@ -5004,6 +5004,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.682399,
+          39.959930
+        ]
+      },
+      "properties": {
+        "name": "Harvest Bible Fellowship",
+        "address": "10010 South 50 West, Pendleton, IN 46064",
+        "region": "IN",
+        "website": "hbfpendleton.com",
+        "note": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -92.5768,
           41.965646
         ]
