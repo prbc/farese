@@ -17,8 +17,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
       - name: Generate service worker
@@ -28,7 +28,7 @@ jobs:
         run: |
           aws s3 sync \
             . \
-            s3://${{ secrets.S3_BUCKET }}/ \
+            s3://${{ env.S3_BUCKET }}/ \
             --delete \
             --exclude ".*" \
             --exclude "README.md"
@@ -36,13 +36,13 @@ jobs:
       - name: Set no-cache on the service worker
         run: |
           aws s3 cp \
-            s3://${{ secrets.S3_BUCKET}}/sw.js \
-            s3://${{ secrets.S3_BUCKET }}/sw.js \
+            s3://${{ env.S3_BUCKET}}/sw.js \
+            s3://${{ env.S3_BUCKET }}/sw.js \
             --metadata-directive REPLACE \
             --cache-control no-cache
 
       - name: Invalidate Cloudfront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_ID }} \
+            --distribution-id ${{ env.CLOUDFRONT_ID }} \
             --paths "/*"
