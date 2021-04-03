@@ -29,6 +29,9 @@ jobs:
         run: npx workbox-cli generateSW workbox-config.js
 
       - name: Upload to S3
+        env:
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
         run: |
           aws s3 sync \
             . \
