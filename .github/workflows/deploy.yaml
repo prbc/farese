@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
+
     steps:
       - uses: actions/checkout@v2
 
@@ -28,7 +32,7 @@ jobs:
         run: |
           aws s3 sync \
             . \
-            s3://${{ env.S3_BUCKET }}/ \
+            s3://$S3_BUCKET/ \
             --delete \
             --exclude ".*" \
             --exclude "README.md"
@@ -36,13 +40,13 @@ jobs:
       - name: Set no-cache on the service worker
         run: |
           aws s3 cp \
-            s3://${{ env.S3_BUCKET}}/sw.js \
-            s3://${{ env.S3_BUCKET }}/sw.js \
+            s3://$S3_BUCKET/sw.js \
+            s3://$S3_BUCKET/sw.js \
             --metadata-directive REPLACE \
             --cache-control no-cache
 
       - name: Invalidate Cloudfront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ env.CLOUDFRONT_ID }} \
+            --distribution-id $CLOUDFRONT_ID \
             --paths "/*"
