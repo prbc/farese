@@ -37,13 +37,13 @@ jobs:
       - name: Set no-cache on the service worker
         run: |
           aws s3 cp \
-            s3://$S3_BUCKET/sw.js \
-            s3://$S3_BUCKET/sw.js \
+            s3://${{ secrets.S3_BUCKET }}/sw.js \
+            s3://${{ secrets.S3_BUCKET }}/sw.js \
             --metadata-directive REPLACE \
             --cache-control no-cache
 
       - name: Invalidate Cloudfront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id $CLOUDFRONT_ID \
+            --distribution-id ${{ secrets.CLOUDFRONT_ID }} \
             --paths "/*"
