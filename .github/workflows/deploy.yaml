@@ -26,24 +26,30 @@ jobs:
         run: npx workbox-cli generateSW workbox-config.js
 
       - name: Upload to S3
+        env:
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           aws s3 sync \
             . \
-            s3://${{ secrets.S3_BUCKET }}/ \
+            s3://$S3_BUCKET/ \
             --delete \
             --exclude ".*" \
             --exclude "README.md"
 
       - name: Set no-cache on the service worker
+        env:
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           aws s3 cp \
-            s3://${{ secrets.S3_BUCKET }}/sw.js \
-            s3://${{ secrets.S3_BUCKET }}/sw.js \
+            s3://$S3_BUCKET/sw.js \
+            s3://$S3_BUCKET/sw.js \
             --metadata-directive REPLACE \
             --cache-control no-cache
 
       - name: Invalidate Cloudfront cache
+        env:
+          CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.CLOUDFRONT_ID }} \
+            --distribution-id $CLOUDFRONT_ID \
             --paths "/*"
