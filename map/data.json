@@ -1910,6 +1910,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          122.362856,
+          11.680105
+        ]
+      },
+      "properties": {
+        "name": "Kalibo Reformed Bible Church",
+        "address": "Cipriano Road, Estancia, Kalibo, 5600 Aklan, Philippines",
+        "region": "PHL",
+        "website": "www.facebook.com/KaliboRBC",
+        "note": "<br>Pastor Nelmar G. Melgar<br><a href=\"mailto:ngmelgar@yahoo.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -66.076728,
           18.373087
         ]
