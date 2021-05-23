@@ -1,14 +1,15 @@
-name: Deploy
+name: prod
 
 on:
   push:
     branches:
-      - dev
       - prod
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: prod
     env:
       CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
       S3_BUCKET: ${{ secrets.S3_BUCKET }}
