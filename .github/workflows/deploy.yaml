@@ -7,8 +7,11 @@ on:
       - prod
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    env:
+      CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
+      S3_BUCKET: ${{ secrets.S3_BUCKET }}
 
     steps:
       - uses: actions/checkout@v2
@@ -26,8 +29,6 @@ jobs:
         run: npx workbox-cli generateSW workbox-config.js
 
       - name: Upload to S3
-        env:
-          S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           aws s3 sync \
             . \
@@ -37,8 +38,6 @@ jobs:
             --exclude "README.md"
 
       - name: Set no-cache on the service worker
-        env:
-          S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           aws s3 cp \
             s3://$S3_BUCKET/sw.js \
@@ -47,8 +46,6 @@ jobs:
             --cache-control no-cache
 
       - name: Invalidate Cloudfront cache
-        env:
-          CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
         run: |
           aws cloudfront create-invalidation \
             --distribution-id $CLOUDFRONT_ID \
