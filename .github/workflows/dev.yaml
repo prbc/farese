@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
+      url: https://dev.farese.com
     env:
       CLOUDFRONT_ID: ${{ secrets.CLOUDFRONT_ID }}
       S3_BUCKET: ${{ secrets.S3_BUCKET }}
