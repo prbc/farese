@@ -1,0 +1,21 @@
+{
+  "name": "farese",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build:serviceworker": "workbox-cli generateSW workbox-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prbc/farese.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prbc/farese/issues"
+  },
+  "homepage": "https://farese.com",
+  "devDependencies": {
+    "workbox-cli": "^6.1.5"
+  }
+}

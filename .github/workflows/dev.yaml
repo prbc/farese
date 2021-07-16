@@ -27,8 +27,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - run: npm install
       - name: Generate service worker
-        run: npx workbox-cli generateSW workbox-config.js
+        run: npm run build:serviceworker
 
       - name: Upload to S3
         run: |
