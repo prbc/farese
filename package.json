@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "build:serviceworker": "workbox-cli generateSW workbox-config.js",
+    "build:serviceworker": "workbox generateSW workbox-config.js",
     "cypress:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
