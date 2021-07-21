@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "build:serviceworker": "workbox-cli generateSW workbox-config.js",
+    "cypress:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +17,7 @@
   },
   "homepage": "https://farese.com",
   "devDependencies": {
+    "cypress": "^7.7.0",
     "workbox-cli": "^6.1.5"
   }
 }
