@@ -8829,16 +8829,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.422655,
-          31.812276
+          -99.427009,
+          31.827102
         ]
       },
       "properties": {
-        "name": "Grace Baptist Church",
-        "address": "115 Santa Anna Ave Coleman, Texas  76834",
+        "name": "Reformed Baptist Church",
+        "address": "Coleman, Texas 76834",
         "region": "TX",
-        "website": "www.gracebaptist-fellowship.com",
-        "note": "<p>325-625-3916</font>\n<br>Pastor Audey Shepard</font>\n<p><a href=\"mailto:aashepard@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
+        "website": "www.reformedbaptistchurch.org",
+        "note": "<p>325-220-1881</font>\n<br>Pastor Audey Shepard</font>\n<p><a href=\"mailto:aashepard@hotmail.com\"><img SRC=\"email.gif\" BORDER=0 height=26 width=89></a>"
       }
     },
     {
