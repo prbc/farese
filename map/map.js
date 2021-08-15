@@ -6,7 +6,7 @@ mapboxgl.accessToken =
   "pk.eyJ1IjoibGFpbiIsImEiOiJjaWhzbHBpMXMwMHNldGdtMWgxbGp4aWRoIn0.BE_Fxskfnqumxa_5FLBWcA";
 
 mapboxgl.setRTLTextPlugin(
-  'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
+  "https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js",
   null,
   true // Lazy load the plugin
 );
@@ -16,14 +16,14 @@ var map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
   center: [0, 0],
   zoom: 0.7,
-  hash: true
+  hash: true,
 });
 
 var loadMap = function () {
   // Add marker data as a new GeoJSON source.
   map.addSource("markers", {
     type: "geojson",
-    data: markers
+    data: markers,
   });
 
   // Load image for pin
@@ -39,8 +39,8 @@ var loadMap = function () {
       layout: {
         "icon-image": "pin",
         "icon-size": 0.6,
-        "icon-allow-overlap": true
-      }
+        "icon-allow-overlap": true,
+      },
     });
     // Add a layer showing the labels
     map.addLayer({
@@ -55,14 +55,18 @@ var loadMap = function () {
         "text-offset": [0, 1],
         "text-font": ["literal", ["Open Sans Semibold"]],
         "text-size": {
-          stops: [[0, 0], [5, 8], [10, 16]]
-        }
+          stops: [
+            [0, 0],
+            [5, 8],
+            [10, 16],
+          ],
+        },
       },
       paint: {
         "text-halo-color": "#FFFFFF",
         "text-halo-width": 1.2,
-        "text-halo-blur": 0.8
-      }
+        "text-halo-blur": 0.8,
+      },
     });
   });
 
@@ -72,7 +76,7 @@ var loadMap = function () {
     var bboxSize = 25;
     var bbox = [
       [e.point.x - bboxSize, e.point.y - bboxSize],
-      [e.point.x + bboxSize, e.point.y + bboxSize]
+      [e.point.x + bboxSize, e.point.y + bboxSize],
     ];
     var features = map.queryRenderedFeatures(bbox, { layers: ["markers"] });
 
@@ -107,7 +111,7 @@ var loadMap = function () {
       map.easeTo({
         center: features[0].geometry.coordinates,
         speed: 0.3,
-        offset: [0, (popupHeight + tipHeight + bottomPaddingHeight) / 2]
+        offset: [0, (popupHeight + tipHeight + bottomPaddingHeight) / 2],
       });
     }
   });
@@ -157,10 +161,8 @@ var loadMap = function () {
       collapsed: true,
       marker: false,
       render: function (item) {
-        return (
-          `<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">${item.text}</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">${item.place_name}</div></div>`
-        );
-      }
+        return `<div class="mapboxgl-ctrl-geocoder--suggestion"><div class="mapboxgl-ctrl-geocoder--suggestion-title">${item.text}</div><div class="mapboxgl-ctrl-geocoder--suggestion-address">${item.place_name}</div></div>`;
+      },
       //mapboxgl: mapboxgl
     })
   );
@@ -169,12 +171,12 @@ var loadMap = function () {
   map.addControl(
     new mapboxgl.GeolocateControl({
       positionOptions: {
-        enableHighAccuracy: true
+        enableHighAccuracy: true,
       },
       fitBoundsOptions: {
-        maxZoom: 8
+        maxZoom: 8,
       },
-      trackUserLocation: true
+      trackUserLocation: true,
     }),
     "top-left"
   );
