@@ -17,7 +17,7 @@
   },
   "homepage": "https://farese.com",
   "devDependencies": {
-    "cypress": "7.7.0",
+    "cypress": "10.8.0",
     "workbox-cli": "6.1.5"
   }
 }
