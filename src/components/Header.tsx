@@ -7,7 +7,9 @@ export const Header = () => {
         <AppBar>
           <Toolbar>
             <Button href="/" disableRipple color="inherit">
-              <Typography variant="h6">Farese</Typography>
+              <Typography variant="h6" fontWeight={600}>
+                Farese
+              </Typography>
             </Button>
           </Toolbar>
         </AppBar>
