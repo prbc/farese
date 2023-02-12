@@ -1,0 +1,13 @@
+{
+  extends: [
+    "config:base",
+    ":disableRateLimiting",
+
+    // Group the Renovate changes into one PR
+    "group:all",
+
+    // Pin deps and devDeps in the package.json
+    ":pinDependencies",
+    ":pinDevDependencies",
+  ],
+}
