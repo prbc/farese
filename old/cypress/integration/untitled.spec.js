@@ -49,14 +49,14 @@ describe("Test navigation, and basic page loading", () => {
 // });
 
 /**
-  * Code generated with Fd Cypress Recorder.
-  * https://github.com/FDMediagroep/fd-cypress-recorder
-  */
+ * Code generated with Fd Cypress Recorder.
+ * https://github.com/FDMediagroep/fd-cypress-recorder
+ */
 
 /// <reference types="Cypress" />
-describe('Test Suite ...', () => {
+describe("Test Suite ...", () => {
   beforeEach(() => {
-    cy.visit('https://farese.com/');
+    cy.visit("https://farese.com/");
     cy.clearCookies();
     cy.reload(true);
   });
@@ -65,14 +65,14 @@ describe('Test Suite ...', () => {
     cy.clearCookies();
   });
 
-  it('should ...', () => {
+  it("should ...", () => {
     cy.viewport(1920, 1065);
-    cy.visit('https://farese.com/', {headers: {}});
-    cy.get(':nth-child(3) > a').click();
-    cy.get('input').click();
-    cy.get('input').type('magherafelt');
-    cy.get(':nth-child(1) > a > :nth-child(1) > :nth-child(1)').click();
-    cy.get('canvas').click();
-    cy.get('#website > a').contains('magherafeltrbc.org');
+    cy.visit("https://farese.com/", { headers: {} });
+    cy.get(":nth-child(3) > a").click();
+    cy.get("input").click();
+    cy.get("input").type("magherafelt");
+    cy.get(":nth-child(1) > a > :nth-child(1) > :nth-child(1)").click();
+    cy.get("canvas").click();
+    cy.get("#website > a").contains("magherafeltrbc.org");
   });
 });
