@@ -10,4 +10,5 @@
     ":pinDependencies",
     ":pinDevDependencies",
   ],
+  ignorePaths: ["old"],
 }
