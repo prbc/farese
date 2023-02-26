@@ -3,7 +3,7 @@ import { Home } from "./Home";
 import { Layout } from "./Layout";
 import { NoMatch } from "./NoMatch";
 
-function App() {
+export function App() {
   return (
     <>
       <Routes>
@@ -15,5 +15,3 @@ function App() {
     </>
   );
 }
-
-export default App;

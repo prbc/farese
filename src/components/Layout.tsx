@@ -1,12 +1,12 @@
 import { Container, CssBaseline } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import { Header } from "./Header";
+import { Navbar } from "./Navbar";
 
 export const Layout = () => {
   return (
     <>
       <CssBaseline />
-      <Header />
+      <Navbar />
       <Container>
         {/* Renders the route that's currently active */}
         <Outlet />
