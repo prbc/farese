@@ -28,17 +28,15 @@ jobs:
           aws-region: us-east-1
 
       - run: npm ci
-      - name: Generate service worker
-        run: npm run build:serviceworker
+      - name: Build
+        run: npm run build
 
       - name: Upload to S3
         run: |
           aws s3 sync \
-            . \
+            dist/ \
             s3://$S3_BUCKET/ \
-            --delete \
-            --exclude ".*" \
-            --exclude "README.md"
+            --delete
 
       - name: Set no-cache on the service worker
         run: |
