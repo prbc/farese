@@ -1,11 +1,14 @@
 {
   "name": "farese",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reformed Baptist Church Directory",
   "scripts": {
-    "build:serviceworker": "workbox generateSW workbox-config.js",
-    "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "generate:legacy": "tsx scripts/generate-legacy.ts",
+    "prebuild": "npm run generate:legacy"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,27 @@
     "url": "https://github.com/prbc/farese/issues"
   },
   "homepage": "https://farese.com",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-map-gl": "^7.1.7",
+    "maplibre-gl": "^4.7.1",
+    "@maplibre/maplibre-gl-geocoder": "^1.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "class-variance-authority": "^0.7.1"
+  },
   "devDependencies": {
-    "cypress": "7.7.0",
-    "workbox-cli": "6.1.5"
+    "@biomejs/biome": "^1.9.4",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^6.0.7",
+    "vite-plugin-pwa": "^1.2.0",
+    "vite-react-ssg": "^0.7.2",
+    "tsx": "^4.19.2"
   }
 }
