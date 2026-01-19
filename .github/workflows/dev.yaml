@@ -27,4 +27,4 @@ jobs:
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
-        run: pnpx wrangler pages deploy dist --project-name=farese-dev
+        run: pnpx wrangler pages deploy dist --project-name=farese-dev --branch=dev
