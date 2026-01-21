@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import MapPage from './pages/MapPage';
 import ListPage from './pages/ListPage';
 import AboutPage from './pages/AboutPage';
+import SubmitChurchPage from './pages/SubmitChurchPage';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -32,6 +33,8 @@ function App() {
         return <ListPage />;
       case '/about':
         return <AboutPage />;
+      case '/submit':
+        return <SubmitChurchPage />;
       default:
         return <HomePage />;
     }

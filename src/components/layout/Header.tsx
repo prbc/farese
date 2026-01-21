@@ -71,6 +71,11 @@ export default function Header() {
                 Legacy
               </a>
             </li>
+            <li>
+              <a href="/submit" className="px-3 py-1 bg-white/20 rounded hover:bg-white/30 transition-colors">
+                Submit
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -100,6 +105,11 @@ export default function Header() {
             <li>
               <a href="/legacy" className="block py-2 hover:text-gray-200">
                 Legacy
+              </a>
+            </li>
+            <li>
+              <a href="/submit" className="block py-2 hover:text-gray-200">
+                Submit Update
               </a>
             </li>
           </ul>

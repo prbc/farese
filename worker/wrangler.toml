@@ -1,0 +1,10 @@
+name = "farese-api"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+GITHUB_REPO = "prbc/farese"
+GITHUB_BASE_BRANCH = "dev"
+
+# Secrets (set via wrangler secret put):
+# - GITHUB_TOKEN: Personal access token with repo scope
