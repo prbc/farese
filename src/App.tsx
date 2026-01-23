@@ -40,11 +40,14 @@ function App() {
     }
   };
 
+  // Hide footer on map page for full-screen map experience
+  const isMapPage = currentPath.replace(/\/$/, '') === '/map';
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-900">
       <Header />
       <main className="flex-1">{renderPage()}</main>
-      <Footer />
+      {!isMapPage && <Footer />}
     </div>
   );
 }

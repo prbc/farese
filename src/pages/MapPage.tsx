@@ -101,9 +101,11 @@ export default function MapPage() {
                 />
                 <circle cx="12" cy="12" r="5" fill="white" />
               </svg>
-              <span className="church-label text-[10px] font-medium text-gray-800 bg-white/90 px-1 rounded shadow-sm whitespace-nowrap max-w-[120px] truncate mt-0.5">
-                {church.properties.name}
-              </span>
+              {viewState.zoom >= 9 && (
+                <span className="church-label text-[10px] font-medium text-gray-800 bg-white/90 px-1 rounded shadow-sm whitespace-nowrap max-w-[120px] truncate mt-0.5">
+                  {church.properties.name}
+                </span>
+              )}
             </div>
           </Marker>
         ))}

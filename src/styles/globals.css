@@ -1,6 +1,40 @@
 @import "tailwindcss";
 
+/* Open Runde font - rounded variant of Inter */
+@font-face {
+  font-family: 'Open Runde';
+  src: url('/fonts/OpenRunde-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('/fonts/OpenRunde-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('/fonts/OpenRunde-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('/fonts/OpenRunde-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Match farese.com color scheme */
 body {
   background-color: #003052;
+  font-family: 'Open Runde', system-ui, -apple-system, sans-serif;
 }

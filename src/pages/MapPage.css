@@ -10,11 +10,12 @@
 
 .church-popup .maplibregl-popup-close-button {
   font-size: 20px;
-  padding: 4px 10px;
+  padding: 4px 8px;
   color: white;
-  right: 4px;
-  top: 4px;
+  right: 6px;
+  top: 10px;
   z-index: 10;
+  line-height: 1;
 }
 
 .church-popup .maplibregl-popup-close-button:hover {

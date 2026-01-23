@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
               <img
-                src="/img/johnny/jf01.jpg"
+                src="/img/johnny/johnf.jpg"
                 alt="John 'Johnny' Farese"
                 className="w-48 h-48 object-cover rounded-lg shadow-lg border-4 border-white/20"
               />
