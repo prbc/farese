@@ -25,17 +25,74 @@ interface ChurchData {
 type SortField = 'name' | 'region' | 'address';
 type SortDirection = 'asc' | 'desc';
 
-const REGION_NAMES: Record<string, string> = {
-  AUS: 'Australia',
-  CAN: 'Canada',
-  EUR: 'Europe',
-  UK: 'United Kingdom',
-  USA: 'United States',
-  AFR: 'Africa',
-  ASIA: 'Asia',
-  SA: 'South America',
-  OTHER: 'Other',
+// US State codes
+const US_STATES: Record<string, string> = {
+  AL: 'Alabama', AR: 'Arkansas', AZ: 'Arizona', CA: 'California', CO: 'Colorado',
+  CT: 'Connecticut', FL: 'Florida', GA: 'Georgia', HI: 'Hawaii', IA: 'Iowa',
+  ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', KS: 'Kansas', KY: 'Kentucky',
+  LA: 'Louisiana', MA: 'Massachusetts', MD: 'Maryland', ME: 'Maine', MI: 'Michigan',
+  MN: 'Minnesota', MO: 'Missouri', MS: 'Mississippi', MT: 'Montana', NC: 'North Carolina',
+  ND: 'North Dakota', NE: 'Nebraska', NH: 'New Hampshire', NJ: 'New Jersey',
+  NM: 'New Mexico', NV: 'Nevada', NY: 'New York', OH: 'Ohio', OK: 'Oklahoma',
+  OR: 'Oregon', PA: 'Pennsylvania', RI: 'Rhode Island', SC: 'South Carolina',
+  SD: 'South Dakota', TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VA: 'Virginia',
+  VT: 'Vermont', WA: 'Washington', WI: 'Wisconsin', WV: 'West Virginia', WY: 'Wyoming',
 };
+
+// Country codes
+const COUNTRY_NAMES: Record<string, string> = {
+  AUS: 'Australia', CAN: 'Canada', GBR: 'United Kingdom', NZL: 'New Zealand',
+  DEU: 'Germany', FRA: 'France', CHE: 'Switzerland', ITA: 'Italy', ESP: 'Spain',
+  DNK: 'Denmark', IRL: 'Ireland', MLT: 'Malta', SVK: 'Slovakia', MNE: 'Montenegro',
+  ZAF: 'South Africa', ZMB: 'Zambia',
+  BRA: 'Brazil', COL: 'Colombia', CRI: 'Costa Rica', DOM: 'Dominican Republic',
+  GTM: 'Guatemala', HND: 'Honduras', MEX: 'Mexico', NIC: 'Nicaragua', PRI: 'Puerto Rico',
+  BB: 'Barbados', GRD: 'Grenada', JAM: 'Jamaica', TTO: 'Trinidad & Tobago',
+  HKG: 'Hong Kong', IND: 'India', ISR: 'Israel', KHM: 'Cambodia', LKA: 'Sri Lanka',
+  MMR: 'Myanmar', MYS: 'Malaysia', PHL: 'Philippines', SGP: 'Singapore',
+};
+
+const REGION_NAMES: Record<string, string> = { ...US_STATES, ...COUNTRY_NAMES };
+
+// Hierarchical region structure for dropdown
+const REGION_GROUPS = [
+  {
+    label: 'United States',
+    regions: Object.keys(US_STATES),
+  },
+  {
+    label: 'Canada',
+    regions: ['CAN'],
+  },
+  {
+    label: 'United Kingdom & Ireland',
+    regions: ['GBR', 'IRL'],
+  },
+  {
+    label: 'Europe',
+    regions: ['DEU', 'FRA', 'CHE', 'ITA', 'ESP', 'DNK', 'MLT', 'SVK', 'MNE'],
+  },
+  {
+    label: 'Australia & New Zealand',
+    regions: ['AUS', 'NZL'],
+  },
+  {
+    label: 'Asia',
+    regions: ['HKG', 'IND', 'ISR', 'KHM', 'LKA', 'MMR', 'MYS', 'PHL', 'SGP'],
+  },
+  {
+    label: 'Latin America',
+    regions: ['BRA', 'COL', 'CRI', 'DOM', 'GTM', 'HND', 'MEX', 'NIC', 'PRI'],
+  },
+  {
+    label: 'Caribbean',
+    regions: ['BB', 'GRD', 'JAM', 'TTO'],
+  },
+  {
+    label: 'Africa',
+    regions: ['ZAF', 'ZMB'],
+  },
+];
 
 export default function ListPage() {
   const [churches, setChurches] = useState<ChurchFeature[]>([]);
@@ -134,14 +191,14 @@ export default function ListPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800 py-8">
+    <div className="min-h-screen bg-[#003052] py-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-white text-center mb-8">
           Church Directory
         </h1>
 
         {/* Search and Filter Controls */}
-        <div className="bg-gray-700 rounded-lg p-4 mb-6">
+        <div className="bg-[#004a77] rounded-lg p-4 mb-6">
           <div className="flex flex-col md:flex-row gap-4">
             {/* Search */}
             <div className="flex-1">
@@ -154,7 +211,7 @@ export default function ListPage() {
                 placeholder="Search by name or address..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white placeholder-gray-400 border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
               />
             </div>
 
@@ -167,14 +224,23 @@ export default function ListPage() {
                 id="region"
                 value={regionFilter}
                 onChange={(e) => setRegionFilter(e.target.value)}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
               >
                 <option value="all">All Regions</option>
-                {regions.map((region) => (
-                  <option key={region} value={region}>
-                    {REGION_NAMES[region] || region}
-                  </option>
-                ))}
+                {REGION_GROUPS.map((group) => {
+                  // Only show groups that have regions in the data
+                  const availableRegions = group.regions.filter((r) => regions.includes(r));
+                  if (availableRegions.length === 0) return null;
+                  return (
+                    <optgroup key={group.label} label={group.label}>
+                      {availableRegions.map((region) => (
+                        <option key={region} value={region}>
+                          {REGION_NAMES[region] || region}
+                        </option>
+                      ))}
+                    </optgroup>
+                  );
+                })}
               </select>
             </div>
           </div>

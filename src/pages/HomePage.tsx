@@ -25,7 +25,7 @@ export default function HomePage() {
       </div>
 
       {/* About and Disclaimer Section */}
-      <div className="bg-gray-700 border border-gray-700 py-12">
+      <div className="bg-[#0083e0] border border-[#0083e0] py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             {/* About */}

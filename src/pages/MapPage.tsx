@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import Map, { Marker, Popup, NavigationControl, GeolocateControl } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import './MapPage.css';
 
 interface ChurchProperties {
   name: string;
@@ -67,7 +68,8 @@ export default function MapPage() {
       <Map
         {...viewState}
         onMove={(evt) => setViewState(evt.viewState)}
-        mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+        mapStyle="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
+        onClick={() => setSelectedChurch(null)}
         style={{ width: '100%', height: '100%' }}
       >
         <NavigationControl position="top-right" />
@@ -78,16 +80,16 @@ export default function MapPage() {
             key={`${church.properties.name}-${index}`}
             longitude={church.geometry.coordinates[0]}
             latitude={church.geometry.coordinates[1]}
-            anchor="bottom"
+            anchor="top"
             onClick={(e) => {
               e.originalEvent.stopPropagation();
               handleMarkerClick(church);
             }}
           >
-            <div className="cursor-pointer">
+            <div className="cursor-pointer flex flex-col items-center">
               <svg
-                width="24"
-                height="32"
+                width="20"
+                height="26"
                 viewBox="0 0 24 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,6 +101,9 @@ export default function MapPage() {
                 />
                 <circle cx="12" cy="12" r="5" fill="white" />
               </svg>
+              <span className="church-label text-[10px] font-medium text-gray-800 bg-white/90 px-1 rounded shadow-sm whitespace-nowrap max-w-[120px] truncate mt-0.5">
+                {church.properties.name}
+              </span>
             </div>
           </Marker>
         ))}
@@ -111,40 +116,36 @@ export default function MapPage() {
             onClose={() => setSelectedChurch(null)}
             closeOnClick={false}
             className="church-popup"
+            offset={[0, -30]}
           >
-            <div className="p-2 max-w-xs">
-              <h3 className="font-bold text-[#0067b2] text-lg mb-1">
+            <div className="church-popup-content">
+              <div className="church-popup-header">
                 {selectedChurch.properties.name}
-              </h3>
-              <p className="text-gray-700 text-sm mb-2">
-                {selectedChurch.properties.address}
-              </p>
-              {selectedChurch.properties.website && (
-                <a
-                  href={`https://${selectedChurch.properties.website.replace(/^https?:\/\//, '')}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#0083e0] hover:underline text-sm block mb-2"
-                >
-                  {selectedChurch.properties.website}
-                </a>
-              )}
-              {selectedChurch.properties.note && (
-                <p className="text-gray-600 text-xs whitespace-pre-line">
-                  {cleanNote(selectedChurch.properties.note)}
+              </div>
+              <div className="church-popup-body">
+                <p className="text-gray-700 text-sm mb-2">
+                  {selectedChurch.properties.address}
                 </p>
-              )}
+                {selectedChurch.properties.website && (
+                  <a
+                    href={`https://${selectedChurch.properties.website.replace(/^https?:\/\//, '')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#0083e0] hover:underline text-sm block mb-2"
+                  >
+                    {selectedChurch.properties.website}
+                  </a>
+                )}
+                {selectedChurch.properties.note && (
+                  <p className="text-gray-600 text-xs whitespace-pre-line">
+                    {cleanNote(selectedChurch.properties.note)}
+                  </p>
+                )}
+              </div>
             </div>
           </Popup>
         )}
       </Map>
-
-      {/* Church count overlay */}
-      <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 shadow-lg">
-        <p className="text-gray-700 text-sm">
-          <span className="font-semibold text-[#0067b2]">{churches.length}</span> churches
-        </p>
-      </div>
     </div>
   );
 }

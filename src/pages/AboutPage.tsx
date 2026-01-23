@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gray-800 py-12">
+    <div className="min-h-screen bg-[#003052] py-12">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -12,23 +12,34 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Memorial Banner */}
-        <div className="bg-[#0067b2] rounded-lg p-6 mb-12 text-center">
-          <h2 className="text-2xl font-semibold text-white mb-2">
-            In Memory of John "Johnny" Farese
-          </h2>
-          <p className="text-[#adddff]">
-            August 27, 1956 – August 16, 2014
-          </p>
-          <p className="text-white/80 mt-2 text-sm">
-            Founder of this Reformed Baptist Church Directory
-          </p>
+        {/* Memorial Banner with Photo */}
+        <div className="bg-[#0067b2] rounded-lg p-8 mb-12">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-shrink-0">
+              <img
+                src="/img/johnny/jf01.jpg"
+                alt="John 'Johnny' Farese"
+                className="w-48 h-48 object-cover rounded-lg shadow-lg border-4 border-white/20"
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <h2 className="text-2xl font-semibold text-white mb-2">
+                In Memory of John "Johnny" Farese
+              </h2>
+              <p className="text-[#adddff] text-lg">
+                August 27, 1956 – August 16, 2014
+              </p>
+              <p className="text-white/80 mt-2">
+                Founder of this Reformed Baptist Church Directory
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Main Content */}
         <div className="max-w-4xl mx-auto">
           {/* Scripture */}
-          <div className="bg-gray-700 rounded-lg p-6 mb-8">
+          <div className="bg-[#0083e0]/20 rounded-lg p-6 mb-8">
             <blockquote className="text-[#adddff] italic text-lg leading-relaxed">
               "It is good for me that I have been afflicted, That I may learn Your statutes.
               The law of Your mouth is better to me Than thousands of coins of gold and silver.

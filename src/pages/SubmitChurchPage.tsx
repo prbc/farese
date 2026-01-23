@@ -160,7 +160,7 @@ export default function SubmitChurchPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-800 py-8">
+    <div className="min-h-screen bg-[#003052] py-8">
       <div className="container mx-auto px-4 max-w-4xl">
         <h1 className="text-4xl font-bold text-white text-center mb-2">
           Submit Church Update
@@ -171,7 +171,7 @@ export default function SubmitChurchPage() {
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           {/* Action Type */}
-          <div className="bg-gray-700 rounded-lg p-6">
+          <div className="bg-[#004a77] rounded-lg p-6">
             <label className="block text-sm font-medium text-gray-300 mb-3">
               What would you like to do?
             </label>
@@ -190,7 +190,7 @@ export default function SubmitChurchPage() {
                         : option.color === 'blue'
                           ? 'border-blue-500 bg-blue-500/20 text-blue-400'
                           : 'border-red-500 bg-red-500/20 text-red-400'
-                      : 'border-gray-600 text-gray-400 hover:border-gray-500'
+                      : 'border-gray-600 text-gray-400 hover:border-[#0067b2]'
                   }`}
                 >
                   <input
@@ -206,7 +206,7 @@ export default function SubmitChurchPage() {
           </div>
 
           {/* Church Details */}
-          <div className="bg-gray-700 rounded-lg p-6 space-y-4">
+          <div className="bg-[#004a77] rounded-lg p-6 space-y-4">
             <h2 className="text-xl font-semibold text-white mb-4">Church Details</h2>
 
             {/* Name */}
@@ -218,7 +218,7 @@ export default function SubmitChurchPage() {
                 type="text"
                 id="name"
                 {...register('name')}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
                 placeholder="e.g., Grace Reformed Baptist Church"
               />
               {errors.name && (
@@ -236,7 +236,7 @@ export default function SubmitChurchPage() {
                 id="address"
                 value={addressQuery}
                 onChange={(e) => setAddressQuery(e.target.value)}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
                 placeholder="Start typing to search..."
               />
               <input type="hidden" {...register('address')} />
@@ -244,7 +244,7 @@ export default function SubmitChurchPage() {
                 <p className="text-gray-400 text-sm mt-1">Searching...</p>
               )}
               {geocodingResults.length > 0 && (
-                <ul className="absolute z-10 w-full bg-gray-600 border border-gray-500 rounded-lg mt-1 max-h-60 overflow-auto shadow-lg">
+                <ul className="absolute z-10 w-full bg-[#00395e] border border-[#0067b2] rounded-lg mt-1 max-h-60 overflow-auto shadow-lg">
                   {geocodingResults.map((result, index) => (
                     <li
                       key={index}
@@ -263,7 +263,7 @@ export default function SubmitChurchPage() {
 
             {/* Map Preview */}
             {coordinates && (
-              <div className="h-64 rounded-lg overflow-hidden border border-gray-500">
+              <div className="h-64 rounded-lg overflow-hidden border border-[#0067b2]">
                 <Map
                   initialViewState={{
                     longitude: coordinates.lng,
@@ -312,7 +312,7 @@ export default function SubmitChurchPage() {
               <select
                 id="region"
                 {...register('region')}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
               >
                 {REGIONS.map((region) => (
                   <option key={region.code} value={region.code}>
@@ -334,7 +334,7 @@ export default function SubmitChurchPage() {
                 type="url"
                 id="website"
                 {...register('website')}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
                 placeholder="https://www.example.com"
               />
               {errors.website && (
@@ -351,14 +351,14 @@ export default function SubmitChurchPage() {
                 id="note"
                 {...register('note')}
                 rows={3}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none resize-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none resize-none"
                 placeholder="Pastor name, phone number, service times, etc."
               />
             </div>
           </div>
 
           {/* Submitter Info */}
-          <div className="bg-gray-700 rounded-lg p-6 space-y-4">
+          <div className="bg-[#004a77] rounded-lg p-6 space-y-4">
             <h2 className="text-xl font-semibold text-white mb-4">Your Information</h2>
 
             <div>
@@ -369,7 +369,7 @@ export default function SubmitChurchPage() {
                 type="email"
                 id="submitterEmail"
                 {...register('submitterEmail')}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none"
                 placeholder="your@email.com"
               />
               <p className="text-gray-500 text-xs mt-1">
@@ -388,7 +388,7 @@ export default function SubmitChurchPage() {
                 id="submitterNotes"
                 {...register('submitterNotes')}
                 rows={2}
-                className="w-full px-4 py-2 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none resize-none"
+                className="w-full px-4 py-2 rounded-lg bg-[#00395e] text-white border border-[#0067b2] focus:border-[#0067b2] focus:ring-1 focus:ring-[#0067b2] outline-none resize-none"
                 placeholder="How do you know about this church?"
               />
             </div>

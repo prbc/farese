@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Match farese.com color scheme */
+body {
+  background-color: #003052;
+}
