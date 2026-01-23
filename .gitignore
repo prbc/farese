@@ -4,3 +4,4 @@ dist
 .vite-tmp
 *.tsbuildinfo
 .runtime/
+public/legacy/
