@@ -1,0 +1,11 @@
+name = "farese-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.dev]
+name = "farese-api-dev"
+route = { pattern = "api-dev.farese.com/*", zone_name = "farese.com" }
+
+[env.production]
+name = "farese-api"
+route = { pattern = "api.farese.com/*", zone_name = "farese.com" }

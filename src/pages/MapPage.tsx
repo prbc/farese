@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
 import Map, { Marker, Popup, MapRef } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './MapPage.css';
-import SearchBar from '../components/SearchBar';
+import SearchBubble from '../components/SearchBubble';
 
 interface ChurchProperties {
   name: string;
@@ -84,7 +84,7 @@ export default function MapPage() {
 
   return (
     <div className="h-[calc(100vh-64px)] relative">
-      <SearchBar
+      <SearchBubble
         churches={churches}
         onSelectChurch={handleSelectChurch}
         onSelectPlace={handleSelectPlace}

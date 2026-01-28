@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useCallback } from 'react';
 import Fuse from 'fuse.js';
 
 interface ChurchProperties {
@@ -34,10 +34,10 @@ export function useChurchSearch(churches: ChurchFeature[]) {
     });
   }, [churches]);
 
-  const search = (query: string) => {
+  const search = useCallback((query: string) => {
     if (!query || query.length < 2) return [];
     return fuse.search(query).slice(0, 10);
-  };
+  }, [fuse]);
 
   return { search };
 }

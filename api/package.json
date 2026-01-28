@@ -1,0 +1,16 @@
+{
+  "name": "farese-api",
+  "version": "1.0.0",
+  "description": "Farese geocoding API",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:dev": "wrangler deploy --env dev",
+    "deploy:prod": "wrangler deploy --env production"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250110.0",
+    "wrangler": "^4.59.2"
+  }
+}
