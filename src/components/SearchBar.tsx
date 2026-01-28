@@ -22,7 +22,7 @@ interface ChurchFeature {
 interface SearchBarProps {
   churches: ChurchFeature[];
   onSelectChurch: (church: ChurchFeature) => void;
-  onSelectPlace: (coordinates: [number, number], name: string) => void;
+  onSelectPlace: (coordinates: [number, number]) => void;
 }
 
 interface SearchResult {
@@ -116,7 +116,10 @@ export default function SearchBar({ churches, onSelectChurch, onSelectPlace }: S
       case 'Enter':
         e.preventDefault();
         if (selectedIndex >= 0 && selectedIndex < results.length) {
-          handleSelectResult(results[selectedIndex]);
+          const result = results[selectedIndex];
+          if (result) {
+            handleSelectResult(result);
+          }
         }
         break;
       case 'Escape':
@@ -130,7 +133,7 @@ export default function SearchBar({ churches, onSelectChurch, onSelectPlace }: S
     if (result.type === 'church') {
       onSelectChurch(result.data);
     } else {
-      onSelectPlace(result.coordinates, result.label);
+      onSelectPlace(result.coordinates);
     }
     setQuery('');
     setIsOpen(false);

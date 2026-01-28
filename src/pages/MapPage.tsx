@@ -64,7 +64,7 @@ export default function MapPage() {
     });
   }, []);
 
-  const handleSelectPlace = useCallback((coordinates: [number, number], name: string) => {
+  const handleSelectPlace = useCallback((coordinates: [number, number]) => {
     mapRef.current?.flyTo({
       center: coordinates,
       zoom: 10,
