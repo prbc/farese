@@ -1,7 +1,8 @@
-import { useEffect, useState, useCallback } from 'react';
-import Map, { Marker, Popup, NavigationControl, GeolocateControl } from 'react-map-gl/maplibre';
+import { useEffect, useState, useCallback, useRef } from 'react';
+import Map, { Marker, Popup, MapRef } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './MapPage.css';
+import SearchBar from '../components/SearchBar';
 
 interface ChurchProperties {
   name: string;
@@ -26,6 +27,7 @@ interface ChurchData {
 }
 
 export default function MapPage() {
+  const mapRef = useRef<MapRef>(null);
   const [churches, setChurches] = useState<ChurchFeature[]>([]);
   const [selectedChurch, setSelectedChurch] = useState<ChurchFeature | null>(null);
   const [viewState, setViewState] = useState({
@@ -45,12 +47,29 @@ export default function MapPage() {
 
   const handleMarkerClick = useCallback((church: ChurchFeature) => {
     setSelectedChurch(church);
-    setViewState((prev) => ({
-      ...prev,
-      longitude: church.geometry.coordinates[0],
-      latitude: church.geometry.coordinates[1],
-      zoom: Math.max(prev.zoom, 10),
-    }));
+    // Smooth fly-to animation
+    mapRef.current?.flyTo({
+      center: [church.geometry.coordinates[0], church.geometry.coordinates[1]],
+      zoom: Math.max(viewState.zoom, 10),
+      duration: 1500,
+    });
+  }, [viewState.zoom]);
+
+  const handleSelectChurch = useCallback((church: ChurchFeature) => {
+    setSelectedChurch(church);
+    mapRef.current?.flyTo({
+      center: [church.geometry.coordinates[0], church.geometry.coordinates[1]],
+      zoom: 12,
+      duration: 1500,
+    });
+  }, []);
+
+  const handleSelectPlace = useCallback((coordinates: [number, number], name: string) => {
+    mapRef.current?.flyTo({
+      center: coordinates,
+      zoom: 10,
+      duration: 1500,
+    });
   }, []);
 
   // Clean up HTML in notes
@@ -65,15 +84,19 @@ export default function MapPage() {
 
   return (
     <div className="h-[calc(100vh-64px)] relative">
+      <SearchBar
+        churches={churches}
+        onSelectChurch={handleSelectChurch}
+        onSelectPlace={handleSelectPlace}
+      />
       <Map
+        ref={mapRef}
         {...viewState}
         onMove={(evt) => setViewState(evt.viewState)}
         mapStyle="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
         onClick={() => setSelectedChurch(null)}
         style={{ width: '100%', height: '100%' }}
       >
-        <NavigationControl position="top-right" />
-        <GeolocateControl position="top-right" />
 
         {churches.map((church, index) => (
           <Marker
@@ -101,7 +124,7 @@ export default function MapPage() {
                 />
                 <circle cx="12" cy="12" r="5" fill="white" />
               </svg>
-              {viewState.zoom >= 9 && (
+              {viewState.zoom >= 6 && (
                 <span className="church-label text-[10px] font-medium text-gray-800 bg-white/90 px-1 rounded shadow-sm whitespace-nowrap max-w-[120px] truncate mt-0.5">
                   {church.properties.name}
                 </span>
