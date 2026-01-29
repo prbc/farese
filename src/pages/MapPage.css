@@ -16,6 +16,9 @@
   top: 10px;
   z-index: 10;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .church-popup .maplibregl-popup-close-button:hover {
@@ -39,6 +42,7 @@
   font-size: 1rem;
   padding: 12px 32px 12px 12px;
   line-height: 1.3;
+  text-align: center;
 }
 
 .church-popup-body {
